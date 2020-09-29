@@ -1,4 +1,4 @@
-# Interface: ClaimData
+# ClaimData
 
 ## Hierarchy
 
@@ -16,40 +16,33 @@
 
 ## Properties
 
-###  claim
+### claim
 
-• **claim**: *[Claim](../globals.md#claim)*
+• **claim**: [_Claim_](../globals.md#claim)
 
-*Defined in [src/types/index.ts:222](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L222)*
+_Defined in_ [_src/types/index.ts:222_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L222)
 
-___
+### expiry
 
-###  expiry
+• **expiry**: _Date \| null_
 
-• **expiry**: *Date | null*
+_Defined in_ [_src/types/index.ts:221_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L221)
 
-*Defined in [src/types/index.ts:221](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L221)*
+### issuedAt
 
-___
+• **issuedAt**: _Date_
 
-###  issuedAt
+_Defined in_ [_src/types/index.ts:220_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L220)
 
-• **issuedAt**: *Date*
+### issuer
 
-*Defined in [src/types/index.ts:220](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L220)*
+• **issuer**: [_Identity_](../classes/identity.md)
 
-___
+_Defined in_ [_src/types/index.ts:219_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L219)
 
-###  issuer
+### target
 
-• **issuer**: *[Identity](../classes/identity.md)*
+• **target**: [_Identity_](../classes/identity.md)
 
-*Defined in [src/types/index.ts:219](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L219)*
+_Defined in_ [_src/types/index.ts:218_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L218)
 
-___
-
-###  target
-
-• **target**: *[Identity](../classes/identity.md)*
-
-*Defined in [src/types/index.ts:218](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L218)*

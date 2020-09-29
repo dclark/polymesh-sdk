@@ -1,4 +1,4 @@
-# @polymathnetwork/polymesh-sdk
+# Globals
 
 ## Index
 
@@ -154,296 +154,249 @@
 
 ## Type aliases
 
-###  Authorization
+### Authorization
 
-Ƭ **Authorization**: *object | object | object*
+Ƭ **Authorization**: _object \| object \| object_
 
-*Defined in [src/types/index.ts:168](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L168)*
+_Defined in_ [_src/types/index.ts:168_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L168)
 
 Authorization request data corresponding to type
 
-___
+### Claim
 
-###  Claim
+Ƭ **Claim**: [_ScopedClaim_](globals.md#scopedclaim) _\|_ [_UnscopedClaim_](globals.md#unscopedclaim)
 
-Ƭ **Claim**: *[ScopedClaim](globals.md#scopedclaim) | [UnscopedClaim](globals.md#unscopedclaim)*
+_Defined in_ [_src/types/index.ts:206_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L206)
 
-*Defined in [src/types/index.ts:206](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L206)*
+### CommonKeyring
 
-___
+Ƭ **CommonKeyring**: _Pick‹Keyring, "getPair" \| "getPairs" \| "addFromSeed" \| "addFromUri"›_
 
-###  CommonKeyring
+_Defined in_ [_src/types/index.ts:355_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L355)
 
-Ƭ **CommonKeyring**: *Pick‹Keyring, "getPair" | "getPairs" | "addFromSeed" | "addFromUri"›*
+### Condition
 
-*Defined in [src/types/index.ts:355](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L355)*
+Ƭ **Condition**: [_SingleClaimCondition_](globals.md#singleclaimcondition) _\|_ [_MultiClaimCondition_](globals.md#multiclaimcondition)
 
-___
+_Defined in_ [_src/types/index.ts:266_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L266)
 
-###  Condition
+### ConditionBase
 
-Ƭ **Condition**: *[SingleClaimCondition](globals.md#singleclaimcondition) | [MultiClaimCondition](globals.md#multiclaimcondition)*
+Ƭ **ConditionBase**: _object_
 
-*Defined in [src/types/index.ts:266](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L266)*
-
-___
-
-###  ConditionBase
-
-Ƭ **ConditionBase**: *object*
-
-*Defined in [src/types/index.ts:254](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L254)*
+_Defined in_ [_src/types/index.ts:254_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L254)
 
 #### Type declaration:
 
-* **target**: *[ConditionTarget](enums/conditiontarget.md)*
+* **target**: [_ConditionTarget_](enums/conditiontarget.md)
+* **trustedClaimIssuers**? : _string\[\]_
 
-* **trustedClaimIssuers**? : *string[]*
+### EditProposalParams
 
-___
+Ƭ **EditProposalParams**: _object \| object_
 
-###  EditProposalParams
+_Defined in_ [_src/api/procedures/editProposal.ts:8_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/editProposal.ts#L8)
 
-Ƭ **EditProposalParams**: *object | object*
+### Ensured
 
-*Defined in [src/api/procedures/editProposal.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/editProposal.ts#L8)*
+Ƭ **Ensured**: _Required‹Pick‹T, K››_
 
-___
+_Defined in_ [_src/types/index.ts:348_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L348)
 
-###  Ensured
+### ModifyClaimsParams
 
-Ƭ **Ensured**: *Required‹Pick‹T, K››*
+Ƭ **ModifyClaimsParams**: [_AddClaimsParams_](interfaces/addclaimsparams.md) _\|_ [_EditClaimsParams_](interfaces/editclaimsparams.md) _\|_ [_RevokeClaimsParams_](interfaces/revokeclaimsparams.md)
 
-*Defined in [src/types/index.ts:348](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L348)*
+_Defined in_ [_src/api/procedures/modifyClaims.ts:49_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/modifyClaims.ts#L49)
 
-___
+### ModifyTokenParams
 
-###  ModifyClaimsParams
+Ƭ **ModifyTokenParams**: _object \| object \| object_
 
-Ƭ **ModifyClaimsParams**: *[AddClaimsParams](interfaces/addclaimsparams.md) | [EditClaimsParams](interfaces/editclaimsparams.md) | [RevokeClaimsParams](interfaces/revokeclaimsparams.md)*
+_Defined in_ [_src/api/procedures/modifyToken.ts:6_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/modifyToken.ts#L6)
 
-*Defined in [src/api/procedures/modifyClaims.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/modifyClaims.ts#L49)*
+### MultiClaimCondition
 
-___
+Ƭ **MultiClaimCondition**: [_ConditionBase_](globals.md#conditionbase) _& object_
 
-###  ModifyTokenParams
+_Defined in_ [_src/types/index.ts:261_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L261)
 
-Ƭ **ModifyTokenParams**: *object | object | object*
+### Mutable
 
-*Defined in [src/api/procedures/modifyToken.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/modifyToken.ts#L6)*
+Ƭ **Mutable**: _object_
 
-___
-
-###  MultiClaimCondition
-
-Ƭ **MultiClaimCondition**: *[ConditionBase](globals.md#conditionbase) & object*
-
-*Defined in [src/types/index.ts:261](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L261)*
-
-___
-
-###  Mutable
-
-Ƭ **Mutable**: *object*
-
-*Defined in [src/types/utils/index.ts:1](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/utils/index.ts#L1)*
+_Defined in_ [_src/types/utils/index.ts:1_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/utils/index.ts#L1)
 
 #### Type declaration:
 
-___
+### NextKey
 
-###  NextKey
+Ƭ **NextKey**: _string \| number \| null_
 
-Ƭ **NextKey**: *string | number | null*
+_Defined in_ [_src/types/index.ts:381_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L381)
 
-*Defined in [src/types/index.ts:381](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L381)*
+### Role
 
-___
+Ƭ **Role**: [_TickerOwnerRole_](interfaces/tickerownerrole.md) _\|_ [_TokenOwnerRole_](interfaces/tokenownerrole.md) _\|_ [_CddProviderRole_](interfaces/cddproviderrole.md)
 
-###  Role
+_Defined in_ [_src/types/index.ts:106_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L106)
 
-Ƭ **Role**: *[TickerOwnerRole](interfaces/tickerownerrole.md) | [TokenOwnerRole](interfaces/tokenownerrole.md) | [CddProviderRole](interfaces/cddproviderrole.md)*
+### ScopedClaim
 
-*Defined in [src/types/index.ts:106](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L106)*
+Ƭ **ScopedClaim**: _object \| object_
 
-___
+_Defined in_ [_src/types/index.ts:200_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L200)
 
-###  ScopedClaim
+### Signer
 
-Ƭ **ScopedClaim**: *object | object*
+Ƭ **Signer**: [_Identity_](classes/identity.md) _\|_ [_Account_](classes/account.md)
 
-*Defined in [src/types/index.ts:200](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L200)*
+_Defined in_ [_src/types/index.ts:463_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L463)
 
-___
+### SingleClaimCondition
 
-###  Signer
+Ƭ **SingleClaimCondition**: [_ConditionBase_](globals.md#conditionbase) _& object_
 
-Ƭ **Signer**: *[Identity](classes/identity.md) | [Account](classes/account.md)*
+_Defined in_ [_src/types/index.ts:256_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L256)
 
-*Defined in [src/types/index.ts:463](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L463)*
+### SubCallback
 
-___
+Ƭ **SubCallback**: _function_
 
-###  SingleClaimCondition
-
-Ƭ **SingleClaimCondition**: *[ConditionBase](globals.md#conditionbase) & object*
-
-*Defined in [src/types/index.ts:256](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L256)*
-
-___
-
-###  SubCallback
-
-Ƭ **SubCallback**: *function*
-
-*Defined in [src/types/index.ts:344](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L344)*
+_Defined in_ [_src/types/index.ts:344_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L344)
 
 #### Type declaration:
 
-▸ (`result`: T): *void | Promise‹void›*
+▸ \(`result`: T\): _void \| Promise‹void›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`result` | T |
+| Name | Type |
+| :--- | :--- |
+| `result` | T |
 
-___
+### TokenType
 
-###  TokenType
+Ƭ **TokenType**: [_KnownTokenType_](enums/knowntokentype.md) _\| object_
 
-Ƭ **TokenType**: *[KnownTokenType](enums/knowntokentype.md) | object*
-
-*Defined in [src/types/index.ts:123](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L123)*
+_Defined in_ [_src/types/index.ts:123_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L123)
 
 Type of security that the token represents
 
-___
+### TransactionArgument
 
-###  TransactionArgument
+Ƭ **TransactionArgument**: _object &_ [_PlainTransactionArgument_](interfaces/plaintransactionargument.md) _\|_ [_ArrayTransactionArgument_](interfaces/arraytransactionargument.md) _\|_ [_SimpleEnumTransactionArgument_](interfaces/simpleenumtransactionargument.md) _\|_ [_ComplexTransactionArgument_](interfaces/complextransactionargument.md)
 
-Ƭ **TransactionArgument**: *object & [PlainTransactionArgument](interfaces/plaintransactionargument.md) | [ArrayTransactionArgument](interfaces/arraytransactionargument.md) | [SimpleEnumTransactionArgument](interfaces/simpleenumtransactionargument.md) | [ComplexTransactionArgument](interfaces/complextransactionargument.md)*
+_Defined in_ [_src/types/index.ts:452_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L452)
 
-*Defined in [src/types/index.ts:452](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L452)*
+### TransactionSpecArray
 
-___
+Ƭ **TransactionSpecArray**: _object_
 
-###  TransactionSpecArray
-
-Ƭ **TransactionSpecArray**: *object*
-
-*Defined in [src/base/TransactionQueue.ts:31](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/TransactionQueue.ts#L31)*
+_Defined in_ [_src/base/TransactionQueue.ts:31_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/TransactionQueue.ts#L31)
 
 #### Type declaration:
 
-___
+### UnscopedClaim
 
-###  UnscopedClaim
+Ƭ **UnscopedClaim**: _object_
 
-Ƭ **UnscopedClaim**: *object*
-
-*Defined in [src/types/index.ts:204](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L204)*
+_Defined in_ [_src/types/index.ts:204_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L204)
 
 #### Type declaration:
 
-* **type**: *[NoData](enums/claimtype.md#nodata) | [CustomerDueDiligence](enums/claimtype.md#customerduediligence)*
+* **type**: [_NoData_](enums/claimtype.md#nodata) _\|_ [_CustomerDueDiligence_](enums/claimtype.md#customerduediligence)
 
-___
+### UnsubCallback
 
-###  UnsubCallback
+Ƭ **UnsubCallback**: _function_
 
-Ƭ **UnsubCallback**: *function*
-
-*Defined in [src/types/index.ts:346](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L346)*
+_Defined in_ [_src/types/index.ts:346_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L346)
 
 #### Type declaration:
 
-▸ (): *void*
+▸ \(\): _void_
 
-___
+### VoteOnProposalParams
 
-###  VoteOnProposalParams
+Ƭ **VoteOnProposalParams**: _object_
 
-Ƭ **VoteOnProposalParams**: *object*
-
-*Defined in [src/api/procedures/voteOnProposal.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/voteOnProposal.ts#L9)*
+_Defined in_ [_src/api/procedures/voteOnProposal.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/voteOnProposal.ts#L9)
 
 #### Type declaration:
 
-* **bondAmount**: *BigNumber*
-
-* **vote**: *boolean*
+* **bondAmount**: _BigNumber_
+* **vote**: _boolean_
 
 ## Variables
 
 ### `Const` voteOnProposal
 
-• **voteOnProposal**: *Procedure‹Params, void›* = new Procedure(prepareVoteOnProposal)
+• **voteOnProposal**: _Procedure‹Params, void›_ = new Procedure\(prepareVoteOnProposal\)
 
-*Defined in [src/api/procedures/voteOnProposal.ts:82](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/voteOnProposal.ts#L82)*
+_Defined in_ [_src/api/procedures/voteOnProposal.ts:82_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/voteOnProposal.ts#L82)
 
 ## Functions
 
-###  tickerToDid
+### tickerToDid
 
-▸ **tickerToDid**(`ticker`: string): *string*
+▸ **tickerToDid**\(`ticker`: string\): _string_
 
-*Defined in [src/utils/index.ts:164](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/utils/index.ts#L164)*
+_Defined in_ [_src/utils/index.ts:164_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/utils/index.ts#L164)
 
 Generate a Security Token's DID from a ticker
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`ticker` | string |
+| Name | Type |
+| :--- | :--- |
+| `ticker` | string |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Const` tuple
 
-▸ **tuple**‹**T**›(...`args`: T): *T*
+▸ **tuple**‹**T**›\(...`args`: T\): _T_
 
-*Defined in [src/types/utils/index.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/utils/index.ts#L10)*
+_Defined in_ [_src/types/utils/index.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/utils/index.ts#L10)
 
 Create a literal tuple type from a list of arguments
 
 **Type parameters:**
 
-▪ **T**: *unknown[]*
+▪ **T**: _unknown\[\]_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`...args` | T | values to turn into a tuple  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `...args` | T | values to turn into a tuple |
 
-**Returns:** *T*
+**Returns:** _T_
 
 ## Object literals
 
 ### `Const` ErrorMessagesPerCode
 
-### ▪ **ErrorMessagesPerCode**: *object*
+### ▪ **ErrorMessagesPerCode**: _object_
 
-*Defined in [src/base/PolymeshError.ts:3](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/PolymeshError.ts#L3)*
+_Defined in_ [_src/base/PolymeshError.ts:3_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/PolymeshError.ts#L3)
 
-###  [ErrorCode.TransactionAborted]
+### \[ErrorCode.TransactionAborted\]
 
-• **[ErrorCode.TransactionAborted]**: *string* = "The transaction was removed from the transaction pool. This might mean that it was malformed (nonce too large/nonce too small/duplicated or invalid transaction)"
+• **\[ErrorCode.TransactionAborted\]**: _string_ = "The transaction was removed from the transaction pool. This might mean that it was malformed \(nonce too large/nonce too small/duplicated or invalid transaction\)"
 
-*Defined in [src/base/PolymeshError.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/PolymeshError.ts#L7)*
+_Defined in_ [_src/base/PolymeshError.ts:7_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/PolymeshError.ts#L7)
 
-###  [ErrorCode.TransactionRejectedByUser]
+### \[ErrorCode.TransactionRejectedByUser\]
 
-• **[ErrorCode.TransactionRejectedByUser]**: *string* = "The user canceled the transaction signature"
+• **\[ErrorCode.TransactionRejectedByUser\]**: _string_ = "The user canceled the transaction signature"
 
-*Defined in [src/base/PolymeshError.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/PolymeshError.ts#L9)*
+_Defined in_ [_src/base/PolymeshError.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/PolymeshError.ts#L9)
 
-###  [ErrorCode.TransactionReverted]
+### \[ErrorCode.TransactionReverted\]
 
-• **[ErrorCode.TransactionReverted]**: *string* = "The transaction execution reverted due to an error"
+• **\[ErrorCode.TransactionReverted\]**: _string_ = "The transaction execution reverted due to an error"
 
-*Defined in [src/base/PolymeshError.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/PolymeshError.ts#L6)*
+_Defined in_ [_src/base/PolymeshError.ts:6_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/PolymeshError.ts#L6)
+

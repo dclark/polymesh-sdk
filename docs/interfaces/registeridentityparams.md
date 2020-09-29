@@ -1,4 +1,4 @@
-# Interface: RegisterIdentityParams
+# RegisterIdentityParams
 
 ## Hierarchy
 
@@ -16,22 +16,19 @@
 
 ### `Optional` expiry
 
-• **expiry**? : *[Date](../enums/transactionargumenttype.md#date)*
+• **expiry**? : [_Date_](../enums/transactionargumenttype.md#date)
 
-*Defined in [src/api/procedures/registerIdentity.ts:18](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/registerIdentity.ts#L18)*
-
-___
+_Defined in_ [_src/api/procedures/registerIdentity.ts:18_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/registerIdentity.ts#L18)
 
 ### `Optional` signingKeys
 
-• **signingKeys**? : *[SigningKey](signingkey.md)[]*
+• **signingKeys**? : [_SigningKey_](signingkey.md)_\[\]_
 
-*Defined in [src/api/procedures/registerIdentity.ts:19](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/registerIdentity.ts#L19)*
+_Defined in_ [_src/api/procedures/registerIdentity.ts:19_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/registerIdentity.ts#L19)
 
-___
+### targetAccount
 
-###  targetAccount
+• **targetAccount**: _string \|_ [_Account_](../classes/account.md)
 
-• **targetAccount**: *string | [Account](../classes/account.md)*
+_Defined in_ [_src/api/procedures/registerIdentity.ts:17_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/registerIdentity.ts#L17)
 
-*Defined in [src/api/procedures/registerIdentity.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/registerIdentity.ts#L17)*

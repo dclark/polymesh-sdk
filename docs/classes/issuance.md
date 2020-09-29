@@ -1,4 +1,4 @@
-# Class: Issuance
+# Issuance
 
 Handles all Security Token Issuance related functionality
 
@@ -23,38 +23,37 @@ Handles all Security Token Issuance related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:12](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Namespace.ts#L12)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:12_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Namespace.ts#L12)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Namespace.ts#L10)*
+_Defined in_ [_src/api/entities/Namespace.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Namespace.ts#L10)
 
 ## Methods
 
-###  issue
+### issue
 
-▸ **issue**(`args`: object): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+▸ **issue**\(`args`: object\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-*Defined in [src/api/entities/SecurityToken/Issuance.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Issuance.ts#L15)*
+_Defined in_ [_src/api/entities/SecurityToken/Issuance.ts:15_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Issuance.ts#L15)
 
 Issue a certain amount of tokens to one or multiple Identities. The receiving Identities must comply with any receiver rules set on the token
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`issuanceData` | [IssuanceData](../interfaces/issuancedata.md)[] | array that specifies who to issue tokens to and which amounts  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `issuanceData` | [IssuanceData](../interfaces/issuancedata.md)\[\] | array that specifies who to issue tokens to and which amounts |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
+

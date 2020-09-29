@@ -1,4 +1,4 @@
-# Interface: ProposalWithDetails
+# ProposalWithDetails
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  details
+### details
 
-• **details**: *[ProposalDetails](proposaldetails.md)*
+• **details**: [_ProposalDetails_](proposaldetails.md)
 
-*Defined in [src/types/index.ts:467](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L467)*
+_Defined in_ [_src/types/index.ts:467_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L467)
 
-___
+### proposal
 
-###  proposal
+• **proposal**: [_Proposal_](../classes/proposal.md)
 
-• **proposal**: *[Proposal](../classes/proposal.md)*
+_Defined in_ [_src/types/index.ts:466_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L466)
 
-*Defined in [src/types/index.ts:466](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L466)*

@@ -1,6 +1,6 @@
-# Class: Proposal
+# Proposal
 
-Represents a Polymesh Improvement Proposal (PIP)
+Represents a Polymesh Improvement Proposal \(PIP\)
 
 ## Hierarchy
 
@@ -33,93 +33,81 @@ Represents a Polymesh Improvement Proposal (PIP)
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [Entity](entity.md).[context](entity.md#protected-context)*
+_Inherited from_ [_Entity_](entity.md)_._[_context_](entity.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L48)
 
-___
+### pipId
 
-###  pipId
+• **pipId**: _BigNumber_
 
-• **pipId**: *BigNumber*
-
-*Defined in [src/api/entities/Proposal/index.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L51)*
+_Defined in_ [_src/api/entities/Proposal/index.ts:51_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L51)
 
 internal identifier
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_Entity_](entity.md)_._[_uuid_](entity.md#uuid)
 
-*Inherited from [Entity](entity.md).[uuid](entity.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  cancel
+### cancel
 
-▸ **cancel**(): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+▸ **cancel**\(\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-*Defined in [src/api/entities/Proposal/index.ts:154](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L154)*
+_Defined in_ [_src/api/entities/Proposal/index.ts:154_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L154)
 
 Cancel the proposal
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### edit
 
-###  edit
+▸ **edit**\(`args`: [EditProposalParams](../globals.md#editproposalparams)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **edit**(`args`: [EditProposalParams](../globals.md#editproposalparams)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/Proposal/index.ts:146](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L146)*
+_Defined in_ [_src/api/entities/Proposal/index.ts:146_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L146)
 
 Edit a proposal
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [EditProposalParams](../globals.md#editproposalparams) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [EditProposalParams](../globals.md#editproposalparams) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### getDetails
 
-###  getDetails
+▸ **getDetails**\(\): _Promise‹_[_ProposalDetails_](../interfaces/proposaldetails.md)_›_
 
-▸ **getDetails**(): *Promise‹[ProposalDetails](../interfaces/proposaldetails.md)›*
-
-*Defined in [src/api/entities/Proposal/index.ts:162](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L162)*
+_Defined in_ [_src/api/entities/Proposal/index.ts:162_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L162)
 
 Retrieve the proposal details
 
-**Returns:** *Promise‹[ProposalDetails](../interfaces/proposaldetails.md)›*
+**Returns:** _Promise‹_[_ProposalDetails_](../interfaces/proposaldetails.md)_›_
 
-___
+### getStage
 
-###  getStage
+▸ **getStage**\(\): _Promise‹_[_ProposalStage_](../enums/proposalstage.md)_›_
 
-▸ **getStage**(): *Promise‹[ProposalStage](../enums/proposalstage.md)›*
-
-*Defined in [src/api/entities/Proposal/index.ts:179](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L179)*
+_Defined in_ [_src/api/entities/Proposal/index.ts:179_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L179)
 
 Retrieve the current stage of the proposal
 
-**Returns:** *Promise‹[ProposalStage](../enums/proposalstage.md)›*
+**Returns:** _Promise‹_[_ProposalStage_](../enums/proposalstage.md)_›_
 
-___
+### getVotes
 
-###  getVotes
+▸ **getVotes**\(`opts`: object\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_ProposalVote_](../interfaces/proposalvote.md)_››_
 
-▸ **getVotes**(`opts`: object): *Promise‹[ResultSet](../interfaces/resultset.md)‹[ProposalVote](../interfaces/proposalvote.md)››*
-
-*Defined in [src/api/entities/Proposal/index.ts:102](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L102)*
+_Defined in_ [_src/api/entities/Proposal/index.ts:102_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L102)
 
 Retrieve all the votes of the proposal. Can be filtered using parameters
 
@@ -127,24 +115,22 @@ Retrieve all the votes of the proposal. Can be filtered using parameters
 
 **Parameters:**
 
-▪`Default value`  **opts**: *object*= {}
+▪`Default value` **opts**: _object_= {}
 
-Name | Type | Description |
------- | ------ | ------ |
-`orderBy?` | ProposalVotesOrderByInput | the order in witch the votes are returned |
-`size?` | undefined &#124; number | number of votes in each requested page (default: 25) |
-`start?` | undefined &#124; number | page offset  |
-`vote?` | undefined &#124; false &#124; true | vote decision (positive or negative) |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `orderBy?` | ProposalVotesOrderByInput | the order in witch the votes are returned |
+| `size?` | undefined \| number | number of votes in each requested page \(default: 25\) |
+| `start?` | undefined \| number | page offset |
+| `vote?` | undefined \| false \| true | vote decision \(positive or negative\) |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[ProposalVote](../interfaces/proposalvote.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_ProposalVote_](../interfaces/proposalvote.md)_››_
 
-___
+### identityHasVoted
 
-###  identityHasVoted
+▸ **identityHasVoted**\(`args?`: undefined \| object\): _Promise‹boolean›_
 
-▸ **identityHasVoted**(`args?`: undefined | object): *Promise‹boolean›*
-
-*Defined in [src/api/entities/Proposal/index.ts:71](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L71)*
+_Defined in_ [_src/api/entities/Proposal/index.ts:71_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L71)
 
 Check if an Identity has voted on the proposal
 
@@ -152,86 +138,79 @@ Check if an Identity has voted on the proposal
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args?` | undefined &#124; object |
+| Name | Type |
+| :--- | :--- |
+| `args?` | undefined \| object |
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### minimumBondedAmount
 
-###  minimumBondedAmount
+▸ **minimumBondedAmount**\(\): _Promise‹BigNumber›_
 
-▸ **minimumBondedAmount**(): *Promise‹BigNumber›*
-
-*Defined in [src/api/entities/Proposal/index.ts:227](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L227)*
+_Defined in_ [_src/api/entities/Proposal/index.ts:227_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L227)
 
 Retrieve the minimum amount of POLYX that must be bonded by aye votes for the proposal to be considered valid
 
-**Returns:** *Promise‹BigNumber›*
+**Returns:** _Promise‹BigNumber›_
 
-___
+### vote
 
-###  vote
+▸ **vote**\(`args`: [VoteOnProposalParams](../globals.md#voteonproposalparams)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **vote**(`args`: [VoteOnProposalParams](../globals.md#voteonproposalparams)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/Proposal/index.ts:219](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L219)*
+_Defined in_ [_src/api/entities/Proposal/index.ts:219_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L219)
 
 Vote on the proposal
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [VoteOnProposalParams](../globals.md#voteonproposalparams) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [VoteOnProposalParams](../globals.md#voteonproposalparams) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-___
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [Entity](entity.md).[generateUuid](entity.md#static-generateuuid)*
+_Inherited from_ [_Entity_](entity.md)_._[_generateUuid_](entity.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [Entity](entity.md).[unserialize](entity.md#static-unserialize)*
+_Inherited from_ [_Entity_](entity.md)_._[_unserialize_](entity.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

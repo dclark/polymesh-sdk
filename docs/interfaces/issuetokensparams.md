@@ -1,4 +1,4 @@
-# Interface: IssueTokensParams
+# IssueTokensParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  issuanceData
+### issuanceData
 
-• **issuanceData**: *[IssuanceData](issuancedata.md)[]*
+• **issuanceData**: [_IssuanceData_](issuancedata.md)_\[\]_
 
-*Defined in [src/api/procedures/issueTokens.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/issueTokens.ts#L17)*
+_Defined in_ [_src/api/procedures/issueTokens.ts:17_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/issueTokens.ts#L17)
+

@@ -1,4 +1,4 @@
-# Enumeration: Permission
+# Permission
 
 ## Index
 
@@ -11,32 +11,27 @@
 
 ## Enumeration members
 
-###  Admin
+### Admin
 
 • **Admin**: = "Admin"
 
-*Defined in [src/types/index.ts:401](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L401)*
+_Defined in_ [_src/types/index.ts:401_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L401)
 
-___
-
-###  Full
+### Full
 
 • **Full**: = "Full"
 
-*Defined in [src/types/index.ts:400](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L400)*
+_Defined in_ [_src/types/index.ts:400_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L400)
 
-___
-
-###  Operator
+### Operator
 
 • **Operator**: = "Operator"
 
-*Defined in [src/types/index.ts:402](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L402)*
+_Defined in_ [_src/types/index.ts:402_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L402)
 
-___
-
-###  SpendFunds
+### SpendFunds
 
 • **SpendFunds**: = "SpendFunds"
 
-*Defined in [src/types/index.ts:403](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L403)*
+_Defined in_ [_src/types/index.ts:403_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L403)
+

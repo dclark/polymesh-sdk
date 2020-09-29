@@ -1,4 +1,4 @@
-# Class: Rules
+# Rules
 
 Handles all Security Token Rules related functionality
 
@@ -30,156 +30,140 @@ Handles all Security Token Rules related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:12](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Namespace.ts#L12)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:12_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Namespace.ts#L12)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Namespace.ts#L10)*
+_Defined in_ [_src/api/entities/Namespace.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Namespace.ts#L10)
 
 ## Methods
 
-###  arePaused
+### arePaused
 
-▸ **arePaused**(): *Promise‹boolean›*
+▸ **arePaused**\(\): _Promise‹boolean›_
 
-*Defined in [src/api/entities/SecurityToken/Compliance/Rules.ts:166](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L166)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Rules.ts:166_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L166)
 
 Check whether compliance rules are paused or not
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### checkMint
 
-###  checkMint
+▸ **checkMint**\(`args`: object\): _Promise‹_[_RuleCompliance_](../interfaces/rulecompliance.md)_›_
 
-▸ **checkMint**(`args`: object): *Promise‹[RuleCompliance](../interfaces/rulecompliance.md)›*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Rules.ts:156](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L156)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Rules.ts:156_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L156)
 
 Check whether minting to an Identity complies with all the rules of this asset
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`to` | string &#124; [Identity](identity.md) | receiver Identity  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `to` | string \| [Identity](identity.md) | receiver Identity |
 
-**Returns:** *Promise‹[RuleCompliance](../interfaces/rulecompliance.md)›*
+**Returns:** _Promise‹_[_RuleCompliance_](../interfaces/rulecompliance.md)_›_
 
-___
+### checkTransfer
 
-###  checkTransfer
+▸ **checkTransfer**\(`args`: object\): _Promise‹_[_RuleCompliance_](../interfaces/rulecompliance.md)_›_
 
-▸ **checkTransfer**(`args`: object): *Promise‹[RuleCompliance](../interfaces/rulecompliance.md)›*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Rules.ts:143](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L143)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Rules.ts:143_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L143)
 
 Check whether transferring from one Identity to another complies with all the rules of this asset
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`from?` | string &#124; [Identity](identity.md) | sender Identity (optional, defaults to the current Identity) |
-`to` | string &#124; [Identity](identity.md) | receiver Identity  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `from?` | string \| [Identity](identity.md) | sender Identity \(optional, defaults to the current Identity\) |
+| `to` | string \| [Identity](identity.md) | receiver Identity |
 
-**Returns:** *Promise‹[RuleCompliance](../interfaces/rulecompliance.md)›*
+**Returns:** _Promise‹_[_RuleCompliance_](../interfaces/rulecompliance.md)_›_
 
-___
+### get
 
-###  get
+▸ **get**\(\): _Promise‹_[_Rule_](../interfaces/rule.md)_\[\]›_
 
-▸ **get**(): *Promise‹[Rule](../interfaces/rule.md)[]›*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Rules.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L47)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Rules.ts:47_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L47)
 
 Retrieve all of the Security Token's transfer rules
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[Rule](../interfaces/rule.md)[]›*
+**Returns:** _Promise‹_[_Rule_](../interfaces/rule.md)_\[\]›_
 
-▸ **get**(`callback`: [SubCallback](../globals.md#subcallback)‹[Rule](../interfaces/rule.md)[]›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **get**\(`callback`: [SubCallback](../globals.md#subcallback)‹[Rule](../interfaces/rule.md)\[\]›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/SecurityToken/Compliance/Rules.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L48)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Rules.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L48)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹[Rule](../interfaces/rule.md)[]› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[Rule](../interfaces/rule.md)\[\]› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### pause
 
-###  pause
+▸ **pause**\(\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **pause**(): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Rules.ts:118](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L118)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Rules.ts:118_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L118)
 
 Pause all the Security Token's rules. This means that all transfers and token issuance will be allowed until rules are unpaused
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### reset
 
-###  reset
+▸ **reset**\(\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **reset**(): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Rules.ts:107](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L107)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Rules.ts:107_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L107)
 
 Detele all the current rules for the Security Token.
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### set
 
-###  set
+▸ **set**\(`args`: [SetTokenRulesParams](../interfaces/settokenrulesparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **set**(`args`: [SetTokenRulesParams](../interfaces/settokenrulesparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Rules.ts:34](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L34)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Rules.ts:34_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L34)
 
 Configure transfer rules for the Security Token. This operation will replace all existing rules with a new rule set
 
 This requires two transactions
 
-**`example`** Say A, B, C, D and E are rules and we arrange them as `[[A, B], [C, D], [E]]`.
-For a transfer to succeed, it must either comply with A AND B, C AND D, OR E.
+**`example`** Say A, B, C, D and E are rules and we arrange them as `[[A, B], [C, D], [E]]`. For a transfer to succeed, it must either comply with A AND B, C AND D, OR E.
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [SetTokenRulesParams](../interfaces/settokenrulesparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [SetTokenRulesParams](../interfaces/settokenrulesparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### unpause
 
-###  unpause
+▸ **unpause**\(\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **unpause**(): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Rules.ts:129](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L129)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Rules.ts:129_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Compliance/Rules.ts#L129)
 
 Un-pause all the Security Token's current rules
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
+

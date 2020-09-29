@@ -1,4 +1,4 @@
-# Interface: KeyringPair
+# KeyringPair
 
 ## Hierarchy
 
@@ -17,49 +17,44 @@
 
 ## Properties
 
-###  address
+### address
 
-• **address**: *string*
+• **address**: _string_
 
-*Inherited from [KeyringPair](keyringpair.md).[address](keyringpair.md#address)*
+_Inherited from_ [_KeyringPair_](keyringpair.md)_._[_address_](keyringpair.md#address)
 
-Defined in node_modules/@polkadot/types/types/interfaces.d.ts:12
+Defined in node\_modules/@polkadot/types/types/interfaces.d.ts:12
 
-___
+### isLocked
 
-###  isLocked
+• **isLocked**: _boolean_
 
-• **isLocked**: *boolean*
+_Defined in_ [_src/types/index.ts:368_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L368)
 
-*Defined in [src/types/index.ts:368](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L368)*
+### publicKey
 
-___
+• **publicKey**: _Uint8Array_
 
-###  publicKey
+_Inherited from_ [_KeyringPair_](keyringpair.md)_._[_publicKey_](keyringpair.md#publickey)
 
-• **publicKey**: *Uint8Array*
+Defined in node\_modules/@polkadot/types/types/interfaces.d.ts:13
 
-*Inherited from [KeyringPair](keyringpair.md).[publicKey](keyringpair.md#publickey)*
+### sign
 
-Defined in node_modules/@polkadot/types/types/interfaces.d.ts:13
+• **sign**: _function_
 
-___
+_Inherited from_ [_KeyringPair_](keyringpair.md)_._[_sign_](keyringpair.md#sign)
 
-###  sign
-
-• **sign**: *function*
-
-*Inherited from [KeyringPair](keyringpair.md).[sign](keyringpair.md#sign)*
-
-Defined in node_modules/@polkadot/types/types/interfaces.d.ts:14
+Defined in node\_modules/@polkadot/types/types/interfaces.d.ts:14
 
 #### Type declaration:
 
-▸ (`data`: Uint8Array, `options?`: SignOptions): *Uint8Array*
+▸ \(`data`: Uint8Array, `options?`: SignOptions\): _Uint8Array_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`data` | Uint8Array |
-`options?` | SignOptions |
+| Name | Type |
+| :--- | :--- |
+| `data` | Uint8Array |
+| `options?` | SignOptions |
+

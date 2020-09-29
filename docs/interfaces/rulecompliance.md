@@ -1,4 +1,4 @@
-# Interface: RuleCompliance
+# RuleCompliance
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  complies
+### complies
 
-• **complies**: *boolean*
+• **complies**: _boolean_
 
-*Defined in [src/types/index.ts:291](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L291)*
+_Defined in_ [_src/types/index.ts:291_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L291)
 
-___
+### rules
 
-###  rules
+• **rules**: [_Rule_](rule.md) _& object\[\]_
 
-• **rules**: *[Rule](rule.md) & object[]*
+_Defined in_ [_src/types/index.ts:288_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L288)
 
-*Defined in [src/types/index.ts:288](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L288)*

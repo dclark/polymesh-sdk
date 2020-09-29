@@ -1,4 +1,4 @@
-# Enumeration: ConditionType
+# ConditionType
 
 ## Index
 
@@ -11,32 +11,27 @@
 
 ## Enumeration members
 
-###  IsAbsent
+### IsAbsent
 
 • **IsAbsent**: = "IsAbsent"
 
-*Defined in [src/types/index.ts:249](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L249)*
+_Defined in_ [_src/types/index.ts:249_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L249)
 
-___
-
-###  IsAnyOf
+### IsAnyOf
 
 • **IsAnyOf**: = "IsAnyOf"
 
-*Defined in [src/types/index.ts:250](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L250)*
+_Defined in_ [_src/types/index.ts:250_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L250)
 
-___
-
-###  IsNoneOf
+### IsNoneOf
 
 • **IsNoneOf**: = "IsNoneOf"
 
-*Defined in [src/types/index.ts:251](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L251)*
+_Defined in_ [_src/types/index.ts:251_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L251)
 
-___
-
-###  IsPresent
+### IsPresent
 
 • **IsPresent**: = "IsPresent"
 
-*Defined in [src/types/index.ts:248](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L248)*
+_Defined in_ [_src/types/index.ts:248_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L248)
+

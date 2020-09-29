@@ -1,8 +1,6 @@
-# Class: AuthorizationRequest
+# AuthorizationRequest
 
-Represents a request made by an Identity to another Identity (or account) for some sort of authorization. This has multiple uses. For example, if Alice
-  wants to transfer ownership of her asset ALICETOKEN to Bob, an authorization request gets emitted to Bob,
-  who then has to accept it in order for the ownership transfer to be complete
+Represents a request made by an Identity to another Identity \(or account\) for some sort of authorization. This has multiple uses. For example, if Alice wants to transfer ownership of her asset ALICETOKEN to Bob, an authorization request gets emitted to Bob, who then has to accept it in order for the ownership transfer to be complete
 
 ## Hierarchy
 
@@ -32,169 +30,149 @@ Represents a request made by an Identity to another Identity (or account) for so
 
 ## Properties
 
-###  authId
+### authId
 
-• **authId**: *BigNumber*
+• **authId**: _BigNumber_
 
-*Defined in [src/api/entities/AuthorizationRequest.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L70)*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:70_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L70)
 
-internal identifier for the request (used to accept/reject/cancel)
-
-___
+internal identifier for the request \(used to accept/reject/cancel\)
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [Entity](entity.md).[context](entity.md#protected-context)*
+_Inherited from_ [_Entity_](entity.md)_._[_context_](entity.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L48)
 
-___
+### data
 
-###  data
+• **data**: [_Authorization_](../globals.md#authorization)
 
-• **data**: *[Authorization](../globals.md#authorization)*
-
-*Defined in [src/api/entities/AuthorizationRequest.ts:59](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L59)*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:59_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L59)
 
 authorization request data corresponding to type of authorization
 
-| Type                       | Data   |
-|----------------------------|--------|
-| Attest Master Key Rotation | DID    |
-| Rotate Master Key          | DID    |
-| Transfer Ticker            | Ticker |
-| Add MultiSig Signer        | N/A    |
-| Transfer Token Ownership   | Ticker |
-| Join Identity              | DID    |
-| Custom                     | Custom |
-| No Data                    | N/A    |
+| Type | Data |
+| :--- | :--- |
+| Attest Master Key Rotation | DID |
+| Rotate Master Key | DID |
+| Transfer Ticker | Ticker |
+| Add MultiSig Signer | N/A |
+| Transfer Token Ownership | Ticker |
+| Join Identity | DID |
+| Custom | Custom |
+| No Data | N/A |
 
-___
+### expiry
 
-###  expiry
+• **expiry**: _Date \| null_
 
-• **expiry**: *Date | null*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:65_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L65)
 
-*Defined in [src/api/entities/AuthorizationRequest.ts:65](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L65)*
+date at which the authorization request expires and can no longer be accepted. At this point, a new authorization request must be emitted. Null if the request never expires
 
-date at which the authorization request expires and can no longer be accepted.
-  At this point, a new authorization request must be emitted. Null if the request never expires
+### issuer
 
-___
+• **issuer**: [_Identity_](identity.md)
 
-###  issuer
-
-• **issuer**: *[Identity](identity.md)*
-
-*Defined in [src/api/entities/AuthorizationRequest.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L43)*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:43_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L43)
 
 Identity that emitted the request
 
-___
+### target
 
-###  target
+• **target**: [_Signer_](../globals.md#signer)
 
-• **target**: *[Signer](../globals.md#signer)*
-
-*Defined in [src/api/entities/AuthorizationRequest.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L38)*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:38_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L38)
 
 Identity or Account to which the request was emitted
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_Entity_](entity.md)_._[_uuid_](entity.md#uuid)
 
-*Inherited from [Entity](entity.md).[uuid](entity.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  accept
+### accept
 
-▸ **accept**(): *Promise‹[TransactionQueue](transactionqueue.md)›*
+▸ **accept**\(\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_›_
 
-*Defined in [src/api/entities/AuthorizationRequest.ts:92](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L92)*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:92_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L92)
 
 Accept the authorization request. You must be the target of the request to be able to accept it
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)›*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_›_
 
-___
+### isExpired
 
-###  isExpired
+▸ **isExpired**\(\): _boolean_
 
-▸ **isExpired**(): *boolean*
-
-*Defined in [src/api/entities/AuthorizationRequest.ts:118](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L118)*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:118_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L118)
 
 Returns whether the Authorization Request has expired
 
-**Returns:** *boolean*
+**Returns:** _boolean_
 
-___
+### remove
 
-###  remove
+▸ **remove**\(\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_›_
 
-▸ **remove**(): *Promise‹[TransactionQueue](transactionqueue.md)›*
-
-*Defined in [src/api/entities/AuthorizationRequest.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L108)*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:108_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L108)
 
 Remove the authorization request
 
-- If you are the request issuer, this will cancel the authorization
-- If you are the request target, this will reject the authorization
+* If you are the request issuer, this will cancel the authorization
+* If you are the request target, this will reject the authorization
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)›*
-
-___
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_›_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [Entity](entity.md).[generateUuid](entity.md#static-generateuuid)*
+_Inherited from_ [_Entity_](entity.md)_._[_generateUuid_](entity.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [Entity](entity.md).[unserialize](entity.md#static-unserialize)*
+_Inherited from_ [_Entity_](entity.md)_._[_unserialize_](entity.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

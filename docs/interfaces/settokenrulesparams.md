@@ -1,4 +1,4 @@
-# Interface: SetTokenRulesParams
+# SetTokenRulesParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  rules
+### rules
 
-• **rules**: *[Condition](../globals.md#condition)[][]*
+• **rules**: [_Condition_](../globals.md#condition)_\[\]\[\]_
 
-*Defined in [src/api/procedures/setTokenRules.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/setTokenRules.ts#L9)*
+_Defined in_ [_src/api/procedures/setTokenRules.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/setTokenRules.ts#L9)
+

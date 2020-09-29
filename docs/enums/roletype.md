@@ -1,4 +1,4 @@
-# Enumeration: RoleType
+# RoleType
 
 ## Index
 
@@ -10,24 +10,21 @@
 
 ## Enumeration members
 
-###  CddProvider
+### CddProvider
 
 • **CddProvider**: = "CddProvider"
 
-*Defined in [src/types/index.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L68)*
+_Defined in_ [_src/types/index.ts:68_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L68)
 
-___
-
-###  TickerOwner
+### TickerOwner
 
 • **TickerOwner**: = "TickerOwner"
 
-*Defined in [src/types/index.ts:66](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L66)*
+_Defined in_ [_src/types/index.ts:66_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L66)
 
-___
-
-###  TokenOwner
+### TokenOwner
 
 • **TokenOwner**: = "TokenOwner"
 
-*Defined in [src/types/index.ts:67](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L67)*
+_Defined in_ [_src/types/index.ts:67_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L67)
+

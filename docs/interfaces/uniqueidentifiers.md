@@ -1,9 +1,6 @@
-# Interface: UniqueIdentifiers
+# UniqueIdentifiers
 
-Properties that uniquely identify an Identity
-Properties that uniquely identify a TickerReservation
-Properties that uniquely identify a Security Token
-Properties that uniquely identify a Proposal
+Properties that uniquely identify an Identity Properties that uniquely identify a TickerReservation Properties that uniquely identify a Security Token Properties that uniquely identify a Proposal
 
 ## Hierarchy
 
@@ -21,48 +18,41 @@ Properties that uniquely identify a Proposal
 
 ## Properties
 
-###  address
+### address
 
-• **address**: *string*
+• **address**: _string_
 
-*Defined in [src/api/entities/Account.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Account.ts#L27)*
+_Defined in_ [_src/api/entities/Account.ts:27_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Account.ts#L27)
 
-___
+### authId
 
-###  authId
+• **authId**: _BigNumber_
 
-• **authId**: *BigNumber*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L9)
 
-*Defined in [src/api/entities/AuthorizationRequest.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/AuthorizationRequest.ts#L9)*
+### did
 
-___
+• **did**: _string_
 
-###  did
+_Defined in_ [_src/api/entities/Identity/index.ts:37_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Identity/index.ts#L37)
 
-• **did**: *string*
+_Defined in_ [_src/api/entities/TrustedClaimIssuer.ts:12_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/TrustedClaimIssuer.ts#L12)
 
-*Defined in [src/api/entities/Identity/index.ts:37](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Identity/index.ts#L37)*
+### pipId
 
-*Defined in [src/api/entities/TrustedClaimIssuer.ts:12](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/TrustedClaimIssuer.ts#L12)*
+• **pipId**: _BigNumber_
 
-___
+_Defined in_ [_src/api/entities/Proposal/index.ts:31_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L31)
 
-###  pipId
+### ticker
 
-• **pipId**: *BigNumber*
+• **ticker**: _string_
 
-*Defined in [src/api/entities/Proposal/index.ts:31](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Proposal/index.ts#L31)*
+_Defined in_ [_src/api/entities/TickerReservation/index.ts:17_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/TickerReservation/index.ts#L17)
 
-___
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:50_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/index.ts#L50)
 
-###  ticker
-
-• **ticker**: *string*
-
-*Defined in [src/api/entities/TickerReservation/index.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/TickerReservation/index.ts#L17)*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:50](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/index.ts#L50)*
-
-*Defined in [src/api/entities/TrustedClaimIssuer.ts:13](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/TrustedClaimIssuer.ts#L13)*
+_Defined in_ [_src/api/entities/TrustedClaimIssuer.ts:13_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/TrustedClaimIssuer.ts#L13)
 
 ticker of the security token
+

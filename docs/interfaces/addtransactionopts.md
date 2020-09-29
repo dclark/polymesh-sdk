@@ -1,8 +1,8 @@
-# Interface: AddTransactionOpts ‹**Values**›
+# AddTransactionOpts
 
 ## Type parameters
 
-▪ **Values**: *unknown[]*
+▪ **Values**: _unknown\[\]_
 
 ## Hierarchy
 
@@ -22,38 +22,31 @@
 
 ### `Optional` batchSize
 
-• **batchSize**? : *undefined | number*
+• **batchSize**? : _undefined \| number_
 
-*Defined in [src/base/Procedure.ts:20](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/Procedure.ts#L20)*
-
-___
+_Defined in_ [_src/base/Procedure.ts:20_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/Procedure.ts#L20)
 
 ### `Optional` fee
 
-• **fee**? : *BigNumber*
+• **fee**? : _BigNumber_
 
-*Defined in [src/base/Procedure.ts:16](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/Procedure.ts#L16)*
-
-___
+_Defined in_ [_src/base/Procedure.ts:16_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/Procedure.ts#L16)
 
 ### `Optional` isCritical
 
-• **isCritical**? : *undefined | false | true*
+• **isCritical**? : _undefined \| false \| true_
 
-*Defined in [src/base/Procedure.ts:18](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/Procedure.ts#L18)*
-
-___
+_Defined in_ [_src/base/Procedure.ts:18_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/Procedure.ts#L18)
 
 ### `Optional` resolvers
 
-• **resolvers**? : *ResolverFunctionArray‹Values›*
+• **resolvers**? : _ResolverFunctionArray‹Values›_
 
-*Defined in [src/base/Procedure.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/Procedure.ts#L17)*
-
-___
+_Defined in_ [_src/base/Procedure.ts:17_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/Procedure.ts#L17)
 
 ### `Optional` signer
 
-• **signer**? : *AddressOrPair*
+• **signer**? : _AddressOrPair_
 
-*Defined in [src/base/Procedure.ts:19](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/Procedure.ts#L19)*
+_Defined in_ [_src/base/Procedure.ts:19_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/Procedure.ts#L19)
+

@@ -1,4 +1,4 @@
-# Interface: SigningKey
+# SigningKey
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  permissions
+### permissions
 
-• **permissions**: *[Permission](../enums/permission.md)[]*
+• **permissions**: [_Permission_](../enums/permission.md)_\[\]_
 
-*Defined in [src/types/index.ts:472](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L472)*
+_Defined in_ [_src/types/index.ts:472_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L472)
 
-___
+### signer
 
-###  signer
+• **signer**: [_Signer_](../globals.md#signer)
 
-• **signer**: *[Signer](../globals.md#signer)*
+_Defined in_ [_src/types/index.ts:471_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L471)
 
-*Defined in [src/types/index.ts:471](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L471)*

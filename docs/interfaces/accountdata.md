@@ -1,4 +1,4 @@
-# Interface: AccountData
+# AccountData
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  address
+### address
 
-• **address**: *string*
+• **address**: _string_
 
-*Defined in [src/base/Context.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/Context.ts#L61)*
-
-___
+_Defined in_ [_src/base/Context.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/Context.ts#L61)
 
 ### `Optional` name
 
-• **name**? : *undefined | string*
+• **name**? : _undefined \| string_
 
-*Defined in [src/base/Context.ts:62](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/Context.ts#L62)*
+_Defined in_ [_src/base/Context.ts:62_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/Context.ts#L62)
+

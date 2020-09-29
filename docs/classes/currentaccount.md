@@ -1,12 +1,12 @@
-# Class: CurrentAccount
+# CurrentAccount
 
 Represents the current account that is bound to the SDK instance
 
 ## Hierarchy
 
-  ↳ [Account](account.md)
+↳ [Account](account.md)
 
-  ↳ **CurrentAccount**
+↳ **CurrentAccount**
 
 ## Index
 
@@ -28,173 +28,158 @@ Represents the current account that is bound to the SDK instance
 
 ## Properties
 
-###  address
+### address
 
-• **address**: *string*
+• **address**: _string_
 
-*Inherited from [Account](account.md).[address](account.md#address)*
+_Inherited from_ [_Account_](account.md)_._[_address_](account.md#address)
 
-*Defined in [src/api/entities/Account.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Account.ts#L47)*
+_Defined in_ [_src/api/entities/Account.ts:47_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Account.ts#L47)
 
 Polymesh-specific address of the account. Serves as an identifier
 
-___
+### authorizations
 
-###  authorizations
+• **authorizations**: [_Authorizations_](authorizations.md)_‹_[_Account_](account.md)_›_
 
-• **authorizations**: *[Authorizations](authorizations.md)‹[Account](account.md)›*
+_Inherited from_ [_Account_](account.md)_._[_authorizations_](account.md#authorizations)
 
-*Inherited from [Account](account.md).[authorizations](account.md#authorizations)*
-
-*Defined in [src/api/entities/Account.ts:55](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Account.ts#L55)*
-
-___
+_Defined in_ [_src/api/entities/Account.ts:55_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Account.ts#L55)
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [Entity](entity.md).[context](entity.md#protected-context)*
+_Inherited from_ [_Entity_](entity.md)_._[_context_](entity.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L48)
 
-___
+### key
 
-###  key
+• **key**: _string_
 
-• **key**: *string*
+_Inherited from_ [_Account_](account.md)_._[_key_](account.md#key)
 
-*Inherited from [Account](account.md).[key](account.md#key)*
-
-*Defined in [src/api/entities/Account.ts:52](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Account.ts#L52)*
+_Defined in_ [_src/api/entities/Account.ts:52_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Account.ts#L52)
 
 public key of the account. This is a hex representation of the address that is transversal to any Substrate chain
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_Entity_](entity.md)_._[_uuid_](entity.md#uuid)
 
-*Inherited from [Entity](entity.md).[uuid](entity.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  getBalance
+### getBalance
 
-▸ **getBalance**(): *Promise‹[AccountBalance](../interfaces/accountbalance.md)›*
+▸ **getBalance**\(\): _Promise‹_[_AccountBalance_](../interfaces/accountbalance.md)_›_
 
-*Inherited from [Account](account.md).[getBalance](account.md#getbalance)*
+_Inherited from_ [_Account_](account.md)_._[_getBalance_](account.md#getbalance)
 
-*Defined in [src/api/entities/Account.ts:75](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Account.ts#L75)*
+_Defined in_ [_src/api/entities/Account.ts:75_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Account.ts#L75)
 
 Get the free/locked POLYX balance of the account
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[AccountBalance](../interfaces/accountbalance.md)›*
+**Returns:** _Promise‹_[_AccountBalance_](../interfaces/accountbalance.md)_›_
 
-▸ **getBalance**(`callback`: [SubCallback](../globals.md#subcallback)‹[AccountBalance](../interfaces/accountbalance.md)›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **getBalance**\(`callback`: [SubCallback](../globals.md#subcallback)‹[AccountBalance](../interfaces/accountbalance.md)›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Inherited from [Account](account.md).[getBalance](account.md#getbalance)*
+_Inherited from_ [_Account_](account.md)_._[_getBalance_](account.md#getbalance)
 
-*Defined in [src/api/entities/Account.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Account.ts#L76)*
+_Defined in_ [_src/api/entities/Account.ts:76_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Account.ts#L76)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹[AccountBalance](../interfaces/accountbalance.md)› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[AccountBalance](../interfaces/accountbalance.md)› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### getIdentity
 
-###  getIdentity
+▸ **getIdentity**\(\): _Promise‹_[_CurrentIdentity_](currentidentity.md) _\| null›_
 
-▸ **getIdentity**(): *Promise‹[CurrentIdentity](currentidentity.md) | null›*
+_Overrides_ [_Account_](account.md)_._[_getIdentity_](account.md#getidentity)
 
-*Overrides [Account](account.md).[getIdentity](account.md#getidentity)*
+_Defined in_ [_src/api/entities/CurrentAccount.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/CurrentAccount.ts#L10)
 
-*Defined in [src/api/entities/CurrentAccount.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/CurrentAccount.ts#L10)*
+Retrieves the current Identity \(null if there is none\)
 
-Retrieves the current Identity (null if there is none)
+**Returns:** _Promise‹_[_CurrentIdentity_](currentidentity.md) _\| null›_
 
-**Returns:** *Promise‹[CurrentIdentity](currentidentity.md) | null›*
+### getTransactionHistory
 
-___
+▸ **getTransactionHistory**\(`filters`: object\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_ExtrinsicData_](../interfaces/extrinsicdata.md)_››_
 
-###  getTransactionHistory
+_Inherited from_ [_Account_](account.md)_._[_getTransactionHistory_](account.md#gettransactionhistory)
 
-▸ **getTransactionHistory**(`filters`: object): *Promise‹[ResultSet](../interfaces/resultset.md)‹[ExtrinsicData](../interfaces/extrinsicdata.md)››*
-
-*Inherited from [Account](account.md).[getTransactionHistory](account.md#gettransactionhistory)*
-
-*Defined in [src/api/entities/Account.ts:125](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Account.ts#L125)*
+_Defined in_ [_src/api/entities/Account.ts:125_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Account.ts#L125)
 
 Retrieve a list of transactions signed by this account. Can be filtered using parameters
 
 **Parameters:**
 
-▪`Default value`  **filters**: *object*= {}
+▪`Default value` **filters**: _object_= {}
 
-Name | Type | Description |
------- | ------ | ------ |
-`blockNumber?` | BigNumber | - |
-`orderBy?` | TransactionOrderByInput | - |
-`size?` | undefined &#124; number | page size |
-`start?` | undefined &#124; number | page offset  |
-`success?` | undefined &#124; false &#124; true | whether the transaction was successful or not |
-`tag?` | TxTag | tag associated with the transaction |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `blockNumber?` | BigNumber | - |
+| `orderBy?` | TransactionOrderByInput | - |
+| `size?` | undefined \| number | page size |
+| `start?` | undefined \| number | page offset |
+| `success?` | undefined \| false \| true | whether the transaction was successful or not |
+| `tag?` | TxTag | tag associated with the transaction |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[ExtrinsicData](../interfaces/extrinsicdata.md)››*
-
-___
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_ExtrinsicData_](../interfaces/extrinsicdata.md)_››_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [Entity](entity.md).[generateUuid](entity.md#static-generateuuid)*
+_Inherited from_ [_Entity_](entity.md)_._[_generateUuid_](entity.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [Entity](entity.md).[unserialize](entity.md#static-unserialize)*
+_Inherited from_ [_Entity_](entity.md)_._[_unserialize_](entity.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

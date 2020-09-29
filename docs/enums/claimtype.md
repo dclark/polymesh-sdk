@@ -1,4 +1,4 @@
-# Enumeration: ClaimType
+# ClaimType
 
 ## Index
 
@@ -17,80 +17,63 @@
 
 ## Enumeration members
 
-###  Accredited
+### Accredited
 
 • **Accredited**: = "Accredited"
 
-*Defined in [src/types/index.ts:188](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L188)*
+_Defined in_ [_src/types/index.ts:188_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L188)
 
-___
-
-###  Affiliate
+### Affiliate
 
 • **Affiliate**: = "Affiliate"
 
-*Defined in [src/types/index.ts:189](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L189)*
+_Defined in_ [_src/types/index.ts:189_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L189)
 
-___
-
-###  Blocked
+### Blocked
 
 • **Blocked**: = "Blocked"
 
-*Defined in [src/types/index.ts:196](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L196)*
+_Defined in_ [_src/types/index.ts:196_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L196)
 
-___
-
-###  BuyLockup
+### BuyLockup
 
 • **BuyLockup**: = "BuyLockup"
 
-*Defined in [src/types/index.ts:190](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L190)*
+_Defined in_ [_src/types/index.ts:190_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L190)
 
-___
-
-###  CustomerDueDiligence
+### CustomerDueDiligence
 
 • **CustomerDueDiligence**: = "CustomerDueDiligence"
 
-*Defined in [src/types/index.ts:192](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L192)*
+_Defined in_ [_src/types/index.ts:192_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L192)
 
-___
-
-###  Exempted
+### Exempted
 
 • **Exempted**: = "Exempted"
 
-*Defined in [src/types/index.ts:195](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L195)*
+_Defined in_ [_src/types/index.ts:195_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L195)
 
-___
-
-###  Jurisdiction
+### Jurisdiction
 
 • **Jurisdiction**: = "Jurisdiction"
 
-*Defined in [src/types/index.ts:194](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L194)*
+_Defined in_ [_src/types/index.ts:194_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L194)
 
-___
-
-###  KnowYourCustomer
+### KnowYourCustomer
 
 • **KnowYourCustomer**: = "KnowYourCustomer"
 
-*Defined in [src/types/index.ts:193](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L193)*
+_Defined in_ [_src/types/index.ts:193_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L193)
 
-___
-
-###  NoData
+### NoData
 
 • **NoData**: = "NoData"
 
-*Defined in [src/types/index.ts:197](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L197)*
+_Defined in_ [_src/types/index.ts:197_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L197)
 
-___
-
-###  SellLockup
+### SellLockup
 
 • **SellLockup**: = "SellLockup"
 
-*Defined in [src/types/index.ts:191](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L191)*
+_Defined in_ [_src/types/index.ts:191_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L191)
+

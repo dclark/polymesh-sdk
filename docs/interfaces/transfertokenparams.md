@@ -1,4 +1,4 @@
-# Interface: TransferTokenParams
+# TransferTokenParams
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *BigNumber*
+• **amount**: _BigNumber_
 
-*Defined in [src/api/procedures/transferToken.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/transferToken.ts#L10)*
+_Defined in_ [_src/api/procedures/transferToken.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/transferToken.ts#L10)
 
-___
+### to
 
-###  to
+• **to**: _string \|_ [_Identity_](../classes/identity.md)
 
-• **to**: *string | [Identity](../classes/identity.md)*
+_Defined in_ [_src/api/procedures/transferToken.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/transferToken.ts#L9)
 
-*Defined in [src/api/procedures/transferToken.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/transferToken.ts#L9)*

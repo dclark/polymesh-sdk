@@ -1,4 +1,4 @@
-# Interface: IssuanceData
+# IssuanceData
 
 Represents an amount of tokens to be issued to an Identity
 
@@ -15,16 +15,15 @@ Represents an amount of tokens to be issued to an Identity
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *BigNumber*
+• **amount**: _BigNumber_
 
-*Defined in [src/types/index.ts:315](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L315)*
+_Defined in_ [_src/types/index.ts:315_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L315)
 
-___
+### identity
 
-###  identity
+• **identity**: _string \|_ [_Identity_](../classes/identity.md)
 
-• **identity**: *string | [Identity](../classes/identity.md)*
+_Defined in_ [_src/types/index.ts:314_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L314)
 
-*Defined in [src/types/index.ts:314](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L314)*

@@ -1,4 +1,4 @@
-# Enumeration: TokenIdentifierType
+# TokenIdentifierType
 
 ## Index
 
@@ -10,24 +10,21 @@
 
 ## Enumeration members
 
-###  Cins
+### Cins
 
 • **Cins**: = "Cins"
 
-*Defined in [src/types/index.ts:128](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L128)*
+_Defined in_ [_src/types/index.ts:128_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L128)
 
-___
-
-###  Cusip
+### Cusip
 
 • **Cusip**: = "Cusip"
 
-*Defined in [src/types/index.ts:127](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L127)*
+_Defined in_ [_src/types/index.ts:127_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L127)
 
-___
-
-###  Isin
+### Isin
 
 • **Isin**: = "Isin"
 
-*Defined in [src/types/index.ts:126](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L126)*
+_Defined in_ [_src/types/index.ts:126_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L126)
+

@@ -1,4 +1,4 @@
-# Enumeration: AuthorizationType
+# AuthorizationType
 
 Type of authorization request
 
@@ -17,64 +17,51 @@ Type of authorization request
 
 ## Enumeration members
 
-###  AddMultiSigSigner
+### AddMultiSigSigner
 
 • **AddMultiSigSigner**: = "AddMultiSigSigner"
 
-*Defined in [src/types/index.ts:158](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L158)*
+_Defined in_ [_src/types/index.ts:158_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L158)
 
-___
-
-###  AttestMasterKeyRotation
+### AttestMasterKeyRotation
 
 • **AttestMasterKeyRotation**: = "AttestMasterKeyRotation"
 
-*Defined in [src/types/index.ts:155](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L155)*
+_Defined in_ [_src/types/index.ts:155_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L155)
 
-___
-
-###  Custom
+### Custom
 
 • **Custom**: = "Custom"
 
-*Defined in [src/types/index.ts:161](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L161)*
+_Defined in_ [_src/types/index.ts:161_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L161)
 
-___
-
-###  JoinIdentity
+### JoinIdentity
 
 • **JoinIdentity**: = "JoinIdentity"
 
-*Defined in [src/types/index.ts:160](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L160)*
+_Defined in_ [_src/types/index.ts:160_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L160)
 
-___
-
-###  NoData
+### NoData
 
 • **NoData**: = "NoData"
 
-*Defined in [src/types/index.ts:162](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L162)*
+_Defined in_ [_src/types/index.ts:162_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L162)
 
-___
-
-###  RotateMasterKey
+### RotateMasterKey
 
 • **RotateMasterKey**: = "RotateMasterKey"
 
-*Defined in [src/types/index.ts:156](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L156)*
+_Defined in_ [_src/types/index.ts:156_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L156)
 
-___
-
-###  TransferAssetOwnership
+### TransferAssetOwnership
 
 • **TransferAssetOwnership**: = "TransferAssetOwnership"
 
-*Defined in [src/types/index.ts:159](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L159)*
+_Defined in_ [_src/types/index.ts:159_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L159)
 
-___
-
-###  TransferTicker
+### TransferTicker
 
 • **TransferTicker**: = "TransferTicker"
 
-*Defined in [src/types/index.ts:157](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L157)*
+_Defined in_ [_src/types/index.ts:157_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/types/index.ts#L157)
+

@@ -1,4 +1,4 @@
-# Class: PolymeshError
+# PolymeshError
 
 Wraps an error to give more information about its type
 
@@ -21,54 +21,45 @@ Wraps an error to give more information about its type
 
 ## Properties
 
-###  code
+### code
 
-• **code**: *[ErrorCode](../enums/errorcode.md)*
+• **code**: [_ErrorCode_](../enums/errorcode.md)
 
-*Defined in [src/base/PolymeshError.ts:16](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/PolymeshError.ts#L16)*
-
-___
+_Defined in_ [_src/base/PolymeshError.ts:16_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/PolymeshError.ts#L16)
 
 ### `Optional` data
 
-• **data**? : *Record‹string, unknown›*
+• **data**? : _Record‹string, unknown›_
 
-*Defined in [src/base/PolymeshError.ts:18](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/PolymeshError.ts#L18)*
+_Defined in_ [_src/base/PolymeshError.ts:18_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/base/PolymeshError.ts#L18)
 
-___
+### message
 
-###  message
+• **message**: _string_
 
-• **message**: *string*
+_Inherited from_ [_PolymeshError_](polymesherror.md)_._[_message_](polymesherror.md#message)
 
-*Inherited from [PolymeshError](polymesherror.md).[message](polymesherror.md#message)*
+Defined in node\_modules/typescript/lib/lib.es5.d.ts:974
 
-Defined in node_modules/typescript/lib/lib.es5.d.ts:974
+### name
 
-___
+• **name**: _string_
 
-###  name
+_Inherited from_ [_PolymeshError_](polymesherror.md)_._[_name_](polymesherror.md#name)
 
-• **name**: *string*
-
-*Inherited from [PolymeshError](polymesherror.md).[name](polymesherror.md#name)*
-
-Defined in node_modules/typescript/lib/lib.es5.d.ts:973
-
-___
+Defined in node\_modules/typescript/lib/lib.es5.d.ts:973
 
 ### `Optional` stack
 
-• **stack**? : *undefined | string*
+• **stack**? : _undefined \| string_
 
-*Inherited from [PolymeshError](polymesherror.md).[stack](polymesherror.md#optional-stack)*
+_Inherited from_ [_PolymeshError_](polymesherror.md)_._[_stack_](polymesherror.md#optional-stack)
 
-Defined in node_modules/typescript/lib/lib.es5.d.ts:975
-
-___
+Defined in node\_modules/typescript/lib/lib.es5.d.ts:975
 
 ### `Static` Error
 
-▪ **Error**: *ErrorConstructor*
+▪ **Error**: _ErrorConstructor_
 
-Defined in node_modules/typescript/lib/lib.es5.d.ts:984
+Defined in node\_modules/typescript/lib/lib.es5.d.ts:984
+

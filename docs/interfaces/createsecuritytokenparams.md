@@ -1,4 +1,4 @@
-# Interface: CreateSecurityTokenParams
+# CreateSecurityTokenParams
 
 ## Hierarchy
 
@@ -21,62 +21,49 @@
 
 ### `Optional` documents
 
-• **documents**? : *[TokenDocument](tokendocument.md)[]*
+• **documents**? : [_TokenDocument_](tokendocument.md)_\[\]_
 
-*Defined in [src/api/procedures/createSecurityToken.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createSecurityToken.ts#L41)*
-
-___
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:41_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createSecurityToken.ts#L41)
 
 ### `Optional` fundingRound
 
-• **fundingRound**? : *undefined | string*
+• **fundingRound**? : _undefined \| string_
 
-*Defined in [src/api/procedures/createSecurityToken.ts:39](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createSecurityToken.ts#L39)*
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:39_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createSecurityToken.ts#L39)
 
-___
+### isDivisible
 
-###  isDivisible
+• **isDivisible**: _boolean_
 
-• **isDivisible**: *boolean*
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:36_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createSecurityToken.ts#L36)
 
-*Defined in [src/api/procedures/createSecurityToken.ts:36](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createSecurityToken.ts#L36)*
+### name
 
-___
+• **name**: _string_
 
-###  name
-
-• **name**: *string*
-
-*Defined in [src/api/procedures/createSecurityToken.ts:34](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createSecurityToken.ts#L34)*
-
-___
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:34_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createSecurityToken.ts#L34)
 
 ### `Optional` tokenIdentifiers
 
-• **tokenIdentifiers**? : *[TokenIdentifier](tokenidentifier.md)[]*
+• **tokenIdentifiers**? : [_TokenIdentifier_](tokenidentifier.md)_\[\]_
 
-*Defined in [src/api/procedures/createSecurityToken.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createSecurityToken.ts#L38)*
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:38_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createSecurityToken.ts#L38)
 
-___
+### tokenType
 
-###  tokenType
+• **tokenType**: [_TokenType_](../globals.md#tokentype)
 
-• **tokenType**: *[TokenType](../globals.md#tokentype)*
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:37_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createSecurityToken.ts#L37)
 
-*Defined in [src/api/procedures/createSecurityToken.ts:37](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createSecurityToken.ts#L37)*
+### totalSupply
 
-___
+• **totalSupply**: _BigNumber_
 
-###  totalSupply
-
-• **totalSupply**: *BigNumber*
-
-*Defined in [src/api/procedures/createSecurityToken.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createSecurityToken.ts#L35)*
-
-___
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:35_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createSecurityToken.ts#L35)
 
 ### `Optional` treasury
 
-• **treasury**? : *string | [Identity](../classes/identity.md)*
+• **treasury**? : _string \|_ [_Identity_](../classes/identity.md)
 
-*Defined in [src/api/procedures/createSecurityToken.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createSecurityToken.ts#L40)*
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:40_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createSecurityToken.ts#L40)
+

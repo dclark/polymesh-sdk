@@ -1,4 +1,4 @@
-# Class: TokenHolders
+# TokenHolders
 
 Handles all Security Token Holders related functionality
 
@@ -23,29 +23,27 @@ Handles all Security Token Holders related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:12](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Namespace.ts#L12)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:12_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Namespace.ts#L12)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Namespace.ts#L10)*
+_Defined in_ [_src/api/entities/Namespace.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Namespace.ts#L10)
 
 ## Methods
 
-###  get
+### get
 
-▸ **get**(`opts`: Pick‹[TokenHolderOptions](../interfaces/tokenholderoptions.md), "canBeIssuedTo"›, `paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)): *Promise‹[ResultSet](../interfaces/resultset.md)‹[IdentityBalance](../interfaces/identitybalance.md) & Pick‹[TokenHolderProperties](../interfaces/tokenholderproperties.md), "canBeIssuedTo"›››*
+▸ **get**\(`opts`: Pick‹[TokenHolderOptions](../interfaces/tokenholderoptions.md), "canBeIssuedTo"›, `paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_IdentityBalance_](../interfaces/identitybalance.md) _& Pick‹_[_TokenHolderProperties_](../interfaces/tokenholderproperties.md)_, "canBeIssuedTo"›››_
 
-*Defined in [src/api/entities/SecurityToken/TokenHolders.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/TokenHolders.ts#L25)*
+_Defined in_ [_src/api/entities/SecurityToken/TokenHolders.ts:25_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/TokenHolders.ts#L25)
 
 Retrieve all the token holders with balance
 
@@ -53,21 +51,22 @@ Retrieve all the token holders with balance
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`opts` | Pick‹[TokenHolderOptions](../interfaces/tokenholderoptions.md), "canBeIssuedTo"› | object that represents whether extra properties should be fetched for each token holder  |
-`paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) | - |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `opts` | Pick‹[TokenHolderOptions](../interfaces/tokenholderoptions.md), "canBeIssuedTo"› | object that represents whether extra properties should be fetched for each token holder |
+| `paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) | - |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[IdentityBalance](../interfaces/identitybalance.md) & Pick‹[TokenHolderProperties](../interfaces/tokenholderproperties.md), "canBeIssuedTo"›››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_IdentityBalance_](../interfaces/identitybalance.md) _& Pick‹_[_TokenHolderProperties_](../interfaces/tokenholderproperties.md)_, "canBeIssuedTo"›››_
 
-▸ **get**(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)): *Promise‹[ResultSet](../interfaces/resultset.md)‹[IdentityBalance](../interfaces/identitybalance.md)››*
+▸ **get**\(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_IdentityBalance_](../interfaces/identitybalance.md)_››_
 
-*Defined in [src/api/entities/SecurityToken/TokenHolders.ts:30](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/TokenHolders.ts#L30)*
+_Defined in_ [_src/api/entities/SecurityToken/TokenHolders.ts:30_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/TokenHolders.ts#L30)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
+| Name | Type |
+| :--- | :--- |
+| `paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[IdentityBalance](../interfaces/identitybalance.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_IdentityBalance_](../interfaces/identitybalance.md)_››_
+

@@ -1,4 +1,4 @@
-# Class: Governance
+# Governance
 
 Handles all Governance related functionality
 
@@ -20,41 +20,37 @@ Handles all Governance related functionality
 
 ## Methods
 
-###  createProposal
+### createProposal
 
-▸ **createProposal**(`args`: [CreateProposalParams](../interfaces/createproposalparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[Proposal](proposal.md)››*
+▸ **createProposal**\(`args`: [CreateProposalParams](../interfaces/createproposalparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Proposal_](proposal.md)_››_
 
-*Defined in [src/Governance.ts:127](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L127)*
+_Defined in_ [_src/Governance.ts:127_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L127)
 
 Create a proposal
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [CreateProposalParams](../interfaces/createproposalparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [CreateProposalParams](../interfaces/createproposalparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[Proposal](proposal.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Proposal_](proposal.md)_››_
 
-___
+### getGovernanceCommitteeMembers
 
-###  getGovernanceCommitteeMembers
+▸ **getGovernanceCommitteeMembers**\(\): _Promise‹_[_Identity_](identity.md)_\[\]›_
 
-▸ **getGovernanceCommitteeMembers**(): *Promise‹[Identity](identity.md)[]›*
-
-*Defined in [src/Governance.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L47)*
+_Defined in_ [_src/Governance.ts:47_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L47)
 
 Retrieve a list of all active committee members
 
-**Returns:** *Promise‹[Identity](identity.md)[]›*
+**Returns:** _Promise‹_[_Identity_](identity.md)_\[\]›_
 
-___
+### getProposals
 
-###  getProposals
+▸ **getProposals**\(`opts`: object\): _Promise‹_[_ProposalWithDetails_](../interfaces/proposalwithdetails.md)_\[\]›_
 
-▸ **getProposals**(`opts`: object): *Promise‹[ProposalWithDetails](../interfaces/proposalwithdetails.md)[]›*
-
-*Defined in [src/Governance.ts:84](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L84)*
+_Defined in_ [_src/Governance.ts:84_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L84)
 
 Retrieve a list of proposals and their respective details. Can be filtered using parameters
 
@@ -64,115 +60,108 @@ Retrieve a list of proposals and their respective details. Can be filtered using
 
 **Parameters:**
 
-▪`Default value`  **opts**: *object*= {}
+▪`Default value` **opts**: _object_= {}
 
-Name | Type | Description |
------- | ------ | ------ |
-`orderBy?` | ProposalOrderByInput | the order in which the proposals are returned |
-`proposers?` | string[] | accounts for which to fetch proposals. Defaults to all proposers |
-`size?` | undefined &#124; number | page size |
-`start?` | undefined &#124; number | page offset  |
-`states?` | ProposalState[] | state of the proposal |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `orderBy?` | ProposalOrderByInput | the order in which the proposals are returned |
+| `proposers?` | string\[\] | accounts for which to fetch proposals. Defaults to all proposers |
+| `size?` | undefined \| number | page size |
+| `start?` | undefined \| number | page offset |
+| `states?` | ProposalState\[\] | state of the proposal |
 
-**Returns:** *Promise‹[ProposalWithDetails](../interfaces/proposalwithdetails.md)[]›*
+**Returns:** _Promise‹_[_ProposalWithDetails_](../interfaces/proposalwithdetails.md)_\[\]›_
 
-___
+### getTransactionArguments
 
-###  getTransactionArguments
+▸ **getTransactionArguments**\(`args`: object\): [_TransactionArgument_](../globals.md#transactionargument)_\[\]_
 
-▸ **getTransactionArguments**(`args`: object): *[TransactionArgument](../globals.md#transactionargument)[]*
-
-*Defined in [src/Governance.ts:67](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L67)*
+_Defined in_ [_src/Governance.ts:67_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L67)
 
 Retrieve the types of arguments that a certain transaction requires to be run
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`tag` | TxTag | tag associated with the transaction that will be executed if the proposal passes  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `tag` | TxTag | tag associated with the transaction that will be executed if the proposal passes |
 
-**Returns:** *[TransactionArgument](../globals.md#transactionargument)[]*
+**Returns:** [_TransactionArgument_](../globals.md#transactionargument)_\[\]_
 
-___
+### minimumBondedAmount
 
-###  minimumBondedAmount
+▸ **minimumBondedAmount**\(\): _Promise‹BigNumber›_
 
-▸ **minimumBondedAmount**(): *Promise‹BigNumber›*
-
-*Defined in [src/Governance.ts:225](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L225)*
+_Defined in_ [_src/Governance.ts:225_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L225)
 
 Returns the minimum stake a proposal must gather in order to be considered by the committee
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹BigNumber›*
+**Returns:** _Promise‹BigNumber›_
 
-▸ **minimumBondedAmount**(`callback`: [SubCallback](../globals.md#subcallback)‹BigNumber›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **minimumBondedAmount**\(`callback`: [SubCallback](../globals.md#subcallback)‹BigNumber›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/Governance.ts:226](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L226)*
+_Defined in_ [_src/Governance.ts:226_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L226)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹BigNumber› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹BigNumber› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### minimumProposalDeposit
 
-###  minimumProposalDeposit
+▸ **minimumProposalDeposit**\(\): _Promise‹BigNumber›_
 
-▸ **minimumProposalDeposit**(): *Promise‹BigNumber›*
-
-*Defined in [src/Governance.ts:136](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L136)*
+_Defined in_ [_src/Governance.ts:136_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L136)
 
 Get the minimum amount of POLYX that has to be deposited when creating a proposal
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹BigNumber›*
+**Returns:** _Promise‹BigNumber›_
 
-▸ **minimumProposalDeposit**(`callback`: [SubCallback](../globals.md#subcallback)‹BigNumber›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **minimumProposalDeposit**\(`callback`: [SubCallback](../globals.md#subcallback)‹BigNumber›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/Governance.ts:137](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L137)*
+_Defined in_ [_src/Governance.ts:137_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L137)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹BigNumber› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹BigNumber› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### proposalTimeFrames
 
-###  proposalTimeFrames
+▸ **proposalTimeFrames**\(\): _Promise‹_[_ProposalTimeFrames_](../interfaces/proposaltimeframes.md)_›_
 
-▸ **proposalTimeFrames**(): *Promise‹[ProposalTimeFrames](../interfaces/proposaltimeframes.md)›*
-
-*Defined in [src/Governance.ts:170](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L170)*
+_Defined in_ [_src/Governance.ts:170_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L170)
 
 Retrieve the proposal time frames. This includes:
 
-- Amount of blocks from proposal creation until the proposal can be voted on (cool off)
-- Amount of blocks from when cool off ends until the voting period is over (duration)
+* Amount of blocks from proposal creation until the proposal can be voted on \(cool off\)
+* Amount of blocks from when cool off ends until the voting period is over \(duration\)
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[ProposalTimeFrames](../interfaces/proposaltimeframes.md)›*
+**Returns:** _Promise‹_[_ProposalTimeFrames_](../interfaces/proposaltimeframes.md)_›_
 
-▸ **proposalTimeFrames**(`callback`: [SubCallback](../globals.md#subcallback)‹[ProposalTimeFrames](../interfaces/proposaltimeframes.md)›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **proposalTimeFrames**\(`callback`: [SubCallback](../globals.md#subcallback)‹[ProposalTimeFrames](../interfaces/proposaltimeframes.md)›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/Governance.ts:171](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L171)*
+_Defined in_ [_src/Governance.ts:171_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/Governance.ts#L171)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹[ProposalTimeFrames](../interfaces/proposaltimeframes.md)› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[ProposalTimeFrames](../interfaces/proposaltimeframes.md)› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
+

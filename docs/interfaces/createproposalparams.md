@@ -1,4 +1,4 @@
-# Interface: CreateProposalParams
+# CreateProposalParams
 
 ## Hierarchy
 
@@ -16,40 +16,33 @@
 
 ## Properties
 
-###  args
+### args
 
-• **args**: *unknown[]*
+• **args**: _unknown\[\]_
 
-*Defined in [src/api/procedures/createProposal.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createProposal.ts#L22)*
+_Defined in_ [_src/api/procedures/createProposal.ts:22_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createProposal.ts#L22)
 
-___
+### bondAmount
 
-###  bondAmount
+• **bondAmount**: _BigNumber_
 
-• **bondAmount**: *BigNumber*
-
-*Defined in [src/api/procedures/createProposal.ts:20](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createProposal.ts#L20)*
-
-___
+_Defined in_ [_src/api/procedures/createProposal.ts:20_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createProposal.ts#L20)
 
 ### `Optional` description
 
-• **description**? : *undefined | string*
+• **description**? : _undefined \| string_
 
-*Defined in [src/api/procedures/createProposal.ts:18](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createProposal.ts#L18)*
-
-___
+_Defined in_ [_src/api/procedures/createProposal.ts:18_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createProposal.ts#L18)
 
 ### `Optional` discussionUrl
 
-• **discussionUrl**? : *undefined | string*
+• **discussionUrl**? : _undefined \| string_
 
-*Defined in [src/api/procedures/createProposal.ts:19](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createProposal.ts#L19)*
+_Defined in_ [_src/api/procedures/createProposal.ts:19_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createProposal.ts#L19)
 
-___
+### tag
 
-###  tag
+• **tag**: _TxTag_
 
-• **tag**: *TxTag*
+_Defined in_ [_src/api/procedures/createProposal.ts:21_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createProposal.ts#L21)
 
-*Defined in [src/api/procedures/createProposal.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/createProposal.ts#L21)*

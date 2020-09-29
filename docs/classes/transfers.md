@@ -1,4 +1,4 @@
-# Class: Transfers
+# Transfers
 
 Handles all Security Token Transfer related functionality
 
@@ -28,129 +28,118 @@ Handles all Security Token Transfer related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:12](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Namespace.ts#L12)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:12_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Namespace.ts#L12)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Namespace.ts#L10)*
+_Defined in_ [_src/api/entities/Namespace.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/Namespace.ts#L10)
 
 ## Methods
 
-###  areFrozen
+### areFrozen
 
-▸ **areFrozen**(): *Promise‹boolean›*
+▸ **areFrozen**\(\): _Promise‹boolean›_
 
-*Defined in [src/api/entities/SecurityToken/Transfers.ts:50](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Transfers.ts#L50)*
+_Defined in_ [_src/api/entities/SecurityToken/Transfers.ts:50_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Transfers.ts#L50)
 
 Check whether transfers are frozen for the Security Token
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-▸ **areFrozen**(`callback`: [SubCallback](../globals.md#subcallback)‹boolean›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **areFrozen**\(`callback`: [SubCallback](../globals.md#subcallback)‹boolean›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/SecurityToken/Transfers.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Transfers.ts#L51)*
+_Defined in_ [_src/api/entities/SecurityToken/Transfers.ts:51_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Transfers.ts#L51)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹boolean› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹boolean› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### canMint
 
-###  canMint
+▸ **canMint**\(`args`: object\): _Promise‹_[_TransferStatus_](../enums/transferstatus.md)_›_
 
-▸ **canMint**(`args`: object): *Promise‹[TransferStatus](../enums/transferstatus.md)›*
-
-*Defined in [src/api/entities/SecurityToken/Transfers.ts:100](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Transfers.ts#L100)*
+_Defined in_ [_src/api/entities/SecurityToken/Transfers.ts:100_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Transfers.ts#L100)
 
 Check whether it is possible to mint a certain amount of this asset
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`amount` | BigNumber | amount of tokens to mint  |
-`to` | string &#124; [Identity](identity.md) | receiver Identity |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `amount` | BigNumber | amount of tokens to mint |
+| `to` | string \| [Identity](identity.md) | receiver Identity |
 
-**Returns:** *Promise‹[TransferStatus](../enums/transferstatus.md)›*
+**Returns:** _Promise‹_[_TransferStatus_](../enums/transferstatus.md)_›_
 
-___
+### canTransfer
 
-###  canTransfer
+▸ **canTransfer**\(`args`: object\): _Promise‹_[_TransferStatus_](../enums/transferstatus.md)_›_
 
-▸ **canTransfer**(`args`: object): *Promise‹[TransferStatus](../enums/transferstatus.md)›*
-
-*Defined in [src/api/entities/SecurityToken/Transfers.ts:85](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Transfers.ts#L85)*
+_Defined in_ [_src/api/entities/SecurityToken/Transfers.ts:85_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Transfers.ts#L85)
 
 Check whether it is possible to transfer a certain amount of this asset between two Identities
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`amount` | BigNumber | amount of tokens to transfer  |
-`from?` | string &#124; [Identity](identity.md) | sender Identity (optional, defaults to the current Identity) |
-`to` | string &#124; [Identity](identity.md) | receiver Identity |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `amount` | BigNumber | amount of tokens to transfer |
+| `from?` | string \| [Identity](identity.md) | sender Identity \(optional, defaults to the current Identity\) |
+| `to` | string \| [Identity](identity.md) | receiver Identity |
 
-**Returns:** *Promise‹[TransferStatus](../enums/transferstatus.md)›*
+**Returns:** _Promise‹_[_TransferStatus_](../enums/transferstatus.md)_›_
 
-___
+### freeze
 
-###  freeze
+▸ **freeze**\(\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **freeze**(): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Transfers.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Transfers.ts#L26)*
+_Defined in_ [_src/api/entities/SecurityToken/Transfers.ts:26_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Transfers.ts#L26)
 
 Freezes transfers and minting of the Security Token
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### transfer
 
-###  transfer
+▸ **transfer**\(`args`: [TransferTokenParams](../interfaces/transfertokenparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **transfer**(`args`: [TransferTokenParams](../interfaces/transfertokenparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Transfers.ts:149](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Transfers.ts#L149)*
+_Defined in_ [_src/api/entities/SecurityToken/Transfers.ts:149_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Transfers.ts#L149)
 
 Transfer an amount of the token to another Identity.
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [TransferTokenParams](../interfaces/transfertokenparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [TransferTokenParams](../interfaces/transfertokenparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### unfreeze
 
-###  unfreeze
+▸ **unfreeze**\(\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **unfreeze**(): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Transfers.ts:37](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Transfers.ts#L37)*
+_Defined in_ [_src/api/entities/SecurityToken/Transfers.ts:37_](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/entities/SecurityToken/Transfers.ts#L37)
 
 Unfreeze transfers and minting of the Security Token
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
+

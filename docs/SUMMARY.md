@@ -1,5 +1,8 @@
+# Table of contents
+
+* [Introduction](README.md)
 * [Globals](globals.md)
-* [Classes]()
+* [Classes](classes/README.md)
   * [Account](classes/account.md)
   * [AuthorizationRequest](classes/authorizationrequest.md)
   * [Authorizations](classes/authorizations.md)
@@ -26,7 +29,7 @@
   * [Transfers](classes/transfers.md)
   * [TrustedClaimIssuer](classes/trustedclaimissuer.md)
   * [TrustedClaimIssuers](classes/trustedclaimissuers.md)
-* [Enums]()
+* [Enums](enums/README.md)
   * [AuthorizationType](enums/authorizationtype.md)
   * [ClaimType](enums/claimtype.md)
   * [ConditionTarget](enums/conditiontarget.md)
@@ -42,7 +45,7 @@
   * [TransactionQueueStatus](enums/transactionqueuestatus.md)
   * [TransactionStatus](enums/transactionstatus.md)
   * [TransferStatus](enums/transferstatus.md)
-* [Interfaces]()
+* [Interfaces](interfaces/README.md)
   * [AccountBalance](interfaces/accountbalance.md)
   * [AccountData](interfaces/accountdata.md)
   * [AddClaimItem](interfaces/addclaimitem.md)
@@ -104,3 +107,4 @@
   * [TransferTokenParams](interfaces/transfertokenparams.md)
   * [UiKeyring](interfaces/uikeyring.md)
   * [UniqueIdentifiers](interfaces/uniqueidentifiers.md)
+
