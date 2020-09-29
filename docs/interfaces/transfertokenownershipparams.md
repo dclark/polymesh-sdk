@@ -1,0 +1,28 @@
+# Interface: TransferTokenOwnershipParams
+
+## Hierarchy
+
+* **TransferTokenOwnershipParams**
+
+## Index
+
+### Properties
+
+* [expiry](transfertokenownershipparams.md#optional-expiry)
+* [target](transfertokenownershipparams.md#target)
+
+## Properties
+
+### `Optional` expiry
+
+• **expiry**? : *[Date](../enums/transactionargumenttype.md#date)*
+
+*Defined in [src/api/procedures/transferTokenOwnership.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/transferTokenOwnership.ts#L14)*
+
+___
+
+###  target
+
+• **target**: *string | [Identity](../classes/identity.md)*
+
+*Defined in [src/api/procedures/transferTokenOwnership.ts:13](https://github.com/PolymathNetwork/polymesh-sdk/blob/da32f46a/src/api/procedures/transferTokenOwnership.ts#L13)*
