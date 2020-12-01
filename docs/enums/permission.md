@@ -1,4 +1,4 @@
-# Enumeration: Permission
+# Permission
 
 ## Index
 
@@ -11,32 +11,27 @@
 
 ## Enumeration members
 
-###  Admin
+### Admin
 
 • **Admin**: = "Admin"
 
-*Defined in [src/types/index.ts:480](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L480)*
+_Defined in_ [_src/types/index.ts:480_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L480)
 
-___
-
-###  Full
+### Full
 
 • **Full**: = "Full"
 
-*Defined in [src/types/index.ts:479](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L479)*
+_Defined in_ [_src/types/index.ts:479_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L479)
 
-___
-
-###  Operator
+### Operator
 
 • **Operator**: = "Operator"
 
-*Defined in [src/types/index.ts:481](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L481)*
+_Defined in_ [_src/types/index.ts:481_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L481)
 
-___
-
-###  SpendFunds
+### SpendFunds
 
 • **SpendFunds**: = "SpendFunds"
 
-*Defined in [src/types/index.ts:482](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L482)*
+_Defined in_ [_src/types/index.ts:482_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L482)
+

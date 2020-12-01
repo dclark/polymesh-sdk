@@ -1,4 +1,4 @@
-# Interface: InstructionAuthorization
+# InstructionAuthorization
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  authorizationStatus
+### authorizationStatus
 
-• **authorizationStatus**: *[AuthorizationStatus](../enums/authorizationstatus.md)*
+• **authorizationStatus**: [_AuthorizationStatus_](../enums/authorizationstatus.md)
 
-*Defined in [src/api/entities/Instruction/types.ts:55](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Instruction/types.ts#L55)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:55_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Instruction/types.ts#L55)
 
-___
+### identity
 
-###  identity
+• **identity**: [_Identity_](../classes/identity.md)
 
-• **identity**: *[Identity](../classes/identity.md)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:54_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Instruction/types.ts#L54)
 
-*Defined in [src/api/entities/Instruction/types.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Instruction/types.ts#L54)*

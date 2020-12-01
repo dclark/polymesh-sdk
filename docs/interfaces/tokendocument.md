@@ -1,4 +1,4 @@
-# Interface: TokenDocument
+# TokenDocument
 
 Document attached to a token
 
@@ -16,24 +16,21 @@ Document attached to a token
 
 ## Properties
 
-###  contentHash
+### contentHash
 
-• **contentHash**: *string*
+• **contentHash**: _string_
 
-*Defined in [src/types/index.ts:192](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L192)*
+_Defined in_ [_src/types/index.ts:192_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L192)
 
-___
+### name
 
-###  name
+• **name**: _string_
 
-• **name**: *string*
+_Defined in_ [_src/types/index.ts:190_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L190)
 
-*Defined in [src/types/index.ts:190](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L190)*
+### uri
 
-___
+• **uri**: _string_
 
-###  uri
+_Defined in_ [_src/types/index.ts:191_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L191)
 
-• **uri**: *string*
-
-*Defined in [src/types/index.ts:191](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L191)*

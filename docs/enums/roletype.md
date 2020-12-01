@@ -1,4 +1,4 @@
-# Enumeration: RoleType
+# RoleType
 
 ## Index
 
@@ -12,40 +12,33 @@
 
 ## Enumeration members
 
-###  CddProvider
+### CddProvider
 
 • **CddProvider**: = "CddProvider"
 
-*Defined in [src/types/index.ts:80](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L80)*
+_Defined in_ [_src/types/index.ts:80_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L80)
 
-___
-
-###  PortfolioCustodian
+### PortfolioCustodian
 
 • **PortfolioCustodian**: = "PortfolioCustodian"
 
-*Defined in [src/types/index.ts:82](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L82)*
+_Defined in_ [_src/types/index.ts:82_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L82)
 
-___
-
-###  TickerOwner
+### TickerOwner
 
 • **TickerOwner**: = "TickerOwner"
 
-*Defined in [src/types/index.ts:78](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L78)*
+_Defined in_ [_src/types/index.ts:78_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L78)
 
-___
-
-###  TokenOwner
+### TokenOwner
 
 • **TokenOwner**: = "TokenOwner"
 
-*Defined in [src/types/index.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L79)*
+_Defined in_ [_src/types/index.ts:79_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L79)
 
-___
-
-###  VenueOwner
+### VenueOwner
 
 • **VenueOwner**: = "VenueOwner"
 
-*Defined in [src/types/index.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L81)*
+_Defined in_ [_src/types/index.ts:81_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L81)
+

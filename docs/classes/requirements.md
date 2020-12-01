@@ -1,4 +1,4 @@
-# Class: Requirements
+# Requirements
 
 Handles all Security Token Compliance Requirements related functionality
 
@@ -29,41 +29,37 @@ Handles all Security Token Compliance Requirements related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:12](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Namespace.ts#L12)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:12_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Namespace.ts#L12)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Namespace.ts#L10)*
+_Defined in_ [_src/api/entities/Namespace.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Namespace.ts#L10)
 
 ## Methods
 
-###  arePaused
+### arePaused
 
-▸ **arePaused**(): *Promise‹boolean›*
+▸ **arePaused**\(\): _Promise‹boolean›_
 
-*Defined in [src/api/entities/SecurityToken/Compliance/Requirements.ts:183](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/Compliance/Requirements.ts#L183)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Requirements.ts:183_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/Compliance/Requirements.ts#L183)
 
 Check whether asset compliance requirements are paused or not
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### checkSettle
 
-###  checkSettle
+▸ **checkSettle**\(`args`: object\): _Promise‹_[_Compliance_](compliance.md)_›_
 
-▸ **checkSettle**(`args`: object): *Promise‹[Compliance](compliance.md)›*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Requirements.ts:149](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/Compliance/Requirements.ts#L149)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Requirements.ts:149_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/Compliance/Requirements.ts#L149)
 
 Check whether the sender and receiver Identities in a transfer comply with all the requirements of this asset
 
@@ -71,96 +67,86 @@ Check whether the sender and receiver Identities in a transfer comply with all t
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`from?` | string &#124; [Identity](identity.md) | sender Identity (optional, defaults to the current Identity) |
-`to` | string &#124; [Identity](identity.md) | receiver Identity  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `from?` | string \| [Identity](identity.md) | sender Identity \(optional, defaults to the current Identity\) |
+| `to` | string \| [Identity](identity.md) | receiver Identity |
 
-**Returns:** *Promise‹[Compliance](compliance.md)›*
+**Returns:** _Promise‹_[_Compliance_](compliance.md)_›_
 
-___
+### get
 
-###  get
+▸ **get**\(\): _Promise‹_[_Requirement_](../interfaces/requirement.md)_\[\]›_
 
-▸ **get**(): *Promise‹[Requirement](../interfaces/requirement.md)[]›*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Requirements.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/Compliance/Requirements.ts#L51)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Requirements.ts:51_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/Compliance/Requirements.ts#L51)
 
 Retrieve all of the Security Token's requirements
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[Requirement](../interfaces/requirement.md)[]›*
+**Returns:** _Promise‹_[_Requirement_](../interfaces/requirement.md)_\[\]›_
 
-▸ **get**(`callback`: [SubCallback](../globals.md#subcallback)‹[Requirement](../interfaces/requirement.md)[]›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **get**\(`callback`: [SubCallback](../globals.md#subcallback)‹[Requirement](../interfaces/requirement.md)\[\]›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/SecurityToken/Compliance/Requirements.ts:52](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/Compliance/Requirements.ts#L52)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Requirements.ts:52_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/Compliance/Requirements.ts#L52)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹[Requirement](../interfaces/requirement.md)[]› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[Requirement](../interfaces/requirement.md)\[\]› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### pause
 
-###  pause
+▸ **pause**\(\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **pause**(): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Requirements.ts:122](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/Compliance/Requirements.ts#L122)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Requirements.ts:122_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/Compliance/Requirements.ts#L122)
 
 Pause all the Security Token's requirements. This means that all transfers will be allowed until requirements are unpaused
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### reset
 
-###  reset
+▸ **reset**\(\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **reset**(): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Requirements.ts:111](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/Compliance/Requirements.ts#L111)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Requirements.ts:111_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/Compliance/Requirements.ts#L111)
 
 Detele all the current requirements for the Security Token.
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### set
 
-###  set
+▸ **set**\(`args`: [SetAssetRequirementsParams](../interfaces/setassetrequirementsparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **set**(`args`: [SetAssetRequirementsParams](../interfaces/setassetrequirementsparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Requirements.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/Compliance/Requirements.ts#L38)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Requirements.ts:38_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/Compliance/Requirements.ts#L38)
 
 Configure asset compliance requirements for the Security Token. This operation will replace all existing requirements with a new requirement set
 
 This requires two transactions
 
-**`example`** Say A, B, C, D and E are requirements and we arrange them as `[[A, B], [C, D], [E]]`.
-For a transfer to succeed, it must either comply with A AND B, C AND D, OR E.
+**`example`** Say A, B, C, D and E are requirements and we arrange them as `[[A, B], [C, D], [E]]`. For a transfer to succeed, it must either comply with A AND B, C AND D, OR E.
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [SetAssetRequirementsParams](../interfaces/setassetrequirementsparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [SetAssetRequirementsParams](../interfaces/setassetrequirementsparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### unpause
 
-###  unpause
+▸ **unpause**\(\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **unpause**(): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Requirements.ts:133](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/Compliance/Requirements.ts#L133)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Requirements.ts:133_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/Compliance/Requirements.ts#L133)
 
 Un-pause all the Security Token's current requirements
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
+

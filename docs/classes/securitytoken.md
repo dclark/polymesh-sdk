@@ -1,4 +1,4 @@
-# Class: SecurityToken
+# SecurityToken
 
 Class used to manage all the Security Token functionality
 
@@ -40,223 +40,195 @@ Class used to manage all the Security Token functionality
 
 ## Properties
 
-###  compliance
+### compliance
 
-• **compliance**: *Compliance*
+• **compliance**: _Compliance_
 
-*Defined in [src/api/entities/SecurityToken/index.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L79)*
-
-___
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:79_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L79)
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [Entity](entity.md).[context](entity.md#protected-context)*
+_Inherited from_ [_Entity_](entity.md)_._[_context_](entity.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Entity.ts#L48)
 
-___
+### did
 
-###  did
+• **did**: _string_
 
-• **did**: *string*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:67](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L67)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:67_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L67)
 
 identity id of the Security Token
 
-___
+### documents
 
-###  documents
+• **documents**: [_Documents_](documents.md)
 
-• **documents**: *[Documents](documents.md)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:75_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L75)
 
-*Defined in [src/api/entities/SecurityToken/index.ts:75](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L75)*
+### issuance
 
-___
+• **issuance**: [_Issuance_](issuance.md)
 
-###  issuance
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:78_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L78)
 
-• **issuance**: *[Issuance](issuance.md)*
+### settlements
 
-*Defined in [src/api/entities/SecurityToken/index.ts:78](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L78)*
+• **settlements**: [_Settlements_](settlements.md)
 
-___
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:76_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L76)
 
-###  settlements
+### ticker
 
-• **settlements**: *[Settlements](settlements.md)*
+• **ticker**: _string_
 
-*Defined in [src/api/entities/SecurityToken/index.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L76)*
-
-___
-
-###  ticker
-
-• **ticker**: *string*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:72](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L72)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:72_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L72)
 
 ticker of the Security Token
 
-___
+### tokenHolders
 
-###  tokenHolders
+• **tokenHolders**: [_TokenHolders_](tokenholders.md)
 
-• **tokenHolders**: *[TokenHolders](tokenholders.md)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:77_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L77)
 
-*Defined in [src/api/entities/SecurityToken/index.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L77)*
+### uuid
 
-___
+• **uuid**: _string_
 
-###  uuid
+_Inherited from_ [_Entity_](entity.md)_._[_uuid_](entity.md#uuid)
 
-• **uuid**: *string*
-
-*Inherited from [Entity](entity.md).[uuid](entity.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  createdAt
+### createdAt
 
-▸ **createdAt**(): *Promise‹[EventIdentifier](../interfaces/eventidentifier.md) | null›*
+▸ **createdAt**\(\): _Promise‹_[_EventIdentifier_](../interfaces/eventidentifier.md) _\| null›_
 
-*Defined in [src/api/entities/SecurityToken/index.ts:257](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L257)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:257_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L257)
 
-Retrieve the identifier data (block number, date and event index) of the event that was emitted when the token was created
+Retrieve the identifier data \(block number, date and event index\) of the event that was emitted when the token was created
 
 **`note`** uses the middleware
 
 **`note`** there is a possibility that the data is not ready by the time it is requested. In that case, `null` is returned
 
-**Returns:** *Promise‹[EventIdentifier](../interfaces/eventidentifier.md) | null›*
+**Returns:** _Promise‹_[_EventIdentifier_](../interfaces/eventidentifier.md) _\| null›_
 
-___
+### currentFundingRound
 
-###  currentFundingRound
+▸ **currentFundingRound**\(\): _Promise‹string›_
 
-▸ **currentFundingRound**(): *Promise‹string›*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:187](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L187)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:187_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L187)
 
 Retrieve the Security Token's funding round
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹string›*
+**Returns:** _Promise‹string›_
 
-▸ **currentFundingRound**(`callback`: [SubCallback](../globals.md#subcallback)‹string›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **currentFundingRound**\(`callback`: [SubCallback](../globals.md#subcallback)‹string›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/SecurityToken/index.ts:188](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L188)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:188_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L188)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹string› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹string› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### details
 
-###  details
+▸ **details**\(\): _Promise‹_[_SecurityTokenDetails_](../interfaces/securitytokendetails.md)_›_
 
-▸ **details**(): *Promise‹[SecurityTokenDetails](../interfaces/securitytokendetails.md)›*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:132](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L132)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:132_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L132)
 
 Retrieve the Security Token's name, total supply, whether it is divisible or not and the Identity of the owner
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[SecurityTokenDetails](../interfaces/securitytokendetails.md)›*
+**Returns:** _Promise‹_[_SecurityTokenDetails_](../interfaces/securitytokendetails.md)_›_
 
-▸ **details**(`callback`: [SubCallback](../globals.md#subcallback)‹[SecurityTokenDetails](../interfaces/securitytokendetails.md)›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **details**\(`callback`: [SubCallback](../globals.md#subcallback)‹[SecurityTokenDetails](../interfaces/securitytokendetails.md)›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/SecurityToken/index.ts:133](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L133)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:133_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L133)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹[SecurityTokenDetails](../interfaces/securitytokendetails.md)› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[SecurityTokenDetails](../interfaces/securitytokendetails.md)› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### freeze
 
-###  freeze
+▸ **freeze**\(\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **freeze**(): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:284](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L284)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:284_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L284)
 
 Freezes transfers and minting of the Security Token
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### getIdentifiers
 
-###  getIdentifiers
+▸ **getIdentifiers**\(\): _Promise‹_[_TokenIdentifier_](../interfaces/tokenidentifier.md)_\[\]›_
 
-▸ **getIdentifiers**(): *Promise‹[TokenIdentifier](../interfaces/tokenidentifier.md)[]›*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:221](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L221)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:221_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L221)
 
 Retrive the Security Token's asset identifiers list
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[TokenIdentifier](../interfaces/tokenidentifier.md)[]›*
+**Returns:** _Promise‹_[_TokenIdentifier_](../interfaces/tokenidentifier.md)_\[\]›_
 
-▸ **getIdentifiers**(`callback?`: [SubCallback](../globals.md#subcallback)‹[TokenIdentifier](../interfaces/tokenidentifier.md)[]›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **getIdentifiers**\(`callback?`: [SubCallback](../globals.md#subcallback)‹[TokenIdentifier](../interfaces/tokenidentifier.md)\[\]›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/SecurityToken/index.ts:222](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L222)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:222_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L222)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback?` | [SubCallback](../globals.md#subcallback)‹[TokenIdentifier](../interfaces/tokenidentifier.md)[]› |
+| Name | Type |
+| :--- | :--- |
+| `callback?` | [SubCallback](../globals.md#subcallback)‹[TokenIdentifier](../interfaces/tokenidentifier.md)\[\]› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### isFrozen
 
-###  isFrozen
+▸ **isFrozen**\(\): _Promise‹boolean›_
 
-▸ **isFrozen**(): *Promise‹boolean›*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:302](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L302)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:302_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L302)
 
 Check whether transfers are frozen for the Security Token
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-▸ **isFrozen**(`callback`: [SubCallback](../globals.md#subcallback)‹boolean›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **isFrozen**\(`callback`: [SubCallback](../globals.md#subcallback)‹boolean›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/SecurityToken/index.ts:303](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L303)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:303_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L303)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹boolean› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹boolean› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### modify
 
-###  modify
+▸ **modify**\(`args`: [ModifyTokenParams](../globals.md#modifytokenparams)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **modify**(`args`: [ModifyTokenParams](../globals.md#modifytokenparams)): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:122](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L122)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:122_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L122)
 
 Modify some properties of the Security Token
 
@@ -264,127 +236,111 @@ Modify some properties of the Security Token
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [ModifyTokenParams](../globals.md#modifytokenparams) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [ModifyTokenParams](../globals.md#modifytokenparams) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### modifyPrimaryIssuanceAgent
 
-###  modifyPrimaryIssuanceAgent
+▸ **modifyPrimaryIssuanceAgent**\(`args`: [ModifyPrimaryIssuanceAgentParams](../interfaces/modifyprimaryissuanceagentparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **modifyPrimaryIssuanceAgent**(`args`: [ModifyPrimaryIssuanceAgentParams](../interfaces/modifyprimaryissuanceagentparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:340](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L340)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:340_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L340)
 
 Assign a new primary issuance agent for the Security Token
 
-**`note`** this may create AuthorizationRequest which have to be accepted by
-  the corresponding Account. An Account or Identity can
-  fetch its pending Authorization Requests by calling `authorizations.getReceived`
+**`note`** this may create AuthorizationRequest which have to be accepted by the corresponding Account. An Account or Identity can fetch its pending Authorization Requests by calling `authorizations.getReceived`
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [ModifyPrimaryIssuanceAgentParams](../interfaces/modifyprimaryissuanceagentparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [ModifyPrimaryIssuanceAgentParams](../interfaces/modifyprimaryissuanceagentparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### removePrimaryIssuanceAgent
 
-###  removePrimaryIssuanceAgent
+▸ **removePrimaryIssuanceAgent**\(\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **removePrimaryIssuanceAgent**(): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:352](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L352)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:352_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L352)
 
 Remove the primary issuance agent of the Security Token
 
 **`note`** if primary issuance agent is not set, Security Token owner would be used by default
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### transferOwnership
 
-###  transferOwnership
+▸ **transferOwnership**\(`args`: [TransferTokenOwnershipParams](../interfaces/transfertokenownershipparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **transferOwnership**(`args`: [TransferTokenOwnershipParams](../interfaces/transfertokenownershipparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:109_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L109)
 
-*Defined in [src/api/entities/SecurityToken/index.ts:109](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L109)*
+Transfer ownership of the Security Token to another Identity. This generates an authorization request that must be accepted by the destinatary
 
-Transfer ownership of the Security Token to another Identity. This generates an authorization request that must be accepted
-  by the destinatary
-
-**`note`** this will create [Authorization Requests](authorizationrequest.md) which have to be accepted by
-  the corresponding [Accounts](account.md) and/or [Identities](../enums/scopetype.md#identity). An Account or Identity can
-  fetch its pending Authorization Requests by calling `authorizations.getReceived`
+**`note`** this will create [Authorization Requests](authorizationrequest.md) which have to be accepted by the corresponding [Accounts](account.md) and/or [Identities](../enums/scopetype.md#identity). An Account or Identity can fetch its pending Authorization Requests by calling `authorizations.getReceived`
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [TransferTokenOwnershipParams](../interfaces/transfertokenownershipparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [TransferTokenOwnershipParams](../interfaces/transfertokenownershipparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### unfreeze
 
-###  unfreeze
+▸ **unfreeze**\(\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **unfreeze**(): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:292](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L292)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:292_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/index.ts#L292)
 
 Unfreeze transfers and minting of the Security Token
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-___
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [Entity](entity.md).[generateUuid](entity.md#static-generateuuid)*
+_Inherited from_ [_Entity_](entity.md)_._[_generateUuid_](entity.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [Entity](entity.md).[unserialize](entity.md#static-unserialize)*
+_Inherited from_ [_Entity_](entity.md)_._[_unserialize_](entity.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

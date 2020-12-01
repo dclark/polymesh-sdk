@@ -1,4 +1,4 @@
-# Interface: DeletePortfolioParams
+# DeletePortfolioParams
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  did
+### did
 
-• **did**: *string*
+• **did**: _string_
 
-*Defined in [src/api/procedures/deletePortfolio.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/deletePortfolio.ts#L9)*
+_Defined in_ [_src/api/procedures/deletePortfolio.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/deletePortfolio.ts#L9)
 
-___
+### id
 
-###  id
+• **id**: _BigNumber_
 
-• **id**: *BigNumber*
+_Defined in_ [_src/api/procedures/deletePortfolio.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/deletePortfolio.ts#L10)
 
-*Defined in [src/api/procedures/deletePortfolio.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/deletePortfolio.ts#L10)*

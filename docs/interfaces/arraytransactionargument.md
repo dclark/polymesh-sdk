@@ -1,4 +1,4 @@
-# Interface: ArrayTransactionArgument
+# ArrayTransactionArgument
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  internal
+### internal
 
-• **internal**: *[TransactionArgument](../globals.md#transactionargument)*
+• **internal**: [_TransactionArgument_](../globals.md#transactionargument)
 
-*Defined in [src/types/index.ts:515](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L515)*
+_Defined in_ [_src/types/index.ts:515_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L515)
 
-___
+### type
 
-###  type
+• **type**: [_Array_](../enums/transactionargumenttype.md#array)
 
-• **type**: *[Array](../enums/transactionargumenttype.md#array)*
+_Defined in_ [_src/types/index.ts:514_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L514)
 
-*Defined in [src/types/index.ts:514](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L514)*

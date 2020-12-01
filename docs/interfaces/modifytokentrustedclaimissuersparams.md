@@ -1,4 +1,4 @@
-# Interface: ModifyTokenTrustedClaimIssuersParams
+# ModifyTokenTrustedClaimIssuersParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  claimIssuerIdentities
+### claimIssuerIdentities
 
-• **claimIssuerIdentities**: *(string | [Identity](../classes/identity.md)‹›)[]*
+• **claimIssuerIdentities**: _\(string \|_ [_Identity_](../classes/identity.md)_‹›\)\[\]_
 
-*Defined in [src/api/procedures/modifyTokenTrustedClaimIssuers.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/modifyTokenTrustedClaimIssuers.ts#L17)*
+_Defined in_ [_src/api/procedures/modifyTokenTrustedClaimIssuers.ts:17_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/modifyTokenTrustedClaimIssuers.ts#L17)
+

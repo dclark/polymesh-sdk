@@ -1,4 +1,4 @@
-# Interface: AddClaimItem
+# AddClaimItem
 
 ## Hierarchy
 
@@ -14,24 +14,21 @@
 
 ## Properties
 
-###  claim
+### claim
 
-• **claim**: *MeshClaim*
+• **claim**: _MeshClaim_
 
-*Defined in [src/api/procedures/modifyClaims.ts:31](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/modifyClaims.ts#L31)*
+_Defined in_ [_src/api/procedures/modifyClaims.ts:31_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/modifyClaims.ts#L31)
 
-___
+### expiry
 
-###  expiry
+• **expiry**: _Moment \| null_
 
-• **expiry**: *Moment | null*
+_Defined in_ [_src/api/procedures/modifyClaims.ts:32_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/modifyClaims.ts#L32)
 
-*Defined in [src/api/procedures/modifyClaims.ts:32](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/modifyClaims.ts#L32)*
+### target
 
-___
+• **target**: _IdentityId_
 
-###  target
+_Defined in_ [_src/api/procedures/modifyClaims.ts:30_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/modifyClaims.ts#L30)
 
-• **target**: *IdentityId*
-
-*Defined in [src/api/procedures/modifyClaims.ts:30](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/modifyClaims.ts#L30)*

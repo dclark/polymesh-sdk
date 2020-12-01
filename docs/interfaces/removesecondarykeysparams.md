@@ -1,4 +1,4 @@
-# Interface: RemoveSecondaryKeysParams
+# RemoveSecondaryKeysParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  signers
+### signers
 
-• **signers**: *[Signer](../globals.md#signer)[]*
+• **signers**: [_Signer_](../globals.md#signer)_\[\]_
 
-*Defined in [src/api/procedures/removeSecondaryKeys.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/removeSecondaryKeys.ts#L8)*
+_Defined in_ [_src/api/procedures/removeSecondaryKeys.ts:8_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/removeSecondaryKeys.ts#L8)
+

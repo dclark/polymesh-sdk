@@ -1,4 +1,4 @@
-# Interface: ProposalVote
+# ProposalVote
 
 ## Hierarchy
 
@@ -14,24 +14,21 @@
 
 ## Properties
 
-###  account
+### account
 
-• **account**: *[Account](../classes/account.md)*
+• **account**: [_Account_](../classes/account.md)
 
-*Defined in [src/api/entities/Proposal/types.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Proposal/types.ts#L8)*
+_Defined in_ [_src/api/entities/Proposal/types.ts:8_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Proposal/types.ts#L8)
 
-___
+### vote
 
-###  vote
+• **vote**: _boolean_
 
-• **vote**: *boolean*
+_Defined in_ [_src/api/entities/Proposal/types.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Proposal/types.ts#L9)
 
-*Defined in [src/api/entities/Proposal/types.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Proposal/types.ts#L9)*
+### weight
 
-___
+• **weight**: _BigNumber_
 
-###  weight
+_Defined in_ [_src/api/entities/Proposal/types.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Proposal/types.ts#L10)
 
-• **weight**: *BigNumber*
-
-*Defined in [src/api/entities/Proposal/types.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Proposal/types.ts#L10)*

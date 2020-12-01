@@ -1,4 +1,4 @@
-# Enumeration: TransactionArgumentType
+# TransactionArgumentType
 
 ## Index
 
@@ -21,112 +21,87 @@
 
 ## Enumeration members
 
-###  Address
+### Address
 
 • **Address**: = "Address"
 
-*Defined in [src/types/index.ts:487](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L487)*
+_Defined in_ [_src/types/index.ts:487_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L487)
 
-___
-
-###  Array
+### Array
 
 • **Array**: = "Array"
 
-*Defined in [src/types/index.ts:493](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L493)*
+_Defined in_ [_src/types/index.ts:493_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L493)
 
-___
-
-###  Balance
+### Balance
 
 • **Balance**: = "Balance"
 
-*Defined in [src/types/index.ts:491](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L491)*
+_Defined in_ [_src/types/index.ts:491_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L491)
 
-___
-
-###  Boolean
+### Boolean
 
 • **Boolean**: = "Boolean"
 
-*Defined in [src/types/index.ts:489](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L489)*
+_Defined in_ [_src/types/index.ts:489_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L489)
 
-___
-
-###  Date
+### Date
 
 • **Date**: = "Date"
 
-*Defined in [src/types/index.ts:492](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L492)*
+_Defined in_ [_src/types/index.ts:492_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L492)
 
-___
-
-###  Did
+### Did
 
 • **Did**: = "Did"
 
-*Defined in [src/types/index.ts:486](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L486)*
+_Defined in_ [_src/types/index.ts:486_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L486)
 
-___
-
-###  Null
+### Null
 
 • **Null**: = "Null"
 
-*Defined in [src/types/index.ts:499](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L499)*
+_Defined in_ [_src/types/index.ts:499_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L499)
 
-___
-
-###  Number
+### Number
 
 • **Number**: = "Number"
 
-*Defined in [src/types/index.ts:490](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L490)*
+_Defined in_ [_src/types/index.ts:490_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L490)
 
-___
-
-###  Object
+### Object
 
 • **Object**: = "Object"
 
-*Defined in [src/types/index.ts:497](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L497)*
+_Defined in_ [_src/types/index.ts:497_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L497)
 
-___
-
-###  RichEnum
+### RichEnum
 
 • **RichEnum**: = "RichEnum"
 
-*Defined in [src/types/index.ts:496](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L496)*
+_Defined in_ [_src/types/index.ts:496_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L496)
 
-___
-
-###  SimpleEnum
+### SimpleEnum
 
 • **SimpleEnum**: = "SimpleEnum"
 
-*Defined in [src/types/index.ts:495](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L495)*
+_Defined in_ [_src/types/index.ts:495_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L495)
 
-___
-
-###  Text
+### Text
 
 • **Text**: = "Text"
 
-*Defined in [src/types/index.ts:488](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L488)*
+_Defined in_ [_src/types/index.ts:488_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L488)
 
-___
-
-###  Tuple
+### Tuple
 
 • **Tuple**: = "Tuple"
 
-*Defined in [src/types/index.ts:494](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L494)*
+_Defined in_ [_src/types/index.ts:494_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L494)
 
-___
-
-###  Unknown
+### Unknown
 
 • **Unknown**: = "Unknown"
 
-*Defined in [src/types/index.ts:498](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L498)*
+_Defined in_ [_src/types/index.ts:498_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L498)
+

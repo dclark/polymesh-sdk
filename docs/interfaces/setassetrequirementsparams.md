@@ -1,4 +1,4 @@
-# Interface: SetAssetRequirementsParams
+# SetAssetRequirementsParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  requirements
+### requirements
 
-• **requirements**: *[Condition](../globals.md#condition)[][]*
+• **requirements**: [_Condition_](../globals.md#condition)_\[\]\[\]_
 
-*Defined in [src/api/procedures/setAssetRequirements.ts:13](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/setAssetRequirements.ts#L13)*
+_Defined in_ [_src/api/procedures/setAssetRequirements.ts:13_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/setAssetRequirements.ts#L13)
+

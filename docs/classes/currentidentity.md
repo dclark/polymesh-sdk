@@ -1,12 +1,12 @@
-# Class: CurrentIdentity
+# CurrentIdentity
 
 Represents the Identity associated to the current [Account](account.md)
 
 ## Hierarchy
 
-  ↳ [Identity](identity.md)
+↳ [Identity](identity.md)
 
-  ↳ **CurrentIdentity**
+↳ **CurrentIdentity**
 
 ## Index
 
@@ -44,106 +44,96 @@ Represents the Identity associated to the current [Account](account.md)
 
 ## Constructors
 
-###  constructor
+### constructor
 
-\+ **new CurrentIdentity**(`identifiers`: [UniqueIdentifiers](../interfaces/uniqueidentifiers.md), `context`: [Context](context.md)): *[CurrentIdentity](currentidentity.md)*
++ **new CurrentIdentity**\(`identifiers`: [UniqueIdentifiers](../interfaces/uniqueidentifiers.md), `context`: [Context](context.md)\): [_CurrentIdentity_](currentidentity.md)
 
-*Inherited from [Identity](identity.md).[constructor](identity.md#constructor)*
+_Inherited from_ [_Identity_](identity.md)_._[_constructor_](identity.md#constructor)
 
-*Overrides void*
+_Overrides void_
 
-*Defined in [src/api/entities/Identity/index.ts:72](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L72)*
+_Defined in_ [_src/api/entities/Identity/index.ts:72_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L72)
 
 Create an Identity entity
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`identifiers` | [UniqueIdentifiers](../interfaces/uniqueidentifiers.md) |
-`context` | [Context](context.md) |
+| Name | Type |
+| :--- | :--- |
+| `identifiers` | [UniqueIdentifiers](../interfaces/uniqueidentifiers.md) |
+| `context` | [Context](context.md) |
 
-**Returns:** *[CurrentIdentity](currentidentity.md)*
+**Returns:** [_CurrentIdentity_](currentidentity.md)
 
 ## Properties
 
-###  authorizations
+### authorizations
 
-• **authorizations**: *[IdentityAuthorizations](identityauthorizations.md)*
+• **authorizations**: [_IdentityAuthorizations_](identityauthorizations.md)
 
-*Inherited from [Identity](identity.md).[authorizations](identity.md#authorizations)*
+_Inherited from_ [_Identity_](identity.md)_._[_authorizations_](identity.md#authorizations)
 
-*Defined in [src/api/entities/Identity/index.ts:71](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L71)*
-
-___
+_Defined in_ [_src/api/entities/Identity/index.ts:71_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L71)
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [Entity](entity.md).[context](entity.md#protected-context)*
+_Inherited from_ [_Entity_](entity.md)_._[_context_](entity.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Entity.ts#L48)
 
-___
+### did
 
-###  did
+• **did**: _string_
 
-• **did**: *string*
+_Inherited from_ [_Identity_](identity.md)_._[_did_](identity.md#did)
 
-*Inherited from [Identity](identity.md).[did](identity.md#did)*
-
-*Defined in [src/api/entities/Identity/index.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L68)*
+_Defined in_ [_src/api/entities/Identity/index.ts:68_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L68)
 
 identity ID as stored in the blockchain
 
-___
+### portfolios
 
-###  portfolios
+• **portfolios**: [_Portfolios_](portfolios.md)
 
-• **portfolios**: *[Portfolios](portfolios.md)*
+_Inherited from_ [_Identity_](identity.md)_._[_portfolios_](identity.md#portfolios)
 
-*Inherited from [Identity](identity.md).[portfolios](identity.md#portfolios)*
+_Defined in_ [_src/api/entities/Identity/index.ts:72_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L72)
 
-*Defined in [src/api/entities/Identity/index.ts:72](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L72)*
+### uuid
 
-___
+• **uuid**: _string_
 
-###  uuid
+_Inherited from_ [_Entity_](entity.md)_._[_uuid_](entity.md#uuid)
 
-• **uuid**: *string*
-
-*Inherited from [Entity](entity.md).[uuid](entity.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  createVenue
+### createVenue
 
-▸ **createVenue**(`args`: [CreateVenueParams](../interfaces/createvenueparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[Venue](venue.md)››*
+▸ **createVenue**\(`args`: [CreateVenueParams](../interfaces/createvenueparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Venue_](venue.md)_››_
 
-*Defined in [src/api/entities/CurrentIdentity.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/CurrentIdentity.ts#L69)*
+_Defined in_ [_src/api/entities/CurrentIdentity.ts:69_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/CurrentIdentity.ts#L69)
 
 Create a Venue
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [CreateVenueParams](../interfaces/createvenueparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [CreateVenueParams](../interfaces/createvenueparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[Venue](venue.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Venue_](venue.md)_››_
 
-___
+### getHeldTokens
 
-###  getHeldTokens
+▸ **getHeldTokens**\(`opts`: object\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **getHeldTokens**(`opts`: object): *Promise‹[ResultSet](../interfaces/resultset.md)‹[SecurityToken](securitytoken.md)››*
+_Inherited from_ [_Identity_](identity.md)_._[_getHeldTokens_](identity.md#getheldtokens)
 
-*Inherited from [Identity](identity.md).[getHeldTokens](identity.md#getheldtokens)*
-
-*Defined in [src/api/entities/Identity/index.ts:286](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L286)*
+_Defined in_ [_src/api/entities/Identity/index.ts:286_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L286)
 
 Retrieve a list of all tokens which were held at one point by this Identity
 
@@ -151,93 +141,85 @@ Retrieve a list of all tokens which were held at one point by this Identity
 
 **Parameters:**
 
-▪`Default value`  **opts**: *object*= { order: Order.Asc }
+▪`Default value` **opts**: _object_= { order: Order.Asc }
 
-Name | Type |
------- | ------ |
-`order?` | Order |
-`size?` | undefined &#124; number |
-`start?` | undefined &#124; number |
+| Name | Type |
+| :--- | :--- |
+| `order?` | Order |
+| `size?` | undefined \| number |
+| `start?` | undefined \| number |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### getPendingInstructions
 
-###  getPendingInstructions
+▸ **getPendingInstructions**\(\): _Promise‹_[_Instruction_](instruction.md)_\[\]›_
 
-▸ **getPendingInstructions**(): *Promise‹[Instruction](instruction.md)[]›*
-
-*Defined in [src/api/entities/CurrentIdentity.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/CurrentIdentity.ts#L76)*
+_Defined in_ [_src/api/entities/CurrentIdentity.ts:76_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/CurrentIdentity.ts#L76)
 
 Retrieve all pending Instructions involving the Current Identity
 
-**Returns:** *Promise‹[Instruction](instruction.md)[]›*
+**Returns:** _Promise‹_[_Instruction_](instruction.md)_\[\]›_
 
-___
+### getPrimaryKey
 
-###  getPrimaryKey
+▸ **getPrimaryKey**\(\): _Promise‹string›_
 
-▸ **getPrimaryKey**(): *Promise‹string›*
+_Inherited from_ [_Identity_](identity.md)_._[_getPrimaryKey_](identity.md#getprimarykey)
 
-*Inherited from [Identity](identity.md).[getPrimaryKey](identity.md#getprimarykey)*
-
-*Defined in [src/api/entities/Identity/index.ts:252](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L252)*
+_Defined in_ [_src/api/entities/Identity/index.ts:252_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L252)
 
 Retrieve the primary key associated with the Identity
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹string›*
+**Returns:** _Promise‹string›_
 
-▸ **getPrimaryKey**(`callback`: [SubCallback](../globals.md#subcallback)‹string›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **getPrimaryKey**\(`callback`: [SubCallback](../globals.md#subcallback)‹string›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Inherited from [Identity](identity.md).[getPrimaryKey](identity.md#getprimarykey)*
+_Inherited from_ [_Identity_](identity.md)_._[_getPrimaryKey_](identity.md#getprimarykey)
 
-*Defined in [src/api/entities/Identity/index.ts:253](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L253)*
+_Defined in_ [_src/api/entities/Identity/index.ts:253_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L253)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹string› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹string› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### getSecondaryKeys
 
-###  getSecondaryKeys
+▸ **getSecondaryKeys**\(\): _Promise‹_[_SecondaryKey_](../interfaces/secondarykey.md)_\[\]›_
 
-▸ **getSecondaryKeys**(): *Promise‹[SecondaryKey](../interfaces/secondarykey.md)[]›*
-
-*Defined in [src/api/entities/CurrentIdentity.ts:32](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/CurrentIdentity.ts#L32)*
+_Defined in_ [_src/api/entities/CurrentIdentity.ts:32_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/CurrentIdentity.ts#L32)
 
 Get the list of secondary keys related to the Identity
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[SecondaryKey](../interfaces/secondarykey.md)[]›*
+**Returns:** _Promise‹_[_SecondaryKey_](../interfaces/secondarykey.md)_\[\]›_
 
-▸ **getSecondaryKeys**(`callback`: [SubCallback](../globals.md#subcallback)‹[SecondaryKey](../interfaces/secondarykey.md)[]›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **getSecondaryKeys**\(`callback`: [SubCallback](../globals.md#subcallback)‹[SecondaryKey](../interfaces/secondarykey.md)\[\]›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/CurrentIdentity.ts:33](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/CurrentIdentity.ts#L33)*
+_Defined in_ [_src/api/entities/CurrentIdentity.ts:33_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/CurrentIdentity.ts#L33)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹[SecondaryKey](../interfaces/secondarykey.md)[]› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[SecondaryKey](../interfaces/secondarykey.md)\[\]› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### getTokenBalance
 
-###  getTokenBalance
+▸ **getTokenBalance**\(`args`: object\): _Promise‹BigNumber›_
 
-▸ **getTokenBalance**(`args`: object): *Promise‹BigNumber›*
+_Inherited from_ [_Identity_](identity.md)_._[_getTokenBalance_](identity.md#gettokenbalance)
 
-*Inherited from [Identity](identity.md).[getTokenBalance](identity.md#gettokenbalance)*
-
-*Defined in [src/api/entities/Identity/index.ts:151](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L151)*
+_Defined in_ [_src/api/entities/Identity/index.ts:151_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L151)
 
 Retrieve the balance of a particular Security Token
 
@@ -245,41 +227,39 @@ Retrieve the balance of a particular Security Token
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`ticker` | string |
+| Name | Type |
+| :--- | :--- |
+| `ticker` | string |
 
-**Returns:** *Promise‹BigNumber›*
+**Returns:** _Promise‹BigNumber›_
 
-▸ **getTokenBalance**(`args`: object, `callback`: [SubCallback](../globals.md#subcallback)‹BigNumber›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **getTokenBalance**\(`args`: object, `callback`: [SubCallback](../globals.md#subcallback)‹BigNumber›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Inherited from [Identity](identity.md).[getTokenBalance](identity.md#gettokenbalance)*
+_Inherited from_ [_Identity_](identity.md)_._[_getTokenBalance_](identity.md#gettokenbalance)
 
-*Defined in [src/api/entities/Identity/index.ts:152](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L152)*
+_Defined in_ [_src/api/entities/Identity/index.ts:152_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L152)
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`ticker` | string |
+| Name | Type |
+| :--- | :--- |
+| `ticker` | string |
 
-▪ **callback**: *[SubCallback](../globals.md#subcallback)‹BigNumber›*
+▪ **callback**: [_SubCallback_](../globals.md#subcallback)_‹BigNumber›_
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### getTrustingTokens
 
-###  getTrustingTokens
+▸ **getTrustingTokens**\(`args`: object\): _Promise‹_[_SecurityToken_](securitytoken.md)_\[\]›_
 
-▸ **getTrustingTokens**(`args`: object): *Promise‹[SecurityToken](securitytoken.md)[]›*
+_Inherited from_ [_Identity_](identity.md)_._[_getTrustingTokens_](identity.md#gettrustingtokens)
 
-*Inherited from [Identity](identity.md).[getTrustingTokens](identity.md#gettrustingtokens)*
-
-*Defined in [src/api/entities/Identity/index.ts:337](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L337)*
+_Defined in_ [_src/api/entities/Identity/index.ts:337_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L337)
 
 Get the list of tokens for which this Identity is a trusted claim issuer
 
@@ -287,212 +267,191 @@ Get the list of tokens for which this Identity is a trusted claim issuer
 
 **Parameters:**
 
-▪`Default value`  **args**: *object*= { order: Order.Asc }
+▪`Default value` **args**: _object_= { order: Order.Asc }
 
-Name | Type |
------- | ------ |
-`order` | Order |
+| Name | Type |
+| :--- | :--- |
+| `order` | Order |
 
-**Returns:** *Promise‹[SecurityToken](securitytoken.md)[]›*
+**Returns:** _Promise‹_[_SecurityToken_](securitytoken.md)_\[\]›_
 
-___
+### getVenues
 
-###  getVenues
+▸ **getVenues**\(\): _Promise‹_[_Venue_](venue.md)_\[\]›_
 
-▸ **getVenues**(): *Promise‹[Venue](venue.md)[]›*
+_Inherited from_ [_Identity_](identity.md)_._[_getVenues_](identity.md#getvenues)
 
-*Inherited from [Identity](identity.md).[getVenues](identity.md#getvenues)*
-
-*Defined in [src/api/entities/Identity/index.ts:358](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L358)*
+_Defined in_ [_src/api/entities/Identity/index.ts:358_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L358)
 
 Retrieve all Venues created by this Identity
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[Venue](venue.md)[]›*
+**Returns:** _Promise‹_[_Venue_](venue.md)_\[\]›_
 
-▸ **getVenues**(`callback`: [SubCallback](../globals.md#subcallback)‹[Venue](venue.md)[]›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **getVenues**\(`callback`: [SubCallback](../globals.md#subcallback)‹[Venue](venue.md)\[\]›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Inherited from [Identity](identity.md).[getVenues](identity.md#getvenues)*
+_Inherited from_ [_Identity_](identity.md)_._[_getVenues_](identity.md#getvenues)
 
-*Defined in [src/api/entities/Identity/index.ts:359](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L359)*
+_Defined in_ [_src/api/entities/Identity/index.ts:359_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L359)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹[Venue](venue.md)[]› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[Venue](venue.md)\[\]› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### hasRole
 
-###  hasRole
+▸ **hasRole**\(`role`: [Role](../globals.md#role)\): _Promise‹boolean›_
 
-▸ **hasRole**(`role`: [Role](../globals.md#role)): *Promise‹boolean›*
+_Inherited from_ [_Identity_](identity.md)_._[_hasRole_](identity.md#hasrole)
 
-*Inherited from [Identity](identity.md).[hasRole](identity.md#hasrole)*
-
-*Defined in [src/api/entities/Identity/index.ts:90](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L90)*
+_Defined in_ [_src/api/entities/Identity/index.ts:90_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L90)
 
 Check whether this Identity possesses the specified Role
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`role` | [Role](../globals.md#role) |
+| Name | Type |
+| :--- | :--- |
+| `role` | [Role](../globals.md#role) |
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### hasRoles
 
-###  hasRoles
+▸ **hasRoles**\(`roles`: [Role](../globals.md#role)\[\]\): _Promise‹boolean›_
 
-▸ **hasRoles**(`roles`: [Role](../globals.md#role)[]): *Promise‹boolean›*
+_Inherited from_ [_Identity_](identity.md)_._[_hasRoles_](identity.md#hasroles)
 
-*Inherited from [Identity](identity.md).[hasRoles](identity.md#hasroles)*
-
-*Defined in [src/api/entities/Identity/index.ts:326](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L326)*
+_Defined in_ [_src/api/entities/Identity/index.ts:326_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L326)
 
 Check whether this Identity possesses all specified roles
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`roles` | [Role](../globals.md#role)[] |
+| Name | Type |
+| :--- | :--- |
+| `roles` | [Role](../globals.md#role)\[\] |
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### hasValidCdd
 
-###  hasValidCdd
+▸ **hasValidCdd**\(\): _Promise‹boolean›_
 
-▸ **hasValidCdd**(): *Promise‹boolean›*
+_Inherited from_ [_Identity_](identity.md)_._[_hasValidCdd_](identity.md#hasvalidcdd)
 
-*Inherited from [Identity](identity.md).[hasValidCdd](identity.md#hasvalidcdd)*
-
-*Defined in [src/api/entities/Identity/index.ts:199](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L199)*
+_Defined in_ [_src/api/entities/Identity/index.ts:199_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L199)
 
 Check whether this Identity has a valid CDD claim
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### inviteAccount
 
-###  inviteAccount
+▸ **inviteAccount**\(`args`: [InviteAccountParams](../interfaces/inviteaccountparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **inviteAccount**(`args`: [InviteAccountParams](../interfaces/inviteaccountparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/CurrentIdentity.ts:62](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/CurrentIdentity.ts#L62)*
+_Defined in_ [_src/api/entities/CurrentIdentity.ts:62_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/CurrentIdentity.ts#L62)
 
 Send an invitation to an Account to join to your Identity
 
-**`note`** this may create AuthorizationRequest which have to be accepted by
-  the corresponding Account. An Account or Identity can
-  fetch its pending Authorization Requests by calling `authorizations.getReceived`
+**`note`** this may create AuthorizationRequest which have to be accepted by the corresponding Account. An Account or Identity can fetch its pending Authorization Requests by calling `authorizations.getReceived`
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [InviteAccountParams](../interfaces/inviteaccountparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [InviteAccountParams](../interfaces/inviteaccountparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### isCddProvider
 
-###  isCddProvider
+▸ **isCddProvider**\(\): _Promise‹boolean›_
 
-▸ **isCddProvider**(): *Promise‹boolean›*
+_Inherited from_ [_Identity_](identity.md)_._[_isCddProvider_](identity.md#iscddprovider)
 
-*Inherited from [Identity](identity.md).[isCddProvider](identity.md#iscddprovider)*
-
-*Defined in [src/api/entities/Identity/index.ts:233](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L233)*
+_Defined in_ [_src/api/entities/Identity/index.ts:233_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L233)
 
 Check whether this Identity is a CDD provider
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### isGcMember
 
-###  isGcMember
+▸ **isGcMember**\(\): _Promise‹boolean›_
 
-▸ **isGcMember**(): *Promise‹boolean›*
+_Inherited from_ [_Identity_](identity.md)_._[_isGcMember_](identity.md#isgcmember)
 
-*Inherited from [Identity](identity.md).[isGcMember](identity.md#isgcmember)*
-
-*Defined in [src/api/entities/Identity/index.ts:216](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L216)*
+_Defined in_ [_src/api/entities/Identity/index.ts:216_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Identity/index.ts#L216)
 
 Check whether this Identity is Governance Committee member
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### removeSecondaryKeys
 
-###  removeSecondaryKeys
+▸ **removeSecondaryKeys**\(`args`: object\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **removeSecondaryKeys**(`args`: object): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/CurrentIdentity.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/CurrentIdentity.ts#L51)*
+_Defined in_ [_src/api/entities/CurrentIdentity.ts:51_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/CurrentIdentity.ts#L51)
 
 Remove a list of secondary keys associated with the Identity
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`signers` | [Signer](../globals.md#signer)[] |
+| Name | Type |
+| :--- | :--- |
+| `signers` | [Signer](../globals.md#signer)\[\] |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-___
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [Entity](entity.md).[generateUuid](entity.md#static-generateuuid)*
+_Inherited from_ [_Entity_](entity.md)_._[_generateUuid_](entity.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [Entity](entity.md).[unserialize](entity.md#static-unserialize)*
+_Inherited from_ [_Entity_](entity.md)_._[_unserialize_](entity.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

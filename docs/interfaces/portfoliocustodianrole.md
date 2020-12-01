@@ -1,4 +1,4 @@
-# Interface: PortfolioCustodianRole
+# PortfolioCustodianRole
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  portfolioId
+### portfolioId
 
-• **portfolioId**: *PortfolioId*
+• **portfolioId**: _PortfolioId_
 
-*Defined in [src/types/index.ts:134](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L134)*
+_Defined in_ [_src/types/index.ts:134_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L134)
 
-___
+### type
 
-###  type
+• **type**: [_PortfolioCustodian_](../enums/roletype.md#portfoliocustodian)
 
-• **type**: *[PortfolioCustodian](../enums/roletype.md#portfoliocustodian)*
+_Defined in_ [_src/types/index.ts:133_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L133)
 
-*Defined in [src/types/index.ts:133](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L133)*

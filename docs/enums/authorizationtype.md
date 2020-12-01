@@ -1,4 +1,4 @@
-# Enumeration: AuthorizationType
+# AuthorizationType
 
 Type of authorization request
 
@@ -19,80 +19,63 @@ Type of authorization request
 
 ## Enumeration members
 
-###  AddMultiSigSigner
+### AddMultiSigSigner
 
 • **AddMultiSigSigner**: = "AddMultiSigSigner"
 
-*Defined in [src/types/index.ts:202](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L202)*
+_Defined in_ [_src/types/index.ts:202_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L202)
 
-___
-
-###  AttestPrimaryKeyRotation
+### AttestPrimaryKeyRotation
 
 • **AttestPrimaryKeyRotation**: = "AttestPrimaryKeyRotation"
 
-*Defined in [src/types/index.ts:199](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L199)*
+_Defined in_ [_src/types/index.ts:199_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L199)
 
-___
-
-###  Custom
+### Custom
 
 • **Custom**: = "Custom"
 
-*Defined in [src/types/index.ts:207](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L207)*
+_Defined in_ [_src/types/index.ts:207_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L207)
 
-___
-
-###  JoinIdentity
+### JoinIdentity
 
 • **JoinIdentity**: = "JoinIdentity"
 
-*Defined in [src/types/index.ts:205](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L205)*
+_Defined in_ [_src/types/index.ts:205_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L205)
 
-___
-
-###  NoData
+### NoData
 
 • **NoData**: = "NoData"
 
-*Defined in [src/types/index.ts:208](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L208)*
+_Defined in_ [_src/types/index.ts:208_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L208)
 
-___
-
-###  PortfolioCustody
+### PortfolioCustody
 
 • **PortfolioCustody**: = "PortfolioCustody"
 
-*Defined in [src/types/index.ts:206](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L206)*
+_Defined in_ [_src/types/index.ts:206_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L206)
 
-___
-
-###  RotatePrimaryKey
+### RotatePrimaryKey
 
 • **RotatePrimaryKey**: = "RotatePrimaryKey"
 
-*Defined in [src/types/index.ts:200](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L200)*
+_Defined in_ [_src/types/index.ts:200_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L200)
 
-___
-
-###  TransferAssetOwnership
+### TransferAssetOwnership
 
 • **TransferAssetOwnership**: = "TransferAssetOwnership"
 
-*Defined in [src/types/index.ts:203](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L203)*
+_Defined in_ [_src/types/index.ts:203_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L203)
 
-___
-
-###  TransferPrimaryIssuanceAgent
+### TransferPrimaryIssuanceAgent
 
 • **TransferPrimaryIssuanceAgent**: = "TransferPrimaryIssuanceAgent"
 
-*Defined in [src/types/index.ts:204](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L204)*
+_Defined in_ [_src/types/index.ts:204_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L204)
 
-___
-
-###  TransferTicker
+### TransferTicker
 
 • **TransferTicker**: = "TransferTicker"
 
-*Defined in [src/types/index.ts:201](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L201)*
+_Defined in_ [_src/types/index.ts:201_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L201)
+

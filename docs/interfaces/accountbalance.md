@@ -1,4 +1,4 @@
-# Interface: AccountBalance
+# AccountBalance
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  free
+### free
 
-• **free**: *BigNumber*
+• **free**: _BigNumber_
 
-*Defined in [src/types/index.ts:451](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L451)*
+_Defined in_ [_src/types/index.ts:451_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L451)
 
-___
+### locked
 
-###  locked
+• **locked**: _BigNumber_
 
-• **locked**: *BigNumber*
+_Defined in_ [_src/types/index.ts:452_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L452)
 
-*Defined in [src/types/index.ts:452](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/types/index.ts#L452)*

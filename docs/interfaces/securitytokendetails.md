@@ -1,4 +1,4 @@
-# Interface: SecurityTokenDetails
+# SecurityTokenDetails
 
 ## Hierarchy
 
@@ -17,48 +17,39 @@
 
 ## Properties
 
-###  assetType
+### assetType
 
-• **assetType**: *string*
+• **assetType**: _string_
 
-*Defined in [src/api/entities/SecurityToken/types.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/types.ts#L6)*
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:6_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/types.ts#L6)
 
-___
+### isDivisible
 
-###  isDivisible
+• **isDivisible**: _boolean_
 
-• **isDivisible**: *boolean*
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:7_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/types.ts#L7)
 
-*Defined in [src/api/entities/SecurityToken/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/types.ts#L7)*
+### name
 
-___
+• **name**: _string_
 
-###  name
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:8_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/types.ts#L8)
 
-• **name**: *string*
+### owner
 
-*Defined in [src/api/entities/SecurityToken/types.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/types.ts#L8)*
+• **owner**: [_Identity_](../classes/identity.md)
 
-___
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/types.ts#L9)
 
-###  owner
+### primaryIssuanceAgent
 
-• **owner**: *[Identity](../classes/identity.md)*
+• **primaryIssuanceAgent**: [_Identity_](../classes/identity.md) _\| null_
 
-*Defined in [src/api/entities/SecurityToken/types.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/types.ts#L9)*
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/types.ts#L11)
 
-___
+### totalSupply
 
-###  primaryIssuanceAgent
+• **totalSupply**: _BigNumber_
 
-• **primaryIssuanceAgent**: *[Identity](../classes/identity.md) | null*
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/types.ts#L10)
 
-*Defined in [src/api/entities/SecurityToken/types.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/types.ts#L11)*
-
-___
-
-###  totalSupply
-
-• **totalSupply**: *BigNumber*
-
-*Defined in [src/api/entities/SecurityToken/types.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/SecurityToken/types.ts#L10)*

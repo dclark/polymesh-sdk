@@ -1,4 +1,4 @@
-# Enumeration: AuthorizationStatus
+# AuthorizationStatus
 
 ## Index
 
@@ -11,32 +11,27 @@
 
 ## Enumeration members
 
-###  Authorized
+### Authorized
 
 • **Authorized**: = "Authorized"
 
-*Defined in [src/api/entities/Instruction/types.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Instruction/types.ts#L49)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:49_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Instruction/types.ts#L49)
 
-___
-
-###  Pending
+### Pending
 
 • **Pending**: = "Pending"
 
-*Defined in [src/api/entities/Instruction/types.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Instruction/types.ts#L48)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Instruction/types.ts#L48)
 
-___
-
-###  Rejected
+### Rejected
 
 • **Rejected**: = "Rejected"
 
-*Defined in [src/api/entities/Instruction/types.ts:50](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Instruction/types.ts#L50)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:50_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Instruction/types.ts#L50)
 
-___
-
-###  Unknown
+### Unknown
 
 • **Unknown**: = "Unknown"
 
-*Defined in [src/api/entities/Instruction/types.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Instruction/types.ts#L47)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:47_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/entities/Instruction/types.ts#L47)
+

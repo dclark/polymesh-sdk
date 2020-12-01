@@ -1,4 +1,4 @@
-# Interface: ModifyInstructionAuthorizationParams
+# ModifyInstructionAuthorizationParams
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  id
+### id
 
-• **id**: *BigNumber*
+• **id**: _BigNumber_
 
-*Defined in [src/api/procedures/modifyInstructionAuthorization.ts:20](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/modifyInstructionAuthorization.ts#L20)*
+_Defined in_ [_src/api/procedures/modifyInstructionAuthorization.ts:20_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/modifyInstructionAuthorization.ts#L20)
 
-___
+### operation
 
-###  operation
+• **operation**: _InstructionAuthorizationOperation_
 
-• **operation**: *InstructionAuthorizationOperation*
+_Defined in_ [_src/api/procedures/modifyInstructionAuthorization.ts:21_](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/modifyInstructionAuthorization.ts#L21)
 
-*Defined in [src/api/procedures/modifyInstructionAuthorization.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/5b409784/src/api/procedures/modifyInstructionAuthorization.ts#L21)*
