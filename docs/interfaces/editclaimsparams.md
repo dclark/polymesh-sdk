@@ -1,4 +1,4 @@
-# Interface: EditClaimsParams
+# EditClaimsParams
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  claims
+### claims
 
-• **claims**: *[ClaimTarget](claimtarget.md)[]*
+• **claims**: [_ClaimTarget_](claimtarget.md)_\[\]_
 
-*Defined in [src/api/procedures/modifyClaims.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/modifyClaims.ts#L35)*
+_Defined in_ [_src/api/procedures/modifyClaims.ts:35_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/modifyClaims.ts#L35)
 
-___
+### operation
 
-###  operation
+• **operation**: _Edit_
 
-• **operation**: *Edit*
+_Defined in_ [_src/api/procedures/modifyClaims.ts:36_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/modifyClaims.ts#L36)
 
-*Defined in [src/api/procedures/modifyClaims.ts:36](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/modifyClaims.ts#L36)*

@@ -1,4 +1,4 @@
-# Interface: ComplexTransactionArgument
+# ComplexTransactionArgument
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  internal
+### internal
 
-• **internal**: *[TransactionArgument](../globals.md#transactionargument)[]*
+• **internal**: [_TransactionArgument_](../globals.md#transactionargument)_\[\]_
 
-*Defined in [src/types/index.ts:557](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L557)*
+_Defined in_ [_src/types/index.ts:557_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L557)
 
-___
+### type
 
-###  type
+• **type**: [_RichEnum_](../enums/transactionargumenttype.md#richenum) _\|_ [_Object_](../enums/transactionargumenttype.md#object) _\|_ [_Tuple_](../enums/transactionargumenttype.md#tuple)
 
-• **type**: *[RichEnum](../enums/transactionargumenttype.md#richenum) | [Object](../enums/transactionargumenttype.md#object) | [Tuple](../enums/transactionargumenttype.md#tuple)*
+_Defined in_ [_src/types/index.ts:553_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L553)
 
-*Defined in [src/types/index.ts:553](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L553)*

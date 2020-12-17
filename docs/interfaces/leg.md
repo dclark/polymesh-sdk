@@ -1,4 +1,4 @@
-# Interface: Leg
+# Leg
 
 ## Hierarchy
 
@@ -15,32 +15,27 @@
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *BigNumber*
+• **amount**: _BigNumber_
 
-*Defined in [src/api/entities/Instruction/types.ts:36](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Instruction/types.ts#L36)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:36_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Instruction/types.ts#L36)
 
-___
+### from
 
-###  from
+• **from**: [_DefaultPortfolio_](../classes/defaultportfolio.md) _\|_ [_NumberedPortfolio_](../classes/numberedportfolio.md)
 
-• **from**: *[DefaultPortfolio](../classes/defaultportfolio.md) | [NumberedPortfolio](../classes/numberedportfolio.md)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:34_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Instruction/types.ts#L34)
 
-*Defined in [src/api/entities/Instruction/types.ts:34](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Instruction/types.ts#L34)*
+### to
 
-___
+• **to**: [_DefaultPortfolio_](../classes/defaultportfolio.md) _\|_ [_NumberedPortfolio_](../classes/numberedportfolio.md)
 
-###  to
+_Defined in_ [_src/api/entities/Instruction/types.ts:35_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Instruction/types.ts#L35)
 
-• **to**: *[DefaultPortfolio](../classes/defaultportfolio.md) | [NumberedPortfolio](../classes/numberedportfolio.md)*
+### token
 
-*Defined in [src/api/entities/Instruction/types.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Instruction/types.ts#L35)*
+• **token**: [_SecurityToken_](../classes/securitytoken.md)
 
-___
+_Defined in_ [_src/api/entities/Instruction/types.ts:37_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Instruction/types.ts#L37)
 
-###  token
-
-• **token**: *[SecurityToken](../classes/securitytoken.md)*
-
-*Defined in [src/api/entities/Instruction/types.ts:37](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Instruction/types.ts#L37)*

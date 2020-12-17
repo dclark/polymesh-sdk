@@ -1,4 +1,4 @@
-# Interface: RenamePortfolioParams
+# RenamePortfolioParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  name
+### name
 
-• **name**: *string*
+• **name**: _string_
 
-*Defined in [src/api/procedures/renamePortfolio.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/renamePortfolio.ts#L8)*
+_Defined in_ [_src/api/procedures/renamePortfolio.ts:8_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/renamePortfolio.ts#L8)
+

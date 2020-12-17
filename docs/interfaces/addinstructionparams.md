@@ -1,4 +1,4 @@
-# Interface: AddInstructionParams
+# AddInstructionParams
 
 ## Hierarchy
 
@@ -16,22 +16,19 @@
 
 ### `Optional` endBlock
 
-• **endBlock**? : *BigNumber*
+• **endBlock**? : _BigNumber_
 
-*Defined in [src/api/procedures/addInstruction.ts:36](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/addInstruction.ts#L36)*
+_Defined in_ [_src/api/procedures/addInstruction.ts:36_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/addInstruction.ts#L36)
 
-___
+### legs
 
-###  legs
+• **legs**: _object\[\]_
 
-• **legs**: *object[]*
-
-*Defined in [src/api/procedures/addInstruction.ts:29](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/addInstruction.ts#L29)*
-
-___
+_Defined in_ [_src/api/procedures/addInstruction.ts:29_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/addInstruction.ts#L29)
 
 ### `Optional` validFrom
 
-• **validFrom**? : *[Date](../enums/transactionargumenttype.md#date)*
+• **validFrom**? : [_Date_](../enums/transactionargumenttype.md#date)
 
-*Defined in [src/api/procedures/addInstruction.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/addInstruction.ts#L35)*
+_Defined in_ [_src/api/procedures/addInstruction.ts:35_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/addInstruction.ts#L35)
+

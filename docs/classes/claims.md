@@ -1,4 +1,4 @@
-# Class: Claims
+# Claims
 
 Handles all Claims related functionality
 
@@ -22,67 +22,61 @@ Handles all Claims related functionality
 
 ## Methods
 
-###  addClaims
+### addClaims
 
-▸ **addClaims**(`args`: Omit‹[ModifyClaimsParams](../globals.md#modifyclaimsparams), "operation"›): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+▸ **addClaims**\(`args`: Omit‹[ModifyClaimsParams](../globals.md#modifyclaimsparams), "operation"›\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-*Defined in [src/Claims.ts:59](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L59)*
+_Defined in_ [_src/Claims.ts:59_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L59)
 
 Add claims to Identities
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | Omit‹[ModifyClaimsParams](../globals.md#modifyclaimsparams), "operation"› |
+| Name | Type |
+| :--- | :--- |
+| `args` | Omit‹[ModifyClaimsParams](../globals.md#modifyclaimsparams), "operation"› |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### addInvestorUniquenessClaim
 
-###  addInvestorUniquenessClaim
+▸ **addInvestorUniquenessClaim**\(`args`: AddInvestorUniquenessClaimParams\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **addInvestorUniquenessClaim**(`args`: AddInvestorUniquenessClaimParams): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/Claims.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L48)*
+_Defined in_ [_src/Claims.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L48)
 
 Add an Investor Uniqueness Claim to the current Identity
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`args` | AddInvestorUniquenessClaimParams |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `args` | AddInvestorUniquenessClaimParams |  |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### editClaims
 
-###  editClaims
+▸ **editClaims**\(`args`: Omit‹[ModifyClaimsParams](../globals.md#modifyclaimsparams), "operation"›\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **editClaims**(`args`: Omit‹[ModifyClaimsParams](../globals.md#modifyclaimsparams), "operation"›): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+_Defined in_ [_src/Claims.ts:68_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L68)
 
-*Defined in [src/Claims.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L68)*
-
-Edit claims associated to Identities (only the expiry date can be modified)
+Edit claims associated to Identities \(only the expiry date can be modified\)
 
 * @param args.claims - array of claims to be edited
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | Omit‹[ModifyClaimsParams](../globals.md#modifyclaimsparams), "operation"› |
+| Name | Type |
+| :--- | :--- |
+| `args` | Omit‹[ModifyClaimsParams](../globals.md#modifyclaimsparams), "operation"› |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### getCddClaims
 
-###  getCddClaims
+▸ **getCddClaims**\(`opts`: object\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_ClaimData_](../interfaces/claimdata.md)_››_
 
-▸ **getCddClaims**(`opts`: object): *Promise‹[ResultSet](../interfaces/resultset.md)‹[ClaimData](../interfaces/claimdata.md)››*
-
-*Defined in [src/Claims.ts:230](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L230)*
+_Defined in_ [_src/Claims.ts:230_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L230)
 
 Retrieve the list of CDD claims for a target Identity
 
@@ -92,49 +86,44 @@ Retrieve the list of CDD claims for a target Identity
 
 **Parameters:**
 
-▪`Default value`  **opts**: *object*= {}
+▪`Default value` **opts**: _object_= {}
 
-Name | Type | Description |
------- | ------ | ------ |
-`includeExpired?` | undefined &#124; false &#124; true | whether to include expired claims. Defaults to true |
-`size?` | undefined &#124; number | page size |
-`start?` | undefined &#124; number | page offset  |
-`target?` | string &#124; [Identity](identity.md) | identity for which to fetch CDD claims (optional, defaults to the current Identity) |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `includeExpired?` | undefined \| false \| true | whether to include expired claims. Defaults to true |
+| `size?` | undefined \| number | page size |
+| `start?` | undefined \| number | page offset |
+| `target?` | string \| [Identity](identity.md) | identity for which to fetch CDD claims \(optional, defaults to the current Identity\) |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[ClaimData](../interfaces/claimdata.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_ClaimData_](../interfaces/claimdata.md)_››_
 
-___
+### getClaimScopes
 
-###  getClaimScopes
+▸ **getClaimScopes**\(`opts`: object\): _Promise‹_[_ClaimScope_](../interfaces/claimscope.md)_\[\]›_
 
-▸ **getClaimScopes**(`opts`: object): *Promise‹[ClaimScope](../interfaces/claimscope.md)[]›*
+_Defined in_ [_src/Claims.ts:192_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L192)
 
-*Defined in [src/Claims.ts:192](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L192)*
+Retrieve all scopes in which claims have been made for the target Identity. If the scope is an asset DID, the corresponding ticker is returned as well
 
-Retrieve all scopes in which claims have been made for the target Identity.
-  If the scope is an asset DID, the corresponding ticker is returned as well
-
-**`note`** a null scope means the Identity has scopeless claims (like CDD for example)
+**`note`** a null scope means the Identity has scopeless claims \(like CDD for example\)
 
 **`note`** uses the middleware
 
 **Parameters:**
 
-▪`Default value`  **opts**: *object*= {}
+▪`Default value` **opts**: _object_= {}
 
-Name | Type | Description |
------- | ------ | ------ |
-`target?` | string &#124; [Identity](identity.md) | identity for which to fetch claim scopes (optional, defaults to the current Identity)  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `target?` | string \| [Identity](identity.md) | identity for which to fetch claim scopes \(optional, defaults to the current Identity\) |
 
-**Returns:** *Promise‹[ClaimScope](../interfaces/claimscope.md)[]›*
+**Returns:** _Promise‹_[_ClaimScope_](../interfaces/claimscope.md)_\[\]›_
 
-___
+### getIdentitiesWithClaims
 
-###  getIdentitiesWithClaims
+▸ **getIdentitiesWithClaims**\(`opts`: object\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_IdentityWithClaims_](../interfaces/identitywithclaims.md)_››_
 
-▸ **getIdentitiesWithClaims**(`opts`: object): *Promise‹[ResultSet](../interfaces/resultset.md)‹[IdentityWithClaims](../interfaces/identitywithclaims.md)››*
-
-*Defined in [src/Claims.ts:129](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L129)*
+_Defined in_ [_src/Claims.ts:129_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L129)
 
 Retrieve a list of Identities with claims associated to them. Can be filtered using parameters
 
@@ -144,27 +133,25 @@ Retrieve a list of Identities with claims associated to them. Can be filtered us
 
 **Parameters:**
 
-▪`Default value`  **opts**: *object*= {}
+▪`Default value` **opts**: _object_= {}
 
-Name | Type | Description |
------- | ------ | ------ |
-`claimTypes?` | [ClaimType](../enums/claimtype.md)[] | types of the claims to fetch. Defaults to any type |
-`includeExpired?` | undefined &#124; false &#124; true | whether to include expired claims. Defaults to true |
-`scope?` | [Scope](../interfaces/scope.md) | scope of the claims to fetch. Defaults to any scope |
-`size?` | undefined &#124; number | page size |
-`start?` | undefined &#124; number | page offset  |
-`targets?` | (string &#124; [Identity](identity.md)‹›)[] | identities (or Identity IDs) for which to fetch claims (targets). Defaults to all targets |
-`trustedClaimIssuers?` | (string &#124; [Identity](identity.md)‹›)[] | identity IDs of claim issuers. Defaults to all claim issuers |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `claimTypes?` | [ClaimType](../enums/claimtype.md)\[\] | types of the claims to fetch. Defaults to any type |
+| `includeExpired?` | undefined \| false \| true | whether to include expired claims. Defaults to true |
+| `scope?` | [Scope](../interfaces/scope.md) | scope of the claims to fetch. Defaults to any scope |
+| `size?` | undefined \| number | page size |
+| `start?` | undefined \| number | page offset |
+| `targets?` | \(string \| [Identity](identity.md)‹›\)\[\] | identities \(or Identity IDs\) for which to fetch claims \(targets\). Defaults to all targets |
+| `trustedClaimIssuers?` | \(string \| [Identity](identity.md)‹›\)\[\] | identity IDs of claim issuers. Defaults to all claim issuers |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[IdentityWithClaims](../interfaces/identitywithclaims.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_IdentityWithClaims_](../interfaces/identitywithclaims.md)_››_
 
-___
+### getIssuedClaims
 
-###  getIssuedClaims
+▸ **getIssuedClaims**\(`opts`: object\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_ClaimData_](../interfaces/claimdata.md)_››_
 
-▸ **getIssuedClaims**(`opts`: object): *Promise‹[ResultSet](../interfaces/resultset.md)‹[ClaimData](../interfaces/claimdata.md)››*
-
-*Defined in [src/Claims.ts:92](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L92)*
+_Defined in_ [_src/Claims.ts:92_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L92)
 
 Retrieve all claims issued by an Identity
 
@@ -174,24 +161,22 @@ Retrieve all claims issued by an Identity
 
 **Parameters:**
 
-▪`Default value`  **opts**: *object*= {}
+▪`Default value` **opts**: _object_= {}
 
-Name | Type | Description |
------- | ------ | ------ |
-`includeExpired?` | undefined &#124; false &#124; true | whether to include expired claims. Defaults to true  |
-`size?` | undefined &#124; number | - |
-`start?` | undefined &#124; number | - |
-`target?` | string &#124; [Identity](identity.md) | identity (optional, defaults to the current Identity) |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `includeExpired?` | undefined \| false \| true | whether to include expired claims. Defaults to true |
+| `size?` | undefined \| number | - |
+| `start?` | undefined \| number | - |
+| `target?` | string \| [Identity](identity.md) | identity \(optional, defaults to the current Identity\) |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[ClaimData](../interfaces/claimdata.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_ClaimData_](../interfaces/claimdata.md)_››_
 
-___
+### getTargetingClaims
 
-###  getTargetingClaims
+▸ **getTargetingClaims**\(`opts`: object\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_IdentityWithClaims_](../interfaces/identitywithclaims.md)_››_
 
-▸ **getTargetingClaims**(`opts`: object): *Promise‹[ResultSet](../interfaces/resultset.md)‹[IdentityWithClaims](../interfaces/identitywithclaims.md)››*
-
-*Defined in [src/Claims.ts:263](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L263)*
+_Defined in_ [_src/Claims.ts:263_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L263)
 
 Retrieve all claims issued about an Identity, grouped by claim issuer
 
@@ -201,33 +186,32 @@ Retrieve all claims issued about an Identity, grouped by claim issuer
 
 **Parameters:**
 
-▪`Default value`  **opts**: *object*= {}
+▪`Default value` **opts**: _object_= {}
 
-Name | Type | Description |
------- | ------ | ------ |
-`includeExpired?` | undefined &#124; false &#124; true | whether to include expired claims. Defaults to true  |
-`scope?` | [Scope](../interfaces/scope.md) | - |
-`size?` | undefined &#124; number | - |
-`start?` | undefined &#124; number | - |
-`target?` | string &#124; [Identity](identity.md) | identity for which to fetch targeting claims (optional, defaults to the current Identity) |
-`trustedClaimIssuers?` | (string &#124; [Identity](identity.md)‹›)[] | - |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `includeExpired?` | undefined \| false \| true | whether to include expired claims. Defaults to true |
+| `scope?` | [Scope](../interfaces/scope.md) | - |
+| `size?` | undefined \| number | - |
+| `start?` | undefined \| number | - |
+| `target?` | string \| [Identity](identity.md) | identity for which to fetch targeting claims \(optional, defaults to the current Identity\) |
+| `trustedClaimIssuers?` | \(string \| [Identity](identity.md)‹›\)\[\] | - |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[IdentityWithClaims](../interfaces/identitywithclaims.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_IdentityWithClaims_](../interfaces/identitywithclaims.md)_››_
 
-___
+### revokeClaims
 
-###  revokeClaims
+▸ **revokeClaims**\(`args`: Omit‹[ModifyClaimsParams](../globals.md#modifyclaimsparams), "operation"›\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **revokeClaims**(`args`: Omit‹[ModifyClaimsParams](../globals.md#modifyclaimsparams), "operation"›): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/Claims.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L77)*
+_Defined in_ [_src/Claims.ts:77_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/Claims.ts#L77)
 
 Revoke claims from Identities
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | Omit‹[ModifyClaimsParams](../globals.md#modifyclaimsparams), "operation"› |
+| Name | Type |
+| :--- | :--- |
+| `args` | Omit‹[ModifyClaimsParams](../globals.md#modifyclaimsparams), "operation"› |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
+

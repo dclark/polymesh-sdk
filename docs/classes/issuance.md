@@ -1,4 +1,4 @@
-# Class: Issuance
+# Issuance
 
 Handles all Security Token Issuance related functionality
 
@@ -23,38 +23,37 @@ Handles all Security Token Issuance related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Namespace.ts#L11)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Namespace.ts#L9)
 
 ## Methods
 
-###  issue
+### issue
 
-▸ **issue**(`args`: object): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+▸ **issue**\(`args`: object\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-*Defined in [src/api/entities/SecurityToken/Issuance.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/SecurityToken/Issuance.ts#L14)*
+_Defined in_ [_src/api/entities/SecurityToken/Issuance.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/SecurityToken/Issuance.ts#L14)
 
 Issue a certain amount of tokens to the primary issuance agent
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`amount` | BigNumber | amount of tokens to be issued to primary issuance agent  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `amount` | BigNumber | amount of tokens to be issued to primary issuance agent |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
+

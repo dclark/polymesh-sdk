@@ -1,4 +1,4 @@
-# Interface: PermissionsLike
+# PermissionsLike
 
 ## Hierarchy
 
@@ -16,22 +16,19 @@
 
 ### `Optional` portfolios
 
-• **portfolios**? : *[PortfolioLike](../globals.md#portfoliolike)[] | null*
+• **portfolios**? : [_PortfolioLike_](../globals.md#portfoliolike)_\[\] \| null_
 
-*Defined in [src/types/index.ts:587](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L587)*
-
-___
+_Defined in_ [_src/types/index.ts:587_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L587)
 
 ### `Optional` tokens
 
-• **tokens**? : *(string | [SecurityToken](../classes/securitytoken.md)‹›)[] | null*
+• **tokens**? : _\(string \|_ [_SecurityToken_](../classes/securitytoken.md)_‹›\)\[\] \| null_
 
-*Defined in [src/types/index.ts:585](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L585)*
-
-___
+_Defined in_ [_src/types/index.ts:585_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L585)
 
 ### `Optional` transactions
 
-• **transactions**? : *TxTag[] | null*
+• **transactions**? : _TxTag\[\] \| null_
 
-*Defined in [src/types/index.ts:586](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L586)*
+_Defined in_ [_src/types/index.ts:586_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L586)
+

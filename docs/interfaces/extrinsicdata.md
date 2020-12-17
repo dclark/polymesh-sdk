@@ -1,4 +1,4 @@
-# Interface: ExtrinsicData
+# ExtrinsicData
 
 ## Hierarchy
 
@@ -20,72 +20,57 @@
 
 ## Properties
 
-###  address
+### address
 
-• **address**: *string | null*
+• **address**: _string \| null_
 
-*Defined in [src/types/index.ts:307](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L307)*
+_Defined in_ [_src/types/index.ts:307_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L307)
 
-___
+### blockNumber
 
-###  blockNumber
+• **blockNumber**: _BigNumber_
 
-• **blockNumber**: *BigNumber*
+_Defined in_ [_src/types/index.ts:305_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L305)
 
-*Defined in [src/types/index.ts:305](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L305)*
+### extrinsicHash
 
-___
+• **extrinsicHash**: _string_
 
-###  extrinsicHash
+_Defined in_ [_src/types/index.ts:313_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L313)
 
-• **extrinsicHash**: *string*
+### extrinsicIdx
 
-*Defined in [src/types/index.ts:313](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L313)*
+• **extrinsicIdx**: _number_
 
-___
+_Defined in_ [_src/types/index.ts:306_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L306)
 
-###  extrinsicIdx
+### nonce
 
-• **extrinsicIdx**: *number*
+• **nonce**: _number_
 
-*Defined in [src/types/index.ts:306](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L306)*
+_Defined in_ [_src/types/index.ts:308_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L308)
 
-___
+### params
 
-###  nonce
+• **params**: _object\[\]_
 
-• **nonce**: *number*
+_Defined in_ [_src/types/index.ts:310_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L310)
 
-*Defined in [src/types/index.ts:308](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L308)*
+### specVersionId
 
-___
+• **specVersionId**: _number_
 
-###  params
+_Defined in_ [_src/types/index.ts:312_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L312)
 
-• **params**: *object[]*
+### success
 
-*Defined in [src/types/index.ts:310](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L310)*
+• **success**: _boolean_
 
-___
+_Defined in_ [_src/types/index.ts:311_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L311)
 
-###  specVersionId
+### txTag
 
-• **specVersionId**: *number*
+• **txTag**: _TxTag_
 
-*Defined in [src/types/index.ts:312](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L312)*
+_Defined in_ [_src/types/index.ts:309_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L309)
 
-___
-
-###  success
-
-• **success**: *boolean*
-
-*Defined in [src/types/index.ts:311](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L311)*
-
-___
-
-###  txTag
-
-• **txTag**: *TxTag*
-
-*Defined in [src/types/index.ts:309](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L309)*

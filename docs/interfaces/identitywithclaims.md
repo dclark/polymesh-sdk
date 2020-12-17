@@ -1,4 +1,4 @@
-# Interface: IdentityWithClaims
+# IdentityWithClaims
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  claims
+### claims
 
-• **claims**: *[ClaimData](claimdata.md)[]*
+• **claims**: [_ClaimData_](claimdata.md)_\[\]_
 
-*Defined in [src/types/index.ts:301](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L301)*
+_Defined in_ [_src/types/index.ts:301_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L301)
 
-___
+### identity
 
-###  identity
+• **identity**: [_Identity_](../classes/identity.md)
 
-• **identity**: *[Identity](../classes/identity.md)*
+_Defined in_ [_src/types/index.ts:300_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L300)
 
-*Defined in [src/types/index.ts:300](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L300)*

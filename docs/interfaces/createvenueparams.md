@@ -1,4 +1,4 @@
-# Interface: CreateVenueParams
+# CreateVenueParams
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  details
+### details
 
-• **details**: *string*
+• **details**: _string_
 
-*Defined in [src/api/procedures/createVenue.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/createVenue.ts#L10)*
+_Defined in_ [_src/api/procedures/createVenue.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/createVenue.ts#L10)
 
-___
+### type
 
-###  type
+• **type**: [_VenueType_](../enums/venuetype.md)
 
-• **type**: *[VenueType](../enums/venuetype.md)*
+_Defined in_ [_src/api/procedures/createVenue.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/createVenue.ts#L11)
 
-*Defined in [src/api/procedures/createVenue.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/createVenue.ts#L11)*

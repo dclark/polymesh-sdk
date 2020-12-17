@@ -1,4 +1,4 @@
-# Interface: ConditionCompliance
+# ConditionCompliance
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  complies
+### complies
 
-• **complies**: *boolean*
+• **complies**: _boolean_
 
-*Defined in [src/types/index.ts:386](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L386)*
+_Defined in_ [_src/types/index.ts:386_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L386)
 
-___
+### condition
 
-###  condition
+• **condition**: [_Condition_](../globals.md#condition)
 
-• **condition**: *[Condition](../globals.md#condition)*
+_Defined in_ [_src/types/index.ts:385_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L385)
 
-*Defined in [src/types/index.ts:385](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L385)*

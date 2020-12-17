@@ -1,8 +1,6 @@
-# Interface: Permissions
+# Permissions
 
-Permissions a Secondary Key has over the Identity. A null value means the key has
-  all permissions of that type (i.e. if `tokens` is null, the key has permissions over all
-  of the Identity's Security Tokens)
+Permissions a Secondary Key has over the Identity. A null value means the key has all permissions of that type \(i.e. if `tokens` is null, the key has permissions over all of the Identity's Security Tokens\)
 
 ## Hierarchy
 
@@ -18,24 +16,21 @@ Permissions a Secondary Key has over the Identity. A null value means the key ha
 
 ## Properties
 
-###  portfolios
+### portfolios
 
-• **portfolios**: *([DefaultPortfolio](../classes/defaultportfolio.md)‹› | [NumberedPortfolio](../classes/numberedportfolio.md)‹›)[] | null*
+• **portfolios**: _\(_[_DefaultPortfolio_](../classes/defaultportfolio.md)_‹› \|_ [_NumberedPortfolio_](../classes/numberedportfolio.md)_‹›\)\[\] \| null_
 
-*Defined in [src/types/index.ts:511](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L511)*
+_Defined in_ [_src/types/index.ts:511_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L511)
 
-___
+### tokens
 
-###  tokens
+• **tokens**: [_SecurityToken_](../classes/securitytoken.md)_\[\] \| null_
 
-• **tokens**: *[SecurityToken](../classes/securitytoken.md)[] | null*
+_Defined in_ [_src/types/index.ts:507_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L507)
 
-*Defined in [src/types/index.ts:507](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L507)*
+### transactions
 
-___
+• **transactions**: _TxTag\[\] \| null_
 
-###  transactions
+_Defined in_ [_src/types/index.ts:509_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L509)
 
-• **transactions**: *TxTag[] | null*
-
-*Defined in [src/types/index.ts:509](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L509)*

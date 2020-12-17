@@ -1,8 +1,6 @@
-# Interface: UniqueIdentifiers
+# UniqueIdentifiers
 
-Properties that uniquely identify an Identity
-Properties that uniquely identify a TickerReservation
-Properties that uniquely identify a Security Token
+Properties that uniquely identify an Identity Properties that uniquely identify a TickerReservation Properties that uniquely identify a Security Token
 
 ## Hierarchy
 
@@ -20,58 +18,51 @@ Properties that uniquely identify a Security Token
 
 ## Properties
 
-###  address
+### address
 
-• **address**: *string*
+• **address**: _string_
 
-*Defined in [src/api/entities/Account.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Account.ts#L25)*
+_Defined in_ [_src/api/entities/Account.ts:25_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Account.ts#L25)
 
-___
+### authId
 
-###  authId
+• **authId**: _BigNumber_
 
-• **authId**: *BigNumber*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/AuthorizationRequest.ts#L14)
 
-*Defined in [src/api/entities/AuthorizationRequest.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/AuthorizationRequest.ts#L14)*
+### did
 
-___
+• **did**: _string_
 
-###  did
+_Defined in_ [_src/api/entities/Identity/index.ts:49_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Identity/index.ts#L49)
 
-• **did**: *string*
+_Defined in_ [_src/api/entities/DefaultTrustedClaimIssuer.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/DefaultTrustedClaimIssuer.ts#L11)
 
-*Defined in [src/api/entities/Identity/index.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Identity/index.ts#L49)*
+_Defined in_ [_src/api/entities/Portfolio/index.ts:27_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Portfolio/index.ts#L27)
 
-*Defined in [src/api/entities/DefaultTrustedClaimIssuer.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/DefaultTrustedClaimIssuer.ts#L11)*
+_Defined in_ [_src/api/entities/NumberedPortfolio.ts:17_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/NumberedPortfolio.ts#L17)
 
-*Defined in [src/api/entities/Portfolio/index.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Portfolio/index.ts#L27)*
+### id
 
-*Defined in [src/api/entities/NumberedPortfolio.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/NumberedPortfolio.ts#L17)*
+• **id**: _BigNumber_
 
-___
+_Defined in_ [_src/api/entities/Venue/index.ts:25_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Venue/index.ts#L25)
 
-###  id
+_Defined in_ [_src/api/entities/Instruction/index.ts:30_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Instruction/index.ts#L30)
 
-• **id**: *BigNumber*
+_Defined in_ [_src/api/entities/Portfolio/index.ts:28_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Portfolio/index.ts#L28)
 
-*Defined in [src/api/entities/Venue/index.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Venue/index.ts#L25)*
+_Defined in_ [_src/api/entities/NumberedPortfolio.ts:18_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/NumberedPortfolio.ts#L18)
 
-*Defined in [src/api/entities/Instruction/index.ts:30](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Instruction/index.ts#L30)*
+### ticker
 
-*Defined in [src/api/entities/Portfolio/index.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/Portfolio/index.ts#L28)*
+• **ticker**: _string_
 
-*Defined in [src/api/entities/NumberedPortfolio.ts:18](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/NumberedPortfolio.ts#L18)*
+_Defined in_ [_src/api/entities/TickerReservation/index.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/TickerReservation/index.ts#L23)
 
-___
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:49_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/SecurityToken/index.ts#L49)
 
-###  ticker
-
-• **ticker**: *string*
-
-*Defined in [src/api/entities/TickerReservation/index.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/TickerReservation/index.ts#L23)*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/SecurityToken/index.ts#L49)*
-
-*Defined in [src/api/entities/DefaultTrustedClaimIssuer.ts:12](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/DefaultTrustedClaimIssuer.ts#L12)*
+_Defined in_ [_src/api/entities/DefaultTrustedClaimIssuer.ts:12_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/entities/DefaultTrustedClaimIssuer.ts#L12)
 
 ticker of the security token
+

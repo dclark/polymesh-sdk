@@ -1,4 +1,4 @@
-# Interface: ToggleFreezeTransfersParams
+# ToggleFreezeTransfersParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  freeze
+### freeze
 
-• **freeze**: *boolean*
+• **freeze**: _boolean_
 
-*Defined in [src/api/procedures/toggleFreezeTransfers.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/toggleFreezeTransfers.ts#L6)*
+_Defined in_ [_src/api/procedures/toggleFreezeTransfers.ts:6_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/toggleFreezeTransfers.ts#L6)
+

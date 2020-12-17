@@ -1,4 +1,4 @@
-# Interface: TokenIdentifier
+# TokenIdentifier
 
 Alphanumeric standardized security identifier
 
@@ -15,16 +15,15 @@ Alphanumeric standardized security identifier
 
 ## Properties
 
-###  type
+### type
 
-• **type**: *[TokenIdentifierType](../enums/tokenidentifiertype.md)*
+• **type**: [_TokenIdentifierType_](../enums/tokenidentifiertype.md)
 
-*Defined in [src/types/index.ts:182](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L182)*
+_Defined in_ [_src/types/index.ts:182_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L182)
 
-___
+### value
 
-###  value
+• **value**: _string_
 
-• **value**: *string*
+_Defined in_ [_src/types/index.ts:183_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L183)
 
-*Defined in [src/types/index.ts:183](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L183)*

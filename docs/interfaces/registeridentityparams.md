@@ -1,4 +1,4 @@
-# Interface: RegisterIdentityParams
+# RegisterIdentityParams
 
 ## Hierarchy
 
@@ -15,14 +15,13 @@
 
 ### `Optional` secondaryKeys
 
-• **secondaryKeys**? : *[SecondaryKey](secondarykey.md)[]*
+• **secondaryKeys**? : [_SecondaryKey_](secondarykey.md)_\[\]_
 
-*Defined in [src/api/procedures/registerIdentity.ts:16](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/registerIdentity.ts#L16)*
+_Defined in_ [_src/api/procedures/registerIdentity.ts:16_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/registerIdentity.ts#L16)
 
-___
+### targetAccount
 
-###  targetAccount
+• **targetAccount**: _string \|_ [_Account_](../classes/account.md)
 
-• **targetAccount**: *string | [Account](../classes/account.md)*
+_Defined in_ [_src/api/procedures/registerIdentity.ts:15_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/registerIdentity.ts#L15)
 
-*Defined in [src/api/procedures/registerIdentity.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/registerIdentity.ts#L15)*

@@ -1,4 +1,4 @@
-# Interface: ModifyInstructionAffirmationParams
+# ModifyInstructionAffirmationParams
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  id
+### id
 
-• **id**: *BigNumber*
+• **id**: _BigNumber_
 
-*Defined in [src/api/procedures/modifyInstructionAffirmation.ts:19](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/modifyInstructionAffirmation.ts#L19)*
+_Defined in_ [_src/api/procedures/modifyInstructionAffirmation.ts:19_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/modifyInstructionAffirmation.ts#L19)
 
-___
+### operation
 
-###  operation
+• **operation**: _InstructionAffirmationOperation_
 
-• **operation**: *InstructionAffirmationOperation*
+_Defined in_ [_src/api/procedures/modifyInstructionAffirmation.ts:20_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/modifyInstructionAffirmation.ts#L20)
 
-*Defined in [src/api/procedures/modifyInstructionAffirmation.ts:20](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/modifyInstructionAffirmation.ts#L20)*

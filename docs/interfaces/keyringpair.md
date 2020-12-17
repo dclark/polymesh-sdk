@@ -1,4 +1,4 @@
-# Interface: KeyringPair
+# KeyringPair
 
 ## Hierarchy
 
@@ -18,59 +18,52 @@
 
 ## Properties
 
-###  address
+### address
 
-• **address**: *string*
+• **address**: _string_
 
-*Inherited from [KeyringPair](keyringpair.md).[address](keyringpair.md#address)*
+_Inherited from_ [_KeyringPair_](keyringpair.md)_._[_address_](keyringpair.md#address)
 
-Defined in node_modules/@polkadot/types/types/interfaces.d.ts:13
+Defined in node\_modules/@polkadot/types/types/interfaces.d.ts:13
 
-___
+### addressRaw
 
-###  addressRaw
+• **addressRaw**: _Uint8Array_
 
-• **addressRaw**: *Uint8Array*
+_Inherited from_ [_KeyringPair_](keyringpair.md)_._[_addressRaw_](keyringpair.md#addressraw)
 
-*Inherited from [KeyringPair](keyringpair.md).[addressRaw](keyringpair.md#addressraw)*
+Defined in node\_modules/@polkadot/types/types/interfaces.d.ts:14
 
-Defined in node_modules/@polkadot/types/types/interfaces.d.ts:14
+### isLocked
 
-___
+• **isLocked**: _boolean_
 
-###  isLocked
+_Defined in_ [_src/types/index.ts:469_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L469)
 
-• **isLocked**: *boolean*
+### publicKey
 
-*Defined in [src/types/index.ts:469](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L469)*
+• **publicKey**: _Uint8Array_
 
-___
+_Inherited from_ [_KeyringPair_](keyringpair.md)_._[_publicKey_](keyringpair.md#publickey)
 
-###  publicKey
+Defined in node\_modules/@polkadot/types/types/interfaces.d.ts:15
 
-• **publicKey**: *Uint8Array*
+### sign
 
-*Inherited from [KeyringPair](keyringpair.md).[publicKey](keyringpair.md#publickey)*
+• **sign**: _function_
 
-Defined in node_modules/@polkadot/types/types/interfaces.d.ts:15
+_Inherited from_ [_KeyringPair_](keyringpair.md)_._[_sign_](keyringpair.md#sign)
 
-___
-
-###  sign
-
-• **sign**: *function*
-
-*Inherited from [KeyringPair](keyringpair.md).[sign](keyringpair.md#sign)*
-
-Defined in node_modules/@polkadot/types/types/interfaces.d.ts:16
+Defined in node\_modules/@polkadot/types/types/interfaces.d.ts:16
 
 #### Type declaration:
 
-▸ (`data`: Uint8Array, `options?`: SignOptions): *Uint8Array*
+▸ \(`data`: Uint8Array, `options?`: SignOptions\): _Uint8Array_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`data` | Uint8Array |
-`options?` | SignOptions |
+| Name | Type |
+| :--- | :--- |
+| `data` | Uint8Array |
+| `options?` | SignOptions |
+

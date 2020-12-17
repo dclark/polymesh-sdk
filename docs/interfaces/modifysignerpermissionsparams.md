@@ -1,4 +1,4 @@
-# Interface: ModifySignerPermissionsParams
+# ModifySignerPermissionsParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  secondaryKeys
+### secondaryKeys
 
-• **secondaryKeys**: *object[]*
+• **secondaryKeys**: _object\[\]_
 
-*Defined in [src/api/procedures/modifySignerPermissions.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/modifySignerPermissions.ts#L15)*
+_Defined in_ [_src/api/procedures/modifySignerPermissions.ts:15_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/modifySignerPermissions.ts#L15)
+

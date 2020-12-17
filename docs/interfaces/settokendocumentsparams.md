@@ -1,4 +1,4 @@
-# Interface: SetTokenDocumentsParams
+# SetTokenDocumentsParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  documents
+### documents
 
-• **documents**: *[TokenDocument](tokendocument.md)[]*
+• **documents**: [_TokenDocument_](tokendocument.md)_\[\]_
 
-*Defined in [src/api/procedures/setTokenDocuments.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/setTokenDocuments.ts#L14)*
+_Defined in_ [_src/api/procedures/setTokenDocuments.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/setTokenDocuments.ts#L14)
+

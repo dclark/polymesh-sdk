@@ -1,4 +1,4 @@
-# Interface: TransferPolyXParams
+# TransferPolyXParams
 
 ## Hierarchy
 
@@ -14,24 +14,21 @@
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *BigNumber*
+• **amount**: _BigNumber_
 
-*Defined in [src/api/procedures/transferPolyX.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/transferPolyX.ts#L14)*
-
-___
+_Defined in_ [_src/api/procedures/transferPolyX.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/transferPolyX.ts#L14)
 
 ### `Optional` memo
 
-• **memo**? : *undefined | string*
+• **memo**? : _undefined \| string_
 
-*Defined in [src/api/procedures/transferPolyX.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/transferPolyX.ts#L15)*
+_Defined in_ [_src/api/procedures/transferPolyX.ts:15_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/transferPolyX.ts#L15)
 
-___
+### to
 
-###  to
+• **to**: _string \|_ [_Account_](../classes/account.md)
 
-• **to**: *string | [Account](../classes/account.md)*
+_Defined in_ [_src/api/procedures/transferPolyX.ts:13_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/transferPolyX.ts#L13)
 
-*Defined in [src/api/procedures/transferPolyX.ts:13](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/transferPolyX.ts#L13)*

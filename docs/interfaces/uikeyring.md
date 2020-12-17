@@ -1,4 +1,4 @@
-# Interface: UiKeyring
+# UiKeyring
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  keyring
+### keyring
 
-• **keyring**: *[CommonKeyring](../globals.md#commonkeyring)*
+• **keyring**: [_CommonKeyring_](../globals.md#commonkeyring)
 
-*Defined in [src/types/index.ts:459](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L459)*
+_Defined in_ [_src/types/index.ts:459_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L459)
+

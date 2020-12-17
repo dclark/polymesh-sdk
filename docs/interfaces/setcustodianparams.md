@@ -1,4 +1,4 @@
-# Interface: SetCustodianParams
+# SetCustodianParams
 
 ## Hierarchy
 
@@ -15,14 +15,13 @@
 
 ### `Optional` expiry
 
-• **expiry**? : *[Date](../enums/transactionargumenttype.md#date)*
+• **expiry**? : [_Date_](../enums/transactionargumenttype.md#date)
 
-*Defined in [src/api/procedures/setCustodian.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/setCustodian.ts#L21)*
+_Defined in_ [_src/api/procedures/setCustodian.ts:21_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/setCustodian.ts#L21)
 
-___
+### targetIdentity
 
-###  targetIdentity
+• **targetIdentity**: _string \|_ [_Identity_](../classes/identity.md)
 
-• **targetIdentity**: *string | [Identity](../classes/identity.md)*
+_Defined in_ [_src/api/procedures/setCustodian.ts:20_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/setCustodian.ts#L20)
 
-*Defined in [src/api/procedures/setCustodian.ts:20](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/api/procedures/setCustodian.ts#L20)*

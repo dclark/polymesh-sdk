@@ -1,4 +1,4 @@
-# Interface: PortfolioMovement
+# PortfolioMovement
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *BigNumber*
+• **amount**: _BigNumber_
 
-*Defined in [src/types/index.ts:599](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L599)*
+_Defined in_ [_src/types/index.ts:599_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L599)
 
-___
+### token
 
-###  token
+• **token**: _string \|_ [_SecurityToken_](../classes/securitytoken.md)
 
-• **token**: *string | [SecurityToken](../classes/securitytoken.md)*
+_Defined in_ [_src/types/index.ts:598_](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L598)
 
-*Defined in [src/types/index.ts:598](https://github.com/PolymathNetwork/polymesh-sdk/blob/1221e467/src/types/index.ts#L598)*
