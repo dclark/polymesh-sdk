@@ -1,4 +1,4 @@
-# Class: Compliance
+# Compliance
 
 Handles all Security Token Compliance related functionality
 
@@ -20,46 +20,39 @@ Handles all Security Token Compliance related functionality
 
 ## Properties
 
-###  complies
+### complies
 
-• **complies**: *boolean*
+• **complies**: _boolean_
 
-*Defined in [src/types/index.ts:427](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L427)*
-
-___
+_Defined in_ [_src/types/index.ts:427_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L427)
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L11)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L9)
 
-___
+### requirements
 
-###  requirements
+• **requirements**: [_Requirements_](requirements.md)
 
-• **requirements**: *[Requirements](requirements.md)*
+_Defined in_ [_src/types/index.ts:426_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L426)
 
-*Defined in [src/types/index.ts:426](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L426)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/index.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/Compliance/index.ts#L11)
 
-*Defined in [src/api/entities/SecurityToken/Compliance/index.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/Compliance/index.ts#L11)*
+### trustedClaimIssuers
 
-___
+• **trustedClaimIssuers**: [_TrustedClaimIssuers_](trustedclaimissuers.md)
 
-###  trustedClaimIssuers
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/index.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/Compliance/index.ts#L10)
 
-• **trustedClaimIssuers**: *[TrustedClaimIssuers](trustedclaimissuers.md)*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/index.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/Compliance/index.ts#L10)*

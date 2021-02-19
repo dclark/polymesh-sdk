@@ -1,9 +1,8 @@
-# Interface: PermissionsLike
+# PermissionsLike
 
 Permissions to grant to a Signer over an Identity
 
-**`note`** TxGroups in the `transactionGroups` array will be transformed into their corresponding `TxTag`s
-  and appended to the `transactions` array. If `transactions` is null, then the value of `transactionGroups` is redundant
+**`note`** TxGroups in the `transactionGroups` array will be transformed into their corresponding `TxTag`s and appended to the `transactions` array. If `transactions` is null, then the value of `transactionGroups` is redundant
 
 ## Hierarchy
 
@@ -22,30 +21,25 @@ Permissions to grant to a Signer over an Identity
 
 ### `Optional` portfolios
 
-• **portfolios**? : *[PortfolioLike](../globals.md#portfoliolike)[] | null*
+• **portfolios**? : [_PortfolioLike_](../globals.md#portfoliolike)_\[\] \| null_
 
-*Defined in [src/types/index.ts:702](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L702)*
-
-___
+_Defined in_ [_src/types/index.ts:702_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L702)
 
 ### `Optional` tokens
 
-• **tokens**? : *(string | [SecurityToken](../classes/securitytoken.md)‹›)[] | null*
+• **tokens**? : _\(string \|_ [_SecurityToken_](../classes/securitytoken.md)_‹›\)\[\] \| null_
 
-*Defined in [src/types/index.ts:699](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L699)*
-
-___
+_Defined in_ [_src/types/index.ts:699_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L699)
 
 ### `Optional` transactionGroups
 
-• **transactionGroups**? : *[TxGroup](../enums/txgroup.md)[]*
+• **transactionGroups**? : [_TxGroup_](../enums/txgroup.md)_\[\]_
 
-*Defined in [src/types/index.ts:701](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L701)*
-
-___
+_Defined in_ [_src/types/index.ts:701_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L701)
 
 ### `Optional` transactions
 
-• **transactions**? : *TxTag[] | null*
+• **transactions**? : _TxTag\[\] \| null_
 
-*Defined in [src/types/index.ts:700](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L700)*
+_Defined in_ [_src/types/index.ts:700_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L700)
+

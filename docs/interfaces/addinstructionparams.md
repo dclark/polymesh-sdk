@@ -1,4 +1,4 @@
-# Interface: AddInstructionParams
+# AddInstructionParams
 
 ## Hierarchy
 
@@ -17,30 +17,25 @@
 
 ### `Optional` endBlock
 
-• **endBlock**? : *BigNumber*
+• **endBlock**? : _BigNumber_
 
-*Defined in [src/api/procedures/addInstruction.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInstruction.ts#L45)*
+_Defined in_ [_src/api/procedures/addInstruction.ts:45_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInstruction.ts#L45)
 
-___
+### legs
 
-###  legs
+• **legs**: _object\[\]_
 
-• **legs**: *object[]*
-
-*Defined in [src/api/procedures/addInstruction.ts:37](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInstruction.ts#L37)*
-
-___
+_Defined in_ [_src/api/procedures/addInstruction.ts:37_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInstruction.ts#L37)
 
 ### `Optional` tradeDate
 
-• **tradeDate**? : *[Date](../enums/transactionargumenttype.md#date)*
+• **tradeDate**? : [_Date_](../enums/transactionargumenttype.md#date)
 
-*Defined in [src/api/procedures/addInstruction.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInstruction.ts#L43)*
-
-___
+_Defined in_ [_src/api/procedures/addInstruction.ts:43_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInstruction.ts#L43)
 
 ### `Optional` valueDate
 
-• **valueDate**? : *[Date](../enums/transactionargumenttype.md#date)*
+• **valueDate**? : [_Date_](../enums/transactionargumenttype.md#date)
 
-*Defined in [src/api/procedures/addInstruction.ts:44](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInstruction.ts#L44)*
+_Defined in_ [_src/api/procedures/addInstruction.ts:44_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInstruction.ts#L44)
+

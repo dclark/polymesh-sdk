@@ -1,12 +1,12 @@
-# Class: IdentityAuthorizations
+# IdentityAuthorizations
 
 Handles all Identity Authorization related functionality
 
 ## Hierarchy
 
-  ↳ [Authorizations](authorizations.md)‹[Identity](identity.md)›
+↳ [Authorizations](authorizations.md)‹[Identity](identity.md)›
 
-  ↳ **IdentityAuthorizations**
+↳ **IdentityAuthorizations**
 
 ## Index
 
@@ -24,49 +24,45 @@ Handles all Identity Authorization related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L11)
 
 ### `Protected` parent
 
-• **parent**: *[Identity](identity.md)*
+• **parent**: [_Identity_](identity.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L9)
 
 ## Methods
 
-###  getReceived
+### getReceived
 
-▸ **getReceived**(`opts?`: undefined | object): *Promise‹[AuthorizationRequest](authorizationrequest.md)[]›*
+▸ **getReceived**\(`opts?`: undefined \| object\): _Promise‹_[_AuthorizationRequest_](authorizationrequest.md)_\[\]›_
 
-*Inherited from [Authorizations](authorizations.md).[getReceived](authorizations.md#getreceived)*
+_Inherited from_ [_Authorizations_](authorizations.md)_._[_getReceived_](authorizations.md#getreceived)
 
-*Defined in [src/api/entities/common/namespaces/Authorizations.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/common/namespaces/Authorizations.ts#L28)*
+_Defined in_ [_src/api/entities/common/namespaces/Authorizations.ts:28_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/common/namespaces/Authorizations.ts#L28)
 
 Fetch all pending authorization requests for which this identity is the target
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`opts?` | undefined &#124; object |
+| Name | Type |
+| :--- | :--- |
+| `opts?` | undefined \| object |
 
-**Returns:** *Promise‹[AuthorizationRequest](authorizationrequest.md)[]›*
+**Returns:** _Promise‹_[_AuthorizationRequest_](authorizationrequest.md)_\[\]›_
 
-___
+### getSent
 
-###  getSent
+▸ **getSent**\(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_AuthorizationRequest_](authorizationrequest.md)_››_
 
-▸ **getSent**(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)): *Promise‹[ResultSet](../interfaces/resultset.md)‹[AuthorizationRequest](authorizationrequest.md)››*
-
-*Defined in [src/api/entities/Identity/IdentityAuthorizations.ts:18](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Identity/IdentityAuthorizations.ts#L18)*
+_Defined in_ [_src/api/entities/Identity/IdentityAuthorizations.ts:18_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Identity/IdentityAuthorizations.ts#L18)
 
 Fetch all pending authorization requests issued by this Identity
 
@@ -74,8 +70,9 @@ Fetch all pending authorization requests issued by this Identity
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
+| Name | Type |
+| :--- | :--- |
+| `paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[AuthorizationRequest](authorizationrequest.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_AuthorizationRequest_](authorizationrequest.md)_››_
+

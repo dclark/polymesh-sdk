@@ -1,4 +1,4 @@
-# Interface: Fees
+# Fees
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  gas
+### gas
 
-• **gas**: *BigNumber*
+• **gas**: _BigNumber_
 
-*Defined in [src/types/index.ts:531](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L531)*
+_Defined in_ [_src/types/index.ts:531_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L531)
 
-___
+### protocol
 
-###  protocol
+• **protocol**: _BigNumber_
 
-• **protocol**: *BigNumber*
+_Defined in_ [_src/types/index.ts:530_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L530)
 
-*Defined in [src/types/index.ts:530](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L530)*

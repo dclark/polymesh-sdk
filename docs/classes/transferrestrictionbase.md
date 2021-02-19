@@ -1,10 +1,10 @@
-# Class: TransferRestrictionBase ‹**T**›
+# TransferRestrictionBase
 
 Base class for managing Transfer Restrictions
 
 ## Type parameters
 
-▪ **T**: *TransferRestrictionType*
+▪ **T**: _TransferRestrictionType_
 
 ## Hierarchy
 
@@ -34,11 +34,11 @@ Base class for managing Transfer Restrictions
 
 ## Properties
 
-###  addRestriction
+### addRestriction
 
-• **addRestriction**: *ProcedureMethod‹[AddRestrictionParams](../globals.md#addrestrictionparams)‹T›, number›*
+• **addRestriction**: _ProcedureMethod‹_[_AddRestrictionParams_](../globals.md#addrestrictionparams)_‹T›, number›_
 
-*Defined in [src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L112)*
+_Defined in_ [_src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:112_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L112)
 
 Add a Transfer Restriction of the corresponding type to this Security Token
 
@@ -47,88 +47,78 @@ Add a Transfer Restriction of the corresponding type to this Security Token
 **`note`** the result is the total amount of restrictions after the procedure has run
 
 **`note`** required role:
-  - Security Token Owner
 
-___
+* Security Token Owner
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L11)
 
 ### `Optional` exemptedScopeIds
 
-• **exemptedScopeIds**? : *string[]*
+• **exemptedScopeIds**? : _string\[\]_
 
-*Defined in [src/types/index.ts:723](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L723)*
-
-___
+_Defined in_ [_src/types/index.ts:723_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L723)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L9)
 
-___
+### removeRestrictions
 
-###  removeRestrictions
+• **removeRestrictions**: _ProcedureMethod‹void, number›_
 
-• **removeRestrictions**: *ProcedureMethod‹void, number›*
-
-*Defined in [src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:134](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L134)*
+_Defined in_ [_src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:134_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L134)
 
 Removes all Transfer Restrictions of the corresponding type from this Security Token
 
 **`note`** the result is the total amount of restrictions after the procedure has run
 
 **`note`** required role:
-  - Security Token Owner
 
-___
+* Security Token Owner
 
-###  setRestrictions
+### setRestrictions
 
-• **setRestrictions**: *ProcedureMethod‹[SetRestrictionsParams](../globals.md#setrestrictionsparams)‹T›, number›*
+• **setRestrictions**: _ProcedureMethod‹_[_SetRestrictionsParams_](../globals.md#setrestrictionsparams)_‹T›, number›_
 
-*Defined in [src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:124](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L124)*
+_Defined in_ [_src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:124_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L124)
 
 Sets all Transfer Restrictions of the corresponding type on this Security Token
 
-**`param`** array of Transfer Restrictions with their corresponding exemptions (if applicable)
+**`param`** array of Transfer Restrictions with their corresponding exemptions \(if applicable\)
 
 **`note`** the result is the total amount of restrictions after the procedure has run
 
 **`note`** required role:
-  - Security Token Owner
 
-___
+* Security Token Owner
 
 ### `Protected` `Abstract` type
 
-• **type**: *T*
+• **type**: _T_
 
-*Defined in [src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:53](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L53)*
+_Defined in_ [_src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:53_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L53)
 
 ## Methods
 
-###  get
+### get
 
-▸ **get**(): *Promise‹[GetReturnType](../globals.md#getreturntype)‹T››*
+▸ **get**\(\): _Promise‹_[_GetReturnType_](../globals.md#getreturntype)_‹T››_
 
-*Defined in [src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:143](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L143)*
+_Defined in_ [_src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:143_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L143)
 
 Retrieve all active Transfer Restrictions of the corresponding type
 
-**`note`** there is a maximum number of restrictions allowed accross all types.
-  The `availableSlots` property of the result represents how many more restrictions can be added
-  before reaching that limit
+**`note`** there is a maximum number of restrictions allowed accross all types. The `availableSlots` property of the result represents how many more restrictions can be added before reaching that limit
 
-**Returns:** *Promise‹[GetReturnType](../globals.md#getreturntype)‹T››*
+**Returns:** _Promise‹_[_GetReturnType_](../globals.md#getreturntype)_‹T››_
+

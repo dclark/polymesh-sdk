@@ -1,4 +1,4 @@
-# Interface: ModifyPrimaryIssuanceAgentParams
+# ModifyPrimaryIssuanceAgentParams
 
 ## Hierarchy
 
@@ -15,14 +15,13 @@
 
 ### `Optional` requestExpiry
 
-• **requestExpiry**? : *[Date](../enums/transactionargumenttype.md#date)*
+• **requestExpiry**? : [_Date_](../enums/transactionargumenttype.md#date)
 
-*Defined in [src/api/procedures/modifyPrimaryIssuanceAgent.ts:13](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/modifyPrimaryIssuanceAgent.ts#L13)*
+_Defined in_ [_src/api/procedures/modifyPrimaryIssuanceAgent.ts:13_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/modifyPrimaryIssuanceAgent.ts#L13)
 
-___
+### target
 
-###  target
+• **target**: _string \|_ [_Identity_](../classes/identity.md)
 
-• **target**: *string | [Identity](../classes/identity.md)*
+_Defined in_ [_src/api/procedures/modifyPrimaryIssuanceAgent.ts:12_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/modifyPrimaryIssuanceAgent.ts#L12)
 
-*Defined in [src/api/procedures/modifyPrimaryIssuanceAgent.ts:12](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/modifyPrimaryIssuanceAgent.ts#L12)*

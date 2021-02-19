@@ -1,4 +1,4 @@
-# Interface: PercentageTransferRestrictionInput
+# PercentageTransferRestrictionInput
 
 ## Hierarchy
 
@@ -18,26 +18,23 @@
 
 ### `Optional` exemptedIdentities
 
-• **exemptedIdentities**? : *(string | [Identity](../classes/identity.md)‹›)[]*
+• **exemptedIdentities**? : _\(string \|_ [_Identity_](../classes/identity.md)_‹›\)\[\]_
 
-*Inherited from [TransferRestrictionInputBase](transferrestrictioninputbase.md).[exemptedIdentities](transferrestrictioninputbase.md#optional-exemptedidentities)*
+_Inherited from_ [_TransferRestrictionInputBase_](transferrestrictioninputbase.md)_._[_exemptedIdentities_](transferrestrictioninputbase.md#optional-exemptedidentities)
 
-*Defined in [src/types/index.ts:728](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L728)*
-
-___
+_Defined in_ [_src/types/index.ts:728_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L728)
 
 ### `Optional` exemptedScopeIds
 
-• **exemptedScopeIds**? : *string[]*
+• **exemptedScopeIds**? : _string\[\]_
 
-*Inherited from [TransferRestrictionInputBase](transferrestrictioninputbase.md).[exemptedScopeIds](transferrestrictioninputbase.md#optional-exemptedscopeids)*
+_Inherited from_ [_TransferRestrictionInputBase_](transferrestrictioninputbase.md)_._[_exemptedScopeIds_](transferrestrictioninputbase.md#optional-exemptedscopeids)
 
-*Defined in [src/types/index.ts:727](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L727)*
+_Defined in_ [_src/types/index.ts:727_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L727)
 
-___
+### percentage
 
-###  percentage
+• **percentage**: _BigNumber_
 
-• **percentage**: *BigNumber*
+_Defined in_ [_src/types/index.ts:744_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L744)
 
-*Defined in [src/types/index.ts:744](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L744)*

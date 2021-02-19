@@ -1,4 +1,4 @@
-# Class: Documents
+# Documents
 
 Handles all Security Token Document related functionality
 
@@ -24,29 +24,25 @@ Handles all Security Token Document related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L11)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L9)
 
-___
+### set
 
-###  set
+• **set**: _ProcedureMethod‹_[_SetTokenDocumentsParams_](../interfaces/settokendocumentsparams.md)_,_ [_SecurityToken_](securitytoken.md)_›_
 
-• **set**: *ProcedureMethod‹[SetTokenDocumentsParams](../interfaces/settokendocumentsparams.md), [SecurityToken](securitytoken.md)›*
-
-*Defined in [src/api/entities/SecurityToken/Documents.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/Documents.ts#L38)*
+_Defined in_ [_src/api/entities/SecurityToken/Documents.ts:38_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/Documents.ts#L38)
 
 Assign a new list of documents to the Security Token by replacing the existing list of documents with the one passed in the parameters
 
@@ -55,15 +51,16 @@ This requires two transactions
 **`param`** new list of documents
 
 **`note`** required role:
-  - Security Token Owner
+
+* Security Token Owner
 
 ## Methods
 
-###  get
+### get
 
-▸ **get**(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)): *Promise‹[ResultSet](../interfaces/resultset.md)‹[TokenDocument](../interfaces/tokendocument.md)››*
+▸ **get**\(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_TokenDocument_](../interfaces/tokendocument.md)_››_
 
-*Defined in [src/api/entities/SecurityToken/Documents.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/Documents.ts#L45)*
+_Defined in_ [_src/api/entities/SecurityToken/Documents.ts:45_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/Documents.ts#L45)
 
 Retrieve all documents linked to the Security Token
 
@@ -71,8 +68,9 @@ Retrieve all documents linked to the Security Token
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
+| Name | Type |
+| :--- | :--- |
+| `paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[TokenDocument](../interfaces/tokendocument.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_TokenDocument_](../interfaces/tokendocument.md)_››_
+

@@ -1,4 +1,4 @@
-# Interface: RevokeClaimsParams
+# RevokeClaimsParams
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  claims
+### claims
 
-• **claims**: *Omit‹[ClaimTarget](claimtarget.md), "expiry"›[]*
+• **claims**: _Omit‹_[_ClaimTarget_](claimtarget.md)_, "expiry"›\[\]_
 
-*Defined in [src/api/procedures/modifyClaims.ts:50](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/modifyClaims.ts#L50)*
+_Defined in_ [_src/api/procedures/modifyClaims.ts:50_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/modifyClaims.ts#L50)
 
-___
+### operation
 
-###  operation
+• **operation**: _Revoke_
 
-• **operation**: *Revoke*
+_Defined in_ [_src/api/procedures/modifyClaims.ts:51_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/modifyClaims.ts#L51)
 
-*Defined in [src/api/procedures/modifyClaims.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/modifyClaims.ts#L51)*

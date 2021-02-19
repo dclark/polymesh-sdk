@@ -1,4 +1,4 @@
-# Class: Issuance
+# Issuance
 
 Handles all Security Token Issuance related functionality
 
@@ -20,33 +20,31 @@ Handles all Security Token Issuance related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L11)*
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L11)
 
-___
+### issue
 
-###  issue
+• **issue**: _ProcedureMethod‹object,_ [_SecurityToken_](securitytoken.md)_›_
 
-• **issue**: *ProcedureMethod‹object, [SecurityToken](securitytoken.md)›*
-
-*Defined in [src/api/entities/SecurityToken/Issuance.ts:30](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/Issuance.ts#L30)*
+_Defined in_ [_src/api/entities/SecurityToken/Issuance.ts:30_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/Issuance.ts#L30)
 
 Issue a certain amount of tokens to the primary issuance agent
 
 **`param`** amount of tokens to be issued to primary issuance agent
 
 **`note`** required role:
-  - Security Token Primary Issuance Agent
 
-___
+* Security Token Primary Issuance Agent
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Namespace.ts#L9)
+

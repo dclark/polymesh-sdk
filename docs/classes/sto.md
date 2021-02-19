@@ -1,4 +1,4 @@
-# Class: Sto
+# Sto
 
 Represents a Security Token Offering in the Polymesh blockchain
 
@@ -30,135 +30,123 @@ Represents a Security Token Offering in the Polymesh blockchain
 
 ## Properties
 
-###  close
+### close
 
-• **close**: *ProcedureMethod‹void, void›*
+• **close**: _ProcedureMethod‹void, void›_
 
-*Defined in [src/api/entities/Sto/index.ts:128](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L128)*
+_Defined in_ [_src/api/entities/Sto/index.ts:128_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L128)
 
 Close the STO
 
-___
-
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [Entity](entity.md).[context](entity.md#protected-context)*
+_Inherited from_ [_Entity_](entity.md)_._[_context_](entity.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L48)
 
-___
+### freeze
 
-###  freeze
+• **freeze**: _ProcedureMethod‹void,_ [_Sto_](sto.md)_›_
 
-• **freeze**: *ProcedureMethod‹void, [Sto](sto.md)›*
-
-*Defined in [src/api/entities/Sto/index.ts:136](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L136)*
+_Defined in_ [_src/api/entities/Sto/index.ts:136_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L136)
 
 Freeze the STO
 
 **`note`** required role:
-  - Security Token Primary Issuance Agent
 
-___
+* Security Token Primary Issuance Agent
 
-###  id
+### id
 
-• **id**: *BigNumber*
+• **id**: _BigNumber_
 
-*Defined in [src/api/entities/Sto/index.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L46)*
+_Defined in_ [_src/api/entities/Sto/index.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L46)
 
 identifier number of the Offering
 
-___
+### modifyTimes
 
-###  modifyTimes
+• **modifyTimes**: _ProcedureMethod‹_[_ModifyStoTimesParams_](../globals.md#modifystotimesparams)_, void›_
 
-• **modifyTimes**: *ProcedureMethod‹[ModifyStoTimesParams](../globals.md#modifystotimesparams), void›*
-
-*Defined in [src/api/entities/Sto/index.ts:160](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L160)*
+_Defined in_ [_src/api/entities/Sto/index.ts:160_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L160)
 
 Modify the start/end time of the STO
 
-**`param`** new start time (optional, will be left the same if not passed)
+**`param`** new start time \(optional, will be left the same if not passed\)
 
-**`param`** new end time (optional, will be left th same if not passed). A null value means the STO doesn't end
+**`param`** new end time \(optional, will be left th same if not passed\). A null value means the STO doesn't end
 
 **`throws`** if:
-  - Trying to modify the start time on an STO that already started
-  - Trying to modify anything on an STO that already ended
-  - Trying to change start or end time to a past date
+
+* Trying to modify the start time on an STO that already started
+* Trying to modify anything on an STO that already ended
+* Trying to change start or end time to a past date
 
 **`note`** required role:
-  - Security Token Primary Issuance Agent
 
-___
+* Security Token Primary Issuance Agent
 
-###  ticker
+### ticker
 
-• **ticker**: *string*
+• **ticker**: _string_
 
-*Defined in [src/api/entities/Sto/index.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L51)*
+_Defined in_ [_src/api/entities/Sto/index.ts:51_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L51)
 
 ticker of the Security Token being offered
 
-___
+### unfreeze
 
-###  unfreeze
+• **unfreeze**: _ProcedureMethod‹void,_ [_Sto_](sto.md)_›_
 
-• **unfreeze**: *ProcedureMethod‹void, [Sto](sto.md)›*
-
-*Defined in [src/api/entities/Sto/index.ts:144](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L144)*
+_Defined in_ [_src/api/entities/Sto/index.ts:144_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L144)
 
 Unfreeze the STO
 
 **`note`** required role:
-  - Security Token Primary Issuance Agent
 
-___
+* Security Token Primary Issuance Agent
 
-###  uuid
+### uuid
 
-• **uuid**: *string*
+• **uuid**: _string_
 
-*Inherited from [Entity](entity.md).[uuid](entity.md#uuid)*
+_Inherited from_ [_Entity_](entity.md)_._[_uuid_](entity.md#uuid)
 
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  details
+### details
 
-▸ **details**(): *Promise‹[StoDetails](../interfaces/stodetails.md)›*
+▸ **details**\(\): _Promise‹_[_StoDetails_](../interfaces/stodetails.md)_›_
 
-*Defined in [src/api/entities/Sto/index.ts:84](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L84)*
+_Defined in_ [_src/api/entities/Sto/index.ts:84_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L84)
 
 Retrieve the STO's details
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[StoDetails](../interfaces/stodetails.md)›*
+**Returns:** _Promise‹_[_StoDetails_](../interfaces/stodetails.md)_›_
 
-▸ **details**(`callback`: [SubCallback](../globals.md#subcallback)‹[StoDetails](../interfaces/stodetails.md)›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **details**\(`callback`: [SubCallback](../globals.md#subcallback)‹[StoDetails](../interfaces/stodetails.md)›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/Sto/index.ts:85](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L85)*
+_Defined in_ [_src/api/entities/Sto/index.ts:85_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L85)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹[StoDetails](../interfaces/stodetails.md)› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[StoDetails](../interfaces/stodetails.md)› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### getInvestments
 
-###  getInvestments
+▸ **getInvestments**\(`opts`: object\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_Investment_](../interfaces/investment.md)_››_
 
-▸ **getInvestments**(`opts`: object): *Promise‹[ResultSet](../interfaces/resultset.md)‹[Investment](../interfaces/investment.md)››*
-
-*Defined in [src/api/entities/Sto/index.ts:171](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L171)*
+_Defined in_ [_src/api/entities/Sto/index.ts:171_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/index.ts#L171)
 
 Retrieve all investments made on this STO
 
@@ -168,59 +156,56 @@ Retrieve all investments made on this STO
 
 **Parameters:**
 
-▪`Default value`  **opts**: *object*= {}
+▪`Default value` **opts**: _object_= {}
 
-Name | Type | Description |
------- | ------ | ------ |
-`size?` | undefined &#124; number | page size |
-`start?` | undefined &#124; number | page offset  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `size?` | undefined \| number | page size |
+| `start?` | undefined \| number | page offset |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[Investment](../interfaces/investment.md)››*
-
-___
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_Investment_](../interfaces/investment.md)_››_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [Entity](entity.md).[generateUuid](entity.md#static-generateuuid)*
+_Inherited from_ [_Entity_](entity.md)_._[_generateUuid_](entity.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [Entity](entity.md).[unserialize](entity.md#static-unserialize)*
+_Inherited from_ [_Entity_](entity.md)_._[_unserialize_](entity.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

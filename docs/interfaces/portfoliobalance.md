@@ -1,4 +1,4 @@
-# Interface: PortfolioBalance
+# PortfolioBalance
 
 ## Hierarchy
 
@@ -14,24 +14,21 @@
 
 ## Properties
 
-###  locked
+### locked
 
-• **locked**: *BigNumber*
+• **locked**: _BigNumber_
 
-*Defined in [src/api/entities/Portfolio/types.ts:13](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Portfolio/types.ts#L13)*
+_Defined in_ [_src/api/entities/Portfolio/types.ts:13_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Portfolio/types.ts#L13)
 
-___
+### token
 
-###  token
+• **token**: [_SecurityToken_](../classes/securitytoken.md)
 
-• **token**: *[SecurityToken](../classes/securitytoken.md)*
+_Defined in_ [_src/api/entities/Portfolio/types.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Portfolio/types.ts#L11)
 
-*Defined in [src/api/entities/Portfolio/types.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Portfolio/types.ts#L11)*
+### total
 
-___
+• **total**: _BigNumber_
 
-###  total
+_Defined in_ [_src/api/entities/Portfolio/types.ts:12_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Portfolio/types.ts#L12)
 
-• **total**: *BigNumber*
-
-*Defined in [src/api/entities/Portfolio/types.ts:12](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Portfolio/types.ts#L12)*

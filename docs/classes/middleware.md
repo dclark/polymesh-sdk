@@ -1,4 +1,4 @@
-# Class: Middleware
+# Middleware
 
 Handles all Middleware related functionality
 
@@ -16,11 +16,11 @@ Handles all Middleware related functionality
 
 ## Methods
 
-###  getEventByIndexedArgs
+### getEventByIndexedArgs
 
-▸ **getEventByIndexedArgs**(`opts`: object): *Promise‹[EventIdentifier](../interfaces/eventidentifier.md) | null›*
+▸ **getEventByIndexedArgs**\(`opts`: object\): _Promise‹_[_EventIdentifier_](../interfaces/eventidentifier.md) _\| null›_
 
-*Defined in [src/Middleware.ts:33](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/Middleware.ts#L33)*
+_Defined in_ [_src/Middleware.ts:33_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/Middleware.ts#L33)
 
 Retrieve a single event by any of its indexed arguments. Can be filtered using parameters
 
@@ -28,25 +28,23 @@ Retrieve a single event by any of its indexed arguments. Can be filtered using p
 
 **Parameters:**
 
-▪ **opts**: *object*
+▪ **opts**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`eventArg0?` | undefined &#124; string | event parameter value to filter by in position 0 |
-`eventArg1?` | undefined &#124; string | event parameter value to filter by in position 1 |
-`eventArg2?` | undefined &#124; string | event parameter value to filter by in position 2  |
-`eventId` | EventId | type of the event to fetch |
-`moduleId` | ModuleId | type of the module to fetch |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `eventArg0?` | undefined \| string | event parameter value to filter by in position 0 |
+| `eventArg1?` | undefined \| string | event parameter value to filter by in position 1 |
+| `eventArg2?` | undefined \| string | event parameter value to filter by in position 2 |
+| `eventId` | EventId | type of the event to fetch |
+| `moduleId` | ModuleId | type of the module to fetch |
 
-**Returns:** *Promise‹[EventIdentifier](../interfaces/eventidentifier.md) | null›*
+**Returns:** _Promise‹_[_EventIdentifier_](../interfaces/eventidentifier.md) _\| null›_
 
-___
+### getEventsByIndexedArgs
 
-###  getEventsByIndexedArgs
+▸ **getEventsByIndexedArgs**\(`opts`: object\): _Promise‹_[_EventIdentifier_](../interfaces/eventidentifier.md)_\[\] \| null›_
 
-▸ **getEventsByIndexedArgs**(`opts`: object): *Promise‹[EventIdentifier](../interfaces/eventidentifier.md)[] | null›*
-
-*Defined in [src/Middleware.ts:80](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/Middleware.ts#L80)*
+_Defined in_ [_src/Middleware.ts:80_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/Middleware.ts#L80)
 
 Retrieve a list of events. Can be filtered using parameters
 
@@ -54,27 +52,25 @@ Retrieve a list of events. Can be filtered using parameters
 
 **Parameters:**
 
-▪ **opts**: *object*
+▪ **opts**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`eventArg0?` | undefined &#124; string | event parameter value to filter by in position 0 |
-`eventArg1?` | undefined &#124; string | event parameter value to filter by in position 1 |
-`eventArg2?` | undefined &#124; string | event parameter value to filter by in position 2 |
-`eventId` | EventId | type of the event to fetch |
-`moduleId` | ModuleId | type of the module to fetch |
-`size?` | undefined &#124; number | page size |
-`start?` | undefined &#124; number | page offset  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `eventArg0?` | undefined \| string | event parameter value to filter by in position 0 |
+| `eventArg1?` | undefined \| string | event parameter value to filter by in position 1 |
+| `eventArg2?` | undefined \| string | event parameter value to filter by in position 2 |
+| `eventId` | EventId | type of the event to fetch |
+| `moduleId` | ModuleId | type of the module to fetch |
+| `size?` | undefined \| number | page size |
+| `start?` | undefined \| number | page offset |
 
-**Returns:** *Promise‹[EventIdentifier](../interfaces/eventidentifier.md)[] | null›*
+**Returns:** _Promise‹_[_EventIdentifier_](../interfaces/eventidentifier.md)_\[\] \| null›_
 
-___
+### getTransactionByHash
 
-###  getTransactionByHash
+▸ **getTransactionByHash**\(`opts`: object\): _Promise‹_[_ExtrinsicData_](../interfaces/extrinsicdata.md) _\| null›_
 
-▸ **getTransactionByHash**(`opts`: object): *Promise‹[ExtrinsicData](../interfaces/extrinsicdata.md) | null›*
-
-*Defined in [src/Middleware.ts:129](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/Middleware.ts#L129)*
+_Defined in_ [_src/Middleware.ts:129_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/Middleware.ts#L129)
 
 Retrieve a transaction by hash
 
@@ -82,10 +78,11 @@ Retrieve a transaction by hash
 
 **Parameters:**
 
-▪ **opts**: *object*
+▪ **opts**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`txHash` | string | hash of the transaction  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `txHash` | string | hash of the transaction |
 
-**Returns:** *Promise‹[ExtrinsicData](../interfaces/extrinsicdata.md) | null›*
+**Returns:** _Promise‹_[_ExtrinsicData_](../interfaces/extrinsicdata.md) _\| null›_
+

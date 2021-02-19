@@ -1,4 +1,4 @@
-# Class: Instruction
+# Instruction
 
 Represents a settlement Instruction to be executed on a certain Venue
 
@@ -29,41 +29,35 @@ Represents a settlement Instruction to be executed on a certain Venue
 
 ## Properties
 
-###  affirm
+### affirm
 
-• **affirm**: *ProcedureMethod‹void, [Instruction](instruction.md)›*
+• **affirm**: _ProcedureMethod‹void,_ [_Instruction_](instruction.md)_›_
 
-*Defined in [src/api/entities/Instruction/index.ts:221](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/index.ts#L221)*
+_Defined in_ [_src/api/entities/Instruction/index.ts:221_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/index.ts#L221)
 
-Affirm this instruction (authorize)
-
-___
+Affirm this instruction \(authorize\)
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [Entity](entity.md).[context](entity.md#protected-context)*
+_Inherited from_ [_Entity_](entity.md)_._[_context_](entity.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L48)
 
-___
+### id
 
-###  id
+• **id**: _BigNumber_
 
-• **id**: *BigNumber*
-
-*Defined in [src/api/entities/Instruction/index.ts:50](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/index.ts#L50)*
+_Defined in_ [_src/api/entities/Instruction/index.ts:50_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/index.ts#L50)
 
 Identifier number of the venue
 
-___
+### reject
 
-###  reject
+• **reject**: _ProcedureMethod‹void,_ [_Instruction_](instruction.md)_›_
 
-• **reject**: *ProcedureMethod‹void, [Instruction](instruction.md)›*
-
-*Defined in [src/api/entities/Instruction/index.ts:215](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/index.ts#L215)*
+_Defined in_ [_src/api/entities/Instruction/index.ts:215_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/index.ts#L215)
 
 Reject this instruction
 
@@ -71,65 +65,57 @@ Reject this instruction
 
 **`note`** reject on `SettleOnBlock` behaves just like unauthorize
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_Entity_](entity.md)_._[_uuid_](entity.md#uuid)
 
-*Inherited from [Entity](entity.md).[uuid](entity.md#uuid)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L46)
 
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L46)*
+### withdraw
 
-___
+• **withdraw**: _ProcedureMethod‹void,_ [_Instruction_](instruction.md)_›_
 
-###  withdraw
+_Defined in_ [_src/api/entities/Instruction/index.ts:226_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/index.ts#L226)
 
-• **withdraw**: *ProcedureMethod‹void, [Instruction](instruction.md)›*
-
-*Defined in [src/api/entities/Instruction/index.ts:226](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/index.ts#L226)*
-
-Withdraw affirmation from this instruction (unauthorize)
+Withdraw affirmation from this instruction \(unauthorize\)
 
 ## Methods
 
-###  details
+### details
 
-▸ **details**(): *Promise‹[InstructionDetails](../globals.md#instructiondetails)›*
+▸ **details**\(\): _Promise‹_[_InstructionDetails_](../globals.md#instructiondetails)_›_
 
-*Defined in [src/api/entities/Instruction/index.ts:87](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/index.ts#L87)*
+_Defined in_ [_src/api/entities/Instruction/index.ts:87_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/index.ts#L87)
 
 Retrieve information specific to this Instruction
 
-**Returns:** *Promise‹[InstructionDetails](../globals.md#instructiondetails)›*
+**Returns:** _Promise‹_[_InstructionDetails_](../globals.md#instructiondetails)_›_
 
-___
+### getAffirmations
 
-###  getAffirmations
+▸ **getAffirmations**\(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_InstructionAffirmation_](../interfaces/instructionaffirmation.md)_››_
 
-▸ **getAffirmations**(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)): *Promise‹[ResultSet](../interfaces/resultset.md)‹[InstructionAffirmation](../interfaces/instructionaffirmation.md)››*
+_Defined in_ [_src/api/entities/Instruction/index.ts:134_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/index.ts#L134)
 
-*Defined in [src/api/entities/Instruction/index.ts:134](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/index.ts#L134)*
-
-Retrieve every authorization generated by this Instruction (status and authorizing Identity)
+Retrieve every authorization generated by this Instruction \(status and authorizing Identity\)
 
 **`note`** supports pagination
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
+| Name | Type |
+| :--- | :--- |
+| `paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[InstructionAffirmation](../interfaces/instructionaffirmation.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_InstructionAffirmation_](../interfaces/instructionaffirmation.md)_››_
 
-___
+### getLegs
 
-###  getLegs
+▸ **getLegs**\(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_Leg_](../interfaces/leg.md)_››_
 
-▸ **getLegs**(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)): *Promise‹[ResultSet](../interfaces/resultset.md)‹[Leg](../interfaces/leg.md)››*
-
-*Defined in [src/api/entities/Instruction/index.ts:171](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/index.ts#L171)*
+_Defined in_ [_src/api/entities/Instruction/index.ts:171_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/index.ts#L171)
 
 Retrieve all legs of this Instruction
 
@@ -137,56 +123,53 @@ Retrieve all legs of this Instruction
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
+| Name | Type |
+| :--- | :--- |
+| `paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[Leg](../interfaces/leg.md)››*
-
-___
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_Leg_](../interfaces/leg.md)_››_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [Entity](entity.md).[generateUuid](entity.md#static-generateuuid)*
+_Inherited from_ [_Entity_](entity.md)_._[_generateUuid_](entity.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [Entity](entity.md).[unserialize](entity.md#static-unserialize)*
+_Inherited from_ [_Entity_](entity.md)_._[_unserialize_](entity.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

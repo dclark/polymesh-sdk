@@ -1,4 +1,4 @@
-# Enumeration: ProposalStage
+# ProposalStage
 
 ## Index
 
@@ -10,24 +10,21 @@
 
 ## Enumeration members
 
-###  CoolOff
+### CoolOff
 
 • **CoolOff**: = "CoolOff"
 
-*Defined in [src/api/entities/Proposal/types.ts:19](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Proposal/types.ts#L19)*
+_Defined in_ [_src/api/entities/Proposal/types.ts:19_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Proposal/types.ts#L19)
 
-___
-
-###  Ended
+### Ended
 
 • **Ended**: = "Ended"
 
-*Defined in [src/api/entities/Proposal/types.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Proposal/types.ts#L21)*
+_Defined in_ [_src/api/entities/Proposal/types.ts:21_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Proposal/types.ts#L21)
 
-___
-
-###  Open
+### Open
 
 • **Open**: = "Open"
 
-*Defined in [src/api/entities/Proposal/types.ts:20](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Proposal/types.ts#L20)*
+_Defined in_ [_src/api/entities/Proposal/types.ts:20_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Proposal/types.ts#L20)
+

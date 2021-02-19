@@ -1,4 +1,4 @@
-# Interface: TokenOwnerRole
+# TokenOwnerRole
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  ticker
+### ticker
 
-• **ticker**: *string*
+• **ticker**: _string_
 
-*Defined in [src/types/index.ts:102](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L102)*
+_Defined in_ [_src/types/index.ts:102_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L102)
 
-___
+### type
 
-###  type
+• **type**: [_TokenOwner_](../enums/roletype.md#tokenowner)
 
-• **type**: *[TokenOwner](../enums/roletype.md#tokenowner)*
+_Defined in_ [_src/types/index.ts:101_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L101)
 
-*Defined in [src/types/index.ts:101](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L101)*

@@ -1,4 +1,4 @@
-# Enumeration: RoleType
+# RoleType
 
 ## Index
 
@@ -13,48 +13,39 @@
 
 ## Enumeration members
 
-###  CddProvider
+### CddProvider
 
 • **CddProvider**: = "CddProvider"
 
-*Defined in [src/types/index.ts:83](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L83)*
+_Defined in_ [_src/types/index.ts:83_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L83)
 
-___
-
-###  PortfolioCustodian
+### PortfolioCustodian
 
 • **PortfolioCustodian**: = "PortfolioCustodian"
 
-*Defined in [src/types/index.ts:85](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L85)*
+_Defined in_ [_src/types/index.ts:85_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L85)
 
-___
-
-###  TickerOwner
+### TickerOwner
 
 • **TickerOwner**: = "TickerOwner"
 
-*Defined in [src/types/index.ts:80](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L80)*
+_Defined in_ [_src/types/index.ts:80_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L80)
 
-___
-
-###  TokenOwner
+### TokenOwner
 
 • **TokenOwner**: = "TokenOwner"
 
-*Defined in [src/types/index.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L81)*
+_Defined in_ [_src/types/index.ts:81_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L81)
 
-___
-
-###  TokenPia
+### TokenPia
 
 • **TokenPia**: = "TokenPia"
 
-*Defined in [src/types/index.ts:82](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L82)*
+_Defined in_ [_src/types/index.ts:82_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L82)
 
-___
-
-###  VenueOwner
+### VenueOwner
 
 • **VenueOwner**: = "VenueOwner"
 
-*Defined in [src/types/index.ts:84](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L84)*
+_Defined in_ [_src/types/index.ts:84_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L84)
+

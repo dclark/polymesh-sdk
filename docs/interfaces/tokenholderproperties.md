@@ -1,4 +1,4 @@
-# Interface: TokenHolderProperties
+# TokenHolderProperties
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  canBeIssuedTo
+### canBeIssuedTo
 
-• **canBeIssuedTo**: *boolean*
+• **canBeIssuedTo**: _boolean_
 
-*Defined in [src/api/entities/SecurityToken/types.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/types.ts#L27)*
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:27_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/SecurityToken/types.ts#L27)
+

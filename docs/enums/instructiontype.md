@@ -1,4 +1,4 @@
-# Enumeration: InstructionType
+# InstructionType
 
 ## Index
 
@@ -9,16 +9,15 @@
 
 ## Enumeration members
 
-###  SettleOnAffirmation
+### SettleOnAffirmation
 
 • **SettleOnAffirmation**: = "SettleOnAffirmation"
 
-*Defined in [src/api/entities/Instruction/types.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/types.ts#L11)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/types.ts#L11)
 
-___
-
-###  SettleOnBlock
+### SettleOnBlock
 
 • **SettleOnBlock**: = "SettleOnBlock"
 
-*Defined in [src/api/entities/Instruction/types.ts:12](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/types.ts#L12)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:12_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/types.ts#L12)
+

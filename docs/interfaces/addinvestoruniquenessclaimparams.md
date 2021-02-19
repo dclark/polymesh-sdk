@@ -1,4 +1,4 @@
-# Interface: AddInvestorUniquenessClaimParams
+# AddInvestorUniquenessClaimParams
 
 ## Hierarchy
 
@@ -16,40 +16,33 @@
 
 ## Properties
 
-###  cddId
+### cddId
 
-• **cddId**: *string*
+• **cddId**: _string_
 
-*Defined in [src/api/procedures/addInvestorUniquenessClaim.ts:13](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInvestorUniquenessClaim.ts#L13)*
-
-___
+_Defined in_ [_src/api/procedures/addInvestorUniquenessClaim.ts:13_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInvestorUniquenessClaim.ts#L13)
 
 ### `Optional` expiry
 
-• **expiry**? : *[Date](../enums/transactionargumenttype.md#date)*
+• **expiry**? : [_Date_](../enums/transactionargumenttype.md#date)
 
-*Defined in [src/api/procedures/addInvestorUniquenessClaim.ts:16](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInvestorUniquenessClaim.ts#L16)*
+_Defined in_ [_src/api/procedures/addInvestorUniquenessClaim.ts:16_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInvestorUniquenessClaim.ts#L16)
 
-___
+### proof
 
-###  proof
+• **proof**: _string_
 
-• **proof**: *string*
+_Defined in_ [_src/api/procedures/addInvestorUniquenessClaim.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInvestorUniquenessClaim.ts#L14)
 
-*Defined in [src/api/procedures/addInvestorUniquenessClaim.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInvestorUniquenessClaim.ts#L14)*
+### scope
 
-___
+• **scope**: [_Scope_](scope.md)
 
-###  scope
+_Defined in_ [_src/api/procedures/addInvestorUniquenessClaim.ts:12_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInvestorUniquenessClaim.ts#L12)
 
-• **scope**: *[Scope](scope.md)*
+### scopeId
 
-*Defined in [src/api/procedures/addInvestorUniquenessClaim.ts:12](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInvestorUniquenessClaim.ts#L12)*
+• **scopeId**: _string_
 
-___
+_Defined in_ [_src/api/procedures/addInvestorUniquenessClaim.ts:15_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInvestorUniquenessClaim.ts#L15)
 
-###  scopeId
-
-• **scopeId**: *string*
-
-*Defined in [src/api/procedures/addInvestorUniquenessClaim.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/addInvestorUniquenessClaim.ts#L15)*

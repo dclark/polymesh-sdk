@@ -1,4 +1,4 @@
-# Interface: TogglePauseRequirementsParams
+# TogglePauseRequirementsParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  pause
+### pause
 
-• **pause**: *boolean*
+• **pause**: _boolean_
 
-*Defined in [src/api/procedures/togglePauseRequirements.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/togglePauseRequirements.ts#L7)*
+_Defined in_ [_src/api/procedures/togglePauseRequirements.ts:7_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/togglePauseRequirements.ts#L7)
+

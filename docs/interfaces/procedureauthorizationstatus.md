@@ -1,4 +1,4 @@
-# Interface: ProcedureAuthorizationStatus
+# ProcedureAuthorizationStatus
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  permissions
+### permissions
 
-• **permissions**: *boolean*
+• **permissions**: _boolean_
 
-*Defined in [src/types/index.ts:718](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L718)*
+_Defined in_ [_src/types/index.ts:718_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L718)
 
-___
+### roles
 
-###  roles
+• **roles**: _boolean_
 
-• **roles**: *boolean*
+_Defined in_ [_src/types/index.ts:719_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L719)
 
-*Defined in [src/types/index.ts:719](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L719)*

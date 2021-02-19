@@ -1,4 +1,4 @@
-# Enumeration: TickerReservationStatus
+# TickerReservationStatus
 
 ## Index
 
@@ -10,30 +10,27 @@
 
 ## Enumeration members
 
-###  Free
+### Free
 
 • **Free**: = "Free"
 
-*Defined in [src/api/entities/TickerReservation/types.ts:19](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/TickerReservation/types.ts#L19)*
+_Defined in_ [_src/api/entities/TickerReservation/types.ts:19_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/TickerReservation/types.ts#L19)
 
 ticker hasn't been reserved or previous reservation expired
 
-___
-
-###  Reserved
+### Reserved
 
 • **Reserved**: = "Reserved"
 
-*Defined in [src/api/entities/TickerReservation/types.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/TickerReservation/types.ts#L23)*
+_Defined in_ [_src/api/entities/TickerReservation/types.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/TickerReservation/types.ts#L23)
 
 ticker is currently reserved
 
-___
-
-###  TokenCreated
+### TokenCreated
 
 • **TokenCreated**: = "TokenCreated"
 
-*Defined in [src/api/entities/TickerReservation/types.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/TickerReservation/types.ts#L27)*
+_Defined in_ [_src/api/entities/TickerReservation/types.ts:27_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/TickerReservation/types.ts#L27)
 
 a Security Token using this ticker has already been created
+

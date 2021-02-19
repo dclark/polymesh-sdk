@@ -1,4 +1,4 @@
-# Interface: ProposalTimeFrames
+# ProposalTimeFrames
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  coolOff
+### coolOff
 
-• **coolOff**: *number*
+• **coolOff**: _number_
 
-*Defined in [src/api/entities/Proposal/types.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Proposal/types.ts#L15)*
+_Defined in_ [_src/api/entities/Proposal/types.ts:15_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Proposal/types.ts#L15)
 
-___
+### duration
 
-###  duration
+• **duration**: _number_
 
-• **duration**: *number*
+_Defined in_ [_src/api/entities/Proposal/types.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Proposal/types.ts#L14)
 
-*Defined in [src/api/entities/Proposal/types.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Proposal/types.ts#L14)*

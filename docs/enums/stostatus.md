@@ -1,4 +1,4 @@
-# Enumeration: StoStatus
+# StoStatus
 
 ## Index
 
@@ -10,24 +10,21 @@
 
 ## Enumeration members
 
-###  Closed
+### Closed
 
 • **Closed**: = "Closed"
 
-*Defined in [src/api/entities/Sto/types.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/types.ts#L8)*
+_Defined in_ [_src/api/entities/Sto/types.ts:8_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/types.ts#L8)
 
-___
-
-###  Frozen
+### Frozen
 
 • **Frozen**: = "Frozen"
 
-*Defined in [src/api/entities/Sto/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/types.ts#L7)*
+_Defined in_ [_src/api/entities/Sto/types.ts:7_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/types.ts#L7)
 
-___
-
-###  Live
+### Live
 
 • **Live**: = "Live"
 
-*Defined in [src/api/entities/Sto/types.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/types.ts#L6)*
+_Defined in_ [_src/api/entities/Sto/types.ts:6_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Sto/types.ts#L6)
+

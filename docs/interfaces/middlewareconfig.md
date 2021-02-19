@@ -1,4 +1,4 @@
-# Interface: MiddlewareConfig
+# MiddlewareConfig
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  key
+### key
 
-• **key**: *string*
+• **key**: _string_
 
-*Defined in [src/types/index.ts:484](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L484)*
+_Defined in_ [_src/types/index.ts:484_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L484)
 
-___
+### link
 
-###  link
+• **link**: _string_
 
-• **link**: *string*
+_Defined in_ [_src/types/index.ts:483_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L483)
 
-*Defined in [src/types/index.ts:483](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L483)*

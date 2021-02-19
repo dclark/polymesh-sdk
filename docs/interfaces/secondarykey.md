@@ -1,4 +1,4 @@
-# Interface: SecondaryKey
+# SecondaryKey
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  permissions
+### permissions
 
-• **permissions**: *[Permissions](permissions.md)*
+• **permissions**: [_Permissions_](permissions.md)
 
-*Defined in [src/types/index.ts:630](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L630)*
+_Defined in_ [_src/types/index.ts:630_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L630)
 
-___
+### signer
 
-###  signer
+• **signer**: [_Signer_](../globals.md#signer)
 
-• **signer**: *[Signer](../globals.md#signer)*
+_Defined in_ [_src/types/index.ts:629_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L629)
 
-*Defined in [src/types/index.ts:629](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/types/index.ts#L629)*

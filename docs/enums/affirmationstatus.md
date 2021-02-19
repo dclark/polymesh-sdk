@@ -1,4 +1,4 @@
-# Enumeration: AffirmationStatus
+# AffirmationStatus
 
 ## Index
 
@@ -11,32 +11,27 @@
 
 ## Enumeration members
 
-###  Affirmed
+### Affirmed
 
 • **Affirmed**: = "Affirmed"
 
-*Defined in [src/api/entities/Instruction/types.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/types.ts#L47)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:47_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/types.ts#L47)
 
-___
-
-###  Pending
+### Pending
 
 • **Pending**: = "Pending"
 
-*Defined in [src/api/entities/Instruction/types.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/types.ts#L46)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/types.ts#L46)
 
-___
-
-###  Rejected
+### Rejected
 
 • **Rejected**: = "Rejected"
 
-*Defined in [src/api/entities/Instruction/types.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/types.ts#L48)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/types.ts#L48)
 
-___
-
-###  Unknown
+### Unknown
 
 • **Unknown**: = "Unknown"
 
-*Defined in [src/api/entities/Instruction/types.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/types.ts#L45)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:45_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Instruction/types.ts#L45)
+

@@ -1,4 +1,4 @@
-# Interface: ReserveTickerParams
+# ReserveTickerParams
 
 ## Hierarchy
 
@@ -15,14 +15,13 @@
 
 ### `Optional` extendPeriod
 
-• **extendPeriod**? : *undefined | false | true*
+• **extendPeriod**? : _undefined \| false \| true_
 
-*Defined in [src/api/procedures/reserveTicker.ts:18](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/reserveTicker.ts#L18)*
+_Defined in_ [_src/api/procedures/reserveTicker.ts:18_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/reserveTicker.ts#L18)
 
-___
+### ticker
 
-###  ticker
+• **ticker**: _string_
 
-• **ticker**: *string*
+_Defined in_ [_src/api/procedures/reserveTicker.ts:17_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/reserveTicker.ts#L17)
 
-*Defined in [src/api/procedures/reserveTicker.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/procedures/reserveTicker.ts#L17)*

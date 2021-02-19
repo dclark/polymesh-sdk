@@ -1,4 +1,4 @@
-# Class: Venue
+# Venue
 
 Represents a Venue through which settlements are handled
 
@@ -27,135 +27,123 @@ Represents a Venue through which settlements are handled
 
 ## Properties
 
-###  addInstruction
+### addInstruction
 
-• **addInstruction**: *ProcedureMethod‹[AddInstructionParams](../interfaces/addinstructionparams.md), [Instruction](instruction.md)›*
+• **addInstruction**: _ProcedureMethod‹_[_AddInstructionParams_](../interfaces/addinstructionparams.md)_,_ [_Instruction_](instruction.md)_›_
 
-*Defined in [src/api/entities/Venue/index.ts:167](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Venue/index.ts#L167)*
+_Defined in_ [_src/api/entities/Venue/index.ts:167_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Venue/index.ts#L167)
 
 Creates a settlement Instruction in this Venue
 
-**`param`** array of token movements (amount, from, to, token)
+**`param`** array of token movements \(amount, from, to, token\)
 
-**`param`** date at which the trade was agreed upon (optional, for offchain trades)
+**`param`** date at which the trade was agreed upon \(optional, for offchain trades\)
 
-**`param`** date at which the trade was executed (optional, for offchain trades)
+**`param`** date at which the trade was executed \(optional, for offchain trades\)
 
-**`param`** block at which the Instruction will be executed automatically (optional, the Instruction will be executed when all participants have authorized it if not supplied)
+**`param`** block at which the Instruction will be executed automatically \(optional, the Instruction will be executed when all participants have authorized it if not supplied\)
 
 **`note`** required role:
-  - Venue Owner
 
-___
+* Venue Owner
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [Entity](entity.md).[context](entity.md#protected-context)*
+_Inherited from_ [_Entity_](entity.md)_._[_context_](entity.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L48)
 
-___
+### id
 
-###  id
+• **id**: _BigNumber_
 
-• **id**: *BigNumber*
-
-*Defined in [src/api/entities/Venue/index.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Venue/index.ts#L47)*
+_Defined in_ [_src/api/entities/Venue/index.ts:47_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Venue/index.ts#L47)
 
 Identifier number of the venue
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_Entity_](entity.md)_._[_uuid_](entity.md#uuid)
 
-*Inherited from [Entity](entity.md).[uuid](entity.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  details
+### details
 
-▸ **details**(): *Promise‹[VenueDetails](../interfaces/venuedetails.md)›*
+▸ **details**\(\): _Promise‹_[_VenueDetails_](../interfaces/venuedetails.md)_›_
 
-*Defined in [src/api/entities/Venue/index.ts:87](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Venue/index.ts#L87)*
+_Defined in_ [_src/api/entities/Venue/index.ts:87_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Venue/index.ts#L87)
 
 Retrieve information specific to this venue
 
-**Returns:** *Promise‹[VenueDetails](../interfaces/venuedetails.md)›*
+**Returns:** _Promise‹_[_VenueDetails_](../interfaces/venuedetails.md)_›_
 
-___
+### exists
 
-###  exists
+▸ **exists**\(\): _Promise‹boolean›_
 
-▸ **exists**(): *Promise‹boolean›*
-
-*Defined in [src/api/entities/Venue/index.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Venue/index.ts#L68)*
+_Defined in_ [_src/api/entities/Venue/index.ts:68_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Venue/index.ts#L68)
 
 Retrieve whether the Venue exists
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### getPendingInstructions
 
-###  getPendingInstructions
+▸ **getPendingInstructions**\(\): _Promise‹_[_Instruction_](instruction.md)_\[\]›_
 
-▸ **getPendingInstructions**(): *Promise‹[Instruction](instruction.md)[]›*
-
-*Defined in [src/api/entities/Venue/index.ts:121](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Venue/index.ts#L121)*
+_Defined in_ [_src/api/entities/Venue/index.ts:121_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Venue/index.ts#L121)
 
 Retrieve all pending Instructions in this Venue
 
-**Returns:** *Promise‹[Instruction](instruction.md)[]›*
-
-___
+**Returns:** _Promise‹_[_Instruction_](instruction.md)_\[\]›_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [Entity](entity.md).[generateUuid](entity.md#static-generateuuid)*
+_Inherited from_ [_Entity_](entity.md)_._[_generateUuid_](entity.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [Entity](entity.md).[unserialize](entity.md#static-unserialize)*
+_Inherited from_ [_Entity_](entity.md)_._[_unserialize_](entity.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

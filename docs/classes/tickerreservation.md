@@ -1,8 +1,6 @@
-# Class: TickerReservation
+# TickerReservation
 
-Represents a reserved token symbol in the Polymesh chain. Ticker reservations expire
-  after a set length of time, after which they can be reserved by another Identity.
-  A Ticker must be previously reserved by an Identity for that Identity to be able create a Security Token with it
+Represents a reserved token symbol in the Polymesh chain. Ticker reservations expire after a set length of time, after which they can be reserved by another Identity. A Ticker must be previously reserved by an Identity for that Identity to be able create a Security Token with it
 
 ## Hierarchy
 
@@ -30,19 +28,17 @@ Represents a reserved token symbol in the Polymesh chain. Ticker reservations ex
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [Entity](entity.md).[context](entity.md#protected-context)*
+_Inherited from_ [_Entity_](entity.md)_._[_context_](entity.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L48)
 
-___
+### createToken
 
-###  createToken
+• **createToken**: _ProcedureMethod‹_[_CreateSecurityTokenParams_](../interfaces/createsecuritytokenparams.md)_,_ [_SecurityToken_](securitytoken.md)_›_
 
-• **createToken**: *ProcedureMethod‹[CreateSecurityTokenParams](../interfaces/createsecuritytokenparams.md), [SecurityToken](securitytoken.md)›*
-
-*Defined in [src/api/entities/TickerReservation/index.ts:174](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/TickerReservation/index.ts#L174)*
+_Defined in_ [_src/api/entities/TickerReservation/index.ts:174_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/TickerReservation/index.ts#L174)
 
 Create a Security Token using the reserved ticker
 
@@ -52,119 +48,111 @@ Create a Security Token using the reserved ticker
 
 **`param`** whether a single token can be divided into decimal parts
 
-**`param`** type of security that the token represents (i.e. Equity, Debt, Commodity, etc)
+**`param`** type of security that the token represents \(i.e. Equity, Debt, Commodity, etc\)
 
-**`param`** domestic or international alphanumeric security identifiers for the token (ISIN, CUSIP, etc)
+**`param`** domestic or international alphanumeric security identifiers for the token \(ISIN, CUSIP, etc\)
 
-**`param`** (optional) funding round in which the token currently is (Series A, Series B, etc)
-
-**`note`** required role:
-  - Ticker Owner
-
-___
-
-###  extend
-
-• **extend**: *ProcedureMethod‹void, [TickerReservation](tickerreservation.md)›*
-
-*Defined in [src/api/entities/TickerReservation/index.ts:158](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/TickerReservation/index.ts#L158)*
-
-Extend the Reservation time period of the ticker for 60 days from now
-to later use it in the creation of a Security Token.
+**`param`** \(optional\) funding round in which the token currently is \(Series A, Series B, etc\)
 
 **`note`** required role:
-  - Ticker Owner
 
-___
+* Ticker Owner
 
-###  ticker
+### extend
 
-• **ticker**: *string*
+• **extend**: _ProcedureMethod‹void,_ [_TickerReservation_](tickerreservation.md)_›_
 
-*Defined in [src/api/entities/TickerReservation/index.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/TickerReservation/index.ts#L46)*
+_Defined in_ [_src/api/entities/TickerReservation/index.ts:158_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/TickerReservation/index.ts#L158)
+
+Extend the Reservation time period of the ticker for 60 days from now to later use it in the creation of a Security Token.
+
+**`note`** required role:
+
+* Ticker Owner
+
+### ticker
+
+• **ticker**: _string_
+
+_Defined in_ [_src/api/entities/TickerReservation/index.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/TickerReservation/index.ts#L46)
 
 reserved ticker
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_Entity_](entity.md)_._[_uuid_](entity.md#uuid)
 
-*Inherited from [Entity](entity.md).[uuid](entity.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  details
+### details
 
-▸ **details**(): *Promise‹[TickerReservationDetails](../interfaces/tickerreservationdetails.md)›*
+▸ **details**\(\): _Promise‹_[_TickerReservationDetails_](../interfaces/tickerreservationdetails.md)_›_
 
-*Defined in [src/api/entities/TickerReservation/index.ts:74](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/TickerReservation/index.ts#L74)*
+_Defined in_ [_src/api/entities/TickerReservation/index.ts:74_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/TickerReservation/index.ts#L74)
 
 Retrieve the Reservation's owner, expiry date and status
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[TickerReservationDetails](../interfaces/tickerreservationdetails.md)›*
+**Returns:** _Promise‹_[_TickerReservationDetails_](../interfaces/tickerreservationdetails.md)_›_
 
-▸ **details**(`callback`: [SubCallback](../globals.md#subcallback)‹[TickerReservationDetails](../interfaces/tickerreservationdetails.md)›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **details**\(`callback`: [SubCallback](../globals.md#subcallback)‹[TickerReservationDetails](../interfaces/tickerreservationdetails.md)›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/TickerReservation/index.ts:75](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/TickerReservation/index.ts#L75)*
+_Defined in_ [_src/api/entities/TickerReservation/index.ts:75_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/TickerReservation/index.ts#L75)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹[TickerReservationDetails](../interfaces/tickerreservationdetails.md)› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[TickerReservationDetails](../interfaces/tickerreservationdetails.md)› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
-
-___
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [Entity](entity.md).[generateUuid](entity.md#static-generateuuid)*
+_Inherited from_ [_Entity_](entity.md)_._[_generateUuid_](entity.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [Entity](entity.md).[unserialize](entity.md#static-unserialize)*
+_Inherited from_ [_Entity_](entity.md)_._[_unserialize_](entity.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
 **Type parameters:**
 
-▪ **Identifiers**: *object*
+▪ **Identifiers**: _object_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

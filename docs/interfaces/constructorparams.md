@@ -1,4 +1,4 @@
-# Interface: ConstructorParams
+# ConstructorParams
 
 ## Hierarchy
 
@@ -15,32 +15,27 @@
 
 ## Properties
 
-###  keyring
+### keyring
 
-• **keyring**: *[CommonKeyring](../globals.md#commonkeyring)*
+• **keyring**: [_CommonKeyring_](../globals.md#commonkeyring)
 
-*Defined in [src/base/Context.ts:62](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/base/Context.ts#L62)*
+_Defined in_ [_src/base/Context.ts:62_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/base/Context.ts#L62)
 
-___
+### middlewareApi
 
-###  middlewareApi
+• **middlewareApi**: _ApolloClient‹NormalizedCacheObject› \| null_
 
-• **middlewareApi**: *ApolloClient‹NormalizedCacheObject› | null*
-
-*Defined in [src/base/Context.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/base/Context.ts#L61)*
-
-___
+_Defined in_ [_src/base/Context.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/base/Context.ts#L61)
 
 ### `Optional` pair
 
-• **pair**? : *[KeyringPair](keyringpair.md)*
+• **pair**? : [_KeyringPair_](keyringpair.md)
 
-*Defined in [src/base/Context.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/base/Context.ts#L63)*
+_Defined in_ [_src/base/Context.ts:63_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/base/Context.ts#L63)
 
-___
+### polymeshApi
 
-###  polymeshApi
+• **polymeshApi**: _ApiPromise_
 
-• **polymeshApi**: *ApiPromise*
+_Defined in_ [_src/base/Context.ts:60_](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/base/Context.ts#L60)
 
-*Defined in [src/base/Context.ts:60](https://github.com/PolymathNetwork/polymesh-sdk/blob/a0872cf4/src/base/Context.ts#L60)*
