@@ -1,4 +1,4 @@
-# Interface: AddInstructionParams
+# AddInstructionParams
 
 ## Hierarchy
 
@@ -17,38 +17,33 @@
 
 ### `Optional` endBlock
 
-• **endBlock**? : *BigNumber*
+• **endBlock**? : _BigNumber_
 
-*Defined in [src/api/procedures/addInstruction.ts:64](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/addInstruction.ts#L64)*
+_Defined in_ [_src/api/procedures/addInstruction.ts:64_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/addInstruction.ts#L64)
 
-block at which the Instruction will be executed automatically (optional, the Instruction will be executed when all participants have authorized it if not supplied)
+block at which the Instruction will be executed automatically \(optional, the Instruction will be executed when all participants have authorized it if not supplied\)
 
-___
+### legs
 
-###  legs
+• **legs**: _object\[\]_
 
-• **legs**: *object[]*
+_Defined in_ [_src/api/procedures/addInstruction.ts:47_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/addInstruction.ts#L47)
 
-*Defined in [src/api/procedures/addInstruction.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/addInstruction.ts#L47)*
-
-array of token movements (amount, from, to, token)
-
-___
+array of token movements \(amount, from, to, token\)
 
 ### `Optional` tradeDate
 
-• **tradeDate**? : *[Date](../enums/transactionargumenttype.md#date)*
+• **tradeDate**? : [_Date_](../enums/transactionargumenttype.md#date)
 
-*Defined in [src/api/procedures/addInstruction.ts:56](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/addInstruction.ts#L56)*
+_Defined in_ [_src/api/procedures/addInstruction.ts:56_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/addInstruction.ts#L56)
 
-date at which the trade was agreed upon (optional, for offchain trades)
-
-___
+date at which the trade was agreed upon \(optional, for offchain trades\)
 
 ### `Optional` valueDate
 
-• **valueDate**? : *[Date](../enums/transactionargumenttype.md#date)*
+• **valueDate**? : [_Date_](../enums/transactionargumenttype.md#date)
 
-*Defined in [src/api/procedures/addInstruction.ts:60](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/addInstruction.ts#L60)*
+_Defined in_ [_src/api/procedures/addInstruction.ts:60_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/addInstruction.ts#L60)
 
-date at which the trade was executed (optional, for offchain trades)
+date at which the trade was executed \(optional, for offchain trades\)
+

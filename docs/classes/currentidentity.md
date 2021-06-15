@@ -1,12 +1,12 @@
-# Class: CurrentIdentity
+# CurrentIdentity
 
 Represents the Identity associated to the current [Account](account.md)
 
 ## Hierarchy
 
-  ↳ [Identity](identity.md)
+↳ [Identity](identity.md)
 
-  ↳ **CurrentIdentity**
+↳ **CurrentIdentity**
 
 ## Index
 
@@ -52,158 +52,142 @@ Represents the Identity associated to the current [Account](account.md)
 
 ## Constructors
 
-###  constructor
+### constructor
 
-\+ **new CurrentIdentity**(`identifiers`: UniqueIdentifiers, `context`: [Context](context.md)): *[CurrentIdentity](currentidentity.md)*
++ **new CurrentIdentity**\(`identifiers`: UniqueIdentifiers, `context`: [Context](context.md)\): [_CurrentIdentity_](currentidentity.md)
 
-*Overrides [Identity](identity.md).[constructor](identity.md#constructor)*
+_Overrides_ [_Identity_](identity.md)_._[_constructor_](identity.md#constructor)
 
-*Defined in [src/api/entities/CurrentIdentity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L23)*
+_Defined in_ [_src/api/entities/CurrentIdentity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L23)
 
 Create a CurrentIdentity entity
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`identifiers` | UniqueIdentifiers |
-`context` | [Context](context.md) |
+| Name | Type |
+| :--- | :--- |
+| `identifiers` | UniqueIdentifiers |
+| `context` | [Context](context.md) |
 
-**Returns:** *[CurrentIdentity](currentidentity.md)*
+**Returns:** [_CurrentIdentity_](currentidentity.md)
 
 ## Properties
 
-###  authorizations
+### authorizations
 
-• **authorizations**: *[IdentityAuthorizations](identityauthorizations.md)*
+• **authorizations**: [_IdentityAuthorizations_](identityauthorizations.md)
 
-*Inherited from [Identity](identity.md).[authorizations](identity.md#authorizations)*
+_Inherited from_ [_Identity_](identity.md)_._[_authorizations_](identity.md#authorizations)
 
-*Defined in [src/api/entities/Identity/index.ts:85](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L85)*
-
-___
+_Defined in_ [_src/api/entities/Identity/index.ts:85_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L85)
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[context](checkpointschedule.md#protected-context)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_context_](checkpointschedule.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)
 
-___
+### did
 
-###  did
+• **did**: _string_
 
-• **did**: *string*
+_Inherited from_ [_Identity_](identity.md)_._[_did_](identity.md#did)
 
-*Inherited from [Identity](identity.md).[did](identity.md#did)*
-
-*Defined in [src/api/entities/Identity/index.ts:82](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L82)*
+_Defined in_ [_src/api/entities/Identity/index.ts:82_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L82)
 
 identity ID as stored in the blockchain
 
-___
+### portfolios
 
-###  portfolios
+• **portfolios**: [_Portfolios_](portfolios.md)
 
-• **portfolios**: *[Portfolios](portfolios.md)*
+_Inherited from_ [_Identity_](identity.md)_._[_portfolios_](identity.md#portfolios)
 
-*Inherited from [Identity](identity.md).[portfolios](identity.md#portfolios)*
+_Defined in_ [_src/api/entities/Identity/index.ts:86_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L86)
 
-*Defined in [src/api/entities/Identity/index.ts:86](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L86)*
+### uuid
 
-___
+• **uuid**: _string_
 
-###  uuid
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_uuid_](checkpointschedule.md#uuid)
 
-• **uuid**: *string*
-
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[uuid](checkpointschedule.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  areSecondaryKeysFrozen
+### areSecondaryKeysFrozen
 
-▸ **areSecondaryKeysFrozen**(): *Promise‹boolean›*
+▸ **areSecondaryKeysFrozen**\(\): _Promise‹boolean›_
 
-*Inherited from [Identity](identity.md).[areSecondaryKeysFrozen](identity.md#aresecondarykeysfrozen)*
+_Inherited from_ [_Identity_](identity.md)_._[_areSecondaryKeysFrozen_](identity.md#aresecondarykeysfrozen)
 
-*Defined in [src/api/entities/Identity/index.ts:483](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L483)*
+_Defined in_ [_src/api/entities/Identity/index.ts:483_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L483)
 
 Check whether secondary keys are frozen
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-▸ **areSecondaryKeysFrozen**(`callback`: [SubCallback](../globals.md#subcallback)‹boolean›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **areSecondaryKeysFrozen**\(`callback`: [SubCallback](../globals.md#subcallback)‹boolean›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Inherited from [Identity](identity.md).[areSecondaryKeysFrozen](identity.md#aresecondarykeysfrozen)*
+_Inherited from_ [_Identity_](identity.md)_._[_areSecondaryKeysFrozen_](identity.md#aresecondarykeysfrozen)
 
-*Defined in [src/api/entities/Identity/index.ts:484](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L484)*
+_Defined in_ [_src/api/entities/Identity/index.ts:484_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L484)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹boolean› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹boolean› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### createVenue
 
-###  createVenue
+▸ **createVenue**\(`args`: [CreateVenueParams](../interfaces/createvenueparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Venue_](venue.md)_››_
 
-▸ **createVenue**(`args`: [CreateVenueParams](../interfaces/createvenueparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[Venue](venue.md)››*
-
-*Defined in [src/api/entities/CurrentIdentity.ts:146](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L146)*
+_Defined in_ [_src/api/entities/CurrentIdentity.ts:146_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L146)
 
 Create a Venue
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `createVenue.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `createVenue.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [CreateVenueParams](../interfaces/createvenueparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [CreateVenueParams](../interfaces/createvenueparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[Venue](venue.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Venue_](venue.md)_››_
 
-___
+### freezeSecondaryKeys
 
-###  freezeSecondaryKeys
+▸ **freezeSecondaryKeys**\(`args`: void\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **freezeSecondaryKeys**(`args`: void): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/CurrentIdentity.ts:156](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L156)*
+_Defined in_ [_src/api/entities/CurrentIdentity.ts:156_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L156)
 
 Freeze all the secondary keys in this Identity. This means revoking their permission to perform any operation on the blockchain and freezing their funds until the keys are unfrozen via [unfreezeSecondaryKeys](currentidentity.md#unfreezesecondarykeys)
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `freezeSecondaryKeys.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `freezeSecondaryKeys.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### getHeldTokens
 
-###  getHeldTokens
+▸ **getHeldTokens**\(`opts`: object\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **getHeldTokens**(`opts`: object): *Promise‹[ResultSet](../interfaces/resultset.md)‹[SecurityToken](securitytoken.md)››*
+_Inherited from_ [_Identity_](identity.md)_._[_getHeldTokens_](identity.md#getheldtokens)
 
-*Inherited from [Identity](identity.md).[getHeldTokens](identity.md#getheldtokens)*
-
-*Defined in [src/api/entities/Identity/index.ts:309](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L309)*
+_Defined in_ [_src/api/entities/Identity/index.ts:309_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L309)
 
 Retrieve a list of all tokens which were held at one point by this Identity
 
@@ -213,25 +197,23 @@ Retrieve a list of all tokens which were held at one point by this Identity
 
 **Parameters:**
 
-▪`Default value`  **opts**: *object*= { order: Order.Asc }
+▪`Default value` **opts**: _object_= { order: Order.Asc }
 
-Name | Type |
------- | ------ |
-`order?` | Order |
-`size?` | undefined &#124; number |
-`start?` | undefined &#124; number |
+| Name | Type |
+| :--- | :--- |
+| `order?` | Order |
+| `size?` | undefined \| number |
+| `start?` | undefined \| number |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### getPendingDistributions
 
-###  getPendingDistributions
+▸ **getPendingDistributions**\(\): _Promise‹_[_DistributionWithDetails_](../interfaces/distributionwithdetails.md)_\[\]›_
 
-▸ **getPendingDistributions**(): *Promise‹[DistributionWithDetails](../interfaces/distributionwithdetails.md)[]›*
+_Inherited from_ [_Identity_](identity.md)_._[_getPendingDistributions_](identity.md#getpendingdistributions)
 
-*Inherited from [Identity](identity.md).[getPendingDistributions](identity.md#getpendingdistributions)*
-
-*Defined in [src/api/entities/Identity/index.ts:519](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L519)*
+_Defined in_ [_src/api/entities/Identity/index.ts:519_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L519)
 
 Retrieve every Dividend Distribution for which this Identity is eligible and hasn't been paid
 
@@ -239,111 +221,101 @@ Retrieve every Dividend Distribution for which this Identity is eligible and has
 
 **`note`** this query can be potentially **SLOW** depending on which Tokens this Identity has held
 
-**Returns:** *Promise‹[DistributionWithDetails](../interfaces/distributionwithdetails.md)[]›*
+**Returns:** _Promise‹_[_DistributionWithDetails_](../interfaces/distributionwithdetails.md)_\[\]›_
 
-___
+### getPendingInstructions
 
-###  getPendingInstructions
+▸ **getPendingInstructions**\(\): _Promise‹_[_Instruction_](instruction.md)_\[\]›_
 
-▸ **getPendingInstructions**(): *Promise‹[Instruction](instruction.md)[]›*
+_Inherited from_ [_Identity_](identity.md)_._[_getPendingInstructions_](identity.md#getpendinginstructions)
 
-*Inherited from [Identity](identity.md).[getPendingInstructions](identity.md#getpendinginstructions)*
-
-*Defined in [src/api/entities/Identity/index.ts:432](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L432)*
+_Defined in_ [_src/api/entities/Identity/index.ts:432_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L432)
 
 Retrieve all pending Instructions involving this Identity
 
-**Returns:** *Promise‹[Instruction](instruction.md)[]›*
+**Returns:** _Promise‹_[_Instruction_](instruction.md)_\[\]›_
 
-___
+### getPrimaryKey
 
-###  getPrimaryKey
+▸ **getPrimaryKey**\(\): _Promise‹string›_
 
-▸ **getPrimaryKey**(): *Promise‹string›*
+_Inherited from_ [_Identity_](identity.md)_._[_getPrimaryKey_](identity.md#getprimarykey)
 
-*Inherited from [Identity](identity.md).[getPrimaryKey](identity.md#getprimarykey)*
-
-*Defined in [src/api/entities/Identity/index.ts:274](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L274)*
+_Defined in_ [_src/api/entities/Identity/index.ts:274_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L274)
 
 Retrieve the primary key associated with the Identity
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹string›*
+**Returns:** _Promise‹string›_
 
-▸ **getPrimaryKey**(`callback`: [SubCallback](../globals.md#subcallback)‹string›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **getPrimaryKey**\(`callback`: [SubCallback](../globals.md#subcallback)‹string›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Inherited from [Identity](identity.md).[getPrimaryKey](identity.md#getprimarykey)*
+_Inherited from_ [_Identity_](identity.md)_._[_getPrimaryKey_](identity.md#getprimarykey)
 
-*Defined in [src/api/entities/Identity/index.ts:275](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L275)*
+_Defined in_ [_src/api/entities/Identity/index.ts:275_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L275)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹string› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹string› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### getScopeId
 
-###  getScopeId
+▸ **getScopeId**\(`args`: object\): _Promise‹string›_
 
-▸ **getScopeId**(`args`: object): *Promise‹string›*
+_Inherited from_ [_Identity_](identity.md)_._[_getScopeId_](identity.md#getscopeid)
 
-*Inherited from [Identity](identity.md).[getScopeId](identity.md#getscopeid)*
-
-*Defined in [src/api/entities/Identity/index.ts:415](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L415)*
+_Defined in_ [_src/api/entities/Identity/index.ts:415_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L415)
 
 Retrieve the Scope ID associated to this Identity's Investor Uniqueness Claim for a specific Security Token
 
-**`note`** more on Investor Uniqueness: https://developers.polymesh.live/confidential_identity
+**`note`** more on Investor Uniqueness: [https://developers.polymesh.live/confidential\_identity](https://developers.polymesh.live/confidential_identity)
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`token` | [SecurityToken](securitytoken.md) &#124; string |
+| Name | Type |
+| :--- | :--- |
+| `token` | [SecurityToken](securitytoken.md) \| string |
 
-**Returns:** *Promise‹string›*
+**Returns:** _Promise‹string›_
 
-___
+### getSecondaryKeys
 
-###  getSecondaryKeys
+▸ **getSecondaryKeys**\(\): _Promise‹_[_SecondaryKey_](../interfaces/secondarykey.md)_\[\]›_
 
-▸ **getSecondaryKeys**(): *Promise‹[SecondaryKey](../interfaces/secondarykey.md)[]›*
-
-*Defined in [src/api/entities/CurrentIdentity.ts:80](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L80)*
+_Defined in_ [_src/api/entities/CurrentIdentity.ts:80_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L80)
 
 Get the list of secondary keys related to the Identity
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[SecondaryKey](../interfaces/secondarykey.md)[]›*
+**Returns:** _Promise‹_[_SecondaryKey_](../interfaces/secondarykey.md)_\[\]›_
 
-▸ **getSecondaryKeys**(`callback`: [SubCallback](../globals.md#subcallback)‹[SecondaryKey](../interfaces/secondarykey.md)[]›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **getSecondaryKeys**\(`callback`: [SubCallback](../globals.md#subcallback)‹[SecondaryKey](../interfaces/secondarykey.md)\[\]›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/CurrentIdentity.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L81)*
+_Defined in_ [_src/api/entities/CurrentIdentity.ts:81_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L81)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹[SecondaryKey](../interfaces/secondarykey.md)[]› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[SecondaryKey](../interfaces/secondarykey.md)\[\]› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### getTokenBalance
 
-###  getTokenBalance
+▸ **getTokenBalance**\(`args`: object\): _Promise‹BigNumber›_
 
-▸ **getTokenBalance**(`args`: object): *Promise‹BigNumber›*
+_Inherited from_ [_Identity_](identity.md)_._[_getTokenBalance_](identity.md#gettokenbalance)
 
-*Inherited from [Identity](identity.md).[getTokenBalance](identity.md#gettokenbalance)*
-
-*Defined in [src/api/entities/Identity/index.ts:174](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L174)*
+_Defined in_ [_src/api/entities/Identity/index.ts:174_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L174)
 
 Retrieve the balance of a particular Security Token
 
@@ -351,41 +323,39 @@ Retrieve the balance of a particular Security Token
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`ticker` | string |
+| Name | Type |
+| :--- | :--- |
+| `ticker` | string |
 
-**Returns:** *Promise‹BigNumber›*
+**Returns:** _Promise‹BigNumber›_
 
-▸ **getTokenBalance**(`args`: object, `callback`: [SubCallback](../globals.md#subcallback)‹BigNumber›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **getTokenBalance**\(`args`: object, `callback`: [SubCallback](../globals.md#subcallback)‹BigNumber›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Inherited from [Identity](identity.md).[getTokenBalance](identity.md#gettokenbalance)*
+_Inherited from_ [_Identity_](identity.md)_._[_getTokenBalance_](identity.md#gettokenbalance)
 
-*Defined in [src/api/entities/Identity/index.ts:175](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L175)*
+_Defined in_ [_src/api/entities/Identity/index.ts:175_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L175)
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`ticker` | string |
+| Name | Type |
+| :--- | :--- |
+| `ticker` | string |
 
-▪ **callback**: *[SubCallback](../globals.md#subcallback)‹BigNumber›*
+▪ **callback**: [_SubCallback_](../globals.md#subcallback)_‹BigNumber›_
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### getTrustingTokens
 
-###  getTrustingTokens
+▸ **getTrustingTokens**\(`args`: object\): _Promise‹_[_SecurityToken_](securitytoken.md)_\[\]›_
 
-▸ **getTrustingTokens**(`args`: object): *Promise‹[SecurityToken](securitytoken.md)[]›*
+_Inherited from_ [_Identity_](identity.md)_._[_getTrustingTokens_](identity.md#gettrustingtokens)
 
-*Inherited from [Identity](identity.md).[getTrustingTokens](identity.md#gettrustingtokens)*
-
-*Defined in [src/api/entities/Identity/index.ts:360](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L360)*
+_Defined in_ [_src/api/entities/Identity/index.ts:360_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L360)
 
 Get the list of tokens for which this Identity is a trusted claim issuer
 
@@ -393,266 +363,233 @@ Get the list of tokens for which this Identity is a trusted claim issuer
 
 **Parameters:**
 
-▪`Default value`  **args**: *object*= { order: Order.Asc }
+▪`Default value` **args**: _object_= { order: Order.Asc }
 
-Name | Type |
------- | ------ |
-`order` | Order |
+| Name | Type |
+| :--- | :--- |
+| `order` | Order |
 
-**Returns:** *Promise‹[SecurityToken](securitytoken.md)[]›*
+**Returns:** _Promise‹_[_SecurityToken_](securitytoken.md)_\[\]›_
 
-___
+### getVenues
 
-###  getVenues
+▸ **getVenues**\(\): _Promise‹_[_Venue_](venue.md)_\[\]›_
 
-▸ **getVenues**(): *Promise‹[Venue](venue.md)[]›*
+_Inherited from_ [_Identity_](identity.md)_._[_getVenues_](identity.md#getvenues)
 
-*Inherited from [Identity](identity.md).[getVenues](identity.md#getvenues)*
-
-*Defined in [src/api/entities/Identity/index.ts:381](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L381)*
+_Defined in_ [_src/api/entities/Identity/index.ts:381_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L381)
 
 Retrieve all Venues created by this Identity
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[Venue](venue.md)[]›*
+**Returns:** _Promise‹_[_Venue_](venue.md)_\[\]›_
 
-▸ **getVenues**(`callback`: [SubCallback](../globals.md#subcallback)‹[Venue](venue.md)[]›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **getVenues**\(`callback`: [SubCallback](../globals.md#subcallback)‹[Venue](venue.md)\[\]›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Inherited from [Identity](identity.md).[getVenues](identity.md#getvenues)*
+_Inherited from_ [_Identity_](identity.md)_._[_getVenues_](identity.md#getvenues)
 
-*Defined in [src/api/entities/Identity/index.ts:382](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L382)*
+_Defined in_ [_src/api/entities/Identity/index.ts:382_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L382)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹[Venue](venue.md)[]› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[Venue](venue.md)\[\]› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### hasRole
 
-###  hasRole
+▸ **hasRole**\(`role`: [Role](../globals.md#role)\): _Promise‹boolean›_
 
-▸ **hasRole**(`role`: [Role](../globals.md#role)): *Promise‹boolean›*
+_Inherited from_ [_Identity_](identity.md)_._[_hasRole_](identity.md#hasrole)
 
-*Inherited from [Identity](identity.md).[hasRole](identity.md#hasrole)*
-
-*Defined in [src/api/entities/Identity/index.ts:104](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L104)*
+_Defined in_ [_src/api/entities/Identity/index.ts:104_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L104)
 
 Check whether this Identity possesses the specified Role
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`role` | [Role](../globals.md#role) |
+| Name | Type |
+| :--- | :--- |
+| `role` | [Role](../globals.md#role) |
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### hasRoles
 
-###  hasRoles
+▸ **hasRoles**\(`roles`: [Role](../globals.md#role)\[\]\): _Promise‹boolean›_
 
-▸ **hasRoles**(`roles`: [Role](../globals.md#role)[]): *Promise‹boolean›*
+_Inherited from_ [_Identity_](identity.md)_._[_hasRoles_](identity.md#hasroles)
 
-*Inherited from [Identity](identity.md).[hasRoles](identity.md#hasroles)*
-
-*Defined in [src/api/entities/Identity/index.ts:349](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L349)*
+_Defined in_ [_src/api/entities/Identity/index.ts:349_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L349)
 
 Check whether this Identity possesses all specified roles
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`roles` | [Role](../globals.md#role)[] |
+| Name | Type |
+| :--- | :--- |
+| `roles` | [Role](../globals.md#role)\[\] |
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### hasValidCdd
 
-###  hasValidCdd
+▸ **hasValidCdd**\(\): _Promise‹boolean›_
 
-▸ **hasValidCdd**(): *Promise‹boolean›*
+_Inherited from_ [_Identity_](identity.md)_._[_hasValidCdd_](identity.md#hasvalidcdd)
 
-*Inherited from [Identity](identity.md).[hasValidCdd](identity.md#hasvalidcdd)*
-
-*Defined in [src/api/entities/Identity/index.ts:222](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L222)*
+_Defined in_ [_src/api/entities/Identity/index.ts:222_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L222)
 
 Check whether this Identity has a valid CDD claim
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### inviteAccount
 
-###  inviteAccount
+▸ **inviteAccount**\(`args`: [InviteAccountParams](../interfaces/inviteaccountparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **inviteAccount**(`args`: [InviteAccountParams](../interfaces/inviteaccountparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/CurrentIdentity.ts:136](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L136)*
+_Defined in_ [_src/api/entities/CurrentIdentity.ts:136_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L136)
 
 Send an invitation to an Account to join this Identity
 
-**`note`** this may create AuthorizationRequest which have to be accepted by
-  the corresponding Account. An Account or Identity can
-  fetch its pending Authorization Requests by calling `authorizations.getReceived`
+**`note`** this may create AuthorizationRequest which have to be accepted by the corresponding Account. An Account or Identity can fetch its pending Authorization Requests by calling `authorizations.getReceived`
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `inviteAccount.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `inviteAccount.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [InviteAccountParams](../interfaces/inviteaccountparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [InviteAccountParams](../interfaces/inviteaccountparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### isCddProvider
 
-###  isCddProvider
+▸ **isCddProvider**\(\): _Promise‹boolean›_
 
-▸ **isCddProvider**(): *Promise‹boolean›*
+_Inherited from_ [_Identity_](identity.md)_._[_isCddProvider_](identity.md#iscddprovider)
 
-*Inherited from [Identity](identity.md).[isCddProvider](identity.md#iscddprovider)*
-
-*Defined in [src/api/entities/Identity/index.ts:255](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L255)*
+_Defined in_ [_src/api/entities/Identity/index.ts:255_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L255)
 
 Check whether this Identity is a CDD provider
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### isEqual
 
-###  isEqual
+▸ **isEqual**\(`entity`: [Entity](entity.md)‹unknown›\): _boolean_
 
-▸ **isEqual**(`entity`: [Entity](entity.md)‹unknown›): *boolean*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_isEqual_](checkpointschedule.md#isequal)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[isEqual](checkpointschedule.md#isequal)*
-
-*Defined in [src/api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)*
+_Defined in_ [_src/api/entities/Entity.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)
 
 Whether this Entity is the same as another one
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`entity` | [Entity](entity.md)‹unknown› |
+| Name | Type |
+| :--- | :--- |
+| `entity` | [Entity](entity.md)‹unknown› |
 
-**Returns:** *boolean*
+**Returns:** _boolean_
 
-___
+### isGcMember
 
-###  isGcMember
+▸ **isGcMember**\(\): _Promise‹boolean›_
 
-▸ **isGcMember**(): *Promise‹boolean›*
+_Inherited from_ [_Identity_](identity.md)_._[_isGcMember_](identity.md#isgcmember)
 
-*Inherited from [Identity](identity.md).[isGcMember](identity.md#isgcmember)*
-
-*Defined in [src/api/entities/Identity/index.ts:238](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L238)*
+_Defined in_ [_src/api/entities/Identity/index.ts:238_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Identity/index.ts#L238)
 
 Check whether this Identity is Governance Committee member
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### modifyPermissions
 
-###  modifyPermissions
+▸ **modifyPermissions**\(`args`: [ModifySignerPermissionsParams](../interfaces/modifysignerpermissionsparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **modifyPermissions**(`args`: [ModifySignerPermissionsParams](../interfaces/modifysignerpermissionsparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/CurrentIdentity.ts:122](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L122)*
+_Defined in_ [_src/api/entities/CurrentIdentity.ts:122_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L122)
 
 Modify all permissions of a list of secondary keys associated with the Identity
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `modifyPermissions.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `modifyPermissions.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [ModifySignerPermissionsParams](../interfaces/modifysignerpermissionsparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [ModifySignerPermissionsParams](../interfaces/modifysignerpermissionsparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### removeSecondaryKeys
 
-###  removeSecondaryKeys
+▸ **removeSecondaryKeys**\(`args`: [RemoveSecondaryKeysParams](../interfaces/removesecondarykeysparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **removeSecondaryKeys**(`args`: [RemoveSecondaryKeysParams](../interfaces/removesecondarykeysparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/CurrentIdentity.ts:102](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L102)*
+_Defined in_ [_src/api/entities/CurrentIdentity.ts:102_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L102)
 
 Remove a list of secondary keys associated with the Identity
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `removeSecondaryKeys.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `removeSecondaryKeys.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [RemoveSecondaryKeysParams](../interfaces/removesecondarykeysparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [RemoveSecondaryKeysParams](../interfaces/removesecondarykeysparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### revokePermissions
 
-###  revokePermissions
+▸ **revokePermissions**\(`args`: object\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **revokePermissions**(`args`: object): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/CurrentIdentity.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L112)*
+_Defined in_ [_src/api/entities/CurrentIdentity.ts:112_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L112)
 
 Revoke all permissions of a list of secondary keys associated with the Identity
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `revokePermissions.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `revokePermissions.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`secondaryKeys` | [Signer](../globals.md#signer)[] |
+| Name | Type |
+| :--- | :--- |
+| `secondaryKeys` | [Signer](../globals.md#signer)\[\] |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### unfreezeSecondaryKeys
 
-###  unfreezeSecondaryKeys
+▸ **unfreezeSecondaryKeys**\(`args`: void\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **unfreezeSecondaryKeys**(`args`: void): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/CurrentIdentity.ts:166](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L166)*
+_Defined in_ [_src/api/entities/CurrentIdentity.ts:166_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CurrentIdentity.ts#L166)
 
 Unfreeze all the secondary keys in this Identity. This will restore their permissions as they were before being frozen
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `unfreezeSecondaryKeys.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `unfreezeSecondaryKeys.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-___
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[generateUuid](checkpointschedule.md#static-generateuuid)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_generateUuid_](checkpointschedule.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
@@ -662,21 +599,19 @@ Generate the Entity's UUID from its identifying properties
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[unserialize](checkpointschedule.md#static-unserialize)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_unserialize_](checkpointschedule.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
@@ -686,8 +621,9 @@ Unserialize a UUID into its Unique Identifiers
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

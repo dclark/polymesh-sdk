@@ -1,18 +1,18 @@
-# Class: DefaultPortfolio
+# DefaultPortfolio
 
 Represents the default Portfolio for an Identity
 
 ## Hierarchy
 
-  ↳ [Portfolio](portfolio.md)
+↳ [Portfolio](portfolio.md)
 
-  ↳ **DefaultPortfolio**
+↳ **DefaultPortfolio**
 
 ## Index
 
 ### Properties
 
-* [_id](defaultportfolio.md#protected-optional-_id)
+* [\_id](defaultportfolio.md#protected-optional-_id)
 * [context](defaultportfolio.md#protected-context)
 * [owner](defaultportfolio.md#owner)
 * [uuid](defaultportfolio.md#uuid)
@@ -32,93 +32,83 @@ Represents the default Portfolio for an Identity
 
 ## Properties
 
-### `Protected` `Optional` _id
+### `Protected` `Optional` \_id
 
-• **_id**? : *BigNumber*
+• **\_id**? : _BigNumber_
 
-*Inherited from [Portfolio](portfolio.md).[_id](portfolio.md#protected-optional-_id)*
+_Inherited from_ [_Portfolio_](portfolio.md)_._[_\_id_](portfolio.md#protected-optional-_id)
 
-*Defined in [src/api/entities/Portfolio/index.ts:59](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L59)*
+_Defined in_ [_src/api/entities/Portfolio/index.ts:59_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L59)
 
-internal Portfolio identifier (unused for default Portfolio)
-
-___
+internal Portfolio identifier \(unused for default Portfolio\)
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[context](checkpointschedule.md#protected-context)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_context_](checkpointschedule.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)
 
-___
+### owner
 
-###  owner
+• **owner**: [_Identity_](identity.md)
 
-• **owner**: *[Identity](identity.md)*
+_Inherited from_ [_Portfolio_](portfolio.md)_._[_owner_](portfolio.md#owner)
 
-*Inherited from [Portfolio](portfolio.md).[owner](portfolio.md#owner)*
-
-*Defined in [src/api/entities/Portfolio/index.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L54)*
+_Defined in_ [_src/api/entities/Portfolio/index.ts:54_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L54)
 
 identity of the Portfolio's owner
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_uuid_](checkpointschedule.md#uuid)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[uuid](checkpointschedule.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  getCustodian
+### getCustodian
 
-▸ **getCustodian**(): *Promise‹[Identity](identity.md)›*
+▸ **getCustodian**\(\): _Promise‹_[_Identity_](identity.md)_›_
 
-*Inherited from [Portfolio](portfolio.md).[getCustodian](portfolio.md#getcustodian)*
+_Inherited from_ [_Portfolio_](portfolio.md)_._[_getCustodian_](portfolio.md#getcustodian)
 
-*Defined in [src/api/entities/Portfolio/index.ts:220](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L220)*
+_Defined in_ [_src/api/entities/Portfolio/index.ts:220_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L220)
 
 Retrieve the custodian Identity of this Portfolio
 
 **`note`** if no custodian is set, the owner Identity is returned
 
-**Returns:** *Promise‹[Identity](identity.md)›*
+**Returns:** _Promise‹_[_Identity_](identity.md)_›_
 
-___
+### getTokenBalances
 
-###  getTokenBalances
+▸ **getTokenBalances**\(`args?`: undefined \| object\): _Promise‹_[_PortfolioBalance_](../interfaces/portfoliobalance.md)_\[\]›_
 
-▸ **getTokenBalances**(`args?`: undefined | object): *Promise‹[PortfolioBalance](../interfaces/portfoliobalance.md)[]›*
+_Inherited from_ [_Portfolio_](portfolio.md)_._[_getTokenBalances_](portfolio.md#gettokenbalances)
 
-*Inherited from [Portfolio](portfolio.md).[getTokenBalances](portfolio.md#gettokenbalances)*
-
-*Defined in [src/api/entities/Portfolio/index.ts:119](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L119)*
+_Defined in_ [_src/api/entities/Portfolio/index.ts:119_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L119)
 
 Retrieve the balances of all assets in this Portfolio
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args?` | undefined &#124; object |
+| Name | Type |
+| :--- | :--- |
+| `args?` | undefined \| object |
 
-**Returns:** *Promise‹[PortfolioBalance](../interfaces/portfoliobalance.md)[]›*
+**Returns:** _Promise‹_[_PortfolioBalance_](../interfaces/portfoliobalance.md)_\[\]›_
 
-___
+### getTransactionHistory
 
-###  getTransactionHistory
+▸ **getTransactionHistory**\(`filters`: object\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_HistoricSettlement_](../interfaces/historicsettlement.md)_››_
 
-▸ **getTransactionHistory**(`filters`: object): *Promise‹[ResultSet](../interfaces/resultset.md)‹[HistoricSettlement](../interfaces/historicsettlement.md)››*
+_Inherited from_ [_Portfolio_](portfolio.md)_._[_getTransactionHistory_](portfolio.md#gettransactionhistory)
 
-*Inherited from [Portfolio](portfolio.md).[getTransactionHistory](portfolio.md#gettransactionhistory)*
-
-*Defined in [src/api/entities/Portfolio/index.ts:255](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L255)*
+_Defined in_ [_src/api/entities/Portfolio/index.ts:255_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L255)
 
 Retrieve a list of transactions where this portfolio was involved. Can be filtered using parameters
 
@@ -128,142 +118,128 @@ Retrieve a list of transactions where this portfolio was involved. Can be filter
 
 **Parameters:**
 
-▪`Default value`  **filters**: *object*= {}
+▪`Default value` **filters**: _object_= {}
 
-Name | Type | Description |
------- | ------ | ------ |
-`account?` | undefined &#124; string | account involved in the settlement |
-`size?` | undefined &#124; number | page size |
-`start?` | undefined &#124; number | page offset  |
-`ticker?` | undefined &#124; string | ticker involved in the transaction |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `account?` | undefined \| string | account involved in the settlement |
+| `size?` | undefined \| number | page size |
+| `start?` | undefined \| number | page offset |
+| `ticker?` | undefined \| string | ticker involved in the transaction |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[HistoricSettlement](../interfaces/historicsettlement.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_HistoricSettlement_](../interfaces/historicsettlement.md)_››_
 
-___
+### isCustodiedBy
 
-###  isCustodiedBy
+▸ **isCustodiedBy**\(`args?`: undefined \| object\): _Promise‹boolean›_
 
-▸ **isCustodiedBy**(`args?`: undefined | object): *Promise‹boolean›*
+_Inherited from_ [_Portfolio_](portfolio.md)_._[_isCustodiedBy_](portfolio.md#iscustodiedby)
 
-*Inherited from [Portfolio](portfolio.md).[isCustodiedBy](portfolio.md#iscustodiedby)*
-
-*Defined in [src/api/entities/Portfolio/index.ts:103](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L103)*
+_Defined in_ [_src/api/entities/Portfolio/index.ts:103_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L103)
 
 Return whether an Identity is the Portfolio custodian
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args?` | undefined &#124; object |
+| Name | Type |
+| :--- | :--- |
+| `args?` | undefined \| object |
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### isEqual
 
-###  isEqual
+▸ **isEqual**\(`entity`: [Entity](entity.md)‹unknown›\): _boolean_
 
-▸ **isEqual**(`entity`: [Entity](entity.md)‹unknown›): *boolean*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_isEqual_](checkpointschedule.md#isequal)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[isEqual](checkpointschedule.md#isequal)*
-
-*Defined in [src/api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)*
+_Defined in_ [_src/api/entities/Entity.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)
 
 Whether this Entity is the same as another one
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`entity` | [Entity](entity.md)‹unknown› |
+| Name | Type |
+| :--- | :--- |
+| `entity` | [Entity](entity.md)‹unknown› |
 
-**Returns:** *boolean*
+**Returns:** _boolean_
 
-___
+### isOwnedBy
 
-###  isOwnedBy
+▸ **isOwnedBy**\(`args?`: undefined \| object\): _Promise‹boolean›_
 
-▸ **isOwnedBy**(`args?`: undefined | object): *Promise‹boolean›*
+_Inherited from_ [_Portfolio_](portfolio.md)_._[_isOwnedBy_](portfolio.md#isownedby)
 
-*Inherited from [Portfolio](portfolio.md).[isOwnedBy](portfolio.md#isownedby)*
-
-*Defined in [src/api/entities/Portfolio/index.ts:87](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L87)*
+_Defined in_ [_src/api/entities/Portfolio/index.ts:87_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L87)
 
 Return whether an Identity is the Portfolio owner
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args?` | undefined &#124; object |
+| Name | Type |
+| :--- | :--- |
+| `args?` | undefined \| object |
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### moveFunds
 
-###  moveFunds
+▸ **moveFunds**\(`args`: [MoveFundsParams](../interfaces/movefundsparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **moveFunds**(`args`: [MoveFundsParams](../interfaces/movefundsparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+_Inherited from_ [_Portfolio_](portfolio.md)_._[_moveFunds_](portfolio.md#movefunds)
 
-*Inherited from [Portfolio](portfolio.md).[moveFunds](portfolio.md#movefunds)*
-
-*Defined in [src/api/entities/Portfolio/index.ts:211](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L211)*
+_Defined in_ [_src/api/entities/Portfolio/index.ts:211_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L211)
 
 Moves funds from this Portfolio to another one owned by the same Identity
 
 **`note`** required role:
-  - Portfolio Custodian
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `moveFunds.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Portfolio Custodian
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `moveFunds.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [MoveFundsParams](../interfaces/movefundsparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [MoveFundsParams](../interfaces/movefundsparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### setCustodian
 
-###  setCustodian
+▸ **setCustodian**\(`args`: [SetCustodianParams](../interfaces/setcustodianparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **setCustodian**(`args`: [SetCustodianParams](../interfaces/setcustodianparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+_Inherited from_ [_Portfolio_](portfolio.md)_._[_setCustodian_](portfolio.md#setcustodian)
 
-*Inherited from [Portfolio](portfolio.md).[setCustodian](portfolio.md#setcustodian)*
-
-*Defined in [src/api/entities/Portfolio/index.ts:198](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L198)*
+_Defined in_ [_src/api/entities/Portfolio/index.ts:198_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Portfolio/index.ts#L198)
 
 Send an invitation to an Identity to assign it as custodian for this Portfolio
 
-**`note`** this may create an AuthorizationRequest which has to be accepted by
-  the corresponding Identity. An Account or Identity can
-  fetch its pending Authorization Requests by calling `authorizations.getReceived`
+**`note`** this may create an AuthorizationRequest which has to be accepted by the corresponding Identity. An Account or Identity can fetch its pending Authorization Requests by calling `authorizations.getReceived`
 
 **`note`** required role:
-  - Portfolio Custodian
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `setCustodian.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Portfolio Custodian
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `setCustodian.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [SetCustodianParams](../interfaces/setcustodianparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [SetCustodianParams](../interfaces/setcustodianparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-___
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[generateUuid](checkpointschedule.md#static-generateuuid)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_generateUuid_](checkpointschedule.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
@@ -273,21 +249,19 @@ Generate the Entity's UUID from its identifying properties
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[unserialize](checkpointschedule.md#static-unserialize)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_unserialize_](checkpointschedule.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
@@ -297,8 +271,9 @@ Unserialize a UUID into its Unique Identifiers
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

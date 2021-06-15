@@ -1,4 +1,4 @@
-# Interface: PaginationOptions
+# PaginationOptions
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  size
+### size
 
-• **size**: *number*
+• **size**: _number_
 
-*Defined in [src/types/index.ts:602](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L602)*
-
-___
+_Defined in_ [_src/types/index.ts:602_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L602)
 
 ### `Optional` start
 
-• **start**? : *undefined | string*
+• **start**? : _undefined \| string_
 
-*Defined in [src/types/index.ts:603](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L603)*
+_Defined in_ [_src/types/index.ts:603_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L603)
+

@@ -1,4 +1,4 @@
-# Interface: DividendDistributionParams
+# DividendDistributionParams
 
 ## Hierarchy
 
@@ -17,48 +17,39 @@
 
 ## Properties
 
-###  currency
+### currency
 
-• **currency**: *string*
+• **currency**: _string_
 
-*Defined in [src/api/entities/DividendDistribution/index.ts:52](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L52)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:52_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L52)
 
-___
+### expiryDate
 
-###  expiryDate
+• **expiryDate**: _null \| Date_
 
-• **expiryDate**: *null | Date*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:55_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L55)
 
-*Defined in [src/api/entities/DividendDistribution/index.ts:55](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L55)*
+### maxAmount
 
-___
+• **maxAmount**: _BigNumber_
 
-###  maxAmount
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:54_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L54)
 
-• **maxAmount**: *BigNumber*
+### origin
 
-*Defined in [src/api/entities/DividendDistribution/index.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L54)*
+• **origin**: [_DefaultPortfolio_](../classes/defaultportfolio.md) _\|_ [_NumberedPortfolio_](../classes/numberedportfolio.md)
 
-___
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:51_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L51)
 
-###  origin
+### paymentDate
 
-• **origin**: *[DefaultPortfolio](../classes/defaultportfolio.md) | [NumberedPortfolio](../classes/numberedportfolio.md)*
+• **paymentDate**: _Date_
 
-*Defined in [src/api/entities/DividendDistribution/index.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L51)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:56_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L56)
 
-___
+### perShare
 
-###  paymentDate
+• **perShare**: _BigNumber_
 
-• **paymentDate**: *Date*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:53_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L53)
 
-*Defined in [src/api/entities/DividendDistribution/index.ts:56](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L56)*
-
-___
-
-###  perShare
-
-• **perShare**: *BigNumber*
-
-*Defined in [src/api/entities/DividendDistribution/index.ts:53](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L53)*

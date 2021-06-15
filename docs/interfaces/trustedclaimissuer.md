@@ -1,4 +1,4 @@
-# Interface: TrustedClaimIssuer
+# TrustedClaimIssuer
 
 ## Hierarchy
 
@@ -13,18 +13,17 @@
 
 ## Properties
 
-###  identity
+### identity
 
-• **identity**: *[Identity](../classes/identity.md)*
+• **identity**: [_Identity_](../classes/identity.md)
 
-*Defined in [src/types/index.ts:367](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L367)*
-
-___
+_Defined in_ [_src/types/index.ts:367_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L367)
 
 ### `Optional` trustedFor
 
-• **trustedFor**? : *[ClaimType](../enums/claimtype.md)[]*
+• **trustedFor**? : [_ClaimType_](../enums/claimtype.md)_\[\]_
 
-*Defined in [src/types/index.ts:371](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L371)*
+_Defined in_ [_src/types/index.ts:371_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L371)
 
 an undefined value means that the issuer is trusted for all claim types.
+

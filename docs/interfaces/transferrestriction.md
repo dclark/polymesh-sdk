@@ -1,4 +1,4 @@
-# Interface: TransferRestriction
+# TransferRestriction
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  type
+### type
 
-• **type**: *[TransferRestrictionType](../enums/transferrestrictiontype.md)*
+• **type**: [_TransferRestrictionType_](../enums/transferrestrictiontype.md)
 
-*Defined in [src/types/index.ts:929](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L929)*
+_Defined in_ [_src/types/index.ts:929_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L929)
 
-___
+### value
 
-###  value
+• **value**: _BigNumber_
 
-• **value**: *BigNumber*
+_Defined in_ [_src/types/index.ts:930_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L930)
 
-*Defined in [src/types/index.ts:930](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L930)*

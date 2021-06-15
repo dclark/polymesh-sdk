@@ -1,8 +1,6 @@
-# Interface: Permissions
+# Permissions
 
-Permissions a Secondary Key has over the Identity. A null value means the key has
-  all permissions of that type (i.e. if `tokens` is null, the key has permissions over all
-  of the Identity's Security Tokens)
+Permissions a Secondary Key has over the Identity. A null value means the key has all permissions of that type \(i.e. if `tokens` is null, the key has permissions over all of the Identity's Security Tokens\)
 
 ## Hierarchy
 
@@ -19,40 +17,33 @@ Permissions a Secondary Key has over the Identity. A null value means the key ha
 
 ## Properties
 
-###  portfolios
+### portfolios
 
-• **portfolios**: *([DefaultPortfolio](../classes/defaultportfolio.md)‹› | [NumberedPortfolio](../classes/numberedportfolio.md)‹›)[] | null*
+• **portfolios**: _\(_[_DefaultPortfolio_](../classes/defaultportfolio.md)_‹› \|_ [_NumberedPortfolio_](../classes/numberedportfolio.md)_‹›\)\[\] \| null_
 
-*Defined in [src/types/index.ts:727](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L727)*
+_Defined in_ [_src/types/index.ts:727_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L727)
 
-___
+### tokens
 
-###  tokens
+• **tokens**: [_SecurityToken_](../classes/securitytoken.md)_\[\] \| null_
 
-• **tokens**: *[SecurityToken](../classes/securitytoken.md)[] | null*
-
-*Defined in [src/types/index.ts:715](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L715)*
+_Defined in_ [_src/types/index.ts:715_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L715)
 
 list of Security Tokens over which this key has permissions
 
-___
+### transactionGroups
 
-###  transactionGroups
+• **transactionGroups**: [_TxGroup_](../enums/txgroup.md)_\[\]_
 
-• **transactionGroups**: *[TxGroup](../enums/txgroup.md)[]*
+_Defined in_ [_src/types/index.ts:725_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L725)
 
-*Defined in [src/types/index.ts:725](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L725)*
+list of Transaction Groups this key can execute. Having permissions over a TxGroup means having permissions over every TxTag in said group. Transaction permissions are the result of combining these with the `transactions` array. If `transactions` is null, then this value is redundant
 
-list of Transaction Groups this key can execute. Having permissions over a TxGroup
-  means having permissions over every TxTag in said group. Transaction permissions are the result of
-  combining these with the `transactions` array. If `transactions` is null, then this value is redundant
+### transactions
 
-___
+• **transactions**: _TxTag\[\] \| null_
 
-###  transactions
-
-• **transactions**: *TxTag[] | null*
-
-*Defined in [src/types/index.ts:719](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L719)*
+_Defined in_ [_src/types/index.ts:719_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L719)
 
 list of Transactions this key can execute
+

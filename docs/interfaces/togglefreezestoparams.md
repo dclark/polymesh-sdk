@@ -1,4 +1,4 @@
-# Interface: ToggleFreezeStoParams
+# ToggleFreezeStoParams
 
 ## Hierarchy
 
@@ -14,24 +14,21 @@
 
 ## Properties
 
-###  freeze
+### freeze
 
-• **freeze**: *boolean*
+• **freeze**: _boolean_
 
-*Defined in [src/api/procedures/toggleFreezeSto.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/toggleFreezeSto.ts#L10)*
+_Defined in_ [_src/api/procedures/toggleFreezeSto.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/toggleFreezeSto.ts#L10)
 
-___
+### id
 
-###  id
+• **id**: _BigNumber_
 
-• **id**: *BigNumber*
+_Defined in_ [_src/api/procedures/toggleFreezeSto.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/toggleFreezeSto.ts#L9)
 
-*Defined in [src/api/procedures/toggleFreezeSto.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/toggleFreezeSto.ts#L9)*
+### ticker
 
-___
+• **ticker**: _string_
 
-###  ticker
+_Defined in_ [_src/api/procedures/toggleFreezeSto.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/toggleFreezeSto.ts#L11)
 
-• **ticker**: *string*
-
-*Defined in [src/api/procedures/toggleFreezeSto.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/toggleFreezeSto.ts#L11)*

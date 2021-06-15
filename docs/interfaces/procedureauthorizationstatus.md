@@ -1,4 +1,4 @@
-# Interface: ProcedureAuthorizationStatus
+# ProcedureAuthorizationStatus
 
 ## Hierarchy
 
@@ -14,24 +14,21 @@
 
 ## Properties
 
-###  accountFrozen
+### accountFrozen
 
-• **accountFrozen**: *boolean*
+• **accountFrozen**: _boolean_
 
-*Defined in [src/types/index.ts:870](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L870)*
+_Defined in_ [_src/types/index.ts:870_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L870)
 
-___
+### permissions
 
-###  permissions
+• **permissions**: _boolean_
 
-• **permissions**: *boolean*
+_Defined in_ [_src/types/index.ts:868_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L868)
 
-*Defined in [src/types/index.ts:868](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L868)*
+### roles
 
-___
+• **roles**: _boolean_
 
-###  roles
+_Defined in_ [_src/types/index.ts:869_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L869)
 
-• **roles**: *boolean*
-
-*Defined in [src/types/index.ts:869](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L869)*

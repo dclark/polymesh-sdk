@@ -1,4 +1,4 @@
-# Enumeration: ErrorCode
+# ErrorCode
 
 Specifies possible types of errors in the SDK
 
@@ -19,80 +19,63 @@ Specifies possible types of errors in the SDK
 
 ## Enumeration members
 
-###  DataUnavailable
+### DataUnavailable
 
 • **DataUnavailable**: = "DataUnavailable"
 
-*Defined in [src/types/index.ts:458](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L458)*
+_Defined in_ [_src/types/index.ts:458_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L458)
 
-___
-
-###  FatalError
+### FatalError
 
 • **FatalError**: = "FatalError"
 
-*Defined in [src/types/index.ts:452](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L452)*
+_Defined in_ [_src/types/index.ts:452_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L452)
 
-___
-
-###  IdentityNotPresent
+### IdentityNotPresent
 
 • **IdentityNotPresent**: = "IdentityNotPresent"
 
-*Defined in [src/types/index.ts:457](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L457)*
+_Defined in_ [_src/types/index.ts:457_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L457)
 
-___
-
-###  InvalidUuid
+### InvalidUuid
 
 • **InvalidUuid**: = "InvalidUuid"
 
-*Defined in [src/types/index.ts:453](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L453)*
+_Defined in_ [_src/types/index.ts:453_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L453)
 
-___
-
-###  MiddlewareError
+### MiddlewareError
 
 • **MiddlewareError**: = "MiddlewareError"
 
-*Defined in [src/types/index.ts:456](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L456)*
+_Defined in_ [_src/types/index.ts:456_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L456)
 
-___
-
-###  NotAuthorized
+### NotAuthorized
 
 • **NotAuthorized**: = "NotAuthorized"
 
-*Defined in [src/types/index.ts:455](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L455)*
+_Defined in_ [_src/types/index.ts:455_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L455)
 
-___
-
-###  TransactionAborted
+### TransactionAborted
 
 • **TransactionAborted**: = "TransactionAborted"
 
-*Defined in [src/types/index.ts:449](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L449)*
+_Defined in_ [_src/types/index.ts:449_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L449)
 
-___
-
-###  TransactionRejectedByUser
+### TransactionRejectedByUser
 
 • **TransactionRejectedByUser**: = "TransactionRejectedByUser"
 
-*Defined in [src/types/index.ts:450](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L450)*
+_Defined in_ [_src/types/index.ts:450_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L450)
 
-___
-
-###  TransactionReverted
+### TransactionReverted
 
 • **TransactionReverted**: = "TransactionReverted"
 
-*Defined in [src/types/index.ts:451](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L451)*
+_Defined in_ [_src/types/index.ts:451_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L451)
 
-___
-
-###  ValidationError
+### ValidationError
 
 • **ValidationError**: = "ValidationError"
 
-*Defined in [src/types/index.ts:454](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L454)*
+_Defined in_ [_src/types/index.ts:454_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L454)
+

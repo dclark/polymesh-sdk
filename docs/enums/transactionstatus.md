@@ -1,4 +1,4 @@
-# Enumeration: TransactionStatus
+# TransactionStatus
 
 ## Index
 
@@ -14,71 +14,59 @@
 
 ## Enumeration members
 
-###  Aborted
+### Aborted
 
 • **Aborted**: = "Aborted"
 
-*Defined in [src/types/index.ts:56](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L56)*
+_Defined in_ [_src/types/index.ts:56_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L56)
 
-the transaction couldn't be broadcast. It was either dropped, usurped or invalidated
-see https://github.com/paritytech/substrate/blob/master/primitives/transaction-pool/src/pool.rs#L58-L110
+the transaction couldn't be broadcast. It was either dropped, usurped or invalidated see [https://github.com/paritytech/substrate/blob/master/primitives/transaction-pool/src/pool.rs\#L58-L110](https://github.com/paritytech/substrate/blob/master/primitives/transaction-pool/src/pool.rs#L58-L110)
 
-___
-
-###  Failed
+### Failed
 
 • **Failed**: = "Failed"
 
-*Defined in [src/types/index.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L51)*
+_Defined in_ [_src/types/index.ts:51_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L51)
 
 the transaction's execution failed due to a revert
 
-___
-
-###  Idle
+### Idle
 
 • **Idle**: = "Idle"
 
-*Defined in [src/types/index.ts:31](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L31)*
+_Defined in_ [_src/types/index.ts:31_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L31)
 
 the transaction is prepped to run
 
-___
-
-###  Rejected
+### Rejected
 
 • **Rejected**: = "Rejected"
 
-*Defined in [src/types/index.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L43)*
+_Defined in_ [_src/types/index.ts:43_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L43)
 
 the transaction was rejected by the signer
 
-___
-
-###  Running
+### Running
 
 • **Running**: = "Running"
 
-*Defined in [src/types/index.ts:39](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L39)*
+_Defined in_ [_src/types/index.ts:39_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L39)
 
 the transaction is being executed
 
-___
-
-###  Succeeded
+### Succeeded
 
 • **Succeeded**: = "Succeeded"
 
-*Defined in [src/types/index.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L47)*
+_Defined in_ [_src/types/index.ts:47_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L47)
 
 the transaction was run successfully
 
-___
-
-###  Unapproved
+### Unapproved
 
 • **Unapproved**: = "Unapproved"
 
-*Defined in [src/types/index.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L35)*
+_Defined in_ [_src/types/index.ts:35_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L35)
 
 the transaction is waiting for the user's signature
+

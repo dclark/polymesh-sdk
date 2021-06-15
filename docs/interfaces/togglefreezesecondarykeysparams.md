@@ -1,4 +1,4 @@
-# Interface: ToggleFreezeSecondaryKeysParams
+# ToggleFreezeSecondaryKeysParams
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  freeze
+### freeze
 
-• **freeze**: *boolean*
+• **freeze**: _boolean_
 
-*Defined in [src/api/procedures/toggleFreezeSecondaryKeys.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/toggleFreezeSecondaryKeys.ts#L6)*
+_Defined in_ [_src/api/procedures/toggleFreezeSecondaryKeys.ts:6_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/toggleFreezeSecondaryKeys.ts#L6)
 
-___
+### identity
 
-###  identity
+• **identity**: [_CurrentIdentity_](../classes/currentidentity.md)
 
-• **identity**: *[CurrentIdentity](../classes/currentidentity.md)*
+_Defined in_ [_src/api/procedures/toggleFreezeSecondaryKeys.ts:7_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/toggleFreezeSecondaryKeys.ts#L7)
 
-*Defined in [src/api/procedures/toggleFreezeSecondaryKeys.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/toggleFreezeSecondaryKeys.ts#L7)*

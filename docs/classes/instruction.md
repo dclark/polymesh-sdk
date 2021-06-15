@@ -1,4 +1,4 @@
-# Class: Instruction
+# Instruction
 
 Represents a settlement Instruction to be executed on a certain Venue
 
@@ -33,105 +33,91 @@ Represents a settlement Instruction to be executed on a certain Venue
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[context](checkpointschedule.md#protected-context)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_context_](checkpointschedule.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)
 
-___
+### id
 
-###  id
+• **id**: _BigNumber_
 
-• **id**: *BigNumber*
-
-*Defined in [src/api/entities/Instruction/index.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/index.ts#L61)*
+_Defined in_ [_src/api/entities/Instruction/index.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/index.ts#L61)
 
 Identifier number of the venue
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_uuid_](checkpointschedule.md#uuid)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[uuid](checkpointschedule.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  affirm
+### affirm
 
-▸ **affirm**(`args`: void): *Promise‹[TransactionQueue](transactionqueue.md)‹[Instruction](instruction.md)››*
+▸ **affirm**\(`args`: void\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Instruction_](instruction.md)_››_
 
-*Defined in [src/api/entities/Instruction/index.ts:296](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/index.ts#L296)*
+_Defined in_ [_src/api/entities/Instruction/index.ts:296_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/index.ts#L296)
 
-Affirm this instruction (authorize)
+Affirm this instruction \(authorize\)
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `affirm.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `affirm.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[Instruction](instruction.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Instruction_](instruction.md)_››_
 
-___
+### details
 
-###  details
+▸ **details**\(\): _Promise‹_[_InstructionDetails_](../globals.md#instructiondetails)_›_
 
-▸ **details**(): *Promise‹[InstructionDetails](../globals.md#instructiondetails)›*
-
-*Defined in [src/api/entities/Instruction/index.ts:129](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/index.ts#L129)*
+_Defined in_ [_src/api/entities/Instruction/index.ts:129_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/index.ts#L129)
 
 Retrieve information specific to this Instruction
 
-**Returns:** *Promise‹[InstructionDetails](../globals.md#instructiondetails)›*
+**Returns:** _Promise‹_[_InstructionDetails_](../globals.md#instructiondetails)_›_
 
-___
+### exists
 
-###  exists
+▸ **exists**\(\): _Promise‹boolean›_
 
-▸ **exists**(): *Promise‹boolean›*
+_Defined in_ [_src/api/entities/Instruction/index.ts:108_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/index.ts#L108)
 
-*Defined in [src/api/entities/Instruction/index.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/index.ts#L108)*
+Retrieve whether the Instruction still exists on chain. Executed/rejected instructions are pruned from the storage
 
-Retrieve whether the Instruction still exists on chain. Executed/rejected instructions
-  are pruned from the storage
+**Returns:** _Promise‹boolean›_
 
-**Returns:** *Promise‹boolean›*
+### getAffirmations
 
-___
+▸ **getAffirmations**\(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_InstructionAffirmation_](../interfaces/instructionaffirmation.md)_››_
 
-###  getAffirmations
+_Defined in_ [_src/api/entities/Instruction/index.ts:185_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/index.ts#L185)
 
-▸ **getAffirmations**(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)): *Promise‹[ResultSet](../interfaces/resultset.md)‹[InstructionAffirmation](../interfaces/instructionaffirmation.md)››*
-
-*Defined in [src/api/entities/Instruction/index.ts:185](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/index.ts#L185)*
-
-Retrieve every authorization generated by this Instruction (status and authorizing Identity)
+Retrieve every authorization generated by this Instruction \(status and authorizing Identity\)
 
 **`note`** supports pagination
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
+| Name | Type |
+| :--- | :--- |
+| `paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[InstructionAffirmation](../interfaces/instructionaffirmation.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_InstructionAffirmation_](../interfaces/instructionaffirmation.md)_››_
 
-___
+### getLegs
 
-###  getLegs
+▸ **getLegs**\(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_Leg_](../interfaces/leg.md)_››_
 
-▸ **getLegs**(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)): *Promise‹[ResultSet](../interfaces/resultset.md)‹[Leg](../interfaces/leg.md)››*
-
-*Defined in [src/api/entities/Instruction/index.ts:231](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/index.ts#L231)*
+_Defined in_ [_src/api/entities/Instruction/index.ts:231_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/index.ts#L231)
 
 Retrieve all legs of this Instruction
 
@@ -139,39 +125,35 @@ Retrieve all legs of this Instruction
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
+| Name | Type |
+| :--- | :--- |
+| `paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[Leg](../interfaces/leg.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_Leg_](../interfaces/leg.md)_››_
 
-___
+### isEqual
 
-###  isEqual
+▸ **isEqual**\(`entity`: [Entity](entity.md)‹unknown›\): _boolean_
 
-▸ **isEqual**(`entity`: [Entity](entity.md)‹unknown›): *boolean*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_isEqual_](checkpointschedule.md#isequal)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[isEqual](checkpointschedule.md#isequal)*
-
-*Defined in [src/api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)*
+_Defined in_ [_src/api/entities/Entity.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)
 
 Whether this Entity is the same as another one
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`entity` | [Entity](entity.md)‹unknown› |
+| Name | Type |
+| :--- | :--- |
+| `entity` | [Entity](entity.md)‹unknown› |
 
-**Returns:** *boolean*
+**Returns:** _boolean_
 
-___
+### reject
 
-###  reject
+▸ **reject**\(`args`: void\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Instruction_](instruction.md)_››_
 
-▸ **reject**(`args`: void): *Promise‹[TransactionQueue](transactionqueue.md)‹[Instruction](instruction.md)››*
-
-*Defined in [src/api/entities/Instruction/index.ts:286](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/index.ts#L286)*
+_Defined in_ [_src/api/entities/Instruction/index.ts:286_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/index.ts#L286)
 
 Reject this instruction
 
@@ -179,47 +161,41 @@ Reject this instruction
 
 **`note`** reject on `SettleOnBlock` behaves just like unauthorize
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `reject.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `reject.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[Instruction](instruction.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Instruction_](instruction.md)_››_
 
-___
+### withdraw
 
-###  withdraw
+▸ **withdraw**\(`args`: void\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Instruction_](instruction.md)_››_
 
-▸ **withdraw**(`args`: void): *Promise‹[TransactionQueue](transactionqueue.md)‹[Instruction](instruction.md)››*
+_Defined in_ [_src/api/entities/Instruction/index.ts:306_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/index.ts#L306)
 
-*Defined in [src/api/entities/Instruction/index.ts:306](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/index.ts#L306)*
+Withdraw affirmation from this instruction \(unauthorize\)
 
-Withdraw affirmation from this instruction (unauthorize)
-
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `withdraw.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `withdraw.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[Instruction](instruction.md)››*
-
-___
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Instruction_](instruction.md)_››_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[generateUuid](checkpointschedule.md#static-generateuuid)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_generateUuid_](checkpointschedule.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
@@ -229,21 +205,19 @@ Generate the Entity's UUID from its identifying properties
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[unserialize](checkpointschedule.md#static-unserialize)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_unserialize_](checkpointschedule.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
@@ -253,8 +227,9 @@ Unserialize a UUID into its Unique Identifiers
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

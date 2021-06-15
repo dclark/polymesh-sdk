@@ -1,9 +1,8 @@
-# Interface: PermissionsLike
+# PermissionsLike
 
 Permissions to grant to a Signer over an Identity
 
-**`note`** TxGroups in the `transactionGroups` array will be transformed into their corresponding `TxTag`s
-  and appended to the `transactions` array. If `transactions` is null, then the value of `transactionGroups` is redundant
+**`note`** TxGroups in the `transactionGroups` array will be transformed into their corresponding `TxTag`s and appended to the `transactions` array. If `transactions` is null, then the value of `transactionGroups` is redundant
 
 ## Hierarchy
 
@@ -22,38 +21,33 @@ Permissions to grant to a Signer over an Identity
 
 ### `Optional` portfolios
 
-• **portfolios**? : *[PortfolioLike](../globals.md#portfoliolike)[] | null*
+• **portfolios**? : [_PortfolioLike_](../globals.md#portfoliolike)_\[\] \| null_
 
-*Defined in [src/types/index.ts:859](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L859)*
+_Defined in_ [_src/types/index.ts:859_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L859)
 
 array of Portfolios for which to grant permissions. A null value represents full permissions
 
-___
-
 ### `Optional` tokens
 
-• **tokens**? : *(string | [SecurityToken](../classes/securitytoken.md)‹›)[] | null*
+• **tokens**? : _\(string \|_ [_SecurityToken_](../classes/securitytoken.md)_‹›\)\[\] \| null_
 
-*Defined in [src/types/index.ts:847](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L847)*
+_Defined in_ [_src/types/index.ts:847_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L847)
 
 array of Security Tokens on which to grant permissions. A null value represents full permissions
 
-___
-
 ### `Optional` transactionGroups
 
-• **transactionGroups**? : *[TxGroup](../enums/txgroup.md)[]*
+• **transactionGroups**? : [_TxGroup_](../enums/txgroup.md)_\[\]_
 
-*Defined in [src/types/index.ts:855](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L855)*
+_Defined in_ [_src/types/index.ts:855_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L855)
 
 array of transaction groups that the Secondary Key has permission to execute.
 
-___
-
 ### `Optional` transactions
 
-• **transactions**? : *TxTag[] | null*
+• **transactions**? : _TxTag\[\] \| null_
 
-*Defined in [src/types/index.ts:851](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L851)*
+_Defined in_ [_src/types/index.ts:851_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L851)
 
 array of transaction tags that the Secondary Key has permission to execute. A null value represents full permissions
+

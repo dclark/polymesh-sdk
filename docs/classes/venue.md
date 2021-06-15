@@ -1,4 +1,4 @@
-# Class: Venue
+# Venue
 
 Represents a Venue through which settlements are handled
 
@@ -32,169 +32,151 @@ Represents a Venue through which settlements are handled
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[context](checkpointschedule.md#protected-context)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_context_](checkpointschedule.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)
 
-___
+### id
 
-###  id
+• **id**: _BigNumber_
 
-• **id**: *BigNumber*
-
-*Defined in [src/api/entities/Venue/index.ts:57](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Venue/index.ts#L57)*
+_Defined in_ [_src/api/entities/Venue/index.ts:57_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Venue/index.ts#L57)
 
 Identifier number of the venue
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_uuid_](checkpointschedule.md#uuid)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[uuid](checkpointschedule.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  addInstruction
+### addInstruction
 
-▸ **addInstruction**(`args`: [AddInstructionParams](../interfaces/addinstructionparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[Instruction](instruction.md)[], [Instruction](instruction.md)››*
+▸ **addInstruction**\(`args`: [AddInstructionParams](../interfaces/addinstructionparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Instruction_](instruction.md)_\[\],_ [_Instruction_](instruction.md)_››_
 
-*Defined in [src/api/entities/Venue/index.ts:194](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Venue/index.ts#L194)*
+_Defined in_ [_src/api/entities/Venue/index.ts:194_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Venue/index.ts#L194)
 
 Creates a settlement Instruction in this Venue
 
 **`note`** required role:
-  - Venue Owner
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `addInstruction.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Venue Owner
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `addInstruction.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [AddInstructionParams](../interfaces/addinstructionparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [AddInstructionParams](../interfaces/addinstructionparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[Instruction](instruction.md)[], [Instruction](instruction.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Instruction_](instruction.md)_\[\],_ [_Instruction_](instruction.md)_››_
 
-___
+### addInstructions
 
-###  addInstructions
+▸ **addInstructions**\(`args`: [AddInstructionsParams](../interfaces/addinstructionsparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Instruction_](instruction.md)_\[\]››_
 
-▸ **addInstructions**(`args`: [AddInstructionsParams](../interfaces/addinstructionsparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[Instruction](instruction.md)[]››*
-
-*Defined in [src/api/entities/Venue/index.ts:207](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Venue/index.ts#L207)*
+_Defined in_ [_src/api/entities/Venue/index.ts:207_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Venue/index.ts#L207)
 
 Creates a batch of settlement Instructions in this Venue
 
 **`note`** required role:
-  - Venue Owner
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `addInstructions.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Venue Owner
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `addInstructions.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [AddInstructionsParams](../interfaces/addinstructionsparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [AddInstructionsParams](../interfaces/addinstructionsparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[Instruction](instruction.md)[]››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Instruction_](instruction.md)_\[\]››_
 
-___
+### details
 
-###  details
+▸ **details**\(\): _Promise‹_[_VenueDetails_](../interfaces/venuedetails.md)_›_
 
-▸ **details**(): *Promise‹[VenueDetails](../interfaces/venuedetails.md)›*
-
-*Defined in [src/api/entities/Venue/index.ts:110](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Venue/index.ts#L110)*
+_Defined in_ [_src/api/entities/Venue/index.ts:110_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Venue/index.ts#L110)
 
 Retrieve information specific to this venue
 
-**Returns:** *Promise‹[VenueDetails](../interfaces/venuedetails.md)›*
+**Returns:** _Promise‹_[_VenueDetails_](../interfaces/venuedetails.md)_›_
 
-___
+### exists
 
-###  exists
+▸ **exists**\(\): _Promise‹boolean›_
 
-▸ **exists**(): *Promise‹boolean›*
-
-*Defined in [src/api/entities/Venue/index.ts:91](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Venue/index.ts#L91)*
+_Defined in_ [_src/api/entities/Venue/index.ts:91_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Venue/index.ts#L91)
 
 Retrieve whether the Venue exists
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### getPendingInstructions
 
-###  getPendingInstructions
+▸ **getPendingInstructions**\(\): _Promise‹_[_Instruction_](instruction.md)_\[\]›_
 
-▸ **getPendingInstructions**(): *Promise‹[Instruction](instruction.md)[]›*
-
-*Defined in [src/api/entities/Venue/index.ts:144](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Venue/index.ts#L144)*
+_Defined in_ [_src/api/entities/Venue/index.ts:144_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Venue/index.ts#L144)
 
 Retrieve all pending Instructions in this Venue
 
-**Returns:** *Promise‹[Instruction](instruction.md)[]›*
+**Returns:** _Promise‹_[_Instruction_](instruction.md)_\[\]›_
 
-___
+### isEqual
 
-###  isEqual
+▸ **isEqual**\(`entity`: [Entity](entity.md)‹unknown›\): _boolean_
 
-▸ **isEqual**(`entity`: [Entity](entity.md)‹unknown›): *boolean*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_isEqual_](checkpointschedule.md#isequal)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[isEqual](checkpointschedule.md#isequal)*
-
-*Defined in [src/api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)*
+_Defined in_ [_src/api/entities/Entity.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)
 
 Whether this Entity is the same as another one
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`entity` | [Entity](entity.md)‹unknown› |
+| Name | Type |
+| :--- | :--- |
+| `entity` | [Entity](entity.md)‹unknown› |
 
-**Returns:** *boolean*
+**Returns:** _boolean_
 
-___
+### modify
 
-###  modify
+▸ **modify**\(`args`: [ModifyVenueParams](../globals.md#modifyvenueparams)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **modify**(`args`: [ModifyVenueParams](../globals.md#modifyvenueparams)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/Venue/index.ts:220](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Venue/index.ts#L220)*
+_Defined in_ [_src/api/entities/Venue/index.ts:220_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Venue/index.ts#L220)
 
 Modify description and type
 
 **`note`** required role:
-  - Venue Owner
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `modify.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Venue Owner
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `modify.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [ModifyVenueParams](../globals.md#modifyvenueparams) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [ModifyVenueParams](../globals.md#modifyvenueparams) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-___
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[generateUuid](checkpointschedule.md#static-generateuuid)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_generateUuid_](checkpointschedule.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
@@ -204,21 +186,19 @@ Generate the Entity's UUID from its identifying properties
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[unserialize](checkpointschedule.md#static-unserialize)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_unserialize_](checkpointschedule.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
@@ -228,8 +208,9 @@ Unserialize a UUID into its Unique Identifiers
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

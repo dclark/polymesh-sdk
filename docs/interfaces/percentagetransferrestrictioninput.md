@@ -1,4 +1,4 @@
-# Interface: PercentageTransferRestrictionInput
+# PercentageTransferRestrictionInput
 
 ## Hierarchy
 
@@ -18,32 +18,29 @@
 
 ### `Optional` exemptedIdentities
 
-• **exemptedIdentities**? : *(string | [Identity](../classes/identity.md)‹›)[]*
+• **exemptedIdentities**? : _\(string \|_ [_Identity_](../classes/identity.md)_‹›\)\[\]_
 
-*Inherited from [TransferRestrictionInputBase](transferrestrictioninputbase.md).[exemptedIdentities](transferrestrictioninputbase.md#optional-exemptedidentities)*
+_Inherited from_ [_TransferRestrictionInputBase_](transferrestrictioninputbase.md)_._[_exemptedIdentities_](transferrestrictioninputbase.md#optional-exemptedidentities)
 
-*Defined in [src/types/index.ts:888](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L888)*
+_Defined in_ [_src/types/index.ts:888_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L888)
 
-array of Identities (or DIDs) that are exempted from the Restriction
-
-___
+array of Identities \(or DIDs\) that are exempted from the Restriction
 
 ### `Optional` exemptedScopeIds
 
-• **exemptedScopeIds**? : *string[]*
+• **exemptedScopeIds**? : _string\[\]_
 
-*Inherited from [TransferRestrictionInputBase](transferrestrictioninputbase.md).[exemptedScopeIds](transferrestrictioninputbase.md#optional-exemptedscopeids)*
+_Inherited from_ [_TransferRestrictionInputBase_](transferrestrictioninputbase.md)_._[_exemptedScopeIds_](transferrestrictioninputbase.md#optional-exemptedscopeids)
 
-*Defined in [src/types/index.ts:884](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L884)*
+_Defined in_ [_src/types/index.ts:884_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L884)
 
 array of Scope IDs that are exempted from the Restriction
 
-___
+### percentage
 
-###  percentage
+• **percentage**: _BigNumber_
 
-• **percentage**: *BigNumber*
-
-*Defined in [src/types/index.ts:910](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L910)*
+_Defined in_ [_src/types/index.ts:910_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L910)
 
 limit on the proportion of the total supply of the Security Token that can be held by a single investor at once
+

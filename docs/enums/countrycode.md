@@ -1,4 +1,4 @@
-# Enumeration: CountryCode
+# CountryCode
 
 ## Index
 
@@ -257,2000 +257,1503 @@
 
 ## Enumeration members
 
-###  Ad
+### Ad
 
 • **Ad**: = "Ad"
 
-*Defined in [src/generated/types.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L9)*
+_Defined in_ [_src/generated/types.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L9)
 
-___
-
-###  Ae
+### Ae
 
 • **Ae**: = "Ae"
 
-*Defined in [src/generated/types.ts:236](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L236)*
+_Defined in_ [_src/generated/types.ts:236_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L236)
 
-___
-
-###  Af
+### Af
 
 • **Af**: = "Af"
 
-*Defined in [src/generated/types.ts:4](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L4)*
+_Defined in_ [_src/generated/types.ts:4_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L4)
 
-___
-
-###  Ag
+### Ag
 
 • **Ag**: = "Ag"
 
-*Defined in [src/generated/types.ts:13](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L13)*
+_Defined in_ [_src/generated/types.ts:13_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L13)
 
-___
-
-###  Ai
+### Ai
 
 • **Ai**: = "Ai"
 
-*Defined in [src/generated/types.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L11)*
+_Defined in_ [_src/generated/types.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L11)
 
-___
-
-###  Al
+### Al
 
 • **Al**: = "Al"
 
-*Defined in [src/generated/types.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L6)*
+_Defined in_ [_src/generated/types.ts:6_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L6)
 
-___
-
-###  Am
+### Am
 
 • **Am**: = "Am"
 
-*Defined in [src/generated/types.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L15)*
+_Defined in_ [_src/generated/types.ts:15_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L15)
 
-___
-
-###  An
+### An
 
 • **An**: = "An"
 
-*Defined in [src/generated/types.ts:160](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L160)*
+_Defined in_ [_src/generated/types.ts:160_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L160)
 
-___
-
-###  Ao
+### Ao
 
 • **Ao**: = "Ao"
 
-*Defined in [src/generated/types.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L10)*
+_Defined in_ [_src/generated/types.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L10)
 
-___
-
-###  Aq
+### Aq
 
 • **Aq**: = "Aq"
 
-*Defined in [src/generated/types.ts:12](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L12)*
+_Defined in_ [_src/generated/types.ts:12_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L12)
 
-___
-
-###  Ar
+### Ar
 
 • **Ar**: = "Ar"
 
-*Defined in [src/generated/types.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L14)*
+_Defined in_ [_src/generated/types.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L14)
 
-___
-
-###  As
+### As
 
 • **As**: = "As"
 
-*Defined in [src/generated/types.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L8)*
+_Defined in_ [_src/generated/types.ts:8_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L8)
 
-___
-
-###  At
+### At
 
 • **At**: = "At"
 
-*Defined in [src/generated/types.ts:18](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L18)*
+_Defined in_ [_src/generated/types.ts:18_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L18)
 
-___
-
-###  Au
+### Au
 
 • **Au**: = "Au"
 
-*Defined in [src/generated/types.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L17)*
+_Defined in_ [_src/generated/types.ts:17_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L17)
 
-___
-
-###  Aw
+### Aw
 
 • **Aw**: = "Aw"
 
-*Defined in [src/generated/types.ts:16](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L16)*
+_Defined in_ [_src/generated/types.ts:16_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L16)
 
-___
-
-###  Ax
+### Ax
 
 • **Ax**: = "Ax"
 
-*Defined in [src/generated/types.ts:5](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L5)*
+_Defined in_ [_src/generated/types.ts:5_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L5)
 
-___
-
-###  Az
+### Az
 
 • **Az**: = "Az"
 
-*Defined in [src/generated/types.ts:19](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L19)*
+_Defined in_ [_src/generated/types.ts:19_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L19)
 
-___
-
-###  Ba
+### Ba
 
 • **Ba**: = "Ba"
 
-*Defined in [src/generated/types.ts:31](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L31)*
+_Defined in_ [_src/generated/types.ts:31_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L31)
 
-___
-
-###  Bb
+### Bb
 
 • **Bb**: = "Bb"
 
-*Defined in [src/generated/types.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L23)*
+_Defined in_ [_src/generated/types.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L23)
 
-___
-
-###  Bd
+### Bd
 
 • **Bd**: = "Bd"
 
-*Defined in [src/generated/types.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L22)*
+_Defined in_ [_src/generated/types.ts:22_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L22)
 
-___
-
-###  Be
+### Be
 
 • **Be**: = "Be"
 
-*Defined in [src/generated/types.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L25)*
+_Defined in_ [_src/generated/types.ts:25_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L25)
 
-___
-
-###  Bf
+### Bf
 
 • **Bf**: = "Bf"
 
-*Defined in [src/generated/types.ts:39](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L39)*
+_Defined in_ [_src/generated/types.ts:39_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L39)
 
-___
-
-###  Bg
+### Bg
 
 • **Bg**: = "Bg"
 
-*Defined in [src/generated/types.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L38)*
+_Defined in_ [_src/generated/types.ts:38_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L38)
 
-___
-
-###  Bh
+### Bh
 
 • **Bh**: = "Bh"
 
-*Defined in [src/generated/types.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L21)*
+_Defined in_ [_src/generated/types.ts:21_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L21)
 
-___
-
-###  Bi
+### Bi
 
 • **Bi**: = "Bi"
 
-*Defined in [src/generated/types.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L40)*
+_Defined in_ [_src/generated/types.ts:40_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L40)
 
-___
-
-###  Bj
+### Bj
 
 • **Bj**: = "Bj"
 
-*Defined in [src/generated/types.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L27)*
+_Defined in_ [_src/generated/types.ts:27_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L27)
 
-___
-
-###  Bl
+### Bl
 
 • **Bl**: = "Bl"
 
-*Defined in [src/generated/types.ts:188](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L188)*
+_Defined in_ [_src/generated/types.ts:188_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L188)
 
-___
-
-###  Bm
+### Bm
 
 • **Bm**: = "Bm"
 
-*Defined in [src/generated/types.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L28)*
+_Defined in_ [_src/generated/types.ts:28_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L28)
 
-___
-
-###  Bn
+### Bn
 
 • **Bn**: = "Bn"
 
-*Defined in [src/generated/types.ts:37](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L37)*
+_Defined in_ [_src/generated/types.ts:37_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L37)
 
-___
-
-###  Bo
+### Bo
 
 • **Bo**: = "Bo"
 
-*Defined in [src/generated/types.ts:30](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L30)*
+_Defined in_ [_src/generated/types.ts:30_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L30)
 
-___
-
-###  Bq
+### Bq
 
 • **Bq**: = "Bq"
 
-*Defined in [src/generated/types.ts:251](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L251)*
+_Defined in_ [_src/generated/types.ts:251_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L251)
 
-___
-
-###  Br
+### Br
 
 • **Br**: = "Br"
 
-*Defined in [src/generated/types.ts:34](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L34)*
+_Defined in_ [_src/generated/types.ts:34_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L34)
 
-___
-
-###  Bs
+### Bs
 
 • **Bs**: = "Bs"
 
-*Defined in [src/generated/types.ts:20](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L20)*
+_Defined in_ [_src/generated/types.ts:20_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L20)
 
-___
-
-###  Bt
+### Bt
 
 • **Bt**: = "Bt"
 
-*Defined in [src/generated/types.ts:29](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L29)*
+_Defined in_ [_src/generated/types.ts:29_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L29)
 
-___
-
-###  Bv
+### Bv
 
 • **Bv**: = "Bv"
 
-*Defined in [src/generated/types.ts:33](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L33)*
+_Defined in_ [_src/generated/types.ts:33_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L33)
 
-___
-
-###  Bw
+### Bw
 
 • **Bw**: = "Bw"
 
-*Defined in [src/generated/types.ts:32](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L32)*
+_Defined in_ [_src/generated/types.ts:32_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L32)
 
-___
-
-###  By
+### By
 
 • **By**: = "By"
 
-*Defined in [src/generated/types.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L24)*
+_Defined in_ [_src/generated/types.ts:24_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L24)
 
-___
-
-###  Bz
+### Bz
 
 • **Bz**: = "Bz"
 
-*Defined in [src/generated/types.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L26)*
+_Defined in_ [_src/generated/types.ts:26_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L26)
 
-___
-
-###  Ca
+### Ca
 
 • **Ca**: = "Ca"
 
-*Defined in [src/generated/types.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L43)*
+_Defined in_ [_src/generated/types.ts:43_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L43)
 
-___
-
-###  Cc
+### Cc
 
 • **Cc**: = "Cc"
 
-*Defined in [src/generated/types.ts:53](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L53)*
+_Defined in_ [_src/generated/types.ts:53_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L53)
 
-___
-
-###  Cd
+### Cd
 
 • **Cd**: = "Cd"
 
-*Defined in [src/generated/types.ts:57](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L57)*
+_Defined in_ [_src/generated/types.ts:57_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L57)
 
-___
-
-###  Cf
+### Cf
 
 • **Cf**: = "Cf"
 
-*Defined in [src/generated/types.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L46)*
+_Defined in_ [_src/generated/types.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L46)
 
-___
-
-###  Cg
+### Cg
 
 • **Cg**: = "Cg"
 
-*Defined in [src/generated/types.ts:56](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L56)*
+_Defined in_ [_src/generated/types.ts:56_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L56)
 
-___
-
-###  Ch
+### Ch
 
 • **Ch**: = "Ch"
 
-*Defined in [src/generated/types.ts:218](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L218)*
+_Defined in_ [_src/generated/types.ts:218_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L218)
 
-___
-
-###  Ci
+### Ci
 
 • **Ci**: = "Ci"
 
-*Defined in [src/generated/types.ts:60](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L60)*
+_Defined in_ [_src/generated/types.ts:60_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L60)
 
-___
-
-###  Ck
+### Ck
 
 • **Ck**: = "Ck"
 
-*Defined in [src/generated/types.ts:58](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L58)*
+_Defined in_ [_src/generated/types.ts:58_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L58)
 
-___
-
-###  Cl
+### Cl
 
 • **Cl**: = "Cl"
 
-*Defined in [src/generated/types.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L48)*
+_Defined in_ [_src/generated/types.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L48)
 
-___
-
-###  Cm
+### Cm
 
 • **Cm**: = "Cm"
 
-*Defined in [src/generated/types.ts:42](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L42)*
+_Defined in_ [_src/generated/types.ts:42_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L42)
 
-___
-
-###  Cn
+### Cn
 
 • **Cn**: = "Cn"
 
-*Defined in [src/generated/types.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L49)*
+_Defined in_ [_src/generated/types.ts:49_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L49)
 
-___
-
-###  Co
+### Co
 
 • **Co**: = "Co"
 
-*Defined in [src/generated/types.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L54)*
+_Defined in_ [_src/generated/types.ts:54_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L54)
 
-___
-
-###  Cr
+### Cr
 
 • **Cr**: = "Cr"
 
-*Defined in [src/generated/types.ts:59](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L59)*
+_Defined in_ [_src/generated/types.ts:59_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L59)
 
-___
-
-###  Cu
+### Cu
 
 • **Cu**: = "Cu"
 
-*Defined in [src/generated/types.ts:62](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L62)*
+_Defined in_ [_src/generated/types.ts:62_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L62)
 
-___
-
-###  Cv
+### Cv
 
 • **Cv**: = "Cv"
 
-*Defined in [src/generated/types.ts:44](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L44)*
+_Defined in_ [_src/generated/types.ts:44_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L44)
 
-___
-
-###  Cw
+### Cw
 
 • **Cw**: = "Cw"
 
-*Defined in [src/generated/types.ts:252](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L252)*
+_Defined in_ [_src/generated/types.ts:252_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L252)
 
-___
-
-###  Cx
+### Cx
 
 • **Cx**: = "Cx"
 
-*Defined in [src/generated/types.ts:52](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L52)*
+_Defined in_ [_src/generated/types.ts:52_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L52)
 
-___
-
-###  Cy
+### Cy
 
 • **Cy**: = "Cy"
 
-*Defined in [src/generated/types.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L63)*
+_Defined in_ [_src/generated/types.ts:63_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L63)
 
-___
-
-###  Cz
+### Cz
 
 • **Cz**: = "Cz"
 
-*Defined in [src/generated/types.ts:64](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L64)*
+_Defined in_ [_src/generated/types.ts:64_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L64)
 
-___
-
-###  De
+### De
 
 • **De**: = "De"
 
-*Defined in [src/generated/types.ts:87](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L87)*
+_Defined in_ [_src/generated/types.ts:87_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L87)
 
-___
-
-###  Dj
+### Dj
 
 • **Dj**: = "Dj"
 
-*Defined in [src/generated/types.ts:66](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L66)*
+_Defined in_ [_src/generated/types.ts:66_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L66)
 
-___
-
-###  Dk
+### Dk
 
 • **Dk**: = "Dk"
 
-*Defined in [src/generated/types.ts:65](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L65)*
+_Defined in_ [_src/generated/types.ts:65_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L65)
 
-___
-
-###  Dm
+### Dm
 
 • **Dm**: = "Dm"
 
-*Defined in [src/generated/types.ts:67](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L67)*
+_Defined in_ [_src/generated/types.ts:67_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L67)
 
-___
-
-###  Do
+### Do
 
 • **Do**: = "Do"
 
-*Defined in [src/generated/types.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L68)*
+_Defined in_ [_src/generated/types.ts:68_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L68)
 
-___
-
-###  Dz
+### Dz
 
 • **Dz**: = "Dz"
 
-*Defined in [src/generated/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L7)*
+_Defined in_ [_src/generated/types.ts:7_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L7)
 
-___
-
-###  Ec
+### Ec
 
 • **Ec**: = "Ec"
 
-*Defined in [src/generated/types.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L69)*
+_Defined in_ [_src/generated/types.ts:69_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L69)
 
-___
-
-###  Ee
+### Ee
 
 • **Ee**: = "Ee"
 
-*Defined in [src/generated/types.ts:74](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L74)*
+_Defined in_ [_src/generated/types.ts:74_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L74)
 
-___
-
-###  Eg
+### Eg
 
 • **Eg**: = "Eg"
 
-*Defined in [src/generated/types.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L70)*
+_Defined in_ [_src/generated/types.ts:70_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L70)
 
-___
-
-###  Eh
+### Eh
 
 • **Eh**: = "Eh"
 
-*Defined in [src/generated/types.ts:247](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L247)*
+_Defined in_ [_src/generated/types.ts:247_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L247)
 
-___
-
-###  Er
+### Er
 
 • **Er**: = "Er"
 
-*Defined in [src/generated/types.ts:73](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L73)*
+_Defined in_ [_src/generated/types.ts:73_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L73)
 
-___
-
-###  Es
+### Es
 
 • **Es**: = "Es"
 
-*Defined in [src/generated/types.ts:211](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L211)*
+_Defined in_ [_src/generated/types.ts:211_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L211)
 
-___
-
-###  Et
+### Et
 
 • **Et**: = "Et"
 
-*Defined in [src/generated/types.ts:75](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L75)*
+_Defined in_ [_src/generated/types.ts:75_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L75)
 
-___
-
-###  Fi
+### Fi
 
 • **Fi**: = "Fi"
 
-*Defined in [src/generated/types.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L79)*
+_Defined in_ [_src/generated/types.ts:79_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L79)
 
-___
-
-###  Fj
+### Fj
 
 • **Fj**: = "Fj"
 
-*Defined in [src/generated/types.ts:78](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L78)*
+_Defined in_ [_src/generated/types.ts:78_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L78)
 
-___
-
-###  Fk
+### Fk
 
 • **Fk**: = "Fk"
 
-*Defined in [src/generated/types.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L76)*
+_Defined in_ [_src/generated/types.ts:76_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L76)
 
-___
-
-###  Fm
+### Fm
 
 • **Fm**: = "Fm"
 
-*Defined in [src/generated/types.ts:147](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L147)*
+_Defined in_ [_src/generated/types.ts:147_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L147)
 
-___
-
-###  Fo
+### Fo
 
 • **Fo**: = "Fo"
 
-*Defined in [src/generated/types.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L77)*
+_Defined in_ [_src/generated/types.ts:77_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L77)
 
-___
-
-###  Fr
+### Fr
 
 • **Fr**: = "Fr"
 
-*Defined in [src/generated/types.ts:80](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L80)*
+_Defined in_ [_src/generated/types.ts:80_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L80)
 
-___
-
-###  Ga
+### Ga
 
 • **Ga**: = "Ga"
 
-*Defined in [src/generated/types.ts:84](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L84)*
+_Defined in_ [_src/generated/types.ts:84_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L84)
 
-___
-
-###  Gb
+### Gb
 
 • **Gb**: = "Gb"
 
-*Defined in [src/generated/types.ts:237](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L237)*
+_Defined in_ [_src/generated/types.ts:237_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L237)
 
-___
-
-###  Gd
+### Gd
 
 • **Gd**: = "Gd"
 
-*Defined in [src/generated/types.ts:92](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L92)*
+_Defined in_ [_src/generated/types.ts:92_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L92)
 
-___
-
-###  Ge
+### Ge
 
 • **Ge**: = "Ge"
 
-*Defined in [src/generated/types.ts:86](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L86)*
+_Defined in_ [_src/generated/types.ts:86_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L86)
 
-___
-
-###  Gf
+### Gf
 
 • **Gf**: = "Gf"
 
-*Defined in [src/generated/types.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L81)*
+_Defined in_ [_src/generated/types.ts:81_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L81)
 
-___
-
-###  Gg
+### Gg
 
 • **Gg**: = "Gg"
 
-*Defined in [src/generated/types.ts:96](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L96)*
+_Defined in_ [_src/generated/types.ts:96_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L96)
 
-___
-
-###  Gh
+### Gh
 
 • **Gh**: = "Gh"
 
-*Defined in [src/generated/types.ts:88](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L88)*
+_Defined in_ [_src/generated/types.ts:88_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L88)
 
-___
-
-###  Gi
+### Gi
 
 • **Gi**: = "Gi"
 
-*Defined in [src/generated/types.ts:89](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L89)*
+_Defined in_ [_src/generated/types.ts:89_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L89)
 
-___
-
-###  Gl
+### Gl
 
 • **Gl**: = "Gl"
 
-*Defined in [src/generated/types.ts:91](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L91)*
+_Defined in_ [_src/generated/types.ts:91_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L91)
 
-___
-
-###  Gm
+### Gm
 
 • **Gm**: = "Gm"
 
-*Defined in [src/generated/types.ts:85](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L85)*
+_Defined in_ [_src/generated/types.ts:85_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L85)
 
-___
-
-###  Gn
+### Gn
 
 • **Gn**: = "Gn"
 
-*Defined in [src/generated/types.ts:97](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L97)*
+_Defined in_ [_src/generated/types.ts:97_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L97)
 
-___
-
-###  Gp
+### Gp
 
 • **Gp**: = "Gp"
 
-*Defined in [src/generated/types.ts:93](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L93)*
+_Defined in_ [_src/generated/types.ts:93_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L93)
 
-___
-
-###  Gq
+### Gq
 
 • **Gq**: = "Gq"
 
-*Defined in [src/generated/types.ts:72](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L72)*
+_Defined in_ [_src/generated/types.ts:72_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L72)
 
-___
-
-###  Gr
+### Gr
 
 • **Gr**: = "Gr"
 
-*Defined in [src/generated/types.ts:90](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L90)*
+_Defined in_ [_src/generated/types.ts:90_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L90)
 
-___
-
-###  Gs
+### Gs
 
 • **Gs**: = "Gs"
 
-*Defined in [src/generated/types.ts:209](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L209)*
+_Defined in_ [_src/generated/types.ts:209_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L209)
 
-___
-
-###  Gt
+### Gt
 
 • **Gt**: = "Gt"
 
-*Defined in [src/generated/types.ts:95](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L95)*
+_Defined in_ [_src/generated/types.ts:95_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L95)
 
-___
-
-###  Gu
+### Gu
 
 • **Gu**: = "Gu"
 
-*Defined in [src/generated/types.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L94)*
+_Defined in_ [_src/generated/types.ts:94_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L94)
 
-___
-
-###  Gw
+### Gw
 
 • **Gw**: = "Gw"
 
-*Defined in [src/generated/types.ts:98](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L98)*
+_Defined in_ [_src/generated/types.ts:98_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L98)
 
-___
-
-###  Gy
+### Gy
 
 • **Gy**: = "Gy"
 
-*Defined in [src/generated/types.ts:99](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L99)*
+_Defined in_ [_src/generated/types.ts:99_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L99)
 
-___
-
-###  Hk
+### Hk
 
 • **Hk**: = "Hk"
 
-*Defined in [src/generated/types.ts:50](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L50)*
+_Defined in_ [_src/generated/types.ts:50_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L50)
 
-___
-
-###  Hm
+### Hm
 
 • **Hm**: = "Hm"
 
-*Defined in [src/generated/types.ts:101](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L101)*
+_Defined in_ [_src/generated/types.ts:101_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L101)
 
-___
-
-###  Hn
+### Hn
 
 • **Hn**: = "Hn"
 
-*Defined in [src/generated/types.ts:103](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L103)*
+_Defined in_ [_src/generated/types.ts:103_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L103)
 
-___
-
-###  Hr
+### Hr
 
 • **Hr**: = "Hr"
 
-*Defined in [src/generated/types.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L61)*
+_Defined in_ [_src/generated/types.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L61)
 
-___
-
-###  Ht
+### Ht
 
 • **Ht**: = "Ht"
 
-*Defined in [src/generated/types.ts:100](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L100)*
+_Defined in_ [_src/generated/types.ts:100_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L100)
 
-___
-
-###  Hu
+### Hu
 
 • **Hu**: = "Hu"
 
-*Defined in [src/generated/types.ts:104](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L104)*
+_Defined in_ [_src/generated/types.ts:104_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L104)
 
-___
-
-###  Id
+### Id
 
 • **Id**: = "Id"
 
-*Defined in [src/generated/types.ts:107](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L107)*
+_Defined in_ [_src/generated/types.ts:107_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L107)
 
-___
-
-###  Ie
+### Ie
 
 • **Ie**: = "Ie"
 
-*Defined in [src/generated/types.ts:110](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L110)*
+_Defined in_ [_src/generated/types.ts:110_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L110)
 
-___
-
-###  Il
+### Il
 
 • **Il**: = "Il"
 
-*Defined in [src/generated/types.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L112)*
+_Defined in_ [_src/generated/types.ts:112_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L112)
 
-___
-
-###  Im
+### Im
 
 • **Im**: = "Im"
 
-*Defined in [src/generated/types.ts:111](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L111)*
+_Defined in_ [_src/generated/types.ts:111_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L111)
 
-___
-
-###  In
+### In
 
 • **In**: = "In"
 
-*Defined in [src/generated/types.ts:106](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L106)*
+_Defined in_ [_src/generated/types.ts:106_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L106)
 
-___
-
-###  Io
+### Io
 
 • **Io**: = "Io"
 
-*Defined in [src/generated/types.ts:36](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L36)*
+_Defined in_ [_src/generated/types.ts:36_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L36)
 
-___
-
-###  Iq
+### Iq
 
 • **Iq**: = "Iq"
 
-*Defined in [src/generated/types.ts:109](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L109)*
+_Defined in_ [_src/generated/types.ts:109_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L109)
 
-___
-
-###  Ir
+### Ir
 
 • **Ir**: = "Ir"
 
-*Defined in [src/generated/types.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L108)*
+_Defined in_ [_src/generated/types.ts:108_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L108)
 
-___
-
-###  Is
+### Is
 
 • **Is**: = "Is"
 
-*Defined in [src/generated/types.ts:105](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L105)*
+_Defined in_ [_src/generated/types.ts:105_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L105)
 
-___
-
-###  It
+### It
 
 • **It**: = "It"
 
-*Defined in [src/generated/types.ts:113](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L113)*
+_Defined in_ [_src/generated/types.ts:113_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L113)
 
-___
-
-###  Je
+### Je
 
 • **Je**: = "Je"
 
-*Defined in [src/generated/types.ts:116](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L116)*
+_Defined in_ [_src/generated/types.ts:116_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L116)
 
-___
-
-###  Jm
+### Jm
 
 • **Jm**: = "Jm"
 
-*Defined in [src/generated/types.ts:114](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L114)*
+_Defined in_ [_src/generated/types.ts:114_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L114)
 
-___
-
-###  Jo
+### Jo
 
 • **Jo**: = "Jo"
 
-*Defined in [src/generated/types.ts:117](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L117)*
+_Defined in_ [_src/generated/types.ts:117_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L117)
 
-___
-
-###  Jp
+### Jp
 
 • **Jp**: = "Jp"
 
-*Defined in [src/generated/types.ts:115](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L115)*
+_Defined in_ [_src/generated/types.ts:115_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L115)
 
-___
-
-###  Ke
+### Ke
 
 • **Ke**: = "Ke"
 
-*Defined in [src/generated/types.ts:119](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L119)*
+_Defined in_ [_src/generated/types.ts:119_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L119)
 
-___
-
-###  Kg
+### Kg
 
 • **Kg**: = "Kg"
 
-*Defined in [src/generated/types.ts:124](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L124)*
+_Defined in_ [_src/generated/types.ts:124_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L124)
 
-___
-
-###  Kh
+### Kh
 
 • **Kh**: = "Kh"
 
-*Defined in [src/generated/types.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L41)*
+_Defined in_ [_src/generated/types.ts:41_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L41)
 
-___
-
-###  Ki
+### Ki
 
 • **Ki**: = "Ki"
 
-*Defined in [src/generated/types.ts:120](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L120)*
+_Defined in_ [_src/generated/types.ts:120_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L120)
 
-___
-
-###  Km
+### Km
 
 • **Km**: = "Km"
 
-*Defined in [src/generated/types.ts:55](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L55)*
+_Defined in_ [_src/generated/types.ts:55_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L55)
 
-___
-
-###  Kn
+### Kn
 
 • **Kn**: = "Kn"
 
-*Defined in [src/generated/types.ts:190](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L190)*
+_Defined in_ [_src/generated/types.ts:190_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L190)
 
-___
-
-###  Kp
+### Kp
 
 • **Kp**: = "Kp"
 
-*Defined in [src/generated/types.ts:121](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L121)*
+_Defined in_ [_src/generated/types.ts:121_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L121)
 
-___
-
-###  Kr
+### Kr
 
 • **Kr**: = "Kr"
 
-*Defined in [src/generated/types.ts:122](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L122)*
+_Defined in_ [_src/generated/types.ts:122_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L122)
 
-___
-
-###  Kw
+### Kw
 
 • **Kw**: = "Kw"
 
-*Defined in [src/generated/types.ts:123](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L123)*
+_Defined in_ [_src/generated/types.ts:123_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L123)
 
-___
-
-###  Ky
+### Ky
 
 • **Ky**: = "Ky"
 
-*Defined in [src/generated/types.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L45)*
+_Defined in_ [_src/generated/types.ts:45_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L45)
 
-___
-
-###  Kz
+### Kz
 
 • **Kz**: = "Kz"
 
-*Defined in [src/generated/types.ts:118](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L118)*
+_Defined in_ [_src/generated/types.ts:118_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L118)
 
-___
-
-###  La
+### La
 
 • **La**: = "La"
 
-*Defined in [src/generated/types.ts:125](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L125)*
+_Defined in_ [_src/generated/types.ts:125_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L125)
 
-___
-
-###  Lb
+### Lb
 
 • **Lb**: = "Lb"
 
-*Defined in [src/generated/types.ts:127](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L127)*
+_Defined in_ [_src/generated/types.ts:127_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L127)
 
-___
-
-###  Lc
+### Lc
 
 • **Lc**: = "Lc"
 
-*Defined in [src/generated/types.ts:191](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L191)*
+_Defined in_ [_src/generated/types.ts:191_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L191)
 
-___
-
-###  Li
+### Li
 
 • **Li**: = "Li"
 
-*Defined in [src/generated/types.ts:131](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L131)*
+_Defined in_ [_src/generated/types.ts:131_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L131)
 
-___
-
-###  Lk
+### Lk
 
 • **Lk**: = "Lk"
 
-*Defined in [src/generated/types.ts:212](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L212)*
+_Defined in_ [_src/generated/types.ts:212_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L212)
 
-___
-
-###  Lr
+### Lr
 
 • **Lr**: = "Lr"
 
-*Defined in [src/generated/types.ts:129](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L129)*
+_Defined in_ [_src/generated/types.ts:129_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L129)
 
-___
-
-###  Ls
+### Ls
 
 • **Ls**: = "Ls"
 
-*Defined in [src/generated/types.ts:128](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L128)*
+_Defined in_ [_src/generated/types.ts:128_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L128)
 
-___
-
-###  Lt
+### Lt
 
 • **Lt**: = "Lt"
 
-*Defined in [src/generated/types.ts:132](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L132)*
+_Defined in_ [_src/generated/types.ts:132_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L132)
 
-___
-
-###  Lu
+### Lu
 
 • **Lu**: = "Lu"
 
-*Defined in [src/generated/types.ts:133](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L133)*
+_Defined in_ [_src/generated/types.ts:133_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L133)
 
-___
-
-###  Lv
+### Lv
 
 • **Lv**: = "Lv"
 
-*Defined in [src/generated/types.ts:126](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L126)*
+_Defined in_ [_src/generated/types.ts:126_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L126)
 
-___
-
-###  Ly
+### Ly
 
 • **Ly**: = "Ly"
 
-*Defined in [src/generated/types.ts:130](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L130)*
+_Defined in_ [_src/generated/types.ts:130_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L130)
 
-___
-
-###  Ma
+### Ma
 
 • **Ma**: = "Ma"
 
-*Defined in [src/generated/types.ts:153](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L153)*
+_Defined in_ [_src/generated/types.ts:153_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L153)
 
-___
-
-###  Mc
+### Mc
 
 • **Mc**: = "Mc"
 
-*Defined in [src/generated/types.ts:149](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L149)*
+_Defined in_ [_src/generated/types.ts:149_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L149)
 
-___
-
-###  Md
+### Md
 
 • **Md**: = "Md"
 
-*Defined in [src/generated/types.ts:148](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L148)*
+_Defined in_ [_src/generated/types.ts:148_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L148)
 
-___
-
-###  Me
+### Me
 
 • **Me**: = "Me"
 
-*Defined in [src/generated/types.ts:151](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L151)*
+_Defined in_ [_src/generated/types.ts:151_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L151)
 
-___
-
-###  Mf
+### Mf
 
 • **Mf**: = "Mf"
 
-*Defined in [src/generated/types.ts:192](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L192)*
+_Defined in_ [_src/generated/types.ts:192_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L192)
 
-___
-
-###  Mg
+### Mg
 
 • **Mg**: = "Mg"
 
-*Defined in [src/generated/types.ts:135](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L135)*
+_Defined in_ [_src/generated/types.ts:135_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L135)
 
-___
-
-###  Mh
+### Mh
 
 • **Mh**: = "Mh"
 
-*Defined in [src/generated/types.ts:141](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L141)*
+_Defined in_ [_src/generated/types.ts:141_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L141)
 
-___
-
-###  Mk
+### Mk
 
 • **Mk**: = "Mk"
 
-*Defined in [src/generated/types.ts:134](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L134)*
+_Defined in_ [_src/generated/types.ts:134_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L134)
 
-___
-
-###  Ml
+### Ml
 
 • **Ml**: = "Ml"
 
-*Defined in [src/generated/types.ts:139](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L139)*
+_Defined in_ [_src/generated/types.ts:139_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L139)
 
-___
-
-###  Mm
+### Mm
 
 • **Mm**: = "Mm"
 
-*Defined in [src/generated/types.ts:155](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L155)*
+_Defined in_ [_src/generated/types.ts:155_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L155)
 
-___
-
-###  Mn
+### Mn
 
 • **Mn**: = "Mn"
 
-*Defined in [src/generated/types.ts:150](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L150)*
+_Defined in_ [_src/generated/types.ts:150_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L150)
 
-___
-
-###  Mo
+### Mo
 
 • **Mo**: = "Mo"
 
-*Defined in [src/generated/types.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L51)*
+_Defined in_ [_src/generated/types.ts:51_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L51)
 
-___
-
-###  Mp
+### Mp
 
 • **Mp**: = "Mp"
 
-*Defined in [src/generated/types.ts:168](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L168)*
+_Defined in_ [_src/generated/types.ts:168_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L168)
 
-___
-
-###  Mq
+### Mq
 
 • **Mq**: = "Mq"
 
-*Defined in [src/generated/types.ts:142](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L142)*
+_Defined in_ [_src/generated/types.ts:142_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L142)
 
-___
-
-###  Mr
+### Mr
 
 • **Mr**: = "Mr"
 
-*Defined in [src/generated/types.ts:143](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L143)*
+_Defined in_ [_src/generated/types.ts:143_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L143)
 
-___
-
-###  Ms
+### Ms
 
 • **Ms**: = "Ms"
 
-*Defined in [src/generated/types.ts:152](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L152)*
+_Defined in_ [_src/generated/types.ts:152_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L152)
 
-___
-
-###  Mt
+### Mt
 
 • **Mt**: = "Mt"
 
-*Defined in [src/generated/types.ts:140](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L140)*
+_Defined in_ [_src/generated/types.ts:140_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L140)
 
-___
-
-###  Mu
+### Mu
 
 • **Mu**: = "Mu"
 
-*Defined in [src/generated/types.ts:144](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L144)*
+_Defined in_ [_src/generated/types.ts:144_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L144)
 
-___
-
-###  Mv
+### Mv
 
 • **Mv**: = "Mv"
 
-*Defined in [src/generated/types.ts:138](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L138)*
+_Defined in_ [_src/generated/types.ts:138_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L138)
 
-___
-
-###  Mw
+### Mw
 
 • **Mw**: = "Mw"
 
-*Defined in [src/generated/types.ts:136](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L136)*
+_Defined in_ [_src/generated/types.ts:136_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L136)
 
-___
-
-###  Mx
+### Mx
 
 • **Mx**: = "Mx"
 
-*Defined in [src/generated/types.ts:146](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L146)*
+_Defined in_ [_src/generated/types.ts:146_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L146)
 
-___
-
-###  My
+### My
 
 • **My**: = "My"
 
-*Defined in [src/generated/types.ts:137](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L137)*
+_Defined in_ [_src/generated/types.ts:137_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L137)
 
-___
-
-###  Mz
+### Mz
 
 • **Mz**: = "Mz"
 
-*Defined in [src/generated/types.ts:154](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L154)*
+_Defined in_ [_src/generated/types.ts:154_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L154)
 
-___
-
-###  Na
+### Na
 
 • **Na**: = "Na"
 
-*Defined in [src/generated/types.ts:156](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L156)*
+_Defined in_ [_src/generated/types.ts:156_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L156)
 
-___
-
-###  Nc
+### Nc
 
 • **Nc**: = "Nc"
 
-*Defined in [src/generated/types.ts:161](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L161)*
+_Defined in_ [_src/generated/types.ts:161_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L161)
 
-___
-
-###  Ne
+### Ne
 
 • **Ne**: = "Ne"
 
-*Defined in [src/generated/types.ts:164](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L164)*
+_Defined in_ [_src/generated/types.ts:164_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L164)
 
-___
-
-###  Nf
+### Nf
 
 • **Nf**: = "Nf"
 
-*Defined in [src/generated/types.ts:167](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L167)*
+_Defined in_ [_src/generated/types.ts:167_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L167)
 
-___
-
-###  Ng
+### Ng
 
 • **Ng**: = "Ng"
 
-*Defined in [src/generated/types.ts:165](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L165)*
+_Defined in_ [_src/generated/types.ts:165_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L165)
 
-___
-
-###  Ni
+### Ni
 
 • **Ni**: = "Ni"
 
-*Defined in [src/generated/types.ts:163](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L163)*
+_Defined in_ [_src/generated/types.ts:163_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L163)
 
-___
-
-###  Nl
+### Nl
 
 • **Nl**: = "Nl"
 
-*Defined in [src/generated/types.ts:159](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L159)*
+_Defined in_ [_src/generated/types.ts:159_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L159)
 
-___
-
-###  No
+### No
 
 • **No**: = "No"
 
-*Defined in [src/generated/types.ts:169](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L169)*
+_Defined in_ [_src/generated/types.ts:169_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L169)
 
-___
-
-###  Np
+### Np
 
 • **Np**: = "Np"
 
-*Defined in [src/generated/types.ts:158](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L158)*
+_Defined in_ [_src/generated/types.ts:158_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L158)
 
-___
-
-###  Nr
+### Nr
 
 • **Nr**: = "Nr"
 
-*Defined in [src/generated/types.ts:157](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L157)*
+_Defined in_ [_src/generated/types.ts:157_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L157)
 
-___
-
-###  Nu
+### Nu
 
 • **Nu**: = "Nu"
 
-*Defined in [src/generated/types.ts:166](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L166)*
+_Defined in_ [_src/generated/types.ts:166_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L166)
 
-___
-
-###  Nz
+### Nz
 
 • **Nz**: = "Nz"
 
-*Defined in [src/generated/types.ts:162](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L162)*
+_Defined in_ [_src/generated/types.ts:162_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L162)
 
-___
-
-###  Om
+### Om
 
 • **Om**: = "Om"
 
-*Defined in [src/generated/types.ts:170](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L170)*
+_Defined in_ [_src/generated/types.ts:170_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L170)
 
-___
-
-###  Pa
+### Pa
 
 • **Pa**: = "Pa"
 
-*Defined in [src/generated/types.ts:174](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L174)*
+_Defined in_ [_src/generated/types.ts:174_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L174)
 
-___
-
-###  Pe
+### Pe
 
 • **Pe**: = "Pe"
 
-*Defined in [src/generated/types.ts:177](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L177)*
+_Defined in_ [_src/generated/types.ts:177_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L177)
 
-___
-
-###  Pf
+### Pf
 
 • **Pf**: = "Pf"
 
-*Defined in [src/generated/types.ts:82](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L82)*
+_Defined in_ [_src/generated/types.ts:82_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L82)
 
-___
-
-###  Pg
+### Pg
 
 • **Pg**: = "Pg"
 
-*Defined in [src/generated/types.ts:175](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L175)*
+_Defined in_ [_src/generated/types.ts:175_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L175)
 
-___
-
-###  Ph
+### Ph
 
 • **Ph**: = "Ph"
 
-*Defined in [src/generated/types.ts:178](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L178)*
+_Defined in_ [_src/generated/types.ts:178_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L178)
 
-___
-
-###  Pk
+### Pk
 
 • **Pk**: = "Pk"
 
-*Defined in [src/generated/types.ts:171](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L171)*
+_Defined in_ [_src/generated/types.ts:171_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L171)
 
-___
-
-###  Pl
+### Pl
 
 • **Pl**: = "Pl"
 
-*Defined in [src/generated/types.ts:180](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L180)*
+_Defined in_ [_src/generated/types.ts:180_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L180)
 
-___
-
-###  Pm
+### Pm
 
 • **Pm**: = "Pm"
 
-*Defined in [src/generated/types.ts:193](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L193)*
+_Defined in_ [_src/generated/types.ts:193_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L193)
 
-___
-
-###  Pn
+### Pn
 
 • **Pn**: = "Pn"
 
-*Defined in [src/generated/types.ts:179](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L179)*
+_Defined in_ [_src/generated/types.ts:179_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L179)
 
-___
-
-###  Pr
+### Pr
 
 • **Pr**: = "Pr"
 
-*Defined in [src/generated/types.ts:182](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L182)*
+_Defined in_ [_src/generated/types.ts:182_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L182)
 
-___
-
-###  Ps
+### Ps
 
 • **Ps**: = "Ps"
 
-*Defined in [src/generated/types.ts:173](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L173)*
+_Defined in_ [_src/generated/types.ts:173_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L173)
 
-___
-
-###  Pt
+### Pt
 
 • **Pt**: = "Pt"
 
-*Defined in [src/generated/types.ts:181](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L181)*
+_Defined in_ [_src/generated/types.ts:181_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L181)
 
-___
-
-###  Pw
+### Pw
 
 • **Pw**: = "Pw"
 
-*Defined in [src/generated/types.ts:172](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L172)*
+_Defined in_ [_src/generated/types.ts:172_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L172)
 
-___
-
-###  Py
+### Py
 
 • **Py**: = "Py"
 
-*Defined in [src/generated/types.ts:176](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L176)*
+_Defined in_ [_src/generated/types.ts:176_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L176)
 
-___
-
-###  Qa
+### Qa
 
 • **Qa**: = "Qa"
 
-*Defined in [src/generated/types.ts:183](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L183)*
+_Defined in_ [_src/generated/types.ts:183_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L183)
 
-___
-
-###  Re
+### Re
 
 • **Re**: = "Re"
 
-*Defined in [src/generated/types.ts:184](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L184)*
+_Defined in_ [_src/generated/types.ts:184_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L184)
 
-___
-
-###  Ro
+### Ro
 
 • **Ro**: = "Ro"
 
-*Defined in [src/generated/types.ts:185](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L185)*
+_Defined in_ [_src/generated/types.ts:185_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L185)
 
-___
-
-###  Rs
+### Rs
 
 • **Rs**: = "Rs"
 
-*Defined in [src/generated/types.ts:200](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L200)*
+_Defined in_ [_src/generated/types.ts:200_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L200)
 
-___
-
-###  Ru
+### Ru
 
 • **Ru**: = "Ru"
 
-*Defined in [src/generated/types.ts:186](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L186)*
+_Defined in_ [_src/generated/types.ts:186_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L186)
 
-___
-
-###  Rw
+### Rw
 
 • **Rw**: = "Rw"
 
-*Defined in [src/generated/types.ts:187](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L187)*
+_Defined in_ [_src/generated/types.ts:187_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L187)
 
-___
-
-###  Sa
+### Sa
 
 • **Sa**: = "Sa"
 
-*Defined in [src/generated/types.ts:198](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L198)*
+_Defined in_ [_src/generated/types.ts:198_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L198)
 
-___
-
-###  Sb
+### Sb
 
 • **Sb**: = "Sb"
 
-*Defined in [src/generated/types.ts:206](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L206)*
+_Defined in_ [_src/generated/types.ts:206_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L206)
 
-___
-
-###  Sc
+### Sc
 
 • **Sc**: = "Sc"
 
-*Defined in [src/generated/types.ts:201](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L201)*
+_Defined in_ [_src/generated/types.ts:201_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L201)
 
-___
-
-###  Sd
+### Sd
 
 • **Sd**: = "Sd"
 
-*Defined in [src/generated/types.ts:213](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L213)*
+_Defined in_ [_src/generated/types.ts:213_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L213)
 
-___
-
-###  Se
+### Se
 
 • **Se**: = "Se"
 
-*Defined in [src/generated/types.ts:217](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L217)*
+_Defined in_ [_src/generated/types.ts:217_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L217)
 
-___
-
-###  Sg
+### Sg
 
 • **Sg**: = "Sg"
 
-*Defined in [src/generated/types.ts:203](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L203)*
+_Defined in_ [_src/generated/types.ts:203_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L203)
 
-___
-
-###  Sh
+### Sh
 
 • **Sh**: = "Sh"
 
-*Defined in [src/generated/types.ts:189](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L189)*
+_Defined in_ [_src/generated/types.ts:189_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L189)
 
-___
-
-###  Si
+### Si
 
 • **Si**: = "Si"
 
-*Defined in [src/generated/types.ts:205](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L205)*
+_Defined in_ [_src/generated/types.ts:205_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L205)
 
-___
-
-###  Sj
+### Sj
 
 • **Sj**: = "Sj"
 
-*Defined in [src/generated/types.ts:215](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L215)*
+_Defined in_ [_src/generated/types.ts:215_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L215)
 
-___
-
-###  Sk
+### Sk
 
 • **Sk**: = "Sk"
 
-*Defined in [src/generated/types.ts:204](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L204)*
+_Defined in_ [_src/generated/types.ts:204_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L204)
 
-___
-
-###  Sl
+### Sl
 
 • **Sl**: = "Sl"
 
-*Defined in [src/generated/types.ts:202](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L202)*
+_Defined in_ [_src/generated/types.ts:202_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L202)
 
-___
-
-###  Sm
+### Sm
 
 • **Sm**: = "Sm"
 
-*Defined in [src/generated/types.ts:196](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L196)*
+_Defined in_ [_src/generated/types.ts:196_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L196)
 
-___
-
-###  Sn
+### Sn
 
 • **Sn**: = "Sn"
 
-*Defined in [src/generated/types.ts:199](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L199)*
+_Defined in_ [_src/generated/types.ts:199_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L199)
 
-___
-
-###  So
+### So
 
 • **So**: = "So"
 
-*Defined in [src/generated/types.ts:207](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L207)*
+_Defined in_ [_src/generated/types.ts:207_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L207)
 
-___
-
-###  Sr
+### Sr
 
 • **Sr**: = "Sr"
 
-*Defined in [src/generated/types.ts:214](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L214)*
+_Defined in_ [_src/generated/types.ts:214_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L214)
 
-___
-
-###  Ss
+### Ss
 
 • **Ss**: = "Ss"
 
-*Defined in [src/generated/types.ts:210](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L210)*
+_Defined in_ [_src/generated/types.ts:210_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L210)
 
-___
-
-###  St
+### St
 
 • **St**: = "St"
 
-*Defined in [src/generated/types.ts:197](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L197)*
+_Defined in_ [_src/generated/types.ts:197_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L197)
 
-___
-
-###  Sv
+### Sv
 
 • **Sv**: = "Sv"
 
-*Defined in [src/generated/types.ts:71](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L71)*
+_Defined in_ [_src/generated/types.ts:71_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L71)
 
-___
-
-###  Sx
+### Sx
 
 • **Sx**: = "Sx"
 
-*Defined in [src/generated/types.ts:253](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L253)*
+_Defined in_ [_src/generated/types.ts:253_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L253)
 
-___
-
-###  Sy
+### Sy
 
 • **Sy**: = "Sy"
 
-*Defined in [src/generated/types.ts:219](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L219)*
+_Defined in_ [_src/generated/types.ts:219_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L219)
 
-___
-
-###  Sz
+### Sz
 
 • **Sz**: = "Sz"
 
-*Defined in [src/generated/types.ts:216](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L216)*
+_Defined in_ [_src/generated/types.ts:216_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L216)
 
-___
-
-###  Tc
+### Tc
 
 • **Tc**: = "Tc"
 
-*Defined in [src/generated/types.ts:232](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L232)*
+_Defined in_ [_src/generated/types.ts:232_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L232)
 
-___
-
-###  Td
+### Td
 
 • **Td**: = "Td"
 
-*Defined in [src/generated/types.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L47)*
+_Defined in_ [_src/generated/types.ts:47_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L47)
 
-___
-
-###  Tf
+### Tf
 
 • **Tf**: = "Tf"
 
-*Defined in [src/generated/types.ts:83](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L83)*
+_Defined in_ [_src/generated/types.ts:83_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L83)
 
-___
-
-###  Tg
+### Tg
 
 • **Tg**: = "Tg"
 
-*Defined in [src/generated/types.ts:225](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L225)*
+_Defined in_ [_src/generated/types.ts:225_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L225)
 
-___
-
-###  Th
+### Th
 
 • **Th**: = "Th"
 
-*Defined in [src/generated/types.ts:223](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L223)*
+_Defined in_ [_src/generated/types.ts:223_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L223)
 
-___
-
-###  Tj
+### Tj
 
 • **Tj**: = "Tj"
 
-*Defined in [src/generated/types.ts:221](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L221)*
+_Defined in_ [_src/generated/types.ts:221_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L221)
 
-___
-
-###  Tk
+### Tk
 
 • **Tk**: = "Tk"
 
-*Defined in [src/generated/types.ts:226](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L226)*
+_Defined in_ [_src/generated/types.ts:226_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L226)
 
-___
-
-###  Tl
+### Tl
 
 • **Tl**: = "Tl"
 
-*Defined in [src/generated/types.ts:224](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L224)*
+_Defined in_ [_src/generated/types.ts:224_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L224)
 
-___
-
-###  Tm
+### Tm
 
 • **Tm**: = "Tm"
 
-*Defined in [src/generated/types.ts:231](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L231)*
+_Defined in_ [_src/generated/types.ts:231_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L231)
 
-___
-
-###  Tn
+### Tn
 
 • **Tn**: = "Tn"
 
-*Defined in [src/generated/types.ts:229](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L229)*
+_Defined in_ [_src/generated/types.ts:229_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L229)
 
-___
-
-###  To
+### To
 
 • **To**: = "To"
 
-*Defined in [src/generated/types.ts:227](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L227)*
+_Defined in_ [_src/generated/types.ts:227_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L227)
 
-___
-
-###  Tr
+### Tr
 
 • **Tr**: = "Tr"
 
-*Defined in [src/generated/types.ts:230](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L230)*
+_Defined in_ [_src/generated/types.ts:230_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L230)
 
-___
-
-###  Tt
+### Tt
 
 • **Tt**: = "Tt"
 
-*Defined in [src/generated/types.ts:228](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L228)*
+_Defined in_ [_src/generated/types.ts:228_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L228)
 
-___
-
-###  Tv
+### Tv
 
 • **Tv**: = "Tv"
 
-*Defined in [src/generated/types.ts:233](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L233)*
+_Defined in_ [_src/generated/types.ts:233_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L233)
 
-___
-
-###  Tw
+### Tw
 
 • **Tw**: = "Tw"
 
-*Defined in [src/generated/types.ts:220](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L220)*
+_Defined in_ [_src/generated/types.ts:220_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L220)
 
-___
-
-###  Tz
+### Tz
 
 • **Tz**: = "Tz"
 
-*Defined in [src/generated/types.ts:222](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L222)*
+_Defined in_ [_src/generated/types.ts:222_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L222)
 
-___
-
-###  Ua
+### Ua
 
 • **Ua**: = "Ua"
 
-*Defined in [src/generated/types.ts:235](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L235)*
+_Defined in_ [_src/generated/types.ts:235_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L235)
 
-___
-
-###  Ug
+### Ug
 
 • **Ug**: = "Ug"
 
-*Defined in [src/generated/types.ts:234](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L234)*
+_Defined in_ [_src/generated/types.ts:234_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L234)
 
-___
-
-###  Um
+### Um
 
 • **Um**: = "Um"
 
-*Defined in [src/generated/types.ts:239](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L239)*
+_Defined in_ [_src/generated/types.ts:239_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L239)
 
-___
-
-###  Us
+### Us
 
 • **Us**: = "Us"
 
-*Defined in [src/generated/types.ts:238](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L238)*
+_Defined in_ [_src/generated/types.ts:238_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L238)
 
-___
-
-###  Uy
+### Uy
 
 • **Uy**: = "Uy"
 
-*Defined in [src/generated/types.ts:240](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L240)*
+_Defined in_ [_src/generated/types.ts:240_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L240)
 
-___
-
-###  Uz
+### Uz
 
 • **Uz**: = "Uz"
 
-*Defined in [src/generated/types.ts:241](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L241)*
+_Defined in_ [_src/generated/types.ts:241_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L241)
 
-___
-
-###  Va
+### Va
 
 • **Va**: = "Va"
 
-*Defined in [src/generated/types.ts:102](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L102)*
+_Defined in_ [_src/generated/types.ts:102_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L102)
 
-___
-
-###  Vc
+### Vc
 
 • **Vc**: = "Vc"
 
-*Defined in [src/generated/types.ts:194](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L194)*
+_Defined in_ [_src/generated/types.ts:194_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L194)
 
-___
-
-###  Ve
+### Ve
 
 • **Ve**: = "Ve"
 
-*Defined in [src/generated/types.ts:243](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L243)*
+_Defined in_ [_src/generated/types.ts:243_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L243)
 
-___
-
-###  Vg
+### Vg
 
 • **Vg**: = "Vg"
 
-*Defined in [src/generated/types.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L35)*
+_Defined in_ [_src/generated/types.ts:35_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L35)
 
-___
-
-###  Vi
+### Vi
 
 • **Vi**: = "Vi"
 
-*Defined in [src/generated/types.ts:245](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L245)*
+_Defined in_ [_src/generated/types.ts:245_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L245)
 
-___
-
-###  Vn
+### Vn
 
 • **Vn**: = "Vn"
 
-*Defined in [src/generated/types.ts:244](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L244)*
+_Defined in_ [_src/generated/types.ts:244_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L244)
 
-___
-
-###  Vu
+### Vu
 
 • **Vu**: = "Vu"
 
-*Defined in [src/generated/types.ts:242](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L242)*
+_Defined in_ [_src/generated/types.ts:242_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L242)
 
-___
-
-###  Wf
+### Wf
 
 • **Wf**: = "Wf"
 
-*Defined in [src/generated/types.ts:246](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L246)*
+_Defined in_ [_src/generated/types.ts:246_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L246)
 
-___
-
-###  Ws
+### Ws
 
 • **Ws**: = "Ws"
 
-*Defined in [src/generated/types.ts:195](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L195)*
+_Defined in_ [_src/generated/types.ts:195_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L195)
 
-___
-
-###  Ye
+### Ye
 
 • **Ye**: = "Ye"
 
-*Defined in [src/generated/types.ts:248](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L248)*
+_Defined in_ [_src/generated/types.ts:248_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L248)
 
-___
-
-###  Yt
+### Yt
 
 • **Yt**: = "Yt"
 
-*Defined in [src/generated/types.ts:145](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L145)*
+_Defined in_ [_src/generated/types.ts:145_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L145)
 
-___
-
-###  Za
+### Za
 
 • **Za**: = "Za"
 
-*Defined in [src/generated/types.ts:208](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L208)*
+_Defined in_ [_src/generated/types.ts:208_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L208)
 
-___
-
-###  Zm
+### Zm
 
 • **Zm**: = "Zm"
 
-*Defined in [src/generated/types.ts:249](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L249)*
+_Defined in_ [_src/generated/types.ts:249_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L249)
 
-___
-
-###  Zw
+### Zw
 
 • **Zw**: = "Zw"
 
-*Defined in [src/generated/types.ts:250](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L250)*
+_Defined in_ [_src/generated/types.ts:250_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/generated/types.ts#L250)
+

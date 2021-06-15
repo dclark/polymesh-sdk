@@ -1,4 +1,4 @@
-# Interface: ModifyTokenTrustedClaimIssuersRemoveParams
+# ModifyTokenTrustedClaimIssuersRemoveParams
 
 ## Hierarchy
 
@@ -12,10 +12,11 @@
 
 ## Properties
 
-###  claimIssuers
+### claimIssuers
 
-• **claimIssuers**: *(string | [Identity](../classes/identity.md)‹›)[]*
+• **claimIssuers**: _\(string \|_ [_Identity_](../classes/identity.md)_‹›\)\[\]_
 
-*Defined in [src/api/procedures/modifyTokenTrustedClaimIssuers.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/modifyTokenTrustedClaimIssuers.ts#L27)*
+_Defined in_ [_src/api/procedures/modifyTokenTrustedClaimIssuers.ts:27_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/modifyTokenTrustedClaimIssuers.ts#L27)
 
-array of Identities (or DIDs) of the default claim issuers
+array of Identities \(or DIDs\) of the default claim issuers
+

@@ -1,4 +1,4 @@
-# Interface: TransferRestrictionResult
+# TransferRestrictionResult
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  restriction
+### restriction
 
-• **restriction**: *[TransferRestriction](transferrestriction.md)*
+• **restriction**: [_TransferRestriction_](transferrestriction.md)
 
-*Defined in [src/api/entities/SecurityToken/types.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/types.ts#L24)*
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:24_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/types.ts#L24)
 
-___
+### result
 
-###  result
+• **result**: _boolean_
 
-• **result**: *boolean*
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:25_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/types.ts#L25)
 
-*Defined in [src/api/entities/SecurityToken/types.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/types.ts#L25)*

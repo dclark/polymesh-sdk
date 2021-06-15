@@ -1,4 +1,4 @@
-# Interface: SetAssetRequirementsParams
+# SetAssetRequirementsParams
 
 ## Hierarchy
 
@@ -12,11 +12,11 @@
 
 ## Properties
 
-###  requirements
+### requirements
 
-• **requirements**: *[Condition](../globals.md#condition)[][]*
+• **requirements**: [_Condition_](../globals.md#condition)_\[\]\[\]_
 
-*Defined in [src/api/procedures/setAssetRequirements.ts:18](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/setAssetRequirements.ts#L18)*
+_Defined in_ [_src/api/procedures/setAssetRequirements.ts:18_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/setAssetRequirements.ts#L18)
 
-array of array of conditions. For a transfer to be successful, it must comply with all the conditions of at least one of the arrays. In other words, higher level arrays are *OR* between them,
-while conditions inside each array are *AND* between them
+array of array of conditions. For a transfer to be successful, it must comply with all the conditions of at least one of the arrays. In other words, higher level arrays are _OR_ between them, while conditions inside each array are _AND_ between them
+

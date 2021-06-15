@@ -1,4 +1,4 @@
-# Interface: ClaimData ‹**ClaimType**›
+# ClaimData
 
 ## Type parameters
 
@@ -20,40 +20,33 @@
 
 ## Properties
 
-###  claim
+### claim
 
-• **claim**: *ClaimType*
+• **claim**: _ClaimType_
 
-*Defined in [src/types/index.ts:341](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L341)*
+_Defined in_ [_src/types/index.ts:341_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L341)
 
-___
+### expiry
 
-###  expiry
+• **expiry**: _Date \| null_
 
-• **expiry**: *Date | null*
+_Defined in_ [_src/types/index.ts:340_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L340)
 
-*Defined in [src/types/index.ts:340](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L340)*
+### issuedAt
 
-___
+• **issuedAt**: _Date_
 
-###  issuedAt
+_Defined in_ [_src/types/index.ts:339_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L339)
 
-• **issuedAt**: *Date*
+### issuer
 
-*Defined in [src/types/index.ts:339](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L339)*
+• **issuer**: [_Identity_](../classes/identity.md)
 
-___
+_Defined in_ [_src/types/index.ts:338_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L338)
 
-###  issuer
+### target
 
-• **issuer**: *[Identity](../classes/identity.md)*
+• **target**: [_Identity_](../classes/identity.md)
 
-*Defined in [src/types/index.ts:338](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L338)*
+_Defined in_ [_src/types/index.ts:337_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L337)
 
-___
-
-###  target
-
-• **target**: *[Identity](../classes/identity.md)*
-
-*Defined in [src/types/index.ts:337](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L337)*

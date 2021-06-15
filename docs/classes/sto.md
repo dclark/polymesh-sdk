@@ -1,4 +1,4 @@
-# Class: Sto
+# Sto
 
 Represents a Security Token Offering in the Polymesh blockchain
 
@@ -34,120 +34,107 @@ Represents a Security Token Offering in the Polymesh blockchain
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[context](checkpointschedule.md#protected-context)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_context_](checkpointschedule.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)
 
-___
+### id
 
-###  id
+• **id**: _BigNumber_
 
-• **id**: *BigNumber*
-
-*Defined in [src/api/entities/Sto/index.ts:55](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L55)*
+_Defined in_ [_src/api/entities/Sto/index.ts:55_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L55)
 
 identifier number of the Offering
 
-___
+### ticker
 
-###  ticker
+• **ticker**: _string_
 
-• **ticker**: *string*
-
-*Defined in [src/api/entities/Sto/index.ts:60](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L60)*
+_Defined in_ [_src/api/entities/Sto/index.ts:60_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L60)
 
 ticker of the Security Token being offered
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_uuid_](checkpointschedule.md#uuid)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[uuid](checkpointschedule.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  close
+### close
 
-▸ **close**(`args`: void): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+▸ **close**\(`args`: void\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-*Defined in [src/api/entities/Sto/index.ts:153](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L153)*
+_Defined in_ [_src/api/entities/Sto/index.ts:153_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L153)
 
 Close the STO
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `close.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `close.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### details
 
-###  details
+▸ **details**\(\): _Promise‹_[_StoDetails_](../interfaces/stodetails.md)_›_
 
-▸ **details**(): *Promise‹[StoDetails](../interfaces/stodetails.md)›*
-
-*Defined in [src/api/entities/Sto/index.ts:100](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L100)*
+_Defined in_ [_src/api/entities/Sto/index.ts:100_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L100)
 
 Retrieve the STO's details
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[StoDetails](../interfaces/stodetails.md)›*
+**Returns:** _Promise‹_[_StoDetails_](../interfaces/stodetails.md)_›_
 
-▸ **details**(`callback`: [SubCallback](../globals.md#subcallback)‹[StoDetails](../interfaces/stodetails.md)›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **details**\(`callback`: [SubCallback](../globals.md#subcallback)‹[StoDetails](../interfaces/stodetails.md)›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/Sto/index.ts:101](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L101)*
+_Defined in_ [_src/api/entities/Sto/index.ts:101_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L101)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹[StoDetails](../interfaces/stodetails.md)› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[StoDetails](../interfaces/stodetails.md)› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### freeze
 
-###  freeze
+▸ **freeze**\(`args`: void\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Sto_](sto.md)_››_
 
-▸ **freeze**(`args`: void): *Promise‹[TransactionQueue](transactionqueue.md)‹[Sto](sto.md)››*
-
-*Defined in [src/api/entities/Sto/index.ts:166](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L166)*
+_Defined in_ [_src/api/entities/Sto/index.ts:166_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L166)
 
 Freeze the STO
 
 **`note`** required role:
-  - Security Token Primary Issuance Agent
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `freeze.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Security Token Primary Issuance Agent
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `freeze.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[Sto](sto.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Sto_](sto.md)_››_
 
-___
+### getInvestments
 
-###  getInvestments
+▸ **getInvestments**\(`opts`: object\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_Investment_](../interfaces/investment.md)_››_
 
-▸ **getInvestments**(`opts`: object): *Promise‹[ResultSet](../interfaces/resultset.md)‹[Investment](../interfaces/investment.md)››*
-
-*Defined in [src/api/entities/Sto/index.ts:224](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L224)*
+_Defined in_ [_src/api/entities/Sto/index.ts:224_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L224)
 
 Retrieve all investments made on this STO
 
@@ -157,122 +144,113 @@ Retrieve all investments made on this STO
 
 **Parameters:**
 
-▪`Default value`  **opts**: *object*= {}
+▪`Default value` **opts**: _object_= {}
 
-Name | Type | Description |
------- | ------ | ------ |
-`size?` | undefined &#124; number | page size |
-`start?` | undefined &#124; number | page offset  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `size?` | undefined \| number | page size |
+| `start?` | undefined \| number | page offset |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[Investment](../interfaces/investment.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_Investment_](../interfaces/investment.md)_››_
 
-___
+### invest
 
-###  invest
+▸ **invest**\(`args`: [InvestInStoParams](../interfaces/investinstoparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **invest**(`args`: [InvestInStoParams](../interfaces/investinstoparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/Sto/index.ts:211](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L211)*
+_Defined in_ [_src/api/entities/Sto/index.ts:211_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L211)
 
 Invest in the STO
 
 **`note`** required roles:
-  - Purchase Portfolio Custodian
-  - Funding Portfolio Custodian
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `invest.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Purchase Portfolio Custodian
+* Funding Portfolio Custodian
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `invest.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [InvestInStoParams](../interfaces/investinstoparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [InvestInStoParams](../interfaces/investinstoparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### isEqual
 
-###  isEqual
+▸ **isEqual**\(`entity`: [Entity](entity.md)‹unknown›\): _boolean_
 
-▸ **isEqual**(`entity`: [Entity](entity.md)‹unknown›): *boolean*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_isEqual_](checkpointschedule.md#isequal)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[isEqual](checkpointschedule.md#isequal)*
-
-*Defined in [src/api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)*
+_Defined in_ [_src/api/entities/Entity.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)
 
 Whether this Entity is the same as another one
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`entity` | [Entity](entity.md)‹unknown› |
+| Name | Type |
+| :--- | :--- |
+| `entity` | [Entity](entity.md)‹unknown› |
 
-**Returns:** *boolean*
+**Returns:** _boolean_
 
-___
+### modifyTimes
 
-###  modifyTimes
+▸ **modifyTimes**\(`args`: [ModifyStoTimesParams](../globals.md#modifystotimesparams)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **modifyTimes**(`args`: [ModifyStoTimesParams](../globals.md#modifystotimesparams)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/Sto/index.ts:197](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L197)*
+_Defined in_ [_src/api/entities/Sto/index.ts:197_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L197)
 
 Modify the start/end time of the STO
 
 **`throws`** if:
-  - Trying to modify the start time on an STO that already started
-  - Trying to modify anything on an STO that already ended
-  - Trying to change start or end time to a past date
+
+* Trying to modify the start time on an STO that already started
+* Trying to modify anything on an STO that already ended
+* Trying to change start or end time to a past date
 
 **`note`** required role:
-  - Security Token Primary Issuance Agent
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `modifyTimes.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Security Token Primary Issuance Agent
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `modifyTimes.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [ModifyStoTimesParams](../globals.md#modifystotimesparams) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [ModifyStoTimesParams](../globals.md#modifystotimesparams) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### unfreeze
 
-###  unfreeze
+▸ **unfreeze**\(`args`: void\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Sto_](sto.md)_››_
 
-▸ **unfreeze**(`args`: void): *Promise‹[TransactionQueue](transactionqueue.md)‹[Sto](sto.md)››*
-
-*Defined in [src/api/entities/Sto/index.ts:179](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L179)*
+_Defined in_ [_src/api/entities/Sto/index.ts:179_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/index.ts#L179)
 
 Unfreeze the STO
 
 **`note`** required role:
-  - Security Token Primary Issuance Agent
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `unfreeze.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Security Token Primary Issuance Agent
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `unfreeze.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[Sto](sto.md)››*
-
-___
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Sto_](sto.md)_››_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[generateUuid](checkpointschedule.md#static-generateuuid)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_generateUuid_](checkpointschedule.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
@@ -282,21 +260,19 @@ Generate the Entity's UUID from its identifying properties
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[unserialize](checkpointschedule.md#static-unserialize)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_unserialize_](checkpointschedule.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
@@ -306,8 +282,9 @@ Unserialize a UUID into its Unique Identifiers
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

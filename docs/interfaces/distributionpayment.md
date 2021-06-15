@@ -1,4 +1,4 @@
-# Interface: DistributionPayment
+# DistributionPayment
 
 ## Hierarchy
 
@@ -16,40 +16,33 @@
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *BigNumber*
+• **amount**: _BigNumber_
 
-*Defined in [src/types/index.ts:965](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L965)*
+_Defined in_ [_src/types/index.ts:965_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L965)
 
-___
+### blockNumber
 
-###  blockNumber
+• **blockNumber**: _BigNumber_
 
-• **blockNumber**: *BigNumber*
+_Defined in_ [_src/types/index.ts:962_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L962)
 
-*Defined in [src/types/index.ts:962](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L962)*
+### date
 
-___
+• **date**: _Date_
 
-###  date
+_Defined in_ [_src/types/index.ts:963_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L963)
 
-• **date**: *Date*
+### target
 
-*Defined in [src/types/index.ts:963](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L963)*
+• **target**: [_Identity_](../classes/identity.md)
 
-___
+_Defined in_ [_src/types/index.ts:964_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L964)
 
-###  target
+### withheldTax
 
-• **target**: *[Identity](../classes/identity.md)*
+• **withheldTax**: _BigNumber_
 
-*Defined in [src/types/index.ts:964](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L964)*
+_Defined in_ [_src/types/index.ts:966_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L966)
 
-___
-
-###  withheldTax
-
-• **withheldTax**: *BigNumber*
-
-*Defined in [src/types/index.ts:966](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L966)*

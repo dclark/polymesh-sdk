@@ -1,12 +1,12 @@
-# Class: PolymeshTransaction ‹**Args, Values**›
+# PolymeshTransaction
 
 Wrapper class for a Polymesh Transaction
 
 ## Type parameters
 
-▪ **Args**: *unknown[]*
+▪ **Args**: _unknown\[\]_
 
-▪ **Values**: *unknown[]*
+▪ **Values**: _unknown\[\]_
 
 ## Hierarchy
 
@@ -43,193 +43,167 @@ Wrapper class for a Polymesh Transaction
 
 ### `Optional` blockHash
 
-• **blockHash**? : *undefined | string*
+• **blockHash**? : _undefined \| string_
 
-*Inherited from [PolymeshTransaction](polymeshtransaction.md).[blockHash](polymeshtransaction.md#optional-blockhash)*
+_Inherited from_ [_PolymeshTransaction_](polymeshtransaction.md)_._[_blockHash_](polymeshtransaction.md#optional-blockhash)
 
-*Defined in [src/base/PolymeshTransactionBase.ts:55](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L55)*
+_Defined in_ [_src/base/PolymeshTransactionBase.ts:55_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L55)
 
-hash of the block where this transaction resides (status: `Succeeded`, `Failed`)
-
-___
+hash of the block where this transaction resides \(status: `Succeeded`, `Failed`\)
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [PolymeshTransaction](polymeshtransaction.md).[context](polymeshtransaction.md#protected-context)*
+_Inherited from_ [_PolymeshTransaction_](polymeshtransaction.md)_._[_context_](polymeshtransaction.md#protected-context)
 
-*Defined in [src/base/PolymeshTransactionBase.ts:119](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L119)*
-
-___
+_Defined in_ [_src/base/PolymeshTransactionBase.ts:119_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L119)
 
 ### `Optional` error
 
-• **error**? : *[PolymeshError](polymesherror.md)*
+• **error**? : [_PolymeshError_](polymesherror.md)
 
-*Inherited from [PolymeshTransaction](polymeshtransaction.md).[error](polymeshtransaction.md#optional-error)*
+_Inherited from_ [_PolymeshTransaction_](polymeshtransaction.md)_._[_error_](polymeshtransaction.md#optional-error)
 
-*Defined in [src/base/PolymeshTransactionBase.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L40)*
+_Defined in_ [_src/base/PolymeshTransactionBase.ts:40_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L40)
 
-stores errors thrown while running the transaction (status: `Failed`, `Aborted`)
+stores errors thrown while running the transaction \(status: `Failed`, `Aborted`\)
 
-___
+### inputArgs
 
-###  inputArgs
+• **inputArgs**: _MapMaybePostTransactionValue‹Args›_
 
-• **inputArgs**: *MapMaybePostTransactionValue‹Args›*
+_Defined in_ [_src/base/PolymeshTransaction.ts:26_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransaction.ts#L26)
 
-*Defined in [src/base/PolymeshTransaction.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransaction.ts#L26)*
+arguments for the transaction. Available after the transaction starts running \(may be Post Transaction Values from a previous transaction in the queue that haven't resolved yet\)
 
-arguments for the transaction. Available after the transaction starts running
-(may be Post Transaction Values from a previous transaction in the queue that haven't resolved yet)
+### isCritical
 
-___
+• **isCritical**: _boolean_
 
-###  isCritical
+_Inherited from_ [_PolymeshTransaction_](polymeshtransaction.md)_._[_isCritical_](polymeshtransaction.md#iscritical)
 
-• **isCritical**: *boolean*
-
-*Inherited from [PolymeshTransaction](polymeshtransaction.md).[isCritical](polymeshtransaction.md#iscritical)*
-
-*Defined in [src/base/PolymeshTransactionBase.ts:60](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L60)*
+_Defined in_ [_src/base/PolymeshTransactionBase.ts:60_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L60)
 
 whether this tx failing makes the entire tx queue fail or not
 
-___
+### paidByThirdParty
 
-###  paidByThirdParty
+• **paidByThirdParty**: _boolean_
 
-• **paidByThirdParty**: *boolean*
+_Inherited from_ [_PolymeshTransaction_](polymeshtransaction.md)_._[_paidByThirdParty_](polymeshtransaction.md#paidbythirdparty)
 
-*Inherited from [PolymeshTransaction](polymeshtransaction.md).[paidByThirdParty](polymeshtransaction.md#paidbythirdparty)*
+_Defined in_ [_src/base/PolymeshTransactionBase.ts:66_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L66)
 
-*Defined in [src/base/PolymeshTransactionBase.ts:66](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L66)*
-
-whether the fees for this tx are paid by a third party.
-  For example, when accepting/rejecting a request to join an Identity, fees are paid by the Identity that sent the request
-
-___
+whether the fees for this tx are paid by a third party. For example, when accepting/rejecting a request to join an Identity, fees are paid by the Identity that sent the request
 
 ### `Optional` receipt
 
-• **receipt**? : *ISubmittableResult*
+• **receipt**? : _ISubmittableResult_
 
-*Inherited from [PolymeshTransaction](polymeshtransaction.md).[receipt](polymeshtransaction.md#optional-receipt)*
+_Inherited from_ [_PolymeshTransaction_](polymeshtransaction.md)_._[_receipt_](polymeshtransaction.md#optional-receipt)
 
-*Defined in [src/base/PolymeshTransactionBase.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L45)*
+_Defined in_ [_src/base/PolymeshTransactionBase.ts:45_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L45)
 
-stores the transaction receipt (if successful)
+stores the transaction receipt \(if successful\)
 
-___
+### status
 
-###  status
+• **status**: [_TransactionStatus_](../enums/transactionstatus.md) = TransactionStatus.Idle
 
-• **status**: *[TransactionStatus](../enums/transactionstatus.md)* = TransactionStatus.Idle
+_Inherited from_ [_PolymeshTransaction_](polymeshtransaction.md)_._[_status_](polymeshtransaction.md#status)
 
-*Inherited from [PolymeshTransaction](polymeshtransaction.md).[status](polymeshtransaction.md#status)*
-
-*Defined in [src/base/PolymeshTransactionBase.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L35)*
+_Defined in_ [_src/base/PolymeshTransactionBase.ts:35_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L35)
 
 current status of the transaction
 
-___
-
 ### `Optional` txHash
 
-• **txHash**? : *undefined | string*
+• **txHash**? : _undefined \| string_
 
-*Inherited from [PolymeshTransaction](polymeshtransaction.md).[txHash](polymeshtransaction.md#optional-txhash)*
+_Inherited from_ [_PolymeshTransaction_](polymeshtransaction.md)_._[_txHash_](polymeshtransaction.md#optional-txhash)
 
-*Defined in [src/base/PolymeshTransactionBase.ts:50](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L50)*
+_Defined in_ [_src/base/PolymeshTransactionBase.ts:50_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L50)
 
-transaction hash (status: `Running`, `Succeeded`, `Failed`)
+transaction hash \(status: `Running`, `Succeeded`, `Failed`\)
 
 ## Accessors
 
-###  args
+### args
 
-• **get args**(): *Args*
+• **get args**\(\): _Args_
 
-*Defined in [src/base/PolymeshTransaction.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransaction.ts#L43)*
+_Defined in_ [_src/base/PolymeshTransaction.ts:43_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransaction.ts#L43)
 
 Arguments for the transaction
 
-**Returns:** *Args*
+**Returns:** _Args_
 
-___
+### tag
 
-###  tag
+• **get tag**\(\): _TxTag_
 
-• **get tag**(): *TxTag*
+_Inherited from_ [_PolymeshTransaction_](polymeshtransaction.md)_._[_tag_](polymeshtransaction.md#tag)
 
-*Inherited from [PolymeshTransaction](polymeshtransaction.md).[tag](polymeshtransaction.md#tag)*
+_Defined in_ [_src/base/PolymeshTransactionBase.ts:314_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L314)
 
-*Defined in [src/base/PolymeshTransactionBase.ts:314](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L314)*
+type of transaction represented by this instance for display purposes. If the transaction isn't defined at design time, the tag won't be set \(will be empty string\) until the transaction is about to be run
 
-type of transaction represented by this instance for display purposes.
-If the transaction isn't defined at design time, the tag won't be set (will be empty string) until the transaction is about to be run
-
-**Returns:** *TxTag*
+**Returns:** _TxTag_
 
 ## Methods
 
-###  getFees
+### getFees
 
-▸ **getFees**(): *Promise‹[Fees](../interfaces/fees.md) | null›*
+▸ **getFees**\(\): _Promise‹_[_Fees_](../interfaces/fees.md) _\| null›_
 
-*Inherited from [PolymeshTransaction](polymeshtransaction.md).[getFees](polymeshtransaction.md#getfees)*
+_Inherited from_ [_PolymeshTransaction_](polymeshtransaction.md)_._[_getFees_](polymeshtransaction.md#getfees)
 
-*Defined in [src/base/PolymeshTransactionBase.ts:281](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L281)*
+_Defined in_ [_src/base/PolymeshTransactionBase.ts:281_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L281)
 
-Get all (protocol and gas) fees associated with this transaction. Returns null
-if the transaction is not ready yet (this can happen if it depends on the execution of a
-previous transaction in the queue)
+Get all \(protocol and gas\) fees associated with this transaction. Returns null if the transaction is not ready yet \(this can happen if it depends on the execution of a previous transaction in the queue\)
 
-**Returns:** *Promise‹[Fees](../interfaces/fees.md) | null›*
+**Returns:** _Promise‹_[_Fees_](../interfaces/fees.md) _\| null›_
 
-___
+### onStatusChange
 
-###  onStatusChange
+▸ **onStatusChange**\(`listener`: function\): _function_
 
-▸ **onStatusChange**(`listener`: function): *function*
+_Inherited from_ [_PolymeshTransaction_](polymeshtransaction.md)_._[_onStatusChange_](polymeshtransaction.md#onstatuschange)
 
-*Inherited from [PolymeshTransaction](polymeshtransaction.md).[onStatusChange](polymeshtransaction.md#onstatuschange)*
-
-*Defined in [src/base/PolymeshTransactionBase.ts:268](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L268)*
+_Defined in_ [_src/base/PolymeshTransactionBase.ts:268_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L268)
 
 Subscribe to status changes
 
 **Parameters:**
 
-▪ **listener**: *function*
+▪ **listener**: _function_
 
 callback function that will be called whenever the status changes
 
-▸ (`transaction`: this): *void*
+▸ \(`transaction`: this\): _void_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`transaction` | this |
+| Name | Type |
+| :--- | :--- |
+| `transaction` | this |
 
-**Returns:** *function*
+**Returns:** _function_
 
 unsubscribe function
 
-▸ (): *void*
+▸ \(\): _void_
 
-___
+### run
 
-###  run
+▸ **run**\(\): _Promise‹void›_
 
-▸ **run**(): *Promise‹void›*
+_Inherited from_ [_PolymeshTransaction_](polymeshtransaction.md)_._[_run_](polymeshtransaction.md#run)
 
-*Inherited from [PolymeshTransaction](polymeshtransaction.md).[run](polymeshtransaction.md#run)*
-
-*Defined in [src/base/PolymeshTransactionBase.ts:153](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L153)*
+_Defined in_ [_src/base/PolymeshTransactionBase.ts:153_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/base/PolymeshTransactionBase.ts#L153)
 
 Run the poly transaction and update the transaction status
 
-**Returns:** *Promise‹void›*
+**Returns:** _Promise‹void›_
+

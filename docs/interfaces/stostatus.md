@@ -1,4 +1,4 @@
-# Interface: StoStatus
+# StoStatus
 
 ## Hierarchy
 
@@ -14,24 +14,21 @@
 
 ## Properties
 
-###  balance
+### balance
 
-• **balance**: *[StoBalanceStatus](../enums/stobalancestatus.md)*
+• **balance**: [_StoBalanceStatus_](../enums/stobalancestatus.md)
 
-*Defined in [src/api/entities/Sto/types.ts:58](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/types.ts#L58)*
+_Defined in_ [_src/api/entities/Sto/types.ts:58_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/types.ts#L58)
 
-___
+### sale
 
-###  sale
+• **sale**: [_StoSaleStatus_](../enums/stosalestatus.md)
 
-• **sale**: *[StoSaleStatus](../enums/stosalestatus.md)*
+_Defined in_ [_src/api/entities/Sto/types.ts:59_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/types.ts#L59)
 
-*Defined in [src/api/entities/Sto/types.ts:59](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/types.ts#L59)*
+### timing
 
-___
+• **timing**: [_StoTimingStatus_](../enums/stotimingstatus.md)
 
-###  timing
+_Defined in_ [_src/api/entities/Sto/types.ts:57_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/types.ts#L57)
 
-• **timing**: *[StoTimingStatus](../enums/stotimingstatus.md)*
-
-*Defined in [src/api/entities/Sto/types.ts:57](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/types.ts#L57)*

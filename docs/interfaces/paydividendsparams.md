@@ -1,4 +1,4 @@
-# Interface: PayDividendsParams
+# PayDividendsParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  targets
+### targets
 
-• **targets**: *(string | [Identity](../classes/identity.md)‹›)[]*
+• **targets**: _\(string \|_ [_Identity_](../classes/identity.md)_‹›\)\[\]_
 
-*Defined in [src/api/procedures/payDividends.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/payDividends.ts#L17)*
+_Defined in_ [_src/api/procedures/payDividends.ts:17_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/payDividends.ts#L17)
+

@@ -1,4 +1,4 @@
-# Enumeration: TransactionQueueStatus
+# TransactionQueueStatus
 
 ## Index
 
@@ -11,43 +11,35 @@
 
 ## Enumeration members
 
-###  Failed
+### Failed
 
 • **Failed**: = "Failed"
 
-*Defined in [src/types/index.ts:73](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L73)*
+_Defined in_ [_src/types/index.ts:73_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L73)
 
-a critical transaction's execution failed.
-This might mean the transaction was rejected,
-failed due to a revert or never entered a block
+a critical transaction's execution failed. This might mean the transaction was rejected, failed due to a revert or never entered a block
 
-___
-
-###  Idle
+### Idle
 
 • **Idle**: = "Idle"
 
-*Defined in [src/types/index.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L63)*
+_Defined in_ [_src/types/index.ts:63_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L63)
 
 the queue is prepped to run
 
-___
-
-###  Running
+### Running
 
 • **Running**: = "Running"
 
-*Defined in [src/types/index.ts:67](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L67)*
+_Defined in_ [_src/types/index.ts:67_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L67)
 
 transactions in the queue are being executed
 
-___
-
-###  Succeeded
+### Succeeded
 
 • **Succeeded**: = "Succeeded"
 
-*Defined in [src/types/index.ts:78](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L78)*
+_Defined in_ [_src/types/index.ts:78_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L78)
 
-the queue finished running all of its transactions. Non-critical transactions
-might still have failed
+the queue finished running all of its transactions. Non-critical transactions might still have failed
+

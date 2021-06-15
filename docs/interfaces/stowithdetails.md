@@ -1,4 +1,4 @@
-# Interface: StoWithDetails
+# StoWithDetails
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  details
+### details
 
-• **details**: *[StoDetails](stodetails.md)*
+• **details**: [_StoDetails_](stodetails.md)
 
-*Defined in [src/types/index.ts:816](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L816)*
+_Defined in_ [_src/types/index.ts:816_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L816)
 
-___
+### sto
 
-###  sto
+• **sto**: [_Sto_](../classes/sto.md)
 
-• **sto**: *[Sto](../classes/sto.md)*
+_Defined in_ [_src/types/index.ts:815_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L815)
 
-*Defined in [src/types/index.ts:815](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L815)*

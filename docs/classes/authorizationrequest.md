@@ -1,8 +1,6 @@
-# Class: AuthorizationRequest
+# AuthorizationRequest
 
-Represents a request made by an Identity to another Identity (or account) for some sort of authorization. This has multiple uses. For example, if Alice
-  wants to transfer ownership of her asset ALICETOKEN to Bob, an authorization request gets emitted to Bob,
-  who then has to accept it in order for the ownership transfer to be complete
+Represents a request made by an Identity to another Identity \(or account\) for some sort of authorization. This has multiple uses. For example, if Alice wants to transfer ownership of her asset ALICETOKEN to Bob, an authorization request gets emitted to Bob, who then has to accept it in order for the ownership transfer to be complete
 
 ## Hierarchy
 
@@ -33,173 +31,150 @@ Represents a request made by an Identity to another Identity (or account) for so
 
 ## Properties
 
-###  authId
+### authId
 
-• **authId**: *BigNumber*
+• **authId**: _BigNumber_
 
-*Defined in [src/api/entities/AuthorizationRequest.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/AuthorizationRequest.ts#L79)*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:79_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/AuthorizationRequest.ts#L79)
 
-internal identifier for the request (used to accept/reject/cancel)
-
-___
+internal identifier for the request \(used to accept/reject/cancel\)
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[context](checkpointschedule.md#protected-context)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_context_](checkpointschedule.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)
 
-___
+### data
 
-###  data
+• **data**: [_Authorization_](../globals.md#authorization)
 
-• **data**: *[Authorization](../globals.md#authorization)*
-
-*Defined in [src/api/entities/AuthorizationRequest.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/AuthorizationRequest.ts#L68)*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:68_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/AuthorizationRequest.ts#L68)
 
 authorization request data corresponding to type of authorization
 
-| Type                        | Data      |
-|-----------------------------|-----------|
-| Attest Primary Key Rotation | DID       |
-| Rotate Primary Key          | DID       |
-| Transfer Ticker             | Ticker    |
-| Add MultiSig Signer         | Account   |
-| Transfer Token Ownership    | Ticker    |
-| Join Identity               | DID       |
-| Portfolio Custody           | Portfolio |
-| Custom                      | Custom    |
-| No Data                     | N/A       |
+| Type | Data |
+| :--- | :--- |
+| Attest Primary Key Rotation | DID |
+| Rotate Primary Key | DID |
+| Transfer Ticker | Ticker |
+| Add MultiSig Signer | Account |
+| Transfer Token Ownership | Ticker |
+| Join Identity | DID |
+| Portfolio Custody | Portfolio |
+| Custom | Custom |
+| No Data | N/A |
 
-___
+### expiry
 
-###  expiry
+• **expiry**: _Date \| null_
 
-• **expiry**: *Date | null*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:74_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/AuthorizationRequest.ts#L74)
 
-*Defined in [src/api/entities/AuthorizationRequest.ts:74](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/AuthorizationRequest.ts#L74)*
+date at which the authorization request expires and can no longer be accepted. At this point, a new authorization request must be emitted. Null if the request never expires
 
-date at which the authorization request expires and can no longer be accepted.
-  At this point, a new authorization request must be emitted. Null if the request never expires
+### issuer
 
-___
+• **issuer**: [_Identity_](identity.md)
 
-###  issuer
-
-• **issuer**: *[Identity](identity.md)*
-
-*Defined in [src/api/entities/AuthorizationRequest.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/AuthorizationRequest.ts#L51)*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:51_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/AuthorizationRequest.ts#L51)
 
 Identity that emitted the request
 
-___
+### target
 
-###  target
+• **target**: [_Signer_](../globals.md#signer)
 
-• **target**: *[Signer](../globals.md#signer)*
-
-*Defined in [src/api/entities/AuthorizationRequest.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/AuthorizationRequest.ts#L46)*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/AuthorizationRequest.ts#L46)
 
 Identity or Account to which the request was emitted
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_uuid_](checkpointschedule.md#uuid)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[uuid](checkpointschedule.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  accept
+### accept
 
-▸ **accept**(`args`: void): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+▸ **accept**\(`args`: void\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-*Defined in [src/api/entities/AuthorizationRequest.ts:138](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/AuthorizationRequest.ts#L138)*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:138_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/AuthorizationRequest.ts#L138)
 
 Accept the authorization request. You must be the target of the request to be able to accept it
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `accept.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `accept.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### isEqual
 
-###  isEqual
+▸ **isEqual**\(`entity`: [Entity](entity.md)‹unknown›\): _boolean_
 
-▸ **isEqual**(`entity`: [Entity](entity.md)‹unknown›): *boolean*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_isEqual_](checkpointschedule.md#isequal)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[isEqual](checkpointschedule.md#isequal)*
-
-*Defined in [src/api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)*
+_Defined in_ [_src/api/entities/Entity.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)
 
 Whether this Entity is the same as another one
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`entity` | [Entity](entity.md)‹unknown› |
+| Name | Type |
+| :--- | :--- |
+| `entity` | [Entity](entity.md)‹unknown› |
 
-**Returns:** *boolean*
+**Returns:** _boolean_
 
-___
+### isExpired
 
-###  isExpired
+▸ **isExpired**\(\): _boolean_
 
-▸ **isExpired**(): *boolean*
-
-*Defined in [src/api/entities/AuthorizationRequest.ts:158](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/AuthorizationRequest.ts#L158)*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:158_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/AuthorizationRequest.ts#L158)
 
 Returns whether the Authorization Request has expired
 
-**Returns:** *boolean*
+**Returns:** _boolean_
 
-___
+### remove
 
-###  remove
+▸ **remove**\(`args`: void\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **remove**(`args`: void): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/AuthorizationRequest.ts:151](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/AuthorizationRequest.ts#L151)*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:151_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/AuthorizationRequest.ts#L151)
 
 Remove the authorization request
 
-- If you are the request issuer, this will cancel the authorization
-- If you are the request target, this will reject the authorization
+* If you are the request issuer, this will cancel the authorization
+* If you are the request target, this will reject the authorization
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `remove.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `remove.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-___
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[generateUuid](checkpointschedule.md#static-generateuuid)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_generateUuid_](checkpointschedule.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
@@ -209,21 +184,19 @@ Generate the Entity's UUID from its identifying properties
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[unserialize](checkpointschedule.md#static-unserialize)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_unserialize_](checkpointschedule.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
@@ -233,8 +206,9 @@ Unserialize a UUID into its Unique Identifiers
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

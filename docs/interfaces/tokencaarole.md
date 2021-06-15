@@ -1,4 +1,4 @@
-# Interface: TokenCaaRole
+# TokenCaaRole
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  ticker
+### ticker
 
-• **ticker**: *string*
+• **ticker**: _string_
 
-*Defined in [src/types/index.ts:111](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L111)*
+_Defined in_ [_src/types/index.ts:111_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L111)
 
-___
+### type
 
-###  type
+• **type**: [_TokenCaa_](../enums/roletype.md#tokencaa)
 
-• **type**: *[TokenCaa](../enums/roletype.md#tokencaa)*
+_Defined in_ [_src/types/index.ts:110_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L110)
 
-*Defined in [src/types/index.ts:110](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L110)*

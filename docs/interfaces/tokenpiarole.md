@@ -1,4 +1,4 @@
-# Interface: TokenPiaRole
+# TokenPiaRole
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  ticker
+### ticker
 
-• **ticker**: *string*
+• **ticker**: _string_
 
-*Defined in [src/types/index.ts:106](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L106)*
+_Defined in_ [_src/types/index.ts:106_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L106)
 
-___
+### type
 
-###  type
+• **type**: [_TokenPia_](../enums/roletype.md#tokenpia)
 
-• **type**: *[TokenPia](../enums/roletype.md#tokenpia)*
+_Defined in_ [_src/types/index.ts:105_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L105)
 
-*Defined in [src/types/index.ts:105](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L105)*

@@ -1,4 +1,4 @@
-# Class: DefaultTrustedClaimIssuer
+# DefaultTrustedClaimIssuer
 
 Represents a default trusted claim issuer for a specific token in the Polymesh blockchain
 
@@ -29,97 +29,85 @@ Represents a default trusted claim issuer for a specific token in the Polymesh b
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[context](checkpointschedule.md#protected-context)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_context_](checkpointschedule.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)
 
-___
+### identity
 
-###  identity
+• **identity**: [_Identity_](identity.md)
 
-• **identity**: *[Identity](identity.md)*
-
-*Defined in [src/api/entities/DefaultTrustedClaimIssuer.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DefaultTrustedClaimIssuer.ts#L35)*
+_Defined in_ [_src/api/entities/DefaultTrustedClaimIssuer.ts:35_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DefaultTrustedClaimIssuer.ts#L35)
 
 identity of the Trusted Claim Issuer
 
-___
+### ticker
 
-###  ticker
+• **ticker**: _string_
 
-• **ticker**: *string*
-
-*Defined in [src/api/entities/DefaultTrustedClaimIssuer.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DefaultTrustedClaimIssuer.ts#L45)*
+_Defined in_ [_src/api/entities/DefaultTrustedClaimIssuer.ts:45_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DefaultTrustedClaimIssuer.ts#L45)
 
 ticker of the Security Token
 
-___
-
 ### `Optional` trustedFor
 
-• **trustedFor**? : *[ClaimType](../enums/claimtype.md)[]*
+• **trustedFor**? : [_ClaimType_](../enums/claimtype.md)_\[\]_
 
-*Defined in [src/api/entities/DefaultTrustedClaimIssuer.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DefaultTrustedClaimIssuer.ts#L40)*
+_Defined in_ [_src/api/entities/DefaultTrustedClaimIssuer.ts:40_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DefaultTrustedClaimIssuer.ts#L40)
 
 claim types for which this Claim Issuer is trusted. An undefined value means that the issuer is trusted for all claim types
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_uuid_](checkpointschedule.md#uuid)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[uuid](checkpointschedule.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  addedAt
+### addedAt
 
-▸ **addedAt**(): *Promise‹[EventIdentifier](../interfaces/eventidentifier.md) | null›*
+▸ **addedAt**\(\): _Promise‹_[_EventIdentifier_](../interfaces/eventidentifier.md) _\| null›_
 
-*Defined in [src/api/entities/DefaultTrustedClaimIssuer.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DefaultTrustedClaimIssuer.ts#L68)*
+_Defined in_ [_src/api/entities/DefaultTrustedClaimIssuer.ts:68_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DefaultTrustedClaimIssuer.ts#L68)
 
-Retrieve the identifier data (block number, date and event index) of the event that was emitted when the trusted claim issuer was added
+Retrieve the identifier data \(block number, date and event index\) of the event that was emitted when the trusted claim issuer was added
 
 **`note`** uses the middleware
 
 **`note`** there is a possibility that the data is not ready by the time it is requested. In that case, `null` is returned
 
-**Returns:** *Promise‹[EventIdentifier](../interfaces/eventidentifier.md) | null›*
+**Returns:** _Promise‹_[_EventIdentifier_](../interfaces/eventidentifier.md) _\| null›_
 
-___
+### isEqual
 
-###  isEqual
+▸ **isEqual**\(`entity`: [Entity](entity.md)‹unknown›\): _boolean_
 
-▸ **isEqual**(`entity`: [Entity](entity.md)‹unknown›): *boolean*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_isEqual_](checkpointschedule.md#isequal)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[isEqual](checkpointschedule.md#isequal)*
-
-*Defined in [src/api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)*
+_Defined in_ [_src/api/entities/Entity.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)
 
 Whether this Entity is the same as another one
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`entity` | [Entity](entity.md)‹unknown› |
+| Name | Type |
+| :--- | :--- |
+| `entity` | [Entity](entity.md)‹unknown› |
 
-**Returns:** *boolean*
-
-___
+**Returns:** _boolean_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[generateUuid](checkpointschedule.md#static-generateuuid)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_generateUuid_](checkpointschedule.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
@@ -129,21 +117,19 @@ Generate the Entity's UUID from its identifying properties
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[unserialize](checkpointschedule.md#static-unserialize)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_unserialize_](checkpointschedule.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
@@ -153,8 +139,9 @@ Unserialize a UUID into its Unique Identifiers
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

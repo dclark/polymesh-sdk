@@ -1,4 +1,4 @@
-# Enumeration: InstructionStatus
+# InstructionStatus
 
 ## Index
 
@@ -9,16 +9,15 @@
 
 ## Enumeration members
 
-###  Pending
+### Pending
 
 • **Pending**: = "Pending"
 
-*Defined in [src/api/entities/Instruction/types.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/types.ts#L6)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:6_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/types.ts#L6)
 
-___
-
-###  Unknown
+### Unknown
 
 • **Unknown**: = "Unknown"
 
-*Defined in [src/api/entities/Instruction/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/types.ts#L7)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:7_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Instruction/types.ts#L7)
+

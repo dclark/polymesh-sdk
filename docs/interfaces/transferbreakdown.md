@@ -1,4 +1,4 @@
-# Interface: TransferBreakdown
+# TransferBreakdown
 
 Object containing every reason why a specific Security Token transfer would fail
 
@@ -17,40 +17,35 @@ Object containing every reason why a specific Security Token transfer would fail
 
 ## Properties
 
-###  compliance
+### compliance
 
-• **compliance**: *[Compliance](../classes/compliance.md)*
+• **compliance**: [_Compliance_](../classes/compliance.md)
 
-*Defined in [src/api/entities/SecurityToken/types.ts:39](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/types.ts#L39)*
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:39_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/types.ts#L39)
 
 how the transfer adheres to the asset's compliance rules
 
-___
+### general
 
-###  general
+• **general**: [_TransferError_](../enums/transfererror.md)_\[\]_
 
-• **general**: *[TransferError](../enums/transfererror.md)[]*
-
-*Defined in [src/api/entities/SecurityToken/types.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/types.ts#L35)*
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:35_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/types.ts#L35)
 
 list of general transfer errors
 
-___
+### restrictions
 
-###  restrictions
+• **restrictions**: [_TransferRestrictionResult_](transferrestrictionresult.md)_\[\]_
 
-• **restrictions**: *[TransferRestrictionResult](transferrestrictionresult.md)[]*
-
-*Defined in [src/api/entities/SecurityToken/types.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/types.ts#L43)*
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:43_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/types.ts#L43)
 
 list of transfer restrictions and whether the transfer satisfies each one
 
-___
+### result
 
-###  result
+• **result**: _boolean_
 
-• **result**: *boolean*
-
-*Defined in [src/api/entities/SecurityToken/types.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/types.ts#L47)*
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:47_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/types.ts#L47)
 
 true if the transfer is possible
+

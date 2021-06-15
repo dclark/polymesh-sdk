@@ -1,4 +1,4 @@
-# Enumeration: ConditionType
+# ConditionType
 
 ## Index
 
@@ -13,48 +13,39 @@
 
 ## Enumeration members
 
-###  IsAbsent
+### IsAbsent
 
 • **IsAbsent**: = "IsAbsent"
 
-*Defined in [src/types/index.ts:376](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L376)*
+_Defined in_ [_src/types/index.ts:376_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L376)
 
-___
-
-###  IsAnyOf
+### IsAnyOf
 
 • **IsAnyOf**: = "IsAnyOf"
 
-*Defined in [src/types/index.ts:377](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L377)*
+_Defined in_ [_src/types/index.ts:377_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L377)
 
-___
-
-###  IsIdentity
+### IsIdentity
 
 • **IsIdentity**: = "IsIdentity"
 
-*Defined in [src/types/index.ts:380](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L380)*
+_Defined in_ [_src/types/index.ts:380_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L380)
 
-___
-
-###  IsNoneOf
+### IsNoneOf
 
 • **IsNoneOf**: = "IsNoneOf"
 
-*Defined in [src/types/index.ts:378](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L378)*
+_Defined in_ [_src/types/index.ts:378_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L378)
 
-___
-
-###  IsPresent
+### IsPresent
 
 • **IsPresent**: = "IsPresent"
 
-*Defined in [src/types/index.ts:375](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L375)*
+_Defined in_ [_src/types/index.ts:375_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L375)
 
-___
-
-###  IsPrimaryIssuanceAgent
+### IsPrimaryIssuanceAgent
 
 • **IsPrimaryIssuanceAgent**: = "IsPrimaryIssuanceAgent"
 
-*Defined in [src/types/index.ts:379](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L379)*
+_Defined in_ [_src/types/index.ts:379_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L379)
+

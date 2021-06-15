@@ -1,4 +1,4 @@
-# Interface: ProcedureMethod ‹**MethodArgs, ProcedureReturnValue, ReturnValue**›
+# ProcedureMethod
 
 ## Type parameters
 
@@ -14,17 +14,17 @@
 
 ## Callable
 
-▸ (`args`: MethodArgs): *Promise‹[TransactionQueue](../classes/transactionqueue.md)‹ProcedureReturnValue, ReturnValue››*
+▸ \(`args`: MethodArgs\): _Promise‹_[_TransactionQueue_](../classes/transactionqueue.md)_‹ProcedureReturnValue, ReturnValue››_
 
-*Defined in [src/types/index.ts:973](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L973)*
+_Defined in_ [_src/types/index.ts:973_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L973)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | MethodArgs |
+| Name | Type |
+| :--- | :--- |
+| `args` | MethodArgs |
 
-**Returns:** *Promise‹[TransactionQueue](../classes/transactionqueue.md)‹ProcedureReturnValue, ReturnValue››*
+**Returns:** _Promise‹_[_TransactionQueue_](../classes/transactionqueue.md)_‹ProcedureReturnValue, ReturnValue››_
 
 ## Index
 
@@ -34,18 +34,19 @@ Name | Type |
 
 ## Properties
 
-###  checkAuthorization
+### checkAuthorization
 
-• **checkAuthorization**: *function*
+• **checkAuthorization**: _function_
 
-*Defined in [src/types/index.ts:975](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L975)*
+_Defined in_ [_src/types/index.ts:975_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L975)
 
 #### Type declaration:
 
-▸ (`args`: MethodArgs): *Promise‹[ProcedureAuthorizationStatus](procedureauthorizationstatus.md)›*
+▸ \(`args`: MethodArgs\): _Promise‹_[_ProcedureAuthorizationStatus_](procedureauthorizationstatus.md)_›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | MethodArgs |
+| Name | Type |
+| :--- | :--- |
+| `args` | MethodArgs |
+

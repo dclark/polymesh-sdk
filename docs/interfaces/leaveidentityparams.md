@@ -1,4 +1,4 @@
-# Interface: LeaveIdentityParams
+# LeaveIdentityParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  account
+### account
 
-• **account**: *[CurrentAccount](../classes/currentaccount.md)*
+• **account**: [_CurrentAccount_](../classes/currentaccount.md)
 
-*Defined in [src/api/procedures/leaveIdentity.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/leaveIdentity.ts#L9)*
+_Defined in_ [_src/api/procedures/leaveIdentity.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/leaveIdentity.ts#L9)
+

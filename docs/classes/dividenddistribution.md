@@ -1,13 +1,12 @@
-# Class: DividendDistribution
+# DividendDistribution
 
-Represents a Corporate Action via which a Security Token issuer wishes to distribute dividends
-  between a subset of the Tokenholders (targets)
+Represents a Corporate Action via which a Security Token issuer wishes to distribute dividends between a subset of the Tokenholders \(targets\)
 
 ## Hierarchy
 
-  ↳ [CorporateAction](corporateaction.md)
+↳ [CorporateAction](corporateaction.md)
 
-  ↳ **DividendDistribution**
+↳ **DividendDistribution**
 
 ## Index
 
@@ -52,288 +51,237 @@ Represents a Corporate Action via which a Security Token issuer wishes to distri
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[context](checkpointschedule.md#protected-context)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_context_](checkpointschedule.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)
 
-___
+### currency
 
-###  currency
+• **currency**: _string_
 
-• **currency**: *string*
-
-*Defined in [src/api/entities/DividendDistribution/index.ts:74](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L74)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:74_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L74)
 
 ticker of the currency in which dividends are being distibuted
 
-___
+### declarationDate
 
-###  declarationDate
+• **declarationDate**: _Date_
 
-• **declarationDate**: *Date*
+_Inherited from_ [_CorporateAction_](corporateaction.md)_._[_declarationDate_](corporateaction.md#declarationdate)
 
-*Inherited from [CorporateAction](corporateaction.md).[declarationDate](corporateaction.md#declarationdate)*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L70)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:70_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L70)
 
 date at which the Corporate Action was created
 
-___
+### defaultTaxWithholding
 
-###  defaultTaxWithholding
+• **defaultTaxWithholding**: _BigNumber_
 
-• **defaultTaxWithholding**: *BigNumber*
+_Inherited from_ [_CorporateAction_](corporateaction.md)_._[_defaultTaxWithholding_](corporateaction.md#defaulttaxwithholding)
 
-*Inherited from [CorporateAction](corporateaction.md).[defaultTaxWithholding](corporateaction.md#defaulttaxwithholding)*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:86](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L86)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:86_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L86)
 
 default percentage of tax withholding for this Corporate Action
 
-___
+### description
 
-###  description
+• **description**: _string_
 
-• **description**: *string*
+_Inherited from_ [_CorporateAction_](corporateaction.md)_._[_description_](corporateaction.md#description)
 
-*Inherited from [CorporateAction](corporateaction.md).[description](corporateaction.md#description)*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:75](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L75)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:75_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L75)
 
 brief text description of the Corporate Action
 
-___
+### expiryDate
 
-###  expiryDate
+• **expiryDate**: _null \| Date_
 
-• **expiryDate**: *null | Date*
-
-*Defined in [src/api/entities/DividendDistribution/index.ts:90](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L90)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:90_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L90)
 
 date after which dividends can no longer be paid/reclaimed. A null value means the distribution never expires
 
-___
+### id
 
-###  id
+• **id**: _BigNumber_
 
-• **id**: *BigNumber*
+_Inherited from_ [_CorporateAction_](corporateaction.md)_._[_id_](corporateaction.md#id)
 
-*Inherited from [CorporateAction](corporateaction.md).[id](corporateaction.md#id)*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:60](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L60)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:60_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L60)
 
 internal Corporate Action ID
 
-___
-
 ### `Protected` kind
 
-• **kind**: *[UnpredictableBenefit](../enums/corporateactionkind.md#unpredictablebenefit)*
+• **kind**: [_UnpredictableBenefit_](../enums/corporateactionkind.md#unpredictablebenefit)
 
-*Overrides [CorporateAction](corporateaction.md).[kind](corporateaction.md#protected-kind)*
+_Overrides_ [_CorporateAction_](corporateaction.md)_._[_kind_](corporateaction.md#protected-kind)
 
-*Defined in [src/api/entities/DividendDistribution/index.ts:97](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L97)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:97_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L97)
 
-___
+### maxAmount
 
-###  maxAmount
+• **maxAmount**: _BigNumber_
 
-• **maxAmount**: *BigNumber*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:85_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L85)
 
-*Defined in [src/api/entities/DividendDistribution/index.ts:85](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L85)*
+maximum amount of `currency` to be distributed. Distributions are "first come, first served", so funds can be depleted before every Tokenholder receives their corresponding amount
 
-maximum amount of `currency` to be distributed. Distributions are "first come, first served", so funds can be depleted before
-  every Tokenholder receives their corresponding amount
+### origin
 
-___
+• **origin**: [_DefaultPortfolio_](defaultportfolio.md) _\|_ [_NumberedPortfolio_](numberedportfolio.md)
 
-###  origin
-
-• **origin**: *[DefaultPortfolio](defaultportfolio.md) | [NumberedPortfolio](numberedportfolio.md)*
-
-*Defined in [src/api/entities/DividendDistribution/index.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L69)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:69_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L69)
 
 Portfolio from which the dividends will be distributed
 
-___
+### paymentDate
 
-###  paymentDate
+• **paymentDate**: _Date_
 
-• **paymentDate**: *Date*
-
-*Defined in [src/api/entities/DividendDistribution/index.ts:95](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L95)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:95_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L95)
 
 date starting from which dividends can be paid/reclaimed
 
-___
+### perShare
 
-###  perShare
+• **perShare**: _BigNumber_
 
-• **perShare**: *BigNumber*
-
-*Defined in [src/api/entities/DividendDistribution/index.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L79)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:79_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L79)
 
 amount of `currency` to pay for each share the Tokenholder holds
 
-___
+### targets
 
-###  targets
+• **targets**: [_CorporateActionTargets_](../interfaces/corporateactiontargets.md)
 
-• **targets**: *[CorporateActionTargets](../interfaces/corporateactiontargets.md)*
+_Inherited from_ [_CorporateAction_](corporateaction.md)_._[_targets_](corporateaction.md#targets)
 
-*Inherited from [CorporateAction](corporateaction.md).[targets](corporateaction.md#targets)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:81_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L81)
 
-*Defined in [src/api/entities/CorporateAction/index.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L81)*
+tokenholder identities related to this Corporate action. If the treatment is `Exclude`, the identities are not targeted by the Action, and any identities left out of the array will be targeted, and vice versa
 
-tokenholder identities related to this Corporate action. If the treatment is `Exclude`, the identities
-  are not targeted by the Action, and any identities left out of the array will be targeted, and vice versa
+### taxWithholdings
 
-___
+• **taxWithholdings**: [_TaxWithholding_](../interfaces/taxwithholding.md)_\[\]_
 
-###  taxWithholdings
+_Inherited from_ [_CorporateAction_](corporateaction.md)_._[_taxWithholdings_](corporateaction.md#taxwithholdings)
 
-• **taxWithholdings**: *[TaxWithholding](../interfaces/taxwithholding.md)[]*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:92_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L92)
 
-*Inherited from [CorporateAction](corporateaction.md).[taxWithholdings](corporateaction.md#taxwithholdings)*
+percentage of tax withholding per Identity. Any Identity not present in this array uses the default tax withholding percentage
 
-*Defined in [src/api/entities/CorporateAction/index.ts:92](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L92)*
+### ticker
 
-percentage of tax withholding per Identity. Any Identity not present
-  in this array uses the default tax withholding percentage
+• **ticker**: _string_
 
-___
+_Inherited from_ [_CorporateAction_](corporateaction.md)_._[_ticker_](corporateaction.md#ticker)
 
-###  ticker
-
-• **ticker**: *string*
-
-*Inherited from [CorporateAction](corporateaction.md).[ticker](corporateaction.md#ticker)*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:65](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L65)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:65_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L65)
 
 ticker of the Security Token
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_uuid_](checkpointschedule.md#uuid)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[uuid](checkpointschedule.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  checkpoint
+### checkpoint
 
-▸ **checkpoint**(): *Promise‹[Checkpoint](checkpoint.md) | [CheckpointSchedule](checkpointschedule.md)›*
+▸ **checkpoint**\(\): _Promise‹_[_Checkpoint_](checkpoint.md) _\|_ [_CheckpointSchedule_](checkpointschedule.md)_›_
 
-*Overrides [CorporateAction](corporateaction.md).[checkpoint](corporateaction.md#checkpoint)*
+_Overrides_ [_CorporateAction_](corporateaction.md)_._[_checkpoint_](corporateaction.md#checkpoint)
 
-*Defined in [src/api/entities/DividendDistribution/index.ts:206](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L206)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:206_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L206)
 
-Retrieve the Checkpoint associated with this Dividend Distribution. If the Checkpoint is scheduled and has not been created yet,
-  the corresponding CheckpointSchedule is returned instead
+Retrieve the Checkpoint associated with this Dividend Distribution. If the Checkpoint is scheduled and has not been created yet, the corresponding CheckpointSchedule is returned instead
 
-**Returns:** *Promise‹[Checkpoint](checkpoint.md) | [CheckpointSchedule](checkpointschedule.md)›*
+**Returns:** _Promise‹_[_Checkpoint_](checkpoint.md) _\|_ [_CheckpointSchedule_](checkpointschedule.md)_›_
 
-___
+### claim
 
-###  claim
+▸ **claim**\(`args`: void\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **claim**(`args`: void): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/DividendDistribution/index.ts:161](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L161)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:161_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L161)
 
 Claim the dividends corresponding to the current Identity
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `claim.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `claim.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### details
 
-###  details
+▸ **details**\(\): _Promise‹_[_DividendDistributionDetails_](../interfaces/dividenddistributiondetails.md)_›_
 
-▸ **details**(): *Promise‹[DividendDistributionDetails](../interfaces/dividenddistributiondetails.md)›*
-
-*Defined in [src/api/entities/DividendDistribution/index.ts:225](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L225)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:225_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L225)
 
 Retrieve details associated with this Dividend Distribution
 
-**Returns:** *Promise‹[DividendDistributionDetails](../interfaces/dividenddistributiondetails.md)›*
+**Returns:** _Promise‹_[_DividendDistributionDetails_](../interfaces/dividenddistributiondetails.md)_›_
 
-___
+### exists
 
-###  exists
+▸ **exists**\(\): _Promise‹boolean›_
 
-▸ **exists**(): *Promise‹boolean›*
+_Overrides_ [_CorporateAction_](corporateaction.md)_._[_exists_](corporateaction.md#exists)
 
-*Overrides [CorporateAction](corporateaction.md).[exists](corporateaction.md#exists)*
-
-*Defined in [src/api/entities/DividendDistribution/index.ts:216](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L216)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:216_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L216)
 
 Retrieve whether the Distribution exists
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### getParticipant
 
-###  getParticipant
+▸ **getParticipant**\(`args?`: undefined \| object\): _Promise‹_[_DistributionParticipant_](../interfaces/distributionparticipant.md) _\| null›_
 
-▸ **getParticipant**(`args?`: undefined | object): *Promise‹[DistributionParticipant](../interfaces/distributionparticipant.md) | null›*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:311_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L311)
 
-*Defined in [src/api/entities/DividendDistribution/index.ts:311](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L311)*
+Retrieve an Identity that is entitled to dividends in this Distribution \(participant\), the amount it is entitled to and whether it has been paid or not
 
-Retrieve an Identity that is entitled to dividends in this Distribution (participant),
-  the amount it is entitled to and whether it has been paid or not
-
-**`note`** if the Distribution Checkpoint hasn't been created yet, the result will be null.
-  This is because the Distribution participant's corresponding payment cannot be determined without a Checkpoint
+**`note`** if the Distribution Checkpoint hasn't been created yet, the result will be null. This is because the Distribution participant's corresponding payment cannot be determined without a Checkpoint
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args?` | undefined &#124; object |
+| Name | Type |
+| :--- | :--- |
+| `args?` | undefined \| object |
 
-**Returns:** *Promise‹[DistributionParticipant](../interfaces/distributionparticipant.md) | null›*
+**Returns:** _Promise‹_[_DistributionParticipant_](../interfaces/distributionparticipant.md) _\| null›_
 
-___
+### getParticipants
 
-###  getParticipants
+▸ **getParticipants**\(\): _Promise‹_[_DistributionParticipant_](../interfaces/distributionparticipant.md)_\[\]›_
 
-▸ **getParticipants**(): *Promise‹[DistributionParticipant](../interfaces/distributionparticipant.md)[]›*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:251_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L251)
 
-*Defined in [src/api/entities/DividendDistribution/index.ts:251](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L251)*
-
-Retrieve a comprehensive list of all Identities that are entitled to dividends in this Distribution (participants),
-  the amount they are entitled to and whether they have been paid or not
+Retrieve a comprehensive list of all Identities that are entitled to dividends in this Distribution \(participants\), the amount they are entitled to and whether they have been paid or not
 
 **`note`** this request can take a lot of time with large amounts of Tokenholders
 
-**`note`** if the Distribution Checkpoint hasn't been created yet, the result will be an empty array.
-  This is because the Distribution participants cannot be determined without a Checkpoint
+**`note`** if the Distribution Checkpoint hasn't been created yet, the result will be an empty array. This is because the Distribution participants cannot be determined without a Checkpoint
 
-**Returns:** *Promise‹[DistributionParticipant](../interfaces/distributionparticipant.md)[]›*
+**Returns:** _Promise‹_[_DistributionParticipant_](../interfaces/distributionparticipant.md)_\[\]›_
 
-___
+### getPaymentHistory
 
-###  getPaymentHistory
+▸ **getPaymentHistory**\(`opts`: object\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_DistributionPayment_](../interfaces/distributionpayment.md)_››_
 
-▸ **getPaymentHistory**(`opts`: object): *Promise‹[ResultSet](../interfaces/resultset.md)‹[DistributionPayment](../interfaces/distributionpayment.md)››*
-
-*Defined in [src/api/entities/DividendDistribution/index.ts:406](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L406)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:406_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L406)
 
 Retrieve the payment history for this Distribution
 
@@ -343,158 +291,142 @@ Retrieve the payment history for this Distribution
 
 **Parameters:**
 
-▪`Default value`  **opts**: *object*= {}
+▪`Default value` **opts**: _object_= {}
 
-Name | Type |
------- | ------ |
-`size?` | undefined &#124; number |
-`start?` | undefined &#124; number |
+| Name | Type |
+| :--- | :--- |
+| `size?` | undefined \| number |
+| `start?` | undefined \| number |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[DistributionPayment](../interfaces/distributionpayment.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_DistributionPayment_](../interfaces/distributionpayment.md)_››_
 
-___
+### getWithheldTax
 
-###  getWithheldTax
+▸ **getWithheldTax**\(\): _Promise‹BigNumber›_
 
-▸ **getWithheldTax**(): *Promise‹BigNumber›*
-
-*Defined in [src/api/entities/DividendDistribution/index.ts:384](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L384)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:384_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L384)
 
 Retrieve the amount of taxes that have been withheld up to this point in this Distribution
 
 **`note`** uses the middleware
 
-**Returns:** *Promise‹BigNumber›*
+**Returns:** _Promise‹BigNumber›_
 
-___
+### isEqual
 
-###  isEqual
+▸ **isEqual**\(`entity`: [Entity](entity.md)‹unknown›\): _boolean_
 
-▸ **isEqual**(`entity`: [Entity](entity.md)‹unknown›): *boolean*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_isEqual_](checkpointschedule.md#isequal)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[isEqual](checkpointschedule.md#isequal)*
-
-*Defined in [src/api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)*
+_Defined in_ [_src/api/entities/Entity.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)
 
 Whether this Entity is the same as another one
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`entity` | [Entity](entity.md)‹unknown› |
+| Name | Type |
+| :--- | :--- |
+| `entity` | [Entity](entity.md)‹unknown› |
 
-**Returns:** *boolean*
+**Returns:** _boolean_
 
-___
+### linkDocuments
 
-###  linkDocuments
+▸ **linkDocuments**\(`args`: [LinkCaDocsParams](../interfaces/linkcadocsparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **linkDocuments**(`args`: [LinkCaDocsParams](../interfaces/linkcadocsparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+_Inherited from_ [_CorporateAction_](corporateaction.md)_._[_linkDocuments_](corporateaction.md#linkdocuments)
 
-*Inherited from [CorporateAction](corporateaction.md).[linkDocuments](corporateaction.md#linkdocuments)*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:149](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L149)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:149_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L149)
 
 Link a list of documents to this corporate action
 
 **`note`** any previous links are removed in favor of the new list
 
 **`note`** required role:
-  - Corporate Actions Agent
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `linkDocuments.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Corporate Actions Agent
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `linkDocuments.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [LinkCaDocsParams](../interfaces/linkcadocsparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [LinkCaDocsParams](../interfaces/linkcadocsparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### modifyCheckpoint
 
-###  modifyCheckpoint
+▸ **modifyCheckpoint**\(`args`: ModifyDistributionCheckpointParams\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **modifyCheckpoint**(`args`: ModifyDistributionCheckpointParams): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+_Overrides_ [_CorporateAction_](corporateaction.md)_._[_modifyCheckpoint_](corporateaction.md#modifycheckpoint)
 
-*Overrides [CorporateAction](corporateaction.md).[modifyCheckpoint](corporateaction.md#modifycheckpoint)*
-
-*Defined in [src/api/entities/DividendDistribution/index.ts:171](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L171)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:171_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L171)
 
 Modify the Distribution's checkpoint
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `modifyCheckpoint.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `modifyCheckpoint.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | ModifyDistributionCheckpointParams |
+| Name | Type |
+| :--- | :--- |
+| `args` | ModifyDistributionCheckpointParams |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### pay
 
-###  pay
+▸ **pay**\(`args`: [PayDividendsParams](../interfaces/paydividendsparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **pay**(`args`: [PayDividendsParams](../interfaces/paydividendsparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/DividendDistribution/index.ts:183](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L183)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:183_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L183)
 
 Transfer the corresponding share of the dividends to a list of Identities
 
 **`note`** due to performance issues, we do not validate that the distribution has enough remaining funds to pay the corresponding amount to the supplied Identities
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `pay.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `pay.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [PayDividendsParams](../interfaces/paydividendsparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [PayDividendsParams](../interfaces/paydividendsparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### reclaimFunds
 
-###  reclaimFunds
+▸ **reclaimFunds**\(`args`: void\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **reclaimFunds**(`args`: void): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/DividendDistribution/index.ts:198](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L198)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:198_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/DividendDistribution/index.ts#L198)
 
 Reclaim any remaining funds back to the origin Portfolio. This can only be done after the Distribution has expired
 
 **`note`** withheld taxes are also reclaimed in the same transaction
 
 **`note`** required roles:
-  - Origin Portfolio Custodian
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `reclaimFunds.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Origin Portfolio Custodian
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `reclaimFunds.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-___
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[generateUuid](checkpointschedule.md#static-generateuuid)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_generateUuid_](checkpointschedule.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
@@ -504,21 +436,19 @@ Generate the Entity's UUID from its identifying properties
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[unserialize](checkpointschedule.md#static-unserialize)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_unserialize_](checkpointschedule.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
@@ -528,8 +458,9 @@ Unserialize a UUID into its Unique Identifiers
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

@@ -1,4 +1,4 @@
-# Interface: CheckpointWithData
+# CheckpointWithData
 
 ## Hierarchy
 
@@ -14,24 +14,21 @@
 
 ## Properties
 
-###  checkpoint
+### checkpoint
 
-• **checkpoint**: *[Checkpoint](../classes/checkpoint.md)*
+• **checkpoint**: [_Checkpoint_](../classes/checkpoint.md)
 
-*Defined in [src/types/index.ts:820](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L820)*
+_Defined in_ [_src/types/index.ts:820_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L820)
 
-___
+### createdAt
 
-###  createdAt
+• **createdAt**: _Date_
 
-• **createdAt**: *Date*
+_Defined in_ [_src/types/index.ts:821_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L821)
 
-*Defined in [src/types/index.ts:821](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L821)*
+### totalSupply
 
-___
+• **totalSupply**: _BigNumber_
 
-###  totalSupply
+_Defined in_ [_src/types/index.ts:822_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L822)
 
-• **totalSupply**: *BigNumber*
-
-*Defined in [src/types/index.ts:822](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L822)*

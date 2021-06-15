@@ -1,7 +1,6 @@
-# Class: CheckpointSchedule
+# CheckpointSchedule
 
-Represents a Schedule in which Checkpoints are created for a specific
- Security Token. Schedules can be set up to create checkpoints
+Represents a Schedule in which Checkpoints are created for a specific Security Token. Schedules can be set up to create checkpoints
 
 ## Hierarchy
 
@@ -33,151 +32,127 @@ Represents a Schedule in which Checkpoints are created for a specific
 
 ## Properties
 
-###  complexity
+### complexity
 
-• **complexity**: *number*
+• **complexity**: _number_
 
-*Defined in [src/api/entities/CheckpointSchedule/index.ts:74](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L74)*
+_Defined in_ [_src/api/entities/CheckpointSchedule/index.ts:74_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L74)
 
 abstract measure of the complexity of this Schedule. Shorter periods translate into more complexity
 
-___
-
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[context](checkpointschedule.md#protected-context)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_context_](checkpointschedule.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)
 
-___
+### expiryDate
 
-###  expiryDate
+• **expiryDate**: _Date \| null_
 
-• **expiryDate**: *Date | null*
+_Defined in_ [_src/api/entities/CheckpointSchedule/index.ts:69_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L69)
 
-*Defined in [src/api/entities/CheckpointSchedule/index.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L69)*
+date at which the last Checkpoint will be created with this Schedule. A null value means that this Schedule never expires
 
-date at which the last Checkpoint will be created with this Schedule.
-  A null value means that this Schedule never expires
+### id
 
-___
+• **id**: _BigNumber_
 
-###  id
-
-• **id**: *BigNumber*
-
-*Defined in [src/api/entities/CheckpointSchedule/index.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L47)*
+_Defined in_ [_src/api/entities/CheckpointSchedule/index.ts:47_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L47)
 
 schedule identifier number
 
-___
+### period
 
-###  period
+• **period**: [_CalendarPeriod_](../interfaces/calendarperiod.md) _\| null_
 
-• **period**: *[CalendarPeriod](../interfaces/calendarperiod.md) | null*
+_Defined in_ [_src/api/entities/CheckpointSchedule/index.ts:58_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L58)
 
-*Defined in [src/api/entities/CheckpointSchedule/index.ts:58](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L58)*
+how often this Schedule creates a Checkpoint. A null value means this Schedule creates a single Checkpoint and then expires
 
-how often this Schedule creates a Checkpoint. A null value means this Schedule
-  creates a single Checkpoint and then expires
+### start
 
-___
+• **start**: _Date_
 
-###  start
-
-• **start**: *Date*
-
-*Defined in [src/api/entities/CheckpointSchedule/index.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L63)*
+_Defined in_ [_src/api/entities/CheckpointSchedule/index.ts:63_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L63)
 
 first Checkpoint creation date
 
-___
+### ticker
 
-###  ticker
+• **ticker**: _string_
 
-• **ticker**: *string*
-
-*Defined in [src/api/entities/CheckpointSchedule/index.ts:52](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L52)*
+_Defined in_ [_src/api/entities/CheckpointSchedule/index.ts:52_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L52)
 
 ticker of the Security Token for which Checkpoints are scheduled
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_uuid_](checkpointschedule.md#uuid)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[uuid](checkpointschedule.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  details
+### details
 
-▸ **details**(): *Promise‹[ScheduleDetails](../interfaces/scheduledetails.md)›*
+▸ **details**\(\): _Promise‹_[_ScheduleDetails_](../interfaces/scheduledetails.md)_›_
 
-*Defined in [src/api/entities/CheckpointSchedule/index.ts:110](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L110)*
+_Defined in_ [_src/api/entities/CheckpointSchedule/index.ts:110_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L110)
 
 Retrieve information specific to this Schedule
 
-**Returns:** *Promise‹[ScheduleDetails](../interfaces/scheduledetails.md)›*
+**Returns:** _Promise‹_[_ScheduleDetails_](../interfaces/scheduledetails.md)_›_
 
-___
+### exists
 
-###  exists
+▸ **exists**\(\): _Promise‹boolean›_
 
-▸ **exists**(): *Promise‹boolean›*
-
-*Defined in [src/api/entities/CheckpointSchedule/index.ts:176](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L176)*
+_Defined in_ [_src/api/entities/CheckpointSchedule/index.ts:176_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L176)
 
 Retrieve whether the Checkpoint Schedule still exists on chain
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### getCheckpoints
 
-###  getCheckpoints
+▸ **getCheckpoints**\(\): _Promise‹_[_Checkpoint_](checkpoint.md)_\[\]›_
 
-▸ **getCheckpoints**(): *Promise‹[Checkpoint](checkpoint.md)[]›*
-
-*Defined in [src/api/entities/CheckpointSchedule/index.ts:144](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L144)*
+_Defined in_ [_src/api/entities/CheckpointSchedule/index.ts:144_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CheckpointSchedule/index.ts#L144)
 
 Retrieve all Checkpoints created by this Schedule
 
-**Returns:** *Promise‹[Checkpoint](checkpoint.md)[]›*
+**Returns:** _Promise‹_[_Checkpoint_](checkpoint.md)_\[\]›_
 
-___
+### isEqual
 
-###  isEqual
+▸ **isEqual**\(`entity`: [Entity](entity.md)‹unknown›\): _boolean_
 
-▸ **isEqual**(`entity`: [Entity](entity.md)‹unknown›): *boolean*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_isEqual_](checkpointschedule.md#isequal)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[isEqual](checkpointschedule.md#isequal)*
-
-*Defined in [src/api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)*
+_Defined in_ [_src/api/entities/Entity.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)
 
 Whether this Entity is the same as another one
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`entity` | [Entity](entity.md)‹unknown› |
+| Name | Type |
+| :--- | :--- |
+| `entity` | [Entity](entity.md)‹unknown› |
 
-**Returns:** *boolean*
-
-___
+**Returns:** _boolean_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[generateUuid](checkpointschedule.md#static-generateuuid)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_generateUuid_](checkpointschedule.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
@@ -187,21 +162,19 @@ Generate the Entity's UUID from its identifying properties
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[unserialize](checkpointschedule.md#static-unserialize)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_unserialize_](checkpointschedule.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
@@ -211,8 +184,9 @@ Unserialize a UUID into its Unique Identifiers
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

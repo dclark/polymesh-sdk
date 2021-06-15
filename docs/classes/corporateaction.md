@@ -1,7 +1,6 @@
-# Class: CorporateAction
+# CorporateAction
 
-Represents an action initiated by the issuer of a Security Token which may affect the positions of
-  the Tokenholders
+Represents an action initiated by the issuer of a Security Token which may affect the positions of the Tokenholders
 
 ## Hierarchy
 
@@ -40,204 +39,171 @@ Represents an action initiated by the issuer of a Security Token which may affec
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[context](checkpointschedule.md#protected-context)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_context_](checkpointschedule.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L48)
 
-___
+### declarationDate
 
-###  declarationDate
+• **declarationDate**: _Date_
 
-• **declarationDate**: *Date*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L70)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:70_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L70)
 
 date at which the Corporate Action was created
 
-___
+### defaultTaxWithholding
 
-###  defaultTaxWithholding
+• **defaultTaxWithholding**: _BigNumber_
 
-• **defaultTaxWithholding**: *BigNumber*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:86](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L86)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:86_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L86)
 
 default percentage of tax withholding for this Corporate Action
 
-___
+### description
 
-###  description
+• **description**: _string_
 
-• **description**: *string*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:75](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L75)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:75_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L75)
 
 brief text description of the Corporate Action
 
-___
+### id
 
-###  id
+• **id**: _BigNumber_
 
-• **id**: *BigNumber*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:60](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L60)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:60_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L60)
 
 internal Corporate Action ID
 
-___
-
 ### `Protected` kind
 
-• **kind**: *[CorporateActionKind](../enums/corporateactionkind.md)*
+• **kind**: [_CorporateActionKind_](../enums/corporateactionkind.md)
 
-*Defined in [src/api/entities/CorporateAction/index.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L94)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:94_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L94)
 
-___
+### targets
 
-###  targets
+• **targets**: [_CorporateActionTargets_](../interfaces/corporateactiontargets.md)
 
-• **targets**: *[CorporateActionTargets](../interfaces/corporateactiontargets.md)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:81_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L81)
 
-*Defined in [src/api/entities/CorporateAction/index.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L81)*
+tokenholder identities related to this Corporate action. If the treatment is `Exclude`, the identities are not targeted by the Action, and any identities left out of the array will be targeted, and vice versa
 
-tokenholder identities related to this Corporate action. If the treatment is `Exclude`, the identities
-  are not targeted by the Action, and any identities left out of the array will be targeted, and vice versa
+### taxWithholdings
 
-___
+• **taxWithholdings**: [_TaxWithholding_](../interfaces/taxwithholding.md)_\[\]_
 
-###  taxWithholdings
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:92_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L92)
 
-• **taxWithholdings**: *[TaxWithholding](../interfaces/taxwithholding.md)[]*
+percentage of tax withholding per Identity. Any Identity not present in this array uses the default tax withholding percentage
 
-*Defined in [src/api/entities/CorporateAction/index.ts:92](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L92)*
+### ticker
 
-percentage of tax withholding per Identity. Any Identity not present
-  in this array uses the default tax withholding percentage
+• **ticker**: _string_
 
-___
-
-###  ticker
-
-• **ticker**: *string*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:65](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L65)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:65_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L65)
 
 ticker of the Security Token
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_uuid_](checkpointschedule.md#uuid)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[uuid](checkpointschedule.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  checkpoint
+### checkpoint
 
-▸ **checkpoint**(): *Promise‹[Checkpoint](checkpoint.md) | [CheckpointSchedule](checkpointschedule.md) | null›*
+▸ **checkpoint**\(\): _Promise‹_[_Checkpoint_](checkpoint.md) _\|_ [_CheckpointSchedule_](checkpointschedule.md) _\| null›_
 
-*Defined in [src/api/entities/CorporateAction/index.ts:177](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L177)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:177_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L177)
 
-Retrieve the Checkpoint associated with this Corporate Action. If the Checkpoint is scheduled and has
-  not been created yet, the corresponding CheckpointSchedule is returned instead. A null value means
-  the Corporate Action was created without an associated Checkpoint
+Retrieve the Checkpoint associated with this Corporate Action. If the Checkpoint is scheduled and has not been created yet, the corresponding CheckpointSchedule is returned instead. A null value means the Corporate Action was created without an associated Checkpoint
 
-**Returns:** *Promise‹[Checkpoint](checkpoint.md) | [CheckpointSchedule](checkpointschedule.md) | null›*
+**Returns:** _Promise‹_[_Checkpoint_](checkpoint.md) _\|_ [_CheckpointSchedule_](checkpointschedule.md) _\| null›_
 
-___
+### exists
 
-###  exists
+▸ **exists**\(\): _Promise‹boolean›_
 
-▸ **exists**(): *Promise‹boolean›*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:166](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L166)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:166_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L166)
 
 Retrieve whether the Corporate Action exists
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### isEqual
 
-###  isEqual
+▸ **isEqual**\(`entity`: [Entity](entity.md)‹unknown›\): _boolean_
 
-▸ **isEqual**(`entity`: [Entity](entity.md)‹unknown›): *boolean*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_isEqual_](checkpointschedule.md#isequal)
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[isEqual](checkpointschedule.md#isequal)*
-
-*Defined in [src/api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)*
+_Defined in_ [_src/api/entities/Entity.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L61)
 
 Whether this Entity is the same as another one
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`entity` | [Entity](entity.md)‹unknown› |
+| Name | Type |
+| :--- | :--- |
+| `entity` | [Entity](entity.md)‹unknown› |
 
-**Returns:** *boolean*
+**Returns:** _boolean_
 
-___
+### linkDocuments
 
-###  linkDocuments
+▸ **linkDocuments**\(`args`: [LinkCaDocsParams](../interfaces/linkcadocsparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **linkDocuments**(`args`: [LinkCaDocsParams](../interfaces/linkcadocsparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:149](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L149)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:149_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L149)
 
 Link a list of documents to this corporate action
 
 **`note`** any previous links are removed in favor of the new list
 
 **`note`** required role:
-  - Corporate Actions Agent
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `linkDocuments.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Corporate Actions Agent
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `linkDocuments.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [LinkCaDocsParams](../interfaces/linkcadocsparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [LinkCaDocsParams](../interfaces/linkcadocsparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### modifyCheckpoint
 
-###  modifyCheckpoint
+▸ **modifyCheckpoint**\(`args`: ModifyCaCheckpointParams\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **modifyCheckpoint**(`args`: ModifyCaCheckpointParams): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:159](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L159)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:159_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/CorporateAction/index.ts#L159)
 
 Modify the Corporate Action's Checkpoint
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `modifyCheckpoint.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `modifyCheckpoint.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | ModifyCaCheckpointParams |
+| Name | Type |
+| :--- | :--- |
+| `args` | ModifyCaCheckpointParams |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-___
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[generateUuid](checkpointschedule.md#static-generateuuid)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_generateUuid_](checkpointschedule.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
@@ -247,21 +213,19 @@ Generate the Entity's UUID from its identifying properties
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [CheckpointSchedule](checkpointschedule.md).[unserialize](checkpointschedule.md#static-unserialize)*
+_Inherited from_ [_CheckpointSchedule_](checkpointschedule.md)_._[_unserialize_](checkpointschedule.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
@@ -271,8 +235,9 @@ Unserialize a UUID into its Unique Identifiers
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

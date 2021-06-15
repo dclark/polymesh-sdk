@@ -1,4 +1,4 @@
-# Interface: SimpleEnumTransactionArgument
+# SimpleEnumTransactionArgument
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  internal
+### internal
 
-• **internal**: *string[]*
+• **internal**: _string\[\]_
 
-*Defined in [src/types/index.ts:783](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L783)*
+_Defined in_ [_src/types/index.ts:783_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L783)
 
-___
+### type
 
-###  type
+• **type**: [_SimpleEnum_](../enums/transactionargumenttype.md#simpleenum)
 
-• **type**: *[SimpleEnum](../enums/transactionargumenttype.md#simpleenum)*
+_Defined in_ [_src/types/index.ts:782_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L782)
 
-*Defined in [src/types/index.ts:782](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L782)*

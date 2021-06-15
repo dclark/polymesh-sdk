@@ -1,4 +1,4 @@
-# Class: Schedules
+# Schedules
 
 Handles all Security Token Checkpoint Schedules related functionality
 
@@ -28,125 +28,111 @@ Handles all Security Token Checkpoint Schedules related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Namespace.ts#L11)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Namespace.ts#L9)
 
 ## Methods
 
-###  complexityOf
+### complexityOf
 
-▸ **complexityOf**(`period`: [CalendarPeriod](../interfaces/calendarperiod.md)): *number*
+▸ **complexityOf**\(`period`: [CalendarPeriod](../interfaces/calendarperiod.md)\): _number_
 
-*Defined in [src/api/entities/SecurityToken/Checkpoints/Schedules.ts:110](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/Checkpoints/Schedules.ts#L110)*
+_Defined in_ [_src/api/entities/SecurityToken/Checkpoints/Schedules.ts:110_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/Checkpoints/Schedules.ts#L110)
 
 Calculate an abstract measure of the complexity of a given Calendar Period
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`period` | [CalendarPeriod](../interfaces/calendarperiod.md) |
+| Name | Type |
+| :--- | :--- |
+| `period` | [CalendarPeriod](../interfaces/calendarperiod.md) |
 
-**Returns:** *number*
+**Returns:** _number_
 
-___
+### create
 
-###  create
+▸ **create**\(`args`: [CreateCheckpointScheduleParams](../interfaces/createcheckpointscheduleparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_CheckpointSchedule_](checkpointschedule.md)_››_
 
-▸ **create**(`args`: [CreateCheckpointScheduleParams](../interfaces/createcheckpointscheduleparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[CheckpointSchedule](checkpointschedule.md)››*
+_Defined in_ [_src/api/entities/SecurityToken/Checkpoints/Schedules.ts:57_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/Checkpoints/Schedules.ts#L57)
 
-*Defined in [src/api/entities/SecurityToken/Checkpoints/Schedules.ts:57](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/Checkpoints/Schedules.ts#L57)*
+Create a schedule for Checkpoint creation \(i.e. "Create a checkpoint every week for 5 weeks, starting next tuesday"\)
 
-Create a schedule for Checkpoint creation (i.e. "Create a checkpoint every week for 5 weeks, starting next tuesday")
-
-**`note`** due to chain limitations, schedules are advanced and (if appropriate) executed whenever the Security Token is
-  redeemed, issued or transferred between portfolios. This means that on a Security Token without much movement, there may be disparities between intended Checkpoint creation dates
-  and the actual date when they are created. This, however, has no effect on the Checkpoint's accuracy regarding to balances
+**`note`** due to chain limitations, schedules are advanced and \(if appropriate\) executed whenever the Security Token is redeemed, issued or transferred between portfolios. This means that on a Security Token without much movement, there may be disparities between intended Checkpoint creation dates and the actual date when they are created. This, however, has no effect on the Checkpoint's accuracy regarding to balances
 
 **`note`** required role:
-  - Security Token Owner
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `create.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Security Token Owner
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `create.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [CreateCheckpointScheduleParams](../interfaces/createcheckpointscheduleparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [CreateCheckpointScheduleParams](../interfaces/createcheckpointscheduleparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[CheckpointSchedule](checkpointschedule.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_CheckpointSchedule_](checkpointschedule.md)_››_
 
-___
+### currentComplexity
 
-###  currentComplexity
+▸ **currentComplexity**\(\): _Promise‹number›_
 
-▸ **currentComplexity**(): *Promise‹number›*
+_Defined in_ [_src/api/entities/SecurityToken/Checkpoints/Schedules.ts:118_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/Checkpoints/Schedules.ts#L118)
 
-*Defined in [src/api/entities/SecurityToken/Checkpoints/Schedules.ts:118](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/Checkpoints/Schedules.ts#L118)*
+Calculate the sum of the complexity of all current Checkpoint Schedules for this Security Token. The number cannot exceed the Token's maximum complexity \(obtained via [maxComplexity](schedules.md#maxcomplexity)\)
 
-Calculate the sum of the complexity of all current Checkpoint Schedules for this Security Token.
-  The number cannot exceed the Token's maximum complexity (obtained via [maxComplexity](schedules.md#maxcomplexity))
+**Returns:** _Promise‹number›_
 
-**Returns:** *Promise‹number›*
+### get
 
-___
+▸ **get**\(\): _Promise‹_[_ScheduleWithDetails_](../interfaces/schedulewithdetails.md)_\[\]›_
 
-###  get
-
-▸ **get**(): *Promise‹[ScheduleWithDetails](../interfaces/schedulewithdetails.md)[]›*
-
-*Defined in [src/api/entities/SecurityToken/Checkpoints/Schedules.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/Checkpoints/Schedules.ts#L77)*
+_Defined in_ [_src/api/entities/SecurityToken/Checkpoints/Schedules.ts:77_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/Checkpoints/Schedules.ts#L77)
 
 Retrieve all active Checkpoint Schedules
 
-**Returns:** *Promise‹[ScheduleWithDetails](../interfaces/schedulewithdetails.md)[]›*
+**Returns:** _Promise‹_[_ScheduleWithDetails_](../interfaces/schedulewithdetails.md)_\[\]›_
 
-___
+### maxComplexity
 
-###  maxComplexity
+▸ **maxComplexity**\(\): _Promise‹number›_
 
-▸ **maxComplexity**(): *Promise‹number›*
-
-*Defined in [src/api/entities/SecurityToken/Checkpoints/Schedules.ts:127](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/Checkpoints/Schedules.ts#L127)*
+_Defined in_ [_src/api/entities/SecurityToken/Checkpoints/Schedules.ts:127_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/Checkpoints/Schedules.ts#L127)
 
 Retrieve the maximum allowed Schedule complexity for this Security Token
 
-**Returns:** *Promise‹number›*
+**Returns:** _Promise‹number›_
 
-___
+### remove
 
-###  remove
+▸ **remove**\(`args`: [RemoveCheckpointScheduleParams](../interfaces/removecheckpointscheduleparams.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **remove**(`args`: [RemoveCheckpointScheduleParams](../interfaces/removecheckpointscheduleparams.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/SecurityToken/Checkpoints/Schedules.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/Checkpoints/Schedules.ts#L70)*
+_Defined in_ [_src/api/entities/SecurityToken/Checkpoints/Schedules.ts:70_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/SecurityToken/Checkpoints/Schedules.ts#L70)
 
 Remove the supplied Checkpoint Schedule for a given Security Token
 
 **`note`** required role:
-  - Security Token Owner
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `remove.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Security Token Owner
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `remove.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [RemoveCheckpointScheduleParams](../interfaces/removecheckpointscheduleparams.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [RemoveCheckpointScheduleParams](../interfaces/removecheckpointscheduleparams.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
+

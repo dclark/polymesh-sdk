@@ -1,4 +1,4 @@
-# Enumeration: StoSaleStatus
+# StoSaleStatus
 
 ## Index
 
@@ -11,40 +11,35 @@
 
 ## Enumeration members
 
-###  Closed
+### Closed
 
 • **Closed**: = "Closed"
 
-*Defined in [src/api/entities/Sto/types.ts:53](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/types.ts#L53)*
+_Defined in_ [_src/api/entities/Sto/types.ts:53_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/types.ts#L53)
 
 Sale was manually closed after the end date was reached
 
-___
-
-###  ClosedEarly
+### ClosedEarly
 
 • **ClosedEarly**: = "ClosedEarly"
 
-*Defined in [src/api/entities/Sto/types.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/types.ts#L49)*
+_Defined in_ [_src/api/entities/Sto/types.ts:49_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/types.ts#L49)
 
 Sale was manually closed before the end date was reached
 
-___
-
-###  Frozen
+### Frozen
 
 • **Frozen**: = "Frozen"
 
-*Defined in [src/api/entities/Sto/types.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/types.ts#L41)*
+_Defined in_ [_src/api/entities/Sto/types.ts:41_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/types.ts#L41)
 
-Sale temporarily paused, can be resumed (unfrozen) by the PIA
+Sale temporarily paused, can be resumed \(unfrozen\) by the PIA
 
-___
-
-###  Live
+### Live
 
 • **Live**: = "Live"
 
-*Defined in [src/api/entities/Sto/types.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/types.ts#L45)*
+_Defined in_ [_src/api/entities/Sto/types.ts:45_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/entities/Sto/types.ts#L45)
 
 Investments can be made
+

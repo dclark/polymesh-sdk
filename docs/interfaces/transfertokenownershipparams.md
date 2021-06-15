@@ -1,4 +1,4 @@
-# Interface: TransferTokenOwnershipParams
+# TransferTokenOwnershipParams
 
 ## Hierarchy
 
@@ -15,16 +15,15 @@
 
 ### `Optional` expiry
 
-• **expiry**? : *[Date](../enums/transactionargumenttype.md#date)*
+• **expiry**? : [_Date_](../enums/transactionargumenttype.md#date)
 
-*Defined in [src/api/procedures/transferTokenOwnership.ts:16](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/transferTokenOwnership.ts#L16)*
+_Defined in_ [_src/api/procedures/transferTokenOwnership.ts:16_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/transferTokenOwnership.ts#L16)
 
-date at which the authorization request for transfer expires (optional)
+date at which the authorization request for transfer expires \(optional\)
 
-___
+### target
 
-###  target
+• **target**: _string \|_ [_Identity_](../classes/identity.md)
 
-• **target**: *string | [Identity](../classes/identity.md)*
+_Defined in_ [_src/api/procedures/transferTokenOwnership.ts:12_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/transferTokenOwnership.ts#L12)
 
-*Defined in [src/api/procedures/transferTokenOwnership.ts:12](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/api/procedures/transferTokenOwnership.ts#L12)*

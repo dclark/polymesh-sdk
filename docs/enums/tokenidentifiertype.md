@@ -1,4 +1,4 @@
-# Enumeration: TokenIdentifierType
+# TokenIdentifierType
 
 ## Index
 
@@ -11,32 +11,27 @@
 
 ## Enumeration members
 
-###  Cins
+### Cins
 
 • **Cins**: = "Cins"
 
-*Defined in [src/types/index.ts:207](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L207)*
+_Defined in_ [_src/types/index.ts:207_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L207)
 
-___
-
-###  Cusip
+### Cusip
 
 • **Cusip**: = "Cusip"
 
-*Defined in [src/types/index.ts:206](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L206)*
+_Defined in_ [_src/types/index.ts:206_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L206)
 
-___
-
-###  Isin
+### Isin
 
 • **Isin**: = "Isin"
 
-*Defined in [src/types/index.ts:205](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L205)*
+_Defined in_ [_src/types/index.ts:205_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L205)
 
-___
-
-###  Lei
+### Lei
 
 • **Lei**: = "Lei"
 
-*Defined in [src/types/index.ts:208](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L208)*
+_Defined in_ [_src/types/index.ts:208_](https://github.com/PolymathNetwork/polymesh-sdk/blob/23062de4/src/types/index.ts#L208)
+
