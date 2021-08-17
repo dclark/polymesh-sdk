@@ -1,0 +1,56 @@
+# Interface: GroupedInstructions
+
+## Hierarchy
+
+* **GroupedInstructions**
+
+## Index
+
+### Properties
+
+* [affirmed](groupedinstructions.md#affirmed)
+* [failed](groupedinstructions.md#failed)
+* [pending](groupedinstructions.md#pending)
+* [rejected](groupedinstructions.md#rejected)
+
+## Properties
+
+###  affirmed
+
+• **affirmed**: *[Instruction](../classes/instruction.md)[]*
+
+*Defined in [src/types/index.ts:1072](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L1072)*
+
+Instructions that have already been affirmed by the Identity
+
+___
+
+###  failed
+
+• **failed**: *[Instruction](../classes/instruction.md)[]*
+
+*Defined in [src/types/index.ts:1086](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L1086)*
+
+Instructions that failed in their execution (can be rescheduled).
+  This group supercedes the other three, so for example, a failed Instruction
+  might also belong in the `affirmed` group, but it will only be included in this one
+
+___
+
+###  pending
+
+• **pending**: *[Instruction](../classes/instruction.md)[]*
+
+*Defined in [src/types/index.ts:1080](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L1080)*
+
+Instructions that still need to be affirmed/rejected by the Identity
+
+___
+
+###  rejected
+
+• **rejected**: *[Instruction](../classes/instruction.md)[]*
+
+*Defined in [src/types/index.ts:1076](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L1076)*
+
+Instructions that have already been rejected by the Identity
