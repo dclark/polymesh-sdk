@@ -1,4 +1,4 @@
-# Enumeration: KnownPermissionGroup
+# KnownPermissionGroup
 
 ## Index
 
@@ -11,48 +11,46 @@
 
 ## Enumeration members
 
-###  ExceptMeta
+### ExceptMeta
 
 • **ExceptMeta**: = "ExceptMeta"
 
-*Defined in [src/types/index.ts:793](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L793)*
+_Defined in_ [_src/types/index.ts:793_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L793)
 
 not authorized:
-  - externalAgents
 
-___
+* externalAgents
 
-###  Full
+### Full
 
 • **Full**: = "Full"
 
-*Defined in [src/types/index.ts:788](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L788)*
+_Defined in_ [_src/types/index.ts:788_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L788)
 
 all transactions authorized
 
-___
-
-###  PolymeshV1Caa
+### PolymeshV1Caa
 
 • **PolymeshV1Caa**: = "PolymeshV1Caa"
 
-*Defined in [src/types/index.ts:800](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L800)*
+_Defined in_ [_src/types/index.ts:800_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L800)
 
 authorized:
-  - corporateAction
-  - corporateBallot
-  - capitalDistribution
 
-___
+* corporateAction
+* corporateBallot
+* capitalDistribution
 
-###  PolymeshV1Pia
+### PolymeshV1Pia
 
 • **PolymeshV1Pia**: = "PolymeshV1Pia"
 
-*Defined in [src/types/index.ts:808](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L808)*
+_Defined in_ [_src/types/index.ts:808_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L808)
 
 authorized:
-  - asset.issue
-  - asset.redeem
-  - asset.controllerTransfer
-  - sto (except for sto.invest)
+
+* asset.issue
+* asset.redeem
+* asset.controllerTransfer
+* sto \(except for sto.invest\)
+

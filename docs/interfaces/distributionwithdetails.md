@@ -1,4 +1,4 @@
-# Interface: DistributionWithDetails
+# DistributionWithDetails
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  details
+### details
 
-• **details**: *[DividendDistributionDetails](dividenddistributiondetails.md)*
+• **details**: [_DividendDistributionDetails_](dividenddistributiondetails.md)
 
-*Defined in [src/types/index.ts:1054](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L1054)*
+_Defined in_ [_src/types/index.ts:1054_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L1054)
 
-___
+### distribution
 
-###  distribution
+• **distribution**: [_DividendDistribution_](../classes/dividenddistribution.md)
 
-• **distribution**: *[DividendDistribution](../classes/dividenddistribution.md)*
+_Defined in_ [_src/types/index.ts:1053_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L1053)
 
-*Defined in [src/types/index.ts:1053](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L1053)*

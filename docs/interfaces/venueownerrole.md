@@ -1,4 +1,4 @@
-# Interface: VenueOwnerRole
+# VenueOwnerRole
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  type
+### type
 
-• **type**: *[VenueOwner](../enums/roletype.md#venueowner)*
+• **type**: [_VenueOwner_](../enums/roletype.md#venueowner)
 
-*Defined in [src/types/index.ts:120](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L120)*
+_Defined in_ [_src/types/index.ts:120_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L120)
 
-___
+### venueId
 
-###  venueId
+• **venueId**: _BigNumber_
 
-• **venueId**: *BigNumber*
+_Defined in_ [_src/types/index.ts:121_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L121)
 
-*Defined in [src/types/index.ts:121](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L121)*

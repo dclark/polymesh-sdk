@@ -1,4 +1,4 @@
-# Interface: RedeemTokenParams
+# RedeemTokenParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *BigNumber*
+• **amount**: _BigNumber_
 
-*Defined in [src/api/procedures/redeemToken.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/redeemToken.ts#L9)*
+_Defined in_ [_src/api/procedures/redeemToken.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/redeemToken.ts#L9)
+

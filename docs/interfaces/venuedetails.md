@@ -1,4 +1,4 @@
-# Interface: VenueDetails
+# VenueDetails
 
 ## Hierarchy
 
@@ -14,24 +14,21 @@
 
 ## Properties
 
-###  description
+### description
 
-• **description**: *string*
+• **description**: _string_
 
-*Defined in [src/api/entities/Venue/types.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Venue/types.ts#L22)*
+_Defined in_ [_src/api/entities/Venue/types.ts:22_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Venue/types.ts#L22)
 
-___
+### owner
 
-###  owner
+• **owner**: [_Identity_](../classes/identity.md)
 
-• **owner**: *[Identity](../classes/identity.md)*
+_Defined in_ [_src/api/entities/Venue/types.ts:21_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Venue/types.ts#L21)
 
-*Defined in [src/api/entities/Venue/types.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Venue/types.ts#L21)*
+### type
 
-___
+• **type**: [_VenueType_](../enums/venuetype.md)
 
-###  type
+_Defined in_ [_src/api/entities/Venue/types.ts:20_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Venue/types.ts#L20)
 
-• **type**: *[VenueType](../enums/venuetype.md)*
-
-*Defined in [src/api/entities/Venue/types.ts:20](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Venue/types.ts#L20)*

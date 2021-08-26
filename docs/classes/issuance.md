@@ -1,4 +1,4 @@
-# Class: Issuance
+# Issuance
 
 Handles all Security Token Issuance related functionality
 
@@ -23,46 +23,45 @@ Handles all Security Token Issuance related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Namespace.ts#L11)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Namespace.ts#L9)
 
 ## Methods
 
-###  issue
+### issue
 
-▸ **issue**(`args`: object, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+▸ **issue**\(`args`: object, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-*Defined in [src/api/entities/SecurityToken/Issuance.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/Issuance.ts#L38)*
+_Defined in_ [_src/api/entities/SecurityToken/Issuance.ts:38_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/Issuance.ts#L38)
 
 Issue a certain amount of tokens to the primary issuance agent
 
 **`note`** required role:
-  - Security Token Primary Issuance Agent
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `issue.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Security Token Primary Issuance Agent
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `issue.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`amount` | BigNumber | amount of tokens to be issued to primary issuance agent  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `amount` | BigNumber | amount of tokens to be issued to primary issuance agent |
 
-▪`Optional`  **opts**: *[ProcedureOpts](../interfaces/procedureopts.md)*
+▪`Optional` **opts**: [_ProcedureOpts_](../interfaces/procedureopts.md)
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
+

@@ -1,4 +1,4 @@
-# Interface: TokenPiaRole
+# TokenPiaRole
 
 **`deprecated`** in favor of external agent permissions
 
@@ -15,16 +15,15 @@
 
 ## Properties
 
-###  ticker
+### ticker
 
-• **ticker**: *string*
+• **ticker**: _string_
 
-*Defined in [src/types/index.ts:104](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L104)*
+_Defined in_ [_src/types/index.ts:104_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L104)
 
-___
+### type
 
-###  type
+• **type**: [_TokenPia_](../enums/roletype.md#tokenpia)
 
-• **type**: *[TokenPia](../enums/roletype.md#tokenpia)*
+_Defined in_ [_src/types/index.ts:103_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L103)
 
-*Defined in [src/types/index.ts:103](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L103)*

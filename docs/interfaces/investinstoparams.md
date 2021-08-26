@@ -1,4 +1,4 @@
-# Interface: InvestInStoParams
+# InvestInStoParams
 
 ## Hierarchy
 
@@ -15,40 +15,35 @@
 
 ## Properties
 
-###  fundingPortfolio
+### fundingPortfolio
 
-• **fundingPortfolio**: *[PortfolioLike](../globals.md#portfoliolike)*
+• **fundingPortfolio**: [_PortfolioLike_](../globals.md#portfoliolike)
 
-*Defined in [src/api/procedures/investInSto.ts:31](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/investInSto.ts#L31)*
+_Defined in_ [_src/api/procedures/investInSto.ts:31_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/investInSto.ts#L31)
 
 portfolio from which funds will be withdrawn to pay for the Tokens
 
-___
-
 ### `Optional` maxPrice
 
-• **maxPrice**? : *BigNumber*
+• **maxPrice**? : _BigNumber_
 
-*Defined in [src/api/procedures/investInSto.ts:39](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/investInSto.ts#L39)*
+_Defined in_ [_src/api/procedures/investInSto.ts:39_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/investInSto.ts#L39)
 
-maximum average price to pay per Token (optional)
+maximum average price to pay per Token \(optional\)
 
-___
+### purchaseAmount
 
-###  purchaseAmount
+• **purchaseAmount**: _BigNumber_
 
-• **purchaseAmount**: *BigNumber*
-
-*Defined in [src/api/procedures/investInSto.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/investInSto.ts#L35)*
+_Defined in_ [_src/api/procedures/investInSto.ts:35_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/investInSto.ts#L35)
 
 amount of tokens to purchase
 
-___
+### purchasePortfolio
 
-###  purchasePortfolio
+• **purchasePortfolio**: [_PortfolioLike_](../globals.md#portfoliolike)
 
-• **purchasePortfolio**: *[PortfolioLike](../globals.md#portfoliolike)*
-
-*Defined in [src/api/procedures/investInSto.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/investInSto.ts#L27)*
+_Defined in_ [_src/api/procedures/investInSto.ts:27_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/investInSto.ts#L27)
 
 portfolio in which the purchased Tokens will be stored
+

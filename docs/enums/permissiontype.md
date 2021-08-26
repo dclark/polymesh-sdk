@@ -1,4 +1,4 @@
-# Enumeration: PermissionType
+# PermissionType
 
 ## Index
 
@@ -9,16 +9,15 @@
 
 ## Enumeration members
 
-###  Exclude
+### Exclude
 
 • **Exclude**: = "Exclude"
 
-*Defined in [src/types/index.ts:710](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L710)*
+_Defined in_ [_src/types/index.ts:710_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L710)
 
-___
-
-###  Include
+### Include
 
 • **Include**: = "Include"
 
-*Defined in [src/types/index.ts:709](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L709)*
+_Defined in_ [_src/types/index.ts:709_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L709)
+

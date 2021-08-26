@@ -1,10 +1,10 @@
-# Interface: TransactionPermissions
+# TransactionPermissions
 
 Permissions related to Transactions. Can include/exclude individual transactions or entire modules
 
 ## Hierarchy
 
-* [SectionPermissions](sectionpermissions.md)‹TxTag | ModuleName›
+* [SectionPermissions](sectionpermissions.md)‹TxTag \| ModuleName›
 
   ↳ **TransactionPermissions**
 
@@ -20,35 +20,29 @@ Permissions related to Transactions. Can include/exclude individual transactions
 
 ### `Optional` exceptions
 
-• **exceptions**? : *TxTag[]*
+• **exceptions**? : _TxTag\[\]_
 
-*Defined in [src/types/index.ts:739](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L739)*
+_Defined in_ [_src/types/index.ts:739_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L739)
 
-Transactions to be exempted from inclusion/exclusion. This allows more granularity when
-  setting permissions. For example, let's say we want to include only the `asset` and `staking` modules,
-  but exclude the `asset.registerTicker` transaction. We could add both modules to `values`, and add
-  `TxTags.asset.registerTicker` to `exceptions`
+Transactions to be exempted from inclusion/exclusion. This allows more granularity when setting permissions. For example, let's say we want to include only the `asset` and `staking` modules, but exclude the `asset.registerTicker` transaction. We could add both modules to `values`, and add `TxTags.asset.registerTicker` to `exceptions`
 
-___
+### type
 
-###  type
+• **type**: [_PermissionType_](../enums/permissiontype.md)
 
-• **type**: *[PermissionType](../enums/permissiontype.md)*
+_Inherited from_ [_SectionPermissions_](sectionpermissions.md)_._[_type_](sectionpermissions.md#type)
 
-*Inherited from [SectionPermissions](sectionpermissions.md).[type](sectionpermissions.md#type)*
-
-*Defined in [src/types/index.ts:726](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L726)*
+_Defined in_ [_src/types/index.ts:726_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L726)
 
 Whether the permissions are inclusive or exclusive
 
-___
+### values
 
-###  values
+• **values**: _\(TxTag \| ModuleName\)\[\]_
 
-• **values**: *(TxTag | ModuleName)[]*
+_Inherited from_ [_SectionPermissions_](sectionpermissions.md)_._[_values_](sectionpermissions.md#values)
 
-*Inherited from [SectionPermissions](sectionpermissions.md).[values](sectionpermissions.md#values)*
-
-*Defined in [src/types/index.ts:722](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L722)*
+_Defined in_ [_src/types/index.ts:722_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L722)
 
 Values to be included/excluded
+

@@ -1,4 +1,4 @@
-# Interface: ProcedureAuthorizationStatus
+# ProcedureAuthorizationStatus
 
 ## Hierarchy
 
@@ -15,32 +15,27 @@
 
 ## Properties
 
-###  accountFrozen
+### accountFrozen
 
-• **accountFrozen**: *boolean*
+• **accountFrozen**: _boolean_
 
-*Defined in [src/types/index.ts:966](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L966)*
+_Defined in_ [_src/types/index.ts:966_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L966)
 
-___
+### agentPermissions
 
-###  agentPermissions
+• **agentPermissions**: _boolean_
 
-• **agentPermissions**: *boolean*
+_Defined in_ [_src/types/index.ts:963_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L963)
 
-*Defined in [src/types/index.ts:963](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L963)*
+### roles
 
-___
+• **roles**: _boolean_
 
-###  roles
+_Defined in_ [_src/types/index.ts:965_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L965)
 
-• **roles**: *boolean*
+### signerPermissions
 
-*Defined in [src/types/index.ts:965](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L965)*
+• **signerPermissions**: _boolean_
 
-___
+_Defined in_ [_src/types/index.ts:964_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L964)
 
-###  signerPermissions
-
-• **signerPermissions**: *boolean*
-
-*Defined in [src/types/index.ts:964](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L964)*

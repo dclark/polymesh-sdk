@@ -1,4 +1,4 @@
-# Class: Offerings
+# Offerings
 
 Handles all Security Token Offering related functionality
 
@@ -24,65 +24,62 @@ Handles all Security Token Offering related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Namespace.ts#L11)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Namespace.ts#L9)
 
 ## Methods
 
-###  get
+### get
 
-▸ **get**(`opts`: object): *Promise‹[StoWithDetails](../interfaces/stowithdetails.md)[]›*
+▸ **get**\(`opts`: object\): _Promise‹_[_StoWithDetails_](../interfaces/stowithdetails.md)_\[\]›_
 
-*Defined in [src/api/entities/SecurityToken/Offerings.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/Offerings.ts#L48)*
+_Defined in_ [_src/api/entities/SecurityToken/Offerings.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/Offerings.ts#L48)
 
 Retrieve all of the Token's Offerings. Can be filtered using parameters
 
 **Parameters:**
 
-▪`Default value`  **opts**: *object*= {}
+▪`Default value` **opts**: _object_= {}
 
-Name | Type | Description |
------- | ------ | ------ |
-`status?` | Partial‹[StoStatus](../interfaces/stostatus.md)› | status of the offerings to fetch. If defined, only STOs that have all passed statuses will be returned  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `status?` | Partial‹[StoStatus](../interfaces/stostatus.md)› | status of the offerings to fetch. If defined, only STOs that have all passed statuses will be returned |
 
-**Returns:** *Promise‹[StoWithDetails](../interfaces/stowithdetails.md)[]›*
+**Returns:** _Promise‹_[_StoWithDetails_](../interfaces/stowithdetails.md)_\[\]›_
 
-___
+### launch
 
-###  launch
+▸ **launch**\(`args`: LaunchStoParams, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Sto_](sto.md)_››_
 
-▸ **launch**(`args`: LaunchStoParams, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[Sto](sto.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Offerings.ts:39](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/Offerings.ts#L39)*
+_Defined in_ [_src/api/entities/SecurityToken/Offerings.ts:39_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/Offerings.ts#L39)
 
 Launch a Security Token Offering
 
 **`note`** required roles:
-  - Security Token Primary Issuance Agent
-  - Offering Portfolio Custodian
-  - Raising Portfolio Custodian
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `launch.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Security Token Primary Issuance Agent
+* Offering Portfolio Custodian
+* Raising Portfolio Custodian
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `launch.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | LaunchStoParams |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | LaunchStoParams |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[Sto](sto.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Sto_](sto.md)_››_
+

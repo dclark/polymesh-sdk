@@ -1,4 +1,4 @@
-# Interface: TokenCaaRole
+# TokenCaaRole
 
 **`deprecated`** in favor of external agent permissions
 
@@ -15,16 +15,15 @@
 
 ## Properties
 
-###  ticker
+### ticker
 
-• **ticker**: *string*
+• **ticker**: _string_
 
-*Defined in [src/types/index.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L112)*
+_Defined in_ [_src/types/index.ts:112_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L112)
 
-___
+### type
 
-###  type
+• **type**: [_TokenCaa_](../enums/roletype.md#tokencaa)
 
-• **type**: *[TokenCaa](../enums/roletype.md#tokencaa)*
+_Defined in_ [_src/types/index.ts:111_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L111)
 
-*Defined in [src/types/index.ts:111](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L111)*

@@ -1,4 +1,4 @@
-# Class: SecurityToken
+# SecurityToken
 
 Class used to manage all the Security Token functionality
 
@@ -50,538 +50,471 @@ Class used to manage all the Security Token functionality
 
 ## Properties
 
-###  checkpoints
+### checkpoints
 
-• **checkpoints**: *[Checkpoints](checkpoints.md)*
+• **checkpoints**: [_Checkpoints_](checkpoints.md)
 
-*Defined in [src/api/entities/SecurityToken/index.ts:109](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L109)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:109_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L109)
 
-___
+### compliance
 
-###  compliance
+• **compliance**: [_Compliance_](compliance.md)
 
-• **compliance**: *[Compliance](compliance.md)*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:106](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L106)*
-
-___
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:106_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L106)
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [Entity](entity.md).[context](entity.md#protected-context)*
+_Inherited from_ [_Entity_](entity.md)_._[_context_](entity.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Entity.ts#L48)
 
-___
+### corporateActions
 
-###  corporateActions
+• **corporateActions**: [_CorporateActions_](corporateactions.md)
 
-• **corporateActions**: *[CorporateActions](corporateactions.md)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:110_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L110)
 
-*Defined in [src/api/entities/SecurityToken/index.ts:110](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L110)*
+### did
 
-___
+• **did**: _string_
 
-###  did
-
-• **did**: *string*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L94)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:94_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L94)
 
 identity id of the Security Token
 
-___
+### documents
 
-###  documents
+• **documents**: [_Documents_](documents.md)
 
-• **documents**: *[Documents](documents.md)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:102_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L102)
 
-*Defined in [src/api/entities/SecurityToken/index.ts:102](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L102)*
+### issuance
 
-___
+• **issuance**: [_Issuance_](issuance.md)
 
-###  issuance
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:105_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L105)
 
-• **issuance**: *[Issuance](issuance.md)*
+### offerings
 
-*Defined in [src/api/entities/SecurityToken/index.ts:105](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L105)*
+• **offerings**: [_Offerings_](offerings.md)
 
-___
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:108_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L108)
 
-###  offerings
+### permissions
 
-• **offerings**: *[Offerings](offerings.md)*
+• **permissions**: [_Permissions_](permissions.md)
 
-*Defined in [src/api/entities/SecurityToken/index.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L108)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:111_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L111)
 
-___
+### settlements
 
-###  permissions
+• **settlements**: [_Settlements_](settlements.md)
 
-• **permissions**: *[Permissions](permissions.md)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:103_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L103)
 
-*Defined in [src/api/entities/SecurityToken/index.ts:111](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L111)*
+### ticker
 
-___
+• **ticker**: _string_
 
-###  settlements
-
-• **settlements**: *[Settlements](settlements.md)*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:103](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L103)*
-
-___
-
-###  ticker
-
-• **ticker**: *string*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:99](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L99)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:99_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L99)
 
 ticker of the Security Token
 
-___
+### tokenHolders
 
-###  tokenHolders
+• **tokenHolders**: [_TokenHolders_](tokenholders.md)
 
-• **tokenHolders**: *[TokenHolders](tokenholders.md)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:104_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L104)
 
-*Defined in [src/api/entities/SecurityToken/index.ts:104](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L104)*
+### transferRestrictions
 
-___
+• **transferRestrictions**: [_TransferRestrictions_](transferrestrictions.md)
 
-###  transferRestrictions
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:107_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L107)
 
-• **transferRestrictions**: *[TransferRestrictions](transferrestrictions.md)*
+### uuid
 
-*Defined in [src/api/entities/SecurityToken/index.ts:107](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L107)*
+• **uuid**: _string_
 
-___
+_Inherited from_ [_Entity_](entity.md)_._[_uuid_](entity.md#uuid)
 
-###  uuid
-
-• **uuid**: *string*
-
-*Inherited from [Entity](entity.md).[uuid](entity.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  controllerTransfer
+### controllerTransfer
 
-▸ **controllerTransfer**(`args`: [ControllerTransferParams](../interfaces/controllertransferparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+▸ **controllerTransfer**\(`args`: [ControllerTransferParams](../interfaces/controllertransferparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-*Defined in [src/api/entities/SecurityToken/index.ts:524](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L524)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:524_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L524)
 
 Force a transfer from a given Portfolio to the PIA’s default Portfolio
 
 **`note`** required role:
-  - Security Token Primary Issuance Agent
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `controllerTransfer.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Security Token Primary Issuance Agent
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `controllerTransfer.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [ControllerTransferParams](../interfaces/controllertransferparams.md) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [ControllerTransferParams](../interfaces/controllertransferparams.md) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### createdAt
 
-###  createdAt
+▸ **createdAt**\(\): _Promise‹_[_EventIdentifier_](../interfaces/eventidentifier.md) _\| null›_
 
-▸ **createdAt**(): *Promise‹[EventIdentifier](../interfaces/eventidentifier.md) | null›*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:348_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L348)
 
-*Defined in [src/api/entities/SecurityToken/index.ts:348](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L348)*
-
-Retrieve the identifier data (block number, date and event index) of the event that was emitted when the token was created
+Retrieve the identifier data \(block number, date and event index\) of the event that was emitted when the token was created
 
 **`note`** uses the middleware
 
 **`note`** there is a possibility that the data is not ready by the time it is requested. In that case, `null` is returned
 
-**Returns:** *Promise‹[EventIdentifier](../interfaces/eventidentifier.md) | null›*
+**Returns:** _Promise‹_[_EventIdentifier_](../interfaces/eventidentifier.md) _\| null›_
 
-___
+### currentFundingRound
 
-###  currentFundingRound
+▸ **currentFundingRound**\(\): _Promise‹string›_
 
-▸ **currentFundingRound**(): *Promise‹string›*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:278](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L278)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:278_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L278)
 
 Retrieve the Security Token's funding round
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹string›*
+**Returns:** _Promise‹string›_
 
-▸ **currentFundingRound**(`callback`: [SubCallback](../globals.md#subcallback)‹string›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **currentFundingRound**\(`callback`: [SubCallback](../globals.md#subcallback)‹string›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/SecurityToken/index.ts:279](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L279)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:279_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L279)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹string› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹string› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### details
 
-###  details
+▸ **details**\(\): _Promise‹_[_SecurityTokenDetails_](../interfaces/securitytokendetails.md)_›_
 
-▸ **details**(): *Promise‹[SecurityTokenDetails](../interfaces/securitytokendetails.md)›*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:207](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L207)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:207_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L207)
 
 Retrieve the Security Token's name, total supply, whether it is divisible or not and the Identity of the owner
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[SecurityTokenDetails](../interfaces/securitytokendetails.md)›*
+**Returns:** _Promise‹_[_SecurityTokenDetails_](../interfaces/securitytokendetails.md)_›_
 
-▸ **details**(`callback`: [SubCallback](../globals.md#subcallback)‹[SecurityTokenDetails](../interfaces/securitytokendetails.md)›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **details**\(`callback`: [SubCallback](../globals.md#subcallback)‹[SecurityTokenDetails](../interfaces/securitytokendetails.md)›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/SecurityToken/index.ts:208](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L208)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:208_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L208)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹[SecurityTokenDetails](../interfaces/securitytokendetails.md)› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[SecurityTokenDetails](../interfaces/securitytokendetails.md)› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### freeze
 
-###  freeze
+▸ **freeze**\(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **freeze**(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:373](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L373)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:373_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L373)
 
 Freezes transfers and minting of the Security Token
 
 **`note`** required role:
-  - Security Token Owner
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `freeze.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Security Token Owner
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `freeze.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### getIdentifiers
 
-###  getIdentifiers
+▸ **getIdentifiers**\(\): _Promise‹_[_TokenIdentifier_](../interfaces/tokenidentifier.md)_\[\]›_
 
-▸ **getIdentifiers**(): *Promise‹[TokenIdentifier](../interfaces/tokenidentifier.md)[]›*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:312](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L312)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:312_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L312)
 
 Retrieve the Security Token's asset identifiers list
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[TokenIdentifier](../interfaces/tokenidentifier.md)[]›*
+**Returns:** _Promise‹_[_TokenIdentifier_](../interfaces/tokenidentifier.md)_\[\]›_
 
-▸ **getIdentifiers**(`callback?`: [SubCallback](../globals.md#subcallback)‹[TokenIdentifier](../interfaces/tokenidentifier.md)[]›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **getIdentifiers**\(`callback?`: [SubCallback](../globals.md#subcallback)‹[TokenIdentifier](../interfaces/tokenidentifier.md)\[\]›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/SecurityToken/index.ts:313](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L313)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:313_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L313)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback?` | [SubCallback](../globals.md#subcallback)‹[TokenIdentifier](../interfaces/tokenidentifier.md)[]› |
+| Name | Type |
+| :--- | :--- |
+| `callback?` | [SubCallback](../globals.md#subcallback)‹[TokenIdentifier](../interfaces/tokenidentifier.md)\[\]› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### investorCount
 
-###  investorCount
+▸ **investorCount**\(\): _Promise‹number›_
 
-▸ **investorCount**(): *Promise‹number›*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:485](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L485)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:485_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L485)
 
 Retrieve the amount of unique investors that hold this Security Token
 
-**`note`** this takes into account the Scope ID of Investor Uniqueness Claims. If an investor holds balances
-  of this token in two or more different Identities, but they all have Investor Uniqueness Claims with the same
-  Scope ID, then they will only be counted once for the purposes of this result
+**`note`** this takes into account the Scope ID of Investor Uniqueness Claims. If an investor holds balances of this token in two or more different Identities, but they all have Investor Uniqueness Claims with the same Scope ID, then they will only be counted once for the purposes of this result
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹number›*
+**Returns:** _Promise‹number›_
 
-▸ **investorCount**(`callback`: [SubCallback](../globals.md#subcallback)‹number›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **investorCount**\(`callback`: [SubCallback](../globals.md#subcallback)‹number›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/SecurityToken/index.ts:486](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L486)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:486_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L486)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹number› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹number› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### isEqual
 
-###  isEqual
+▸ **isEqual**\(`entity`: [Entity](entity.md)‹unknown, unknown›\): _boolean_
 
-▸ **isEqual**(`entity`: [Entity](entity.md)‹unknown, unknown›): *boolean*
+_Inherited from_ [_Entity_](entity.md)_._[_isEqual_](entity.md#isequal)
 
-*Inherited from [Entity](entity.md).[isEqual](entity.md#isequal)*
-
-*Defined in [src/api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Entity.ts#L61)*
+_Defined in_ [_src/api/entities/Entity.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Entity.ts#L61)
 
 Whether this Entity is the same as another one
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`entity` | [Entity](entity.md)‹unknown, unknown› |
+| Name | Type |
+| :--- | :--- |
+| `entity` | [Entity](entity.md)‹unknown, unknown› |
 
-**Returns:** *boolean*
+**Returns:** _boolean_
 
-___
+### isFrozen
 
-###  isFrozen
+▸ **isFrozen**\(\): _Promise‹boolean›_
 
-▸ **isFrozen**(): *Promise‹boolean›*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:395](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L395)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:395_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L395)
 
 Check whether transfers are frozen for the Security Token
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-▸ **isFrozen**(`callback`: [SubCallback](../globals.md#subcallback)‹boolean›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **isFrozen**\(`callback`: [SubCallback](../globals.md#subcallback)‹boolean›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/SecurityToken/index.ts:396](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L396)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:396_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L396)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹boolean› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹boolean› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### modify
 
-###  modify
+▸ **modify**\(`args`: [ModifyTokenParams](../globals.md#modifytokenparams), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **modify**(`args`: [ModifyTokenParams](../globals.md#modifytokenparams), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:198](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L198)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:198_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L198)
 
 Modify some properties of the Security Token
 
 **`throws`** if the passed values result in no changes being made to the token
 
 **`note`** required role:
-  - Security Token Owner
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `modify.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Security Token Owner
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `modify.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [ModifyTokenParams](../globals.md#modifytokenparams) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [ModifyTokenParams](../globals.md#modifytokenparams) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### modifyPrimaryIssuanceAgent
 
-###  modifyPrimaryIssuanceAgent
+▸ **modifyPrimaryIssuanceAgent**\(`args`: [ModifyPrimaryIssuanceAgentParams](../interfaces/modifyprimaryissuanceagentparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **modifyPrimaryIssuanceAgent**(`args`: [ModifyPrimaryIssuanceAgentParams](../interfaces/modifyprimaryissuanceagentparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:438](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L438)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:438_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L438)
 
 Assign a new primary issuance agent for the Security Token
 
-**`note`** this may create AuthorizationRequest which have to be accepted by
-  the corresponding Account. An Account or Identity can
-  fetch its pending Authorization Requests by calling `authorizations.getReceived`
+**`note`** this may create AuthorizationRequest which have to be accepted by the corresponding Account. An Account or Identity can fetch its pending Authorization Requests by calling `authorizations.getReceived`
 
 **`note`** required role:
-  - Security Token Owner
+
+* Security Token Owner
 
 **`deprecated`** in favor of `inviteAgent`
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `modifyPrimaryIssuanceAgent.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `modifyPrimaryIssuanceAgent.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [ModifyPrimaryIssuanceAgentParams](../interfaces/modifyprimaryissuanceagentparams.md) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [ModifyPrimaryIssuanceAgentParams](../interfaces/modifyprimaryissuanceagentparams.md) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### redeem
 
-###  redeem
+▸ **redeem**\(`args`: [RedeemTokenParams](../interfaces/redeemtokenparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **redeem**(`args`: [RedeemTokenParams](../interfaces/redeemtokenparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:472_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L472)
 
-*Defined in [src/api/entities/SecurityToken/index.ts:472](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L472)*
+Redeem \(burn\) an amount of this Security Token
 
-Redeem (burn) an amount of this Security Token
-
-**`note`** Tokens are removed from the Primary Issuance Agent's Default Portfolio.
-  If the Security Token has no Primary Issuance Agent, funds are removed from the owner's
-  Default Portfolio instead
+**`note`** Tokens are removed from the Primary Issuance Agent's Default Portfolio. If the Security Token has no Primary Issuance Agent, funds are removed from the owner's Default Portfolio instead
 
 **`note`** required role:
-  - Security Token Primary Issuance Agent
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `redeem.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Security Token Primary Issuance Agent
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `redeem.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [RedeemTokenParams](../interfaces/redeemtokenparams.md) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [RedeemTokenParams](../interfaces/redeemtokenparams.md) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### removePrimaryIssuanceAgent
 
-###  removePrimaryIssuanceAgent
+▸ **removePrimaryIssuanceAgent**\(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **removePrimaryIssuanceAgent**(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:455](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L455)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:455_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L455)
 
 Remove the primary issuance agent of the Security Token
 
 **`note`** if primary issuance agent is not set, Security Token owner would be used by default
 
 **`note`** required role:
-  - Security Token Owner
 
-**`deprecated`** 
+* Security Token Owner
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `removePrimaryIssuanceAgent.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`deprecated`**
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `removePrimaryIssuanceAgent.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### toJson
 
-###  toJson
+▸ **toJson**\(\): _string_
 
-▸ **toJson**(): *string*
+_Overrides_ [_Entity_](entity.md)_._[_toJson_](entity.md#abstract-tojson)
 
-*Overrides [Entity](entity.md).[toJson](entity.md#abstract-tojson)*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:531](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L531)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:531_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L531)
 
 Return the Token's ticker
 
-**Returns:** *string*
+**Returns:** _string_
 
-___
+### transferOwnership
 
-###  transferOwnership
+▸ **transferOwnership**\(`args`: [TransferTokenOwnershipParams](../interfaces/transfertokenownershipparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **transferOwnership**(`args`: [TransferTokenOwnershipParams](../interfaces/transfertokenownershipparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:183_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L183)
 
-*Defined in [src/api/entities/SecurityToken/index.ts:183](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L183)*
+Transfer ownership of the Security Token to another Identity. This generates an authorization request that must be accepted by the destinatary
 
-Transfer ownership of the Security Token to another Identity. This generates an authorization request that must be accepted
-  by the destinatary
-
-**`note`** this will create [Authorization Requests](authorizationrequest.md) which have to be accepted by
-  the corresponding [Accounts](account.md) and/or [Identities](identity.md). An Account or Identity can
-  fetch its pending Authorization Requests by calling `authorizations.getReceived`
+**`note`** this will create [Authorization Requests](authorizationrequest.md) which have to be accepted by the corresponding [Accounts](account.md) and/or [Identities](identity.md). An Account or Identity can fetch its pending Authorization Requests by calling `authorizations.getReceived`
 
 **`note`** required role:
-  - Security Token Owner
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `transferOwnership.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Security Token Owner
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `transferOwnership.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [TransferTokenOwnershipParams](../interfaces/transfertokenownershipparams.md) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [TransferTokenOwnershipParams](../interfaces/transfertokenownershipparams.md) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### unfreeze
 
-###  unfreeze
+▸ **unfreeze**\(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **unfreeze**(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/index.ts:386](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L386)*
+_Defined in_ [_src/api/entities/SecurityToken/index.ts:386_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/index.ts#L386)
 
 Unfreeze transfers and minting of the Security Token
 
 **`note`** required role:
-  - Security Token Owner
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `unfreeze.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Security Token Owner
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `unfreeze.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-___
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [Entity](entity.md).[generateUuid](entity.md#static-generateuuid)*
+_Inherited from_ [_Entity_](entity.md)_._[_generateUuid_](entity.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
@@ -591,21 +524,19 @@ Generate the Entity's UUID from its identifying properties
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [Entity](entity.md).[unserialize](entity.md#static-unserialize)*
+_Inherited from_ [_Entity_](entity.md)_._[_unserialize_](entity.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
@@ -615,8 +546,9 @@ Unserialize a UUID into its Unique Identifiers
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

@@ -1,4 +1,4 @@
-# @polymathnetwork/polymesh-sdk
+# Globals
 
 ## Index
 
@@ -302,322 +302,246 @@
 
 ## Type aliases
 
-###  AccountBalance
+### AccountBalance
 
-Ƭ **AccountBalance**: *[Balance](interfaces/balance.md)*
+Ƭ **AccountBalance**: [_Balance_](interfaces/balance.md)
 
-*Defined in [src/types/index.ts:601](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L601)*
+_Defined in_ [_src/types/index.ts:601_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L601)
 
-___
+### AddCountTransferRestrictionParams
 
-###  AddCountTransferRestrictionParams
+Ƭ **AddCountTransferRestrictionParams**: [_CountTransferRestrictionInput_](interfaces/counttransferrestrictioninput.md) _& object_
 
-Ƭ **AddCountTransferRestrictionParams**: *[CountTransferRestrictionInput](interfaces/counttransferrestrictioninput.md) & object*
+_Defined in_ [_src/api/procedures/addTransferRestriction.ts:24_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/addTransferRestriction.ts#L24)
 
-*Defined in [src/api/procedures/addTransferRestriction.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/addTransferRestriction.ts#L24)*
+### AddPairParams
 
-___
+Ƭ **AddPairParams**: _object_
 
-###  AddPairParams
-
-Ƭ **AddPairParams**: *object*
-
-*Defined in [src/base/Context.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/base/Context.ts#L94)*
+_Defined in_ [_src/base/Context.ts:94_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/base/Context.ts#L94)
 
 #### Type declaration:
 
-* **accountMnemonic**? : *undefined | string*
+* **accountMnemonic**? : _undefined \| string_
+* **accountSeed**? : _undefined \| string_
+* **accountUri**? : _undefined \| string_
+* **pair**? : [_KeyringPair_](interfaces/keyringpair.md)
 
-* **accountSeed**? : *undefined | string*
+### AddPercentageTransferRestrictionParams
 
-* **accountUri**? : *undefined | string*
+Ƭ **AddPercentageTransferRestrictionParams**: [_PercentageTransferRestrictionInput_](interfaces/percentagetransferrestrictioninput.md) _& object_
 
-* **pair**? : *[KeyringPair](interfaces/keyringpair.md)*
+_Defined in_ [_src/api/procedures/addTransferRestriction.ts:28_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/addTransferRestriction.ts#L28)
 
-___
+### AddRestrictionParams
 
-###  AddPercentageTransferRestrictionParams
+Ƭ **AddRestrictionParams**: _Omit‹T extends Count ? AddCountTransferRestrictionParams : AddPercentageTransferRestrictionParams, "type"›_
 
-Ƭ **AddPercentageTransferRestrictionParams**: *[PercentageTransferRestrictionInput](interfaces/percentagetransferrestrictioninput.md) & object*
+_Defined in_ [_src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:32_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L32)
 
-*Defined in [src/api/procedures/addTransferRestriction.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/addTransferRestriction.ts#L28)*
+### ArgsType
 
-___
+Ƭ **ArgsType**: _T extends function ? A : never_
 
-###  AddRestrictionParams
+_Defined in_ [_src/types/utils/index.ts:22_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/utils/index.ts#L22)
 
-Ƭ **AddRestrictionParams**: *Omit‹T extends Count ? AddCountTransferRestrictionParams : AddPercentageTransferRestrictionParams, "type"›*
+Less strict version of Parameters
 
-*Defined in [src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:32](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L32)*
+### Authorization
 
-___
+Ƭ **Authorization**: _object \| object \| object \| object \| object_
 
-###  ArgsType
-
-Ƭ **ArgsType**: *T extends function ? A : never*
-
-*Defined in [src/types/utils/index.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/utils/index.ts#L22)*
-
-Less strict version of Parameters<T>
-
-___
-
-###  Authorization
-
-Ƭ **Authorization**: *object | object | object | object | object*
-
-*Defined in [src/types/index.ts:819](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L819)*
+_Defined in_ [_src/types/index.ts:819_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L819)
 
 Authorization request data corresponding to type
 
-___
+### CddClaim
 
-###  CddClaim
+Ƭ **CddClaim**: _object_
 
-Ƭ **CddClaim**: *object*
-
-*Defined in [src/types/index.ts:279](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L279)*
+_Defined in_ [_src/types/index.ts:279_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L279)
 
 #### Type declaration:
 
-* **id**: *string*
+* **id**: _string_
+* **type**: [_CustomerDueDiligence_](enums/claimtype.md#customerduediligence)
 
-* **type**: *[CustomerDueDiligence](enums/claimtype.md#customerduediligence)*
+### CheckpointScheduleParams
 
-___
+Ƭ **CheckpointScheduleParams**: _Omit‹UniqueIdentifiers & Params, "ticker"›_
 
-###  CheckpointScheduleParams
+_Defined in_ [_src/api/entities/CheckpointSchedule/types.ts:8_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/CheckpointSchedule/types.ts#L8)
 
-Ƭ **CheckpointScheduleParams**: *Omit‹UniqueIdentifiers & Params, "ticker"›*
+### Claim
 
-*Defined in [src/api/entities/CheckpointSchedule/types.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/CheckpointSchedule/types.ts#L8)*
+Ƭ **Claim**: [_ScopedClaim_](globals.md#scopedclaim) _\|_ [_UnscopedClaim_](globals.md#unscopedclaim)
 
-___
+_Defined in_ [_src/types/index.ts:310_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L310)
 
-###  Claim
+### CommonKeyring
 
-Ƭ **Claim**: *[ScopedClaim](globals.md#scopedclaim) | [UnscopedClaim](globals.md#unscopedclaim)*
+Ƭ **CommonKeyring**: _Pick‹Keyring, "getPair" \| "getPairs" \| "addFromSeed" \| "addFromUri" \| "addFromMnemonic" \| "addPair" \| "encodeAddress"›_
 
-*Defined in [src/types/index.ts:310](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L310)*
+_Defined in_ [_src/types/index.ts:570_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L570)
 
-___
+### Condition
 
-###  CommonKeyring
+Ƭ **Condition**: [_SingleClaimCondition_](globals.md#singleclaimcondition) _\|_ [_MultiClaimCondition_](globals.md#multiclaimcondition) _\|_ [_IdentityCondition_](globals.md#identitycondition) _\|_ [_ExternalAgentCondition_](globals.md#externalagentcondition)
 
-Ƭ **CommonKeyring**: *Pick‹Keyring, "getPair" | "getPairs" | "addFromSeed" | "addFromUri" | "addFromMnemonic" | "addPair" | "encodeAddress"›*
+_Defined in_ [_src/types/index.ts:400_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L400)
 
-*Defined in [src/types/index.ts:570](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L570)*
+### ConditionBase
 
-___
+Ƭ **ConditionBase**: _object_
 
-###  Condition
-
-Ƭ **Condition**: *[SingleClaimCondition](globals.md#singleclaimcondition) | [MultiClaimCondition](globals.md#multiclaimcondition) | [IdentityCondition](globals.md#identitycondition) | [ExternalAgentCondition](globals.md#externalagentcondition)*
-
-*Defined in [src/types/index.ts:400](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L400)*
-
-___
-
-###  ConditionBase
-
-Ƭ **ConditionBase**: *object*
-
-*Defined in [src/types/index.ts:379](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L379)*
+_Defined in_ [_src/types/index.ts:379_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L379)
 
 #### Type declaration:
 
-* **target**: *[ConditionTarget](enums/conditiontarget.md)*
+* **target**: [_ConditionTarget_](enums/conditiontarget.md)
+* **trustedClaimIssuers**? : [_TrustedClaimIssuer_](interfaces/trustedclaimissuer.md)_\[\]_
 
-* **trustedClaimIssuers**? : *[TrustedClaimIssuer](interfaces/trustedclaimissuer.md)[]*
+### ConfigureDividendDistributionParams
 
-___
+Ƭ **ConfigureDividendDistributionParams**: _Omit‹InitiateCorporateActionParams, "kind" \| "checkpoint"› & object_
 
-###  ConfigureDividendDistributionParams
+_Defined in_ [_src/api/procedures/configureDividendDistribution.ts:59_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/configureDividendDistribution.ts#L59)
 
-Ƭ **ConfigureDividendDistributionParams**: *Omit‹InitiateCorporateActionParams, "kind" | "checkpoint"› & object*
+### Ensured
 
-*Defined in [src/api/procedures/configureDividendDistribution.ts:59](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/configureDividendDistribution.ts#L59)*
+Ƭ **Ensured**: _Required‹Pick‹T, K››_
 
-___
+_Defined in_ [_src/types/index.ts:563_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L563)
 
-###  Ensured
+### ExternalAgentCondition
 
-Ƭ **Ensured**: *Required‹Pick‹T, K››*
+Ƭ **ExternalAgentCondition**: [_ConditionBase_](globals.md#conditionbase) _& object_
 
-*Defined in [src/types/index.ts:563](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L563)*
+_Defined in_ [_src/types/index.ts:396_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L396)
 
-___
+### GetReturnType
 
-###  ExternalAgentCondition
+Ƭ **GetReturnType**: [_ActiveTransferRestrictions_](interfaces/activetransferrestrictions.md)_‹T extends Count ? CountTransferRestriction : PercentageTransferRestriction›_
 
-Ƭ **ExternalAgentCondition**: *[ConditionBase](globals.md#conditionbase) & object*
+_Defined in_ [_src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L46)
 
-*Defined in [src/types/index.ts:396](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L396)*
+### HumanReadableType
 
-___
+Ƭ **HumanReadableType**: _T extends Entity‹unknown, infer H› ? HumanReadableType‹H› : T extends BigNumber ? string : T extends Date ? string : T extends object ? object : T_
 
-###  GetReturnType
+_Defined in_ [_src/types/utils/index.ts:28_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/utils/index.ts#L28)
 
-Ƭ **GetReturnType**: *[ActiveTransferRestrictions](interfaces/activetransferrestrictions.md)‹T extends Count ? CountTransferRestriction : PercentageTransferRestriction›*
+Recursively traverse a type and transform its Entity properties into their human readable version \(as if `.toJson` had been called on all of them\)
 
-*Defined in [src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L46)*
+### IdentityCondition
 
-___
+Ƭ **IdentityCondition**: [_ConditionBase_](globals.md#conditionbase) _& object_
 
-###  HumanReadableType
+_Defined in_ [_src/types/index.ts:391_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L391)
 
-Ƭ **HumanReadableType**: *T extends Entity‹unknown, infer H› ? HumanReadableType‹H› : T extends BigNumber ? string : T extends Date ? string : T extends object ? object : T*
+### InputTargets
 
-*Defined in [src/types/utils/index.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/utils/index.ts#L28)*
+Ƭ **InputTargets**: _Omit‹_[_CorporateActionTargets_](interfaces/corporateactiontargets.md)_, "identities"› & object_
 
-Recursively traverse a type and transform its Entity properties into their
-  human readable version (as if `.toJson` had been called on all of them)
+_Defined in_ [_src/api/entities/CorporateAction/types.ts:20_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/CorporateAction/types.ts#L20)
 
-___
+### InputTaxWithholding
 
-###  IdentityCondition
+Ƭ **InputTaxWithholding**: _Omit‹_[_TaxWithholding_](interfaces/taxwithholding.md)_, "identity"› & object_
 
-Ƭ **IdentityCondition**: *[ConditionBase](globals.md#conditionbase) & object*
+_Defined in_ [_src/api/entities/CorporateAction/types.ts:24_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/CorporateAction/types.ts#L24)
 
-*Defined in [src/types/index.ts:391](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L391)*
+### InstructionDetails
 
-___
+Ƭ **InstructionDetails**: _object & object \| object_
 
-###  InputTargets
+_Defined in_ [_src/api/entities/Instruction/types.ts:17_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Instruction/types.ts#L17)
 
-Ƭ **InputTargets**: *Omit‹[CorporateActionTargets](interfaces/corporateactiontargets.md), "identities"› & object*
+### InstructionStatusResult
 
-*Defined in [src/api/entities/CorporateAction/types.ts:20](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/CorporateAction/types.ts#L20)*
+Ƭ **InstructionStatusResult**: _object \| object_
 
-___
+_Defined in_ [_src/api/entities/Instruction/types.ts:58_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Instruction/types.ts#L58)
 
-###  InputTaxWithholding
+### InvestorUniquenessClaim
 
-Ƭ **InputTaxWithholding**: *Omit‹[TaxWithholding](interfaces/taxwithholding.md), "identity"› & object*
+Ƭ **InvestorUniquenessClaim**: _object_
 
-*Defined in [src/api/entities/CorporateAction/types.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/CorporateAction/types.ts#L24)*
-
-___
-
-###  InstructionDetails
-
-Ƭ **InstructionDetails**: *object & object | object*
-
-*Defined in [src/api/entities/Instruction/types.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Instruction/types.ts#L17)*
-
-___
-
-###  InstructionStatusResult
-
-Ƭ **InstructionStatusResult**: *object | object*
-
-*Defined in [src/api/entities/Instruction/types.ts:58](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Instruction/types.ts#L58)*
-
-___
-
-###  InvestorUniquenessClaim
-
-Ƭ **InvestorUniquenessClaim**: *object*
-
-*Defined in [src/types/index.ts:281](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L281)*
+_Defined in_ [_src/types/index.ts:281_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L281)
 
 #### Type declaration:
 
-* **cddId**: *string*
+* **cddId**: _string_
+* **scope**: [_Scope_](interfaces/scope.md)
+* **scopeId**: _string_
+* **type**: [_InvestorUniqueness_](enums/claimtype.md#investoruniqueness)
 
-* **scope**: *[Scope](interfaces/scope.md)*
+### InvestorUniquenessV2Claim
 
-* **scopeId**: *string*
+Ƭ **InvestorUniquenessV2Claim**: _object_
 
-* **type**: *[InvestorUniqueness](enums/claimtype.md#investoruniqueness)*
-
-___
-
-###  InvestorUniquenessV2Claim
-
-Ƭ **InvestorUniquenessV2Claim**: *object*
-
-*Defined in [src/types/index.ts:288](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L288)*
+_Defined in_ [_src/types/index.ts:288_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L288)
 
 #### Type declaration:
 
-* **cddId**: *string*
+* **cddId**: _string_
+* **type**: [_InvestorUniquenessV2_](enums/claimtype.md#investoruniquenessv2)
 
-* **type**: *[InvestorUniquenessV2](enums/claimtype.md#investoruniquenessv2)*
+### ModifyCaDefaultsParams
 
-___
+Ƭ **ModifyCaDefaultsParams**: _object \| object \| object_
 
-###  ModifyCaDefaultsParams
+_Defined in_ [_src/api/procedures/modifyCaDefaults.ts:24_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyCaDefaults.ts#L24)
 
-Ƭ **ModifyCaDefaultsParams**: *object | object | object*
+### ModifyClaimsParams
 
-*Defined in [src/api/procedures/modifyCaDefaults.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyCaDefaults.ts#L24)*
+Ƭ **ModifyClaimsParams**: [_AddClaimsParams_](interfaces/addclaimsparams.md) _\|_ [_EditClaimsParams_](interfaces/editclaimsparams.md) _\|_ [_RevokeClaimsParams_](interfaces/revokeclaimsparams.md)
 
-___
+_Defined in_ [_src/api/procedures/modifyClaims.ts:63_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyClaims.ts#L63)
 
-###  ModifyClaimsParams
+### ModifyStoTimesParams
 
-Ƭ **ModifyClaimsParams**: *[AddClaimsParams](interfaces/addclaimsparams.md) | [EditClaimsParams](interfaces/editclaimsparams.md) | [RevokeClaimsParams](interfaces/revokeclaimsparams.md)*
+Ƭ **ModifyStoTimesParams**: _object \| object \| object_
 
-*Defined in [src/api/procedures/modifyClaims.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyClaims.ts#L63)*
+_Defined in_ [_src/api/procedures/modifyStoTimes.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyStoTimes.ts#L9)
 
-___
+### ModifyTokenParams
 
-###  ModifyStoTimesParams
+Ƭ **ModifyTokenParams**: _object \| object \| object \| object_
 
-Ƭ **ModifyStoTimesParams**: *object | object | object*
+_Defined in_ [_src/api/procedures/modifyToken.ts:13_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyToken.ts#L13)
 
-*Defined in [src/api/procedures/modifyStoTimes.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyStoTimes.ts#L9)*
+### ModifyVenueParams
 
-___
+Ƭ **ModifyVenueParams**: _object \| object \| object_
 
-###  ModifyTokenParams
+_Defined in_ [_src/api/procedures/modifyVenue.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyVenue.ts#L9)
 
-Ƭ **ModifyTokenParams**: *object | object | object | object*
+### MultiClaimCondition
 
-*Defined in [src/api/procedures/modifyToken.ts:13](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyToken.ts#L13)*
+Ƭ **MultiClaimCondition**: [_ConditionBase_](globals.md#conditionbase) _& object_
 
-___
+_Defined in_ [_src/types/index.ts:386_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L386)
 
-###  ModifyVenueParams
+### Mutable
 
-Ƭ **ModifyVenueParams**: *object | object | object*
+Ƭ **Mutable**: _object_
 
-*Defined in [src/api/procedures/modifyVenue.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyVenue.ts#L9)*
-
-___
-
-###  MultiClaimCondition
-
-Ƭ **MultiClaimCondition**: *[ConditionBase](globals.md#conditionbase) & object*
-
-*Defined in [src/types/index.ts:386](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L386)*
-
-___
-
-###  Mutable
-
-Ƭ **Mutable**: *object*
-
-*Defined in [src/types/utils/index.ts:5](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/utils/index.ts#L5)*
+_Defined in_ [_src/types/utils/index.ts:5_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/utils/index.ts#L5)
 
 #### Type declaration:
 
-___
+### NextKey
 
-###  NextKey
+Ƭ **NextKey**: _string \| number \| null_
 
-Ƭ **NextKey**: *string | number | null*
+_Defined in_ [_src/types/index.ts:608_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L608)
 
-*Defined in [src/types/index.ts:608](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L608)*
+### PermissionsLike
 
-___
+Ƭ **PermissionsLike**: _object & object \| object_
 
-###  PermissionsLike
-
-Ƭ **PermissionsLike**: *object & object | object*
-
-*Defined in [src/types/index.ts:932](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L932)*
+_Defined in_ [_src/types/index.ts:932_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L932)
 
 Permissions to grant to a Signer over an Identity
 
@@ -625,238 +549,199 @@ Permissions to grant to a Signer over an Identity
 
 **`note`** TxGroups in the `transactionGroups` array will be transformed into their corresponding `TxTag`s
 
-___
+### PortfolioLike
 
-###  PortfolioLike
+Ƭ **PortfolioLike**: _string \|_ [_Identity_](classes/identity.md) _\|_ [_NumberedPortfolio_](classes/numberedportfolio.md) _\|_ [_DefaultPortfolio_](classes/defaultportfolio.md) _\| object_
 
-Ƭ **PortfolioLike**: *string | [Identity](classes/identity.md) | [NumberedPortfolio](classes/numberedportfolio.md) | [DefaultPortfolio](classes/defaultportfolio.md) | object*
+_Defined in_ [_src/types/index.ts:918_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L918)
 
-*Defined in [src/types/index.ts:918](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L918)*
+### ProcedureFunc
 
-___
+Ƭ **ProcedureFunc**: _function_
 
-###  ProcedureFunc
-
-Ƭ **ProcedureFunc**: *function*
-
-*Defined in [src/types/utils/index.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/utils/index.ts#L9)*
+_Defined in_ [_src/types/utils/index.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/utils/index.ts#L9)
 
 #### Type declaration:
 
-▸ (): *Procedure‹Args, ReturnValue, Storage›*
+▸ \(\): _Procedure‹Args, ReturnValue, Storage›_
 
-___
+### Role
 
-###  Role
+Ƭ **Role**: [_TickerOwnerRole_](interfaces/tickerownerrole.md) _\|_ [_TokenPiaRole_](interfaces/tokenpiarole.md) _\|_ [_TokenCaaRole_](interfaces/tokencaarole.md) _\|_ [_CddProviderRole_](interfaces/cddproviderrole.md) _\|_ [_VenueOwnerRole_](interfaces/venueownerrole.md) _\|_ [_PortfolioCustodianRole_](interfaces/portfoliocustodianrole.md)
 
-Ƭ **Role**: *[TickerOwnerRole](interfaces/tickerownerrole.md) | [TokenPiaRole](interfaces/tokenpiarole.md) | [TokenCaaRole](interfaces/tokencaarole.md) | [CddProviderRole](interfaces/cddproviderrole.md) | [VenueOwnerRole](interfaces/venueownerrole.md) | [PortfolioCustodianRole](interfaces/portfoliocustodianrole.md)*
+_Defined in_ [_src/types/index.ts:129_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L129)
 
-*Defined in [src/types/index.ts:129](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L129)*
+### ScopedClaim
 
-___
+Ƭ **ScopedClaim**: _object \|_ [_InvestorUniquenessClaim_](globals.md#investoruniquenessclaim) _\| object_
 
-###  ScopedClaim
+_Defined in_ [_src/types/index.ts:293_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L293)
 
-Ƭ **ScopedClaim**: *object | [InvestorUniquenessClaim](globals.md#investoruniquenessclaim) | object*
+### SetRestrictionsParams
 
-*Defined in [src/types/index.ts:293](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L293)*
+Ƭ **SetRestrictionsParams**: _Omit‹T extends Count ? SetCountTransferRestrictionsParams : SetPercentageTransferRestrictionsParams, "type"›_
 
-___
+_Defined in_ [_src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:39_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L39)
 
-###  SetRestrictionsParams
+### SetTransferRestrictionsParams
 
-Ƭ **SetRestrictionsParams**: *Omit‹T extends Count ? SetCountTransferRestrictionsParams : SetPercentageTransferRestrictionsParams, "type"›*
+Ƭ **SetTransferRestrictionsParams**: _object &_ [_SetCountTransferRestrictionsParams_](interfaces/setcounttransferrestrictionsparams.md) _\|_ [_SetPercentageTransferRestrictionsParams_](interfaces/setpercentagetransferrestrictionsparams.md)
 
-*Defined in [src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:39](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L39)*
+_Defined in_ [_src/api/procedures/setTransferRestrictions.ts:39_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/setTransferRestrictions.ts#L39)
 
-___
+### Signer
 
-###  SetTransferRestrictionsParams
+Ƭ **Signer**: [_Identity_](classes/identity.md) _\|_ [_Account_](classes/account.md)
 
-Ƭ **SetTransferRestrictionsParams**: *object & [SetCountTransferRestrictionsParams](interfaces/setcounttransferrestrictionsparams.md) | [SetPercentageTransferRestrictionsParams](interfaces/setpercentagetransferrestrictionsparams.md)*
+_Defined in_ [_src/types/index.ts:894_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L894)
 
-*Defined in [src/api/procedures/setTransferRestrictions.ts:39](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/setTransferRestrictions.ts#L39)*
+### SingleClaimCondition
 
-___
+Ƭ **SingleClaimCondition**: [_ConditionBase_](globals.md#conditionbase) _& object_
 
-###  Signer
+_Defined in_ [_src/types/index.ts:381_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L381)
 
-Ƭ **Signer**: *[Identity](classes/identity.md) | [Account](classes/account.md)*
+### SubCallback
 
-*Defined in [src/types/index.ts:894](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L894)*
+Ƭ **SubCallback**: _function_
 
-___
-
-###  SingleClaimCondition
-
-Ƭ **SingleClaimCondition**: *[ConditionBase](globals.md#conditionbase) & object*
-
-*Defined in [src/types/index.ts:381](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L381)*
-
-___
-
-###  SubCallback
-
-Ƭ **SubCallback**: *function*
-
-*Defined in [src/types/index.ts:559](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L559)*
+_Defined in_ [_src/types/index.ts:559_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L559)
 
 #### Type declaration:
 
-▸ (`result`: T): *void | Promise‹void›*
+▸ \(`result`: T\): _void \| Promise‹void›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`result` | T |
+| Name | Type |
+| :--- | :--- |
+| `result` | T |
 
-___
+### TokenType
 
-###  TokenType
+Ƭ **TokenType**: [_KnownTokenType_](enums/knowntokentype.md) _\| object_
 
-Ƭ **TokenType**: *[KnownTokenType](enums/knowntokentype.md) | object*
-
-*Defined in [src/types/index.ts:197](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L197)*
+_Defined in_ [_src/types/index.ts:197_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L197)
 
 Type of security that the token represents
 
-___
+### TransactionArgument
 
-###  TransactionArgument
+Ƭ **TransactionArgument**: _object &_ [_PlainTransactionArgument_](interfaces/plaintransactionargument.md) _\|_ [_ArrayTransactionArgument_](interfaces/arraytransactionargument.md) _\|_ [_SimpleEnumTransactionArgument_](interfaces/simpleenumtransactionargument.md) _\|_ [_ComplexTransactionArgument_](interfaces/complextransactionargument.md)
 
-Ƭ **TransactionArgument**: *object & [PlainTransactionArgument](interfaces/plaintransactionargument.md) | [ArrayTransactionArgument](interfaces/arraytransactionargument.md) | [SimpleEnumTransactionArgument](interfaces/simpleenumtransactionargument.md) | [ComplexTransactionArgument](interfaces/complextransactionargument.md)*
+_Defined in_ [_src/types/index.ts:883_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L883)
 
-*Defined in [src/types/index.ts:883](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L883)*
+### UnionOfProcedureFuncs
 
-___
+Ƭ **UnionOfProcedureFuncs**: _Args extends unknown ? ProcedureFunc‹Args, ReturnValue, Storage› : never_
 
-###  UnionOfProcedureFuncs
+_Defined in_ [_src/types/utils/index.ts:15_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/utils/index.ts#L15)
 
-Ƭ **UnionOfProcedureFuncs**: *Args extends unknown ? ProcedureFunc‹Args, ReturnValue, Storage› : never*
+### UnscopedClaim
 
-*Defined in [src/types/utils/index.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/utils/index.ts#L15)*
+Ƭ **UnscopedClaim**: _object \|_ [_CddClaim_](globals.md#cddclaim) _\|_ [_InvestorUniquenessV2Claim_](globals.md#investoruniquenessv2claim)
 
-___
+_Defined in_ [_src/types/index.ts:308_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L308)
 
-###  UnscopedClaim
+### UnsubCallback
 
-Ƭ **UnscopedClaim**: *object | [CddClaim](globals.md#cddclaim) | [InvestorUniquenessV2Claim](globals.md#investoruniquenessv2claim)*
+Ƭ **UnsubCallback**: _function_
 
-*Defined in [src/types/index.ts:308](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L308)*
-
-___
-
-###  UnsubCallback
-
-Ƭ **UnsubCallback**: *function*
-
-*Defined in [src/types/index.ts:561](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L561)*
+_Defined in_ [_src/types/index.ts:561_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L561)
 
 #### Type declaration:
 
-▸ (): *void*
+▸ \(\): _void_
 
 ## Variables
 
 ### `Const` executedMessage
 
-• **executedMessage**: *"Instruction has already been executed/rejected and it was purged from chain"* = "Instruction has already been executed/rejected and it was purged from chain"
+• **executedMessage**: _"Instruction has already been executed/rejected and it was purged from chain"_ = "Instruction has already been executed/rejected and it was purged from chain"
 
-*Defined in [src/api/entities/Instruction/index.ts:57](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Instruction/index.ts#L57)*
-
-___
+_Defined in_ [_src/api/entities/Instruction/index.ts:57_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Instruction/index.ts#L57)
 
 ### `Const` notExistsMessage
 
-• **notExistsMessage**: *"Schedule no longer exists. It was either removed or it expired"* = "Schedule no longer exists. It was either removed or it expired"
+• **notExistsMessage**: _"Schedule no longer exists. It was either removed or it expired"_ = "Schedule no longer exists. It was either removed or it expired"
 
-*Defined in [src/api/entities/CheckpointSchedule/index.ts:36](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/CheckpointSchedule/index.ts#L36)*
+_Defined in_ [_src/api/entities/CheckpointSchedule/index.ts:36_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/CheckpointSchedule/index.ts#L36)
 
 ## Functions
 
 ### `Const` areSameClaimIssuers
 
-▸ **areSameClaimIssuers**(`currentClaimIssuers`: [TrustedClaimIssuer](interfaces/trustedclaimissuer.md)[], `claimIssuers`: ModifyTokenTrustedClaimIssuersAddSetParams["claimIssuers"]): *boolean*
+▸ **areSameClaimIssuers**\(`currentClaimIssuers`: [TrustedClaimIssuer](interfaces/trustedclaimissuer.md)\[\], `claimIssuers`: ModifyTokenTrustedClaimIssuersAddSetParams\["claimIssuers"\]\): _boolean_
 
-*Defined in [src/api/procedures/modifyTokenTrustedClaimIssuers.ts:71](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyTokenTrustedClaimIssuers.ts#L71)*
+_Defined in_ [_src/api/procedures/modifyTokenTrustedClaimIssuers.ts:71_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyTokenTrustedClaimIssuers.ts#L71)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`currentClaimIssuers` | [TrustedClaimIssuer](interfaces/trustedclaimissuer.md)[] |
-`claimIssuers` | ModifyTokenTrustedClaimIssuersAddSetParams["claimIssuers"] |
+| Name | Type |
+| :--- | :--- |
+| `currentClaimIssuers` | [TrustedClaimIssuer](interfaces/trustedclaimissuer.md)\[\] |
+| `claimIssuers` | ModifyTokenTrustedClaimIssuersAddSetParams\["claimIssuers"\] |
 
-**Returns:** *boolean*
-
-___
+**Returns:** _boolean_
 
 ### `Const` areSameClaims
 
-▸ **areSameClaims**(`claim`: [Claim](globals.md#claim), `__namedParameters`: object): *boolean*
+▸ **areSameClaims**\(`claim`: [Claim](globals.md#claim), `__namedParameters`: object\): _boolean_
 
-*Defined in [src/api/procedures/modifyClaims.ts:74](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyClaims.ts#L74)*
+_Defined in_ [_src/api/procedures/modifyClaims.ts:74_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyClaims.ts#L74)
 
 **Parameters:**
 
-▪ **claim**: *[Claim](globals.md#claim)*
+▪ **claim**: [_Claim_](globals.md#claim)
 
-▪ **__namedParameters**: *object*
+▪ **\_\_namedParameters**: _object_
 
-Name | Type |
------- | ------ |
-`scope` | undefined &#124; null &#124; [Scope](interfaces/scope.md) |
-`type` | ClaimTypeEnum |
+| Name | Type |
+| :--- | :--- |
+| `scope` | undefined \| null \| [Scope](interfaces/scope.md) |
+| `type` | ClaimTypeEnum |
 
-**Returns:** *boolean*
-
-___
+**Returns:** _boolean_
 
 ### `Const` areSameTargets
 
-▸ **areSameTargets**(`targets`: [CorporateActionTargets](interfaces/corporateactiontargets.md), `newTargets`: [InputTargets](globals.md#inputtargets)): *boolean*
+▸ **areSameTargets**\(`targets`: [CorporateActionTargets](interfaces/corporateactiontargets.md), `newTargets`: [InputTargets](globals.md#inputtargets)\): _boolean_
 
-*Defined in [src/api/procedures/modifyCaDefaults.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyCaDefaults.ts#L46)*
+_Defined in_ [_src/api/procedures/modifyCaDefaults.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyCaDefaults.ts#L46)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`targets` | [CorporateActionTargets](interfaces/corporateactiontargets.md) |
-`newTargets` | [InputTargets](globals.md#inputtargets) |
+| Name | Type |
+| :--- | :--- |
+| `targets` | [CorporateActionTargets](interfaces/corporateactiontargets.md) |
+| `newTargets` | [InputTargets](globals.md#inputtargets) |
 
-**Returns:** *boolean*
-
-___
+**Returns:** _boolean_
 
 ### `Const` convertArgsToRaw
 
-▸ **convertArgsToRaw**(`claimIssuers`: ModifyTokenTrustedClaimIssuersAddSetParams["claimIssuers"], `rawTicker`: Ticker, `context`: [Context](classes/context.md)): *object*
+▸ **convertArgsToRaw**\(`claimIssuers`: ModifyTokenTrustedClaimIssuersAddSetParams\["claimIssuers"\], `rawTicker`: Ticker, `context`: [Context](classes/context.md)\): _object_
 
-*Defined in [src/api/procedures/modifyTokenTrustedClaimIssuers.ts:42](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyTokenTrustedClaimIssuers.ts#L42)*
+_Defined in_ [_src/api/procedures/modifyTokenTrustedClaimIssuers.ts:42_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyTokenTrustedClaimIssuers.ts#L42)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`claimIssuers` | ModifyTokenTrustedClaimIssuersAddSetParams["claimIssuers"] |
-`rawTicker` | Ticker |
-`context` | [Context](classes/context.md) |
+| Name | Type |
+| :--- | :--- |
+| `claimIssuers` | ModifyTokenTrustedClaimIssuersAddSetParams\["claimIssuers"\] |
+| `rawTicker` | Ticker |
+| `context` | [Context](classes/context.md) |
 
-**Returns:** *object*
+**Returns:** _object_
 
-* **claimIssuersToAdd**: *[][]*
+* **claimIssuersToAdd**: _\[\]\[\]_
+* **inputDids**: _string\[\]_
 
-* **inputDids**: *string[]*
+### createProcedureMethod
 
-___
+▸ **createProcedureMethod**‹**MethodArgs**, **ProcedureArgs**, **ProcedureReturnValue**, **Storage**›\(`args`: object, `context`: [Context](classes/context.md)\): [_ProcedureMethod_](interfaces/proceduremethod.md)_‹MethodArgs, ProcedureReturnValue, ProcedureReturnValue›_
 
-###  createProcedureMethod
-
-▸ **createProcedureMethod**‹**MethodArgs**, **ProcedureArgs**, **ProcedureReturnValue**, **Storage**›(`args`: object, `context`: [Context](classes/context.md)): *[ProcedureMethod](interfaces/proceduremethod.md)‹MethodArgs, ProcedureReturnValue, ProcedureReturnValue›*
-
-*Defined in [src/utils/internal.ts:403](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/utils/internal.ts#L403)*
+_Defined in_ [_src/utils/internal.ts:403_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/utils/internal.ts#L403)
 
 Create a method that prepares a procedure
 
@@ -864,7 +749,7 @@ Create a method that prepares a procedure
 
 ▪ **MethodArgs**
 
-▪ **ProcedureArgs**: *unknown*
+▪ **ProcedureArgs**: _unknown_
 
 ▪ **ProcedureReturnValue**
 
@@ -872,25 +757,25 @@ Create a method that prepares a procedure
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`getProcedureAndArgs` | function |
+| Name | Type |
+| :--- | :--- |
+| `getProcedureAndArgs` | function |
 
-▪ **context**: *[Context](classes/context.md)*
+▪ **context**: [_Context_](classes/context.md)
 
-**Returns:** *[ProcedureMethod](interfaces/proceduremethod.md)‹MethodArgs, ProcedureReturnValue, ProcedureReturnValue›*
+**Returns:** [_ProcedureMethod_](interfaces/proceduremethod.md)_‹MethodArgs, ProcedureReturnValue, ProcedureReturnValue›_
 
-▸ **createProcedureMethod**‹**MethodArgs**, **ProcedureArgs**, **ProcedureReturnValue**, **ReturnValue**, **Storage**›(`args`: object, `context`: [Context](classes/context.md)): *[ProcedureMethod](interfaces/proceduremethod.md)‹MethodArgs, ProcedureReturnValue, ReturnValue›*
+▸ **createProcedureMethod**‹**MethodArgs**, **ProcedureArgs**, **ProcedureReturnValue**, **ReturnValue**, **Storage**›\(`args`: object, `context`: [Context](classes/context.md)\): [_ProcedureMethod_](interfaces/proceduremethod.md)_‹MethodArgs, ProcedureReturnValue, ReturnValue›_
 
-*Defined in [src/utils/internal.ts:422](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/utils/internal.ts#L422)*
+_Defined in_ [_src/utils/internal.ts:422_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/utils/internal.ts#L422)
 
 **Type parameters:**
 
 ▪ **MethodArgs**
 
-▪ **ProcedureArgs**: *unknown*
+▪ **ProcedureArgs**: _unknown_
 
 ▪ **ProcedureReturnValue**
 
@@ -900,81 +785,74 @@ Name | Type |
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`getProcedureAndArgs` | function |
-`transformer` | function |
+| Name | Type |
+| :--- | :--- |
+| `getProcedureAndArgs` | function |
+| `transformer` | function |
 
-▪ **context**: *[Context](classes/context.md)*
+▪ **context**: [_Context_](classes/context.md)
 
-**Returns:** *[ProcedureMethod](interfaces/proceduremethod.md)‹MethodArgs, ProcedureReturnValue, ReturnValue›*
-
-___
+**Returns:** [_ProcedureMethod_](interfaces/proceduremethod.md)_‹MethodArgs, ProcedureReturnValue, ReturnValue›_
 
 ### `Const` findClaimsByOtherIssuers
 
-▸ **findClaimsByOtherIssuers**(`claims`: [ClaimTarget](interfaces/claimtarget.md)[], `claimsByDid`: Record‹string, MiddlewareClaim[]›): *[Claim](globals.md#claim)[]*
+▸ **findClaimsByOtherIssuers**\(`claims`: [ClaimTarget](interfaces/claimtarget.md)\[\], `claimsByDid`: Record‹string, MiddlewareClaim\[\]›\): [_Claim_](globals.md#claim)_\[\]_
 
-*Defined in [src/api/procedures/modifyClaims.ts:84](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyClaims.ts#L84)*
+_Defined in_ [_src/api/procedures/modifyClaims.ts:84_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyClaims.ts#L84)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`claims` | [ClaimTarget](interfaces/claimtarget.md)[] |
-`claimsByDid` | Record‹string, MiddlewareClaim[]› |
+| Name | Type |
+| :--- | :--- |
+| `claims` | [ClaimTarget](interfaces/claimtarget.md)\[\] |
+| `claimsByDid` | Record‹string, MiddlewareClaim\[\]› |
 
-**Returns:** *[Claim](globals.md#claim)[]*
-
-___
+**Returns:** [_Claim_](globals.md#claim)_\[\]_
 
 ### `Const` findPositiveBalanceIuClaims
 
-▸ **findPositiveBalanceIuClaims**(`claims`: [ClaimTarget](interfaces/claimtarget.md)[], `context`: [Context](classes/context.md)): *Promise‹[Claim](globals.md#claim)[]›*
+▸ **findPositiveBalanceIuClaims**\(`claims`: [ClaimTarget](interfaces/claimtarget.md)\[\], `context`: [Context](classes/context.md)\): _Promise‹_[_Claim_](globals.md#claim)_\[\]›_
 
-*Defined in [src/api/procedures/modifyClaims.ts:100](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyClaims.ts#L100)*
+_Defined in_ [_src/api/procedures/modifyClaims.ts:100_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/modifyClaims.ts#L100)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`claims` | [ClaimTarget](interfaces/claimtarget.md)[] |
-`context` | [Context](classes/context.md) |
+| Name | Type |
+| :--- | :--- |
+| `claims` | [ClaimTarget](interfaces/claimtarget.md)\[\] |
+| `context` | [Context](classes/context.md) |
 
-**Returns:** *Promise‹[Claim](globals.md#claim)[]›*
+**Returns:** _Promise‹_[_Claim_](globals.md#claim)_\[\]›_
 
-___
+### tickerToDid
 
-###  tickerToDid
+▸ **tickerToDid**\(`ticker`: string\): _string_
 
-▸ **tickerToDid**(`ticker`: string): *string*
-
-*Defined in [src/utils/conversion.ts:224](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/utils/conversion.ts#L224)*
+_Defined in_ [_src/utils/conversion.ts:224_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/utils/conversion.ts#L224)
 
 Generate a Security Token's DID from a ticker
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`ticker` | string |
+| Name | Type |
+| :--- | :--- |
+| `ticker` | string |
 
-**Returns:** *string*
+**Returns:** _string_
 
-___
+### toHumanReadable
 
-###  toHumanReadable
+▸ **toHumanReadable**‹**T**›\(`obj`: T\): [_HumanReadableType_](globals.md#humanreadabletype)_‹T›_
 
-▸ **toHumanReadable**‹**T**›(`obj`: T): *[HumanReadableType](globals.md#humanreadabletype)‹T›*
+_Defined in_ [_src/utils/internal.ts:674_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/utils/internal.ts#L674)
 
-*Defined in [src/utils/internal.ts:674](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/utils/internal.ts#L674)*
+Recursively convert a value into a human readable \(JSON compliant\) version:
 
-Recursively convert a value into a human readable (JSON compliant) version:
-  - Entities are converted via their `.toJson` method
-  - Dates are converted to ISO strings
-  - BigNumbers are converted to numerical strings
+* Entities are converted via their `.toJson` method
+* Dates are converted to ISO strings
+* BigNumbers are converted to numerical strings
 
 **Type parameters:**
 
@@ -982,74 +860,71 @@ Recursively convert a value into a human readable (JSON compliant) version:
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`obj` | T |
+| Name | Type |
+| :--- | :--- |
+| `obj` | T |
 
-**Returns:** *[HumanReadableType](globals.md#humanreadabletype)‹T›*
-
-___
+**Returns:** [_HumanReadableType_](globals.md#humanreadabletype)_‹T›_
 
 ### `Const` tuple
 
-▸ **tuple**‹**T**›(...`args`: T): *T*
+▸ **tuple**‹**T**›\(...`args`: T\): _T_
 
-*Defined in [src/types/utils/index.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/utils/index.ts#L48)*
+_Defined in_ [_src/types/utils/index.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/utils/index.ts#L48)
 
 Create a literal tuple type from a list of arguments
 
 **Type parameters:**
 
-▪ **T**: *unknown[]*
+▪ **T**: _unknown\[\]_
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`...args` | T | values to turn into a tuple  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `...args` | T | values to turn into a tuple |
 
-**Returns:** *T*
+**Returns:** _T_
 
-___
+### txGroupToTxTags
 
-###  txGroupToTxTags
+▸ **txGroupToTxTags**\(`group`: [TxGroup](enums/txgroup.md)\): _TxTag\[\]_
 
-▸ **txGroupToTxTags**(`group`: [TxGroup](enums/txgroup.md)): *TxTag[]*
-
-*Defined in [src/utils/conversion.ts:589](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/utils/conversion.ts#L589)*
+_Defined in_ [_src/utils/conversion.ts:589_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/utils/conversion.ts#L589)
 
 Retrieve every Transaction Tag associated to a Transaction Group
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`group` | [TxGroup](enums/txgroup.md) |
+| Name | Type |
+| :--- | :--- |
+| `group` | [TxGroup](enums/txgroup.md) |
 
-**Returns:** *TxTag[]*
+**Returns:** _TxTag\[\]_
 
 ## Object literals
 
 ### `Const` defaultMessages
 
-### ▪ **defaultMessages**: *object*
+### ▪ **defaultMessages**: _object_
 
-*Defined in [src/base/PolymeshError.ts:3](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/base/PolymeshError.ts#L3)*
+_Defined in_ [_src/base/PolymeshError.ts:3_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/base/PolymeshError.ts#L3)
 
-###  [ErrorCode.TransactionAborted]
+### \[ErrorCode.TransactionAborted\]
 
-• **[ErrorCode.TransactionAborted]**: *string* = "The transaction was removed from the transaction pool. This might mean that it was malformed (nonce too large/nonce too small/duplicated or invalid transaction)"
+• **\[ErrorCode.TransactionAborted\]**: _string_ = "The transaction was removed from the transaction pool. This might mean that it was malformed \(nonce too large/nonce too small/duplicated or invalid transaction\)"
 
-*Defined in [src/base/PolymeshError.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/base/PolymeshError.ts#L7)*
+_Defined in_ [_src/base/PolymeshError.ts:7_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/base/PolymeshError.ts#L7)
 
-###  [ErrorCode.TransactionRejectedByUser]
+### \[ErrorCode.TransactionRejectedByUser\]
 
-• **[ErrorCode.TransactionRejectedByUser]**: *string* = "The user canceled the transaction signature"
+• **\[ErrorCode.TransactionRejectedByUser\]**: _string_ = "The user canceled the transaction signature"
 
-*Defined in [src/base/PolymeshError.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/base/PolymeshError.ts#L9)*
+_Defined in_ [_src/base/PolymeshError.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/base/PolymeshError.ts#L9)
 
-###  [ErrorCode.TransactionReverted]
+### \[ErrorCode.TransactionReverted\]
 
-• **[ErrorCode.TransactionReverted]**: *string* = "The transaction execution reverted due to an error"
+• **\[ErrorCode.TransactionReverted\]**: _string_ = "The transaction execution reverted due to an error"
 
-*Defined in [src/base/PolymeshError.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/base/PolymeshError.ts#L6)*
+_Defined in_ [_src/base/PolymeshError.ts:6_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/base/PolymeshError.ts#L6)
+

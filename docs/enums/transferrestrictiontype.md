@@ -1,4 +1,4 @@
-# Enumeration: TransferRestrictionType
+# TransferRestrictionType
 
 ## Index
 
@@ -9,16 +9,15 @@
 
 ## Enumeration members
 
-###  Count
+### Count
 
 • **Count**: = "Count"
 
-*Defined in [src/types/index.ts:1020](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L1020)*
+_Defined in_ [_src/types/index.ts:1020_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L1020)
 
-___
-
-###  Percentage
+### Percentage
 
 • **Percentage**: = "Percentage"
 
-*Defined in [src/types/index.ts:1021](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L1021)*
+_Defined in_ [_src/types/index.ts:1021_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L1021)
+

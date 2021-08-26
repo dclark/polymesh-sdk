@@ -1,4 +1,4 @@
-# Interface: CreateSecurityTokenParams
+# CreateSecurityTokenParams
 
 ## Hierarchy
 
@@ -20,64 +20,53 @@
 
 ### `Optional` documents
 
-• **documents**? : *[TokenDocument](tokendocument.md)[]*
+• **documents**? : [_TokenDocument_](tokendocument.md)_\[\]_
 
-*Defined in [src/api/procedures/createSecurityToken.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/createSecurityToken.ts#L49)*
-
-___
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:49_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/createSecurityToken.ts#L49)
 
 ### `Optional` fundingRound
 
-• **fundingRound**? : *undefined | string*
+• **fundingRound**? : _undefined \| string_
 
-*Defined in [src/api/procedures/createSecurityToken.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/createSecurityToken.ts#L48)*
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/createSecurityToken.ts#L48)
 
-(optional) funding round in which the token currently is (Series A, Series B, etc)
+\(optional\) funding round in which the token currently is \(Series A, Series B, etc\)
 
-___
+### isDivisible
 
-###  isDivisible
+• **isDivisible**: _boolean_
 
-• **isDivisible**: *boolean*
-
-*Defined in [src/api/procedures/createSecurityToken.ts:36](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/createSecurityToken.ts#L36)*
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:36_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/createSecurityToken.ts#L36)
 
 whether a single token can be divided into decimal parts
 
-___
+### name
 
-###  name
+• **name**: _string_
 
-• **name**: *string*
-
-*Defined in [src/api/procedures/createSecurityToken.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/createSecurityToken.ts#L28)*
-
-___
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:28_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/createSecurityToken.ts#L28)
 
 ### `Optional` tokenIdentifiers
 
-• **tokenIdentifiers**? : *[TokenIdentifier](tokenidentifier.md)[]*
+• **tokenIdentifiers**? : [_TokenIdentifier_](tokenidentifier.md)_\[\]_
 
-*Defined in [src/api/procedures/createSecurityToken.ts:44](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/createSecurityToken.ts#L44)*
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:44_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/createSecurityToken.ts#L44)
 
-array of domestic or international alphanumeric security identifiers for the token (ISIN, CUSIP, etc)
+array of domestic or international alphanumeric security identifiers for the token \(ISIN, CUSIP, etc\)
 
-___
+### tokenType
 
-###  tokenType
+• **tokenType**: [_TokenType_](../globals.md#tokentype)
 
-• **tokenType**: *[TokenType](../globals.md#tokentype)*
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:40_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/createSecurityToken.ts#L40)
 
-*Defined in [src/api/procedures/createSecurityToken.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/createSecurityToken.ts#L40)*
-
-type of security that the token represents (i.e. Equity, Debt, Commodity, etc)
-
-___
+type of security that the token represents \(i.e. Equity, Debt, Commodity, etc\)
 
 ### `Optional` totalSupply
 
-• **totalSupply**? : *BigNumber*
+• **totalSupply**? : _BigNumber_
 
-*Defined in [src/api/procedures/createSecurityToken.ts:32](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/createSecurityToken.ts#L32)*
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:32_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/createSecurityToken.ts#L32)
 
-amount of tokens that will be minted on creation (optional, default doesn't mint)
+amount of tokens that will be minted on creation \(optional, default doesn't mint\)
+

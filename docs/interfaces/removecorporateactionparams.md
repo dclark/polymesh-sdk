@@ -1,4 +1,4 @@
-# Interface: RemoveCorporateActionParams
+# RemoveCorporateActionParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  corporateAction
+### corporateAction
 
-• **corporateAction**: *[CorporateAction](../classes/corporateaction.md) | BigNumber*
+• **corporateAction**: [_CorporateAction_](../classes/corporateaction.md) _\| BigNumber_
 
-*Defined in [src/api/procedures/removeCorporateAction.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/removeCorporateAction.ts#L23)*
+_Defined in_ [_src/api/procedures/removeCorporateAction.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/removeCorporateAction.ts#L23)
+

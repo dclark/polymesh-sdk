@@ -1,10 +1,10 @@
-# Class: Authorizations ‹**Parent**›
+# Authorizations
 
 Handles all Authorization related functionality
 
 ## Type parameters
 
-▪ **Parent**: *[Signer](../globals.md#signer)*
+▪ **Parent**: [_Signer_](../globals.md#signer)
 
 ## Hierarchy
 
@@ -29,36 +29,35 @@ Handles all Authorization related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Namespace.ts#L11)
 
 ### `Protected` parent
 
-• **parent**: *Parent*
+• **parent**: _Parent_
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Namespace.ts#L9)
 
 ## Methods
 
-###  getReceived
+### getReceived
 
-▸ **getReceived**(`opts?`: undefined | object): *Promise‹[AuthorizationRequest](authorizationrequest.md)[]›*
+▸ **getReceived**\(`opts?`: undefined \| object\): _Promise‹_[_AuthorizationRequest_](authorizationrequest.md)_\[\]›_
 
-*Defined in [src/api/entities/common/namespaces/Authorizations.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/common/namespaces/Authorizations.ts#L27)*
+_Defined in_ [_src/api/entities/common/namespaces/Authorizations.ts:27_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/common/namespaces/Authorizations.ts#L27)
 
 Fetch all pending authorization requests for which this identity is the target
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`opts?` | undefined &#124; object |
+| Name | Type |
+| :--- | :--- |
+| `opts?` | undefined \| object |
 
-**Returns:** *Promise‹[AuthorizationRequest](authorizationrequest.md)[]›*
+**Returns:** _Promise‹_[_AuthorizationRequest_](authorizationrequest.md)_\[\]›_
+

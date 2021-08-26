@@ -1,4 +1,4 @@
-# Interface: CorporateActionDefaults
+# CorporateActionDefaults
 
 ## Hierarchy
 
@@ -14,24 +14,21 @@
 
 ## Properties
 
-###  defaultTaxWithholding
+### defaultTaxWithholding
 
-• **defaultTaxWithholding**: *BigNumber*
+• **defaultTaxWithholding**: _BigNumber_
 
-*Defined in [src/api/entities/SecurityToken/CorporateActions/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/CorporateActions/types.ts#L7)*
+_Defined in_ [_src/api/entities/SecurityToken/CorporateActions/types.ts:7_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/CorporateActions/types.ts#L7)
 
-___
+### targets
 
-###  targets
+• **targets**: [_CorporateActionTargets_](corporateactiontargets.md)
 
-• **targets**: *[CorporateActionTargets](corporateactiontargets.md)*
+_Defined in_ [_src/api/entities/SecurityToken/CorporateActions/types.ts:6_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/CorporateActions/types.ts#L6)
 
-*Defined in [src/api/entities/SecurityToken/CorporateActions/types.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/CorporateActions/types.ts#L6)*
+### taxWithholdings
 
-___
+• **taxWithholdings**: [_TaxWithholding_](taxwithholding.md)_\[\]_
 
-###  taxWithholdings
+_Defined in_ [_src/api/entities/SecurityToken/CorporateActions/types.ts:8_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/CorporateActions/types.ts#L8)
 
-• **taxWithholdings**: *[TaxWithholding](taxwithholding.md)[]*
-
-*Defined in [src/api/entities/SecurityToken/CorporateActions/types.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/SecurityToken/CorporateActions/types.ts#L8)*

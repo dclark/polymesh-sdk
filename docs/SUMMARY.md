@@ -1,5 +1,8 @@
+# Table of contents
+
+* [Introduction](README.md)
 * [Globals](globals.md)
-* [Classes]()
+* [Classes](classes/README.md)
   * [Account](classes/account.md)
   * [Agent](classes/agent.md)
   * [AuthorizationRequest](classes/authorizationrequest.md)
@@ -50,7 +53,7 @@
   * [TransferRestrictions](classes/transferrestrictions.md)
   * [TrustedClaimIssuers](classes/trustedclaimissuers.md)
   * [Venue](classes/venue.md)
-* [Enums]()
+* [Enums](enums/README.md)
   * [AffirmationStatus](enums/affirmationstatus.md)
   * [AuthorizationType](enums/authorizationtype.md)
   * [CalendarUnit](enums/calendarunit.md)
@@ -83,7 +86,7 @@
   * [TransferStatus](enums/transferstatus.md)
   * [TxGroup](enums/txgroup.md)
   * [VenueType](enums/venuetype.md)
-* [Interfaces]()
+* [Interfaces](interfaces/README.md)
   * [ActiveTransferRestrictions](interfaces/activetransferrestrictions.md)
   * [AddBatchTransactionOpts](interfaces/addbatchtransactionopts.md)
   * [AddClaimsParams](interfaces/addclaimsparams.md)
@@ -217,3 +220,4 @@
   * [UniqueIdentifiers](interfaces/uniqueidentifiers.md)
   * [VenueDetails](interfaces/venuedetails.md)
   * [VenueOwnerRole](interfaces/venueownerrole.md)
+

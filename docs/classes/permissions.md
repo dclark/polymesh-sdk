@@ -1,9 +1,6 @@
-# Class: Permissions
+# Permissions
 
-Handles all Security Token Permissions related functionality
-Permissions a Secondary Key has over the Identity. A null value means the key has
-  all permissions of that type (i.e. if `tokens` is null, the key has permissions over all
-  of the Identity's Security Tokens)
+Handles all Security Token Permissions related functionality Permissions a Secondary Key has over the Identity. A null value means the key has all permissions of that type \(i.e. if `tokens` is null, the key has permissions over all of the Identity's Security Tokens\)
 
 ## Hierarchy
 
@@ -26,58 +23,47 @@ Permissions a Secondary Key has over the Identity. A null value means the key ha
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Namespace.ts#L11)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/entities/Namespace.ts#L9)
 
-___
+### portfolios
 
-###  portfolios
+• **portfolios**: [_SectionPermissions_](../interfaces/sectionpermissions.md)_‹_[_DefaultPortfolio_](defaultportfolio.md) _\|_ [_NumberedPortfolio_](numberedportfolio.md)_› \| null_
 
-• **portfolios**: *[SectionPermissions](../interfaces/sectionpermissions.md)‹[DefaultPortfolio](defaultportfolio.md) | [NumberedPortfolio](numberedportfolio.md)› | null*
+_Defined in_ [_src/types/index.ts:763_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L763)
 
-*Defined in [src/types/index.ts:763](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L763)*
+### tokens
 
-___
+• **tokens**: [_SectionPermissions_](../interfaces/sectionpermissions.md)_‹_[_SecurityToken_](securitytoken.md)_› \| null_
 
-###  tokens
-
-• **tokens**: *[SectionPermissions](../interfaces/sectionpermissions.md)‹[SecurityToken](securitytoken.md)› | null*
-
-*Defined in [src/types/index.ts:751](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L751)*
+_Defined in_ [_src/types/index.ts:751_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L751)
 
 Security Tokens over which this key has permissions
 
-___
+### transactionGroups
 
-###  transactionGroups
+• **transactionGroups**: [_TxGroup_](../enums/txgroup.md)_\[\]_
 
-• **transactionGroups**: *[TxGroup](../enums/txgroup.md)[]*
+_Defined in_ [_src/types/index.ts:761_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L761)
 
-*Defined in [src/types/index.ts:761](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L761)*
+list of Transaction Groups this key can execute. Having permissions over a TxGroup means having permissions over every TxTag in said group. Partial group permissions are not covered by this value. For a full picture of transaction permissions, see the `transactions` property
 
-list of Transaction Groups this key can execute. Having permissions over a TxGroup
-  means having permissions over every TxTag in said group. Partial group permissions are not
-  covered by this value. For a full picture of transaction permissions, see the `transactions` property
+### transactions
 
-___
+• **transactions**: [_TransactionPermissions_](../interfaces/transactionpermissions.md) _\| null_
 
-###  transactions
-
-• **transactions**: *[TransactionPermissions](../interfaces/transactionpermissions.md) | null*
-
-*Defined in [src/types/index.ts:755](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L755)*
+_Defined in_ [_src/types/index.ts:755_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L755)
 
 Transactions this key can execute
+

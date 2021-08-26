@@ -1,4 +1,4 @@
-# Interface: AddInstructionsParams
+# AddInstructionsParams
 
 ## Hierarchy
 
@@ -12,10 +12,11 @@
 
 ## Properties
 
-###  instructions
+### instructions
 
-• **instructions**: *[AddInstructionParams](addinstructionparams.md)[]*
+• **instructions**: [_AddInstructionParams_](addinstructionparams.md)_\[\]_
 
-*Defined in [src/api/procedures/addInstruction.ts:71](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/addInstruction.ts#L71)*
+_Defined in_ [_src/api/procedures/addInstruction.ts:71_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/api/procedures/addInstruction.ts#L71)
 
 array of Instructions to be added in the Venue
+

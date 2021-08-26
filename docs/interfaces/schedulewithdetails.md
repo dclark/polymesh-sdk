@@ -1,4 +1,4 @@
-# Interface: ScheduleWithDetails
+# ScheduleWithDetails
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  details
+### details
 
-• **details**: *[ScheduleDetails](scheduledetails.md)*
+• **details**: [_ScheduleDetails_](scheduledetails.md)
 
-*Defined in [src/types/index.ts:1049](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L1049)*
+_Defined in_ [_src/types/index.ts:1049_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L1049)
 
-___
+### schedule
 
-###  schedule
+• **schedule**: [_CheckpointSchedule_](../classes/checkpointschedule.md)
 
-• **schedule**: *[CheckpointSchedule](../classes/checkpointschedule.md)*
+_Defined in_ [_src/types/index.ts:1048_](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L1048)
 
-*Defined in [src/types/index.ts:1048](https://github.com/PolymathNetwork/polymesh-sdk/blob/bf2b7a12/src/types/index.ts#L1048)*
