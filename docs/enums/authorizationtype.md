@@ -1,4 +1,4 @@
-# Enumeration: AuthorizationType
+# AuthorizationType
 
 Type of authorization request
 
@@ -21,96 +21,75 @@ Type of authorization request
 
 ## Enumeration members
 
-###  AddMultiSigSigner
+### AddMultiSigSigner
 
 • **AddMultiSigSigner**: = "AddMultiSigSigner"
 
-*Defined in [src/types/index.ts:197](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L197)*
+_Defined in_ [_src/types/index.ts:197_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L197)
 
-___
-
-###  AttestPrimaryKeyRotation
+### AttestPrimaryKeyRotation
 
 • **AttestPrimaryKeyRotation**: = "AttestPrimaryKeyRotation"
 
-*Defined in [src/types/index.ts:194](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L194)*
+_Defined in_ [_src/types/index.ts:194_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L194)
 
-___
-
-###  BecomeAgent
+### BecomeAgent
 
 • **BecomeAgent**: = "BecomeAgent"
 
-*Defined in [src/types/index.ts:203](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L203)*
+_Defined in_ [_src/types/index.ts:203_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L203)
 
-___
-
-###  Custom
+### Custom
 
 • **Custom**: = "Custom"
 
-*Defined in [src/types/index.ts:204](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L204)*
+_Defined in_ [_src/types/index.ts:204_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L204)
 
-___
-
-###  JoinIdentity
+### JoinIdentity
 
 • **JoinIdentity**: = "JoinIdentity"
 
-*Defined in [src/types/index.ts:200](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L200)*
+_Defined in_ [_src/types/index.ts:200_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L200)
 
-___
-
-###  NoData
+### NoData
 
 • **NoData**: = "NoData"
 
-*Defined in [src/types/index.ts:205](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L205)*
+_Defined in_ [_src/types/index.ts:205_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L205)
 
-___
-
-###  PortfolioCustody
+### PortfolioCustody
 
 • **PortfolioCustody**: = "PortfolioCustody"
 
-*Defined in [src/types/index.ts:201](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L201)*
+_Defined in_ [_src/types/index.ts:201_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L201)
 
-___
-
-###  RotatePrimaryKey
+### RotatePrimaryKey
 
 • **RotatePrimaryKey**: = "RotatePrimaryKey"
 
-*Defined in [src/types/index.ts:195](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L195)*
+_Defined in_ [_src/types/index.ts:195_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L195)
 
-___
-
-###  TransferAssetOwnership
+### TransferAssetOwnership
 
 • **TransferAssetOwnership**: = "TransferAssetOwnership"
 
-*Defined in [src/types/index.ts:198](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L198)*
+_Defined in_ [_src/types/index.ts:198_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L198)
 
-___
-
-###  TransferCorporateActionAgent
+### TransferCorporateActionAgent
 
 • **TransferCorporateActionAgent**: = "TransferCorporateActionAgent"
 
-*Defined in [src/types/index.ts:202](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L202)*
+_Defined in_ [_src/types/index.ts:202_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L202)
 
-___
-
-###  TransferPrimaryIssuanceAgent
+### TransferPrimaryIssuanceAgent
 
 • **TransferPrimaryIssuanceAgent**: = "TransferPrimaryIssuanceAgent"
 
-*Defined in [src/types/index.ts:199](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L199)*
+_Defined in_ [_src/types/index.ts:199_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L199)
 
-___
-
-###  TransferTicker
+### TransferTicker
 
 • **TransferTicker**: = "TransferTicker"
 
-*Defined in [src/types/index.ts:196](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L196)*
+_Defined in_ [_src/types/index.ts:196_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L196)
+

@@ -1,7 +1,6 @@
-# Class: Checkpoint
+# Checkpoint
 
-Represents a snapshot of the Security Token's holders and their respective balances
-  at a certain point in time
+Represents a snapshot of the Security Token's holders and their respective balances at a certain point in time
 
 ## Hierarchy
 
@@ -34,49 +33,43 @@ Represents a snapshot of the Security Token's holders and their respective balan
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [Entity](entity.md).[context](entity.md#protected-context)*
+_Inherited from_ [_Entity_](entity.md)_._[_context_](entity.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Entity.ts#L48)
 
-___
+### id
 
-###  id
+• **id**: _BigNumber_
 
-• **id**: *BigNumber*
-
-*Defined in [src/api/entities/Checkpoint.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L48)*
+_Defined in_ [_src/api/entities/Checkpoint.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L48)
 
 checkpoint identifier number
 
-___
+### ticker
 
-###  ticker
+• **ticker**: _string_
 
-• **ticker**: *string*
-
-*Defined in [src/api/entities/Checkpoint.ts:53](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L53)*
+_Defined in_ [_src/api/entities/Checkpoint.ts:53_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L53)
 
 ticker of the Security Token whose balances are being recorded
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_Entity_](entity.md)_._[_uuid_](entity.md#uuid)
 
-*Inherited from [Entity](entity.md).[uuid](entity.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  allBalances
+### allBalances
 
-▸ **allBalances**(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)): *Promise‹[ResultSet](../interfaces/resultset.md)‹[IdentityBalance](../interfaces/identitybalance.md)››*
+▸ **allBalances**\(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_IdentityBalance_](../interfaces/identitybalance.md)_››_
 
-*Defined in [src/api/entities/Checkpoint.ts:100](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L100)*
+_Defined in_ [_src/api/entities/Checkpoint.ts:100_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L100)
 
 Retrieve all Tokenholder balances at this Checkpoint
 
@@ -84,109 +77,95 @@ Retrieve all Tokenholder balances at this Checkpoint
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
+| Name | Type |
+| :--- | :--- |
+| `paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[IdentityBalance](../interfaces/identitybalance.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_IdentityBalance_](../interfaces/identitybalance.md)_››_
 
-___
+### balance
 
-###  balance
+▸ **balance**\(`args?`: undefined \| object\): _Promise‹BigNumber›_
 
-▸ **balance**(`args?`: undefined | object): *Promise‹BigNumber›*
-
-*Defined in [src/api/entities/Checkpoint.ts:182](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L182)*
+_Defined in_ [_src/api/entities/Checkpoint.ts:182_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L182)
 
 Retrieve the balance of a specific Tokenholder Identity at this Checkpoint
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args?` | undefined &#124; object |
+| Name | Type |
+| :--- | :--- |
+| `args?` | undefined \| object |
 
-**Returns:** *Promise‹BigNumber›*
+**Returns:** _Promise‹BigNumber›_
 
-___
+### createdAt
 
-###  createdAt
+▸ **createdAt**\(\): _Promise‹Date›_
 
-▸ **createdAt**(): *Promise‹Date›*
-
-*Defined in [src/api/entities/Checkpoint.ts:84](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L84)*
+_Defined in_ [_src/api/entities/Checkpoint.ts:84_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L84)
 
 Retrieve this Checkpoint's creation date
 
-**Returns:** *Promise‹Date›*
+**Returns:** _Promise‹Date›_
 
-___
+### exists
 
-###  exists
+▸ **exists**\(\): _Promise‹boolean›_
 
-▸ **exists**(): *Promise‹boolean›*
-
-*Defined in [src/api/entities/Checkpoint.ts:222](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L222)*
+_Defined in_ [_src/api/entities/Checkpoint.ts:222_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L222)
 
 Retrieve whether the Checkpoint still exists on chain
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### isEqual
 
-###  isEqual
+▸ **isEqual**\(`entity`: [Entity](entity.md)‹unknown, unknown›\): _boolean_
 
-▸ **isEqual**(`entity`: [Entity](entity.md)‹unknown, unknown›): *boolean*
+_Inherited from_ [_Entity_](entity.md)_._[_isEqual_](entity.md#isequal)
 
-*Inherited from [Entity](entity.md).[isEqual](entity.md#isequal)*
-
-*Defined in [src/api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Entity.ts#L61)*
+_Defined in_ [_src/api/entities/Entity.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Entity.ts#L61)
 
 Whether this Entity is the same as another one
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`entity` | [Entity](entity.md)‹unknown, unknown› |
+| Name | Type |
+| :--- | :--- |
+| `entity` | [Entity](entity.md)‹unknown, unknown› |
 
-**Returns:** *boolean*
+**Returns:** _boolean_
 
-___
+### toJson
 
-###  toJson
+▸ **toJson**\(\): [_HumanReadable_](../interfaces/humanreadable.md)
 
-▸ **toJson**(): *[HumanReadable](../interfaces/humanreadable.md)*
+_Overrides_ [_Entity_](entity.md)_._[_toJson_](entity.md#abstract-tojson)
 
-*Overrides [Entity](entity.md).[toJson](entity.md#abstract-tojson)*
-
-*Defined in [src/api/entities/Checkpoint.ts:242](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L242)*
+_Defined in_ [_src/api/entities/Checkpoint.ts:242_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L242)
 
 Return the Checkpoint's ticker and identifier
 
-**Returns:** *[HumanReadable](../interfaces/humanreadable.md)*
+**Returns:** [_HumanReadable_](../interfaces/humanreadable.md)
 
-___
+### totalSupply
 
-###  totalSupply
+▸ **totalSupply**\(\): _Promise‹BigNumber›_
 
-▸ **totalSupply**(): *Promise‹BigNumber›*
-
-*Defined in [src/api/entities/Checkpoint.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L70)*
+_Defined in_ [_src/api/entities/Checkpoint.ts:70_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L70)
 
 Retrieve the Security Token's total supply at this checkpoint
 
-**Returns:** *Promise‹BigNumber›*
-
-___
+**Returns:** _Promise‹BigNumber›_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [Entity](entity.md).[generateUuid](entity.md#static-generateuuid)*
+_Inherited from_ [_Entity_](entity.md)_._[_generateUuid_](entity.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
@@ -196,21 +175,19 @@ Generate the Entity's UUID from its identifying properties
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [Entity](entity.md).[unserialize](entity.md#static-unserialize)*
+_Inherited from_ [_Entity_](entity.md)_._[_unserialize_](entity.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
@@ -220,8 +197,9 @@ Unserialize a UUID into its Unique Identifiers
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

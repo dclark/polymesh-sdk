@@ -1,4 +1,4 @@
-# Enumeration: ConditionTarget
+# ConditionTarget
 
 ## Index
 
@@ -10,24 +10,21 @@
 
 ## Enumeration members
 
-###  Both
+### Both
 
 • **Both**: = "Both"
 
-*Defined in [src/types/index.ts:211](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L211)*
+_Defined in_ [_src/types/index.ts:211_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L211)
 
-___
-
-###  Receiver
+### Receiver
 
 • **Receiver**: = "Receiver"
 
-*Defined in [src/types/index.ts:210](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L210)*
+_Defined in_ [_src/types/index.ts:210_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L210)
 
-___
-
-###  Sender
+### Sender
 
 • **Sender**: = "Sender"
 
-*Defined in [src/types/index.ts:209](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L209)*
+_Defined in_ [_src/types/index.ts:209_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L209)
+

@@ -1,4 +1,4 @@
-# Interface: TokenDocument
+# TokenDocument
 
 Document attached to a token
 
@@ -18,40 +18,33 @@ Document attached to a token
 
 ## Properties
 
-###  contentHash
+### contentHash
 
-• **contentHash**: *string*
+• **contentHash**: _string_
 
-*Defined in [src/types/index.ts:185](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L185)*
-
-___
+_Defined in_ [_src/types/index.ts:185_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L185)
 
 ### `Optional` filedAt
 
-• **filedAt**? : *[Date](../enums/transactionargumenttype.md#date)*
+• **filedAt**? : [_Date_](../enums/transactionargumenttype.md#date)
 
-*Defined in [src/types/index.ts:187](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L187)*
+_Defined in_ [_src/types/index.ts:187_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L187)
 
-___
+### name
 
-###  name
+• **name**: _string_
 
-• **name**: *string*
-
-*Defined in [src/types/index.ts:183](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L183)*
-
-___
+_Defined in_ [_src/types/index.ts:183_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L183)
 
 ### `Optional` type
 
-• **type**? : *undefined | string*
+• **type**? : _undefined \| string_
 
-*Defined in [src/types/index.ts:186](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L186)*
+_Defined in_ [_src/types/index.ts:186_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L186)
 
-___
+### uri
 
-###  uri
+• **uri**: _string_
 
-• **uri**: *string*
+_Defined in_ [_src/types/index.ts:184_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L184)
 
-*Defined in [src/types/index.ts:184](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L184)*

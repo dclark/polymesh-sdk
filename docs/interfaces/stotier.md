@@ -1,4 +1,4 @@
-# Interface: StoTier
+# StoTier
 
 ## Hierarchy
 
@@ -15,16 +15,15 @@
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *BigNumber*
+• **amount**: _BigNumber_
 
-*Defined in [src/api/entities/Sto/types.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/types.ts#L63)*
+_Defined in_ [_src/api/entities/Sto/types.ts:63_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/types.ts#L63)
 
-___
+### price
 
-###  price
+• **price**: _BigNumber_
 
-• **price**: *BigNumber*
+_Defined in_ [_src/api/entities/Sto/types.ts:64_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/types.ts#L64)
 
-*Defined in [src/api/entities/Sto/types.ts:64](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/types.ts#L64)*

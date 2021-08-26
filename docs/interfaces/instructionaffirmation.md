@@ -1,4 +1,4 @@
-# Interface: InstructionAffirmation
+# InstructionAffirmation
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  identity
+### identity
 
-• **identity**: *[Identity](../classes/identity.md)*
+• **identity**: [_Identity_](../classes/identity.md)
 
-*Defined in [src/api/entities/Instruction/types.ts:54](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L54)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:54_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L54)
 
-___
+### status
 
-###  status
+• **status**: [_AffirmationStatus_](../enums/affirmationstatus.md)
 
-• **status**: *[AffirmationStatus](../enums/affirmationstatus.md)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:55_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L55)
 
-*Defined in [src/api/entities/Instruction/types.ts:55](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L55)*

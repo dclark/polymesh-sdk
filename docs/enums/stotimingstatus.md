@@ -1,4 +1,4 @@
-# Enumeration: StoTimingStatus
+# StoTimingStatus
 
 ## Index
 
@@ -10,30 +10,27 @@
 
 ## Enumeration members
 
-###  Expired
+### Expired
 
 • **Expired**: = "Expired"
 
-*Defined in [src/api/entities/Sto/types.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/types.ts#L17)*
+_Defined in_ [_src/api/entities/Sto/types.ts:17_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/types.ts#L17)
 
 End date reached
 
-___
-
-###  NotStarted
+### NotStarted
 
 • **NotStarted**: = "NotStarted"
 
-*Defined in [src/api/entities/Sto/types.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/types.ts#L9)*
+_Defined in_ [_src/api/entities/Sto/types.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/types.ts#L9)
 
 Start date not reached yet
 
-___
-
-###  Started
+### Started
 
 • **Started**: = "Started"
 
-*Defined in [src/api/entities/Sto/types.ts:13](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/types.ts#L13)*
+_Defined in_ [_src/api/entities/Sto/types.ts:13_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/types.ts#L13)
 
 Between start and end date
+

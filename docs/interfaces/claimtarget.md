@@ -1,4 +1,4 @@
-# Interface: ClaimTarget
+# ClaimTarget
 
 ## Hierarchy
 
@@ -14,24 +14,21 @@
 
 ## Properties
 
-###  claim
+### claim
 
-• **claim**: *[Claim](../globals.md#claim)*
+• **claim**: [_Claim_](../globals.md#claim)
 
-*Defined in [src/types/index.ts:517](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L517)*
-
-___
+_Defined in_ [_src/types/index.ts:517_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L517)
 
 ### `Optional` expiry
 
-• **expiry**? : *[Date](../enums/transactionargumenttype.md#date)*
+• **expiry**? : [_Date_](../enums/transactionargumenttype.md#date)
 
-*Defined in [src/types/index.ts:518](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L518)*
+_Defined in_ [_src/types/index.ts:518_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L518)
 
-___
+### target
 
-###  target
+• **target**: _string \|_ [_Identity_](../classes/identity.md)
 
-• **target**: *string | [Identity](../classes/identity.md)*
+_Defined in_ [_src/types/index.ts:516_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L516)
 
-*Defined in [src/types/index.ts:516](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L516)*

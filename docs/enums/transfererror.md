@@ -1,8 +1,6 @@
-# Enumeration: TransferError
+# TransferError
 
-Akin to TransferStatus, these are a bit more granular and specific. Every TransferError translates to
-  a [TransferStatus](transferstatus.md), but two or more TransferErrors can represent the same TransferStatus, and
-  not all Transfer Statuses are represented by a TransferError
+Akin to TransferStatus, these are a bit more granular and specific. Every TransferError translates to a [TransferStatus](transferstatus.md), but two or more TransferErrors can represent the same TransferStatus, and not all Transfer Statuses are represented by a TransferError
 
 ## Index
 
@@ -21,121 +19,103 @@ Akin to TransferStatus, these are a bit more granular and specific. Every Transf
 
 ## Enumeration members
 
-###  InsufficientBalance
+### InsufficientBalance
 
 • **InsufficientBalance**: = "InsufficientBalance"
 
-*Defined in [src/types/index.ts:488](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L488)*
+_Defined in_ [_src/types/index.ts:488_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L488)
 
 translates to TransferStatus.InsufficientBalance
 
 occurs if the sender Identity does not have enough balance to cover the amount
 
-___
-
-###  InsufficientPortfolioBalance
+### InsufficientPortfolioBalance
 
 • **InsufficientPortfolioBalance**: = "InsufficientPortfolioBalance"
 
-*Defined in [src/types/index.ts:512](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L512)*
+_Defined in_ [_src/types/index.ts:512_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L512)
 
 translates to TransferStatus.PortfolioFailure
 
 occurs if the sender Portfolio does not have enough balance to cover the amount
 
-___
-
-###  InvalidGranularity
+### InvalidGranularity
 
 • **InvalidGranularity**: = "InvalidGranularity"
 
-*Defined in [src/types/index.ts:457](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L457)*
+_Defined in_ [_src/types/index.ts:457_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L457)
 
 translates to TransferStatus.InvalidGranularity
 
 occurs if attempting to transfer decimal amounts of a non-divisible token
 
-___
-
-###  InvalidReceiverCdd
+### InvalidReceiverCdd
 
 • **InvalidReceiverCdd**: = "InvalidReceiverCdd"
 
-*Defined in [src/types/index.ts:469](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L469)*
+_Defined in_ [_src/types/index.ts:469_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L469)
 
 translates to TransferStatus.InvalidReceiverIdentity
 
 occurs if the receiver Identity doesn't have a valid CDD claim
 
-___
-
-###  InvalidReceiverPortfolio
+### InvalidReceiverPortfolio
 
 • **InvalidReceiverPortfolio**: = "InvalidReceiverPortfolio"
 
-*Defined in [src/types/index.ts:506](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L506)*
+_Defined in_ [_src/types/index.ts:506_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L506)
 
 translates to TransferStatus.PortfolioFailure
 
 occurs if the receiver Portfolio doesn't exist
 
-___
-
-###  InvalidSenderCdd
+### InvalidSenderCdd
 
 • **InvalidSenderCdd**: = "InvalidSenderCdd"
 
-*Defined in [src/types/index.ts:475](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L475)*
+_Defined in_ [_src/types/index.ts:475_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L475)
 
 translates to TransferStatus.InvalidSenderIdentity
 
 occurs if the receiver Identity doesn't have a valid CDD claim
 
-___
-
-###  InvalidSenderPortfolio
+### InvalidSenderPortfolio
 
 • **InvalidSenderPortfolio**: = "InvalidSenderPortfolio"
 
-*Defined in [src/types/index.ts:500](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L500)*
+_Defined in_ [_src/types/index.ts:500_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L500)
 
 translates to TransferStatus.PortfolioFailure
 
 occurs if the sender Portfolio doesn't exist
 
-___
-
-###  ScopeClaimMissing
+### ScopeClaimMissing
 
 • **ScopeClaimMissing**: = "ScopeClaimMissing"
 
-*Defined in [src/types/index.ts:482](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L482)*
+_Defined in_ [_src/types/index.ts:482_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L482)
 
 translates to TransferStatus.ScopeClaimMissing
 
-occurs if one of the participants doesn't have a valid Investor Uniqueness Claim for
-  the Security Token
+occurs if one of the participants doesn't have a valid Investor Uniqueness Claim for the Security Token
 
-___
-
-###  SelfTransfer
+### SelfTransfer
 
 • **SelfTransfer**: = "SelfTransfer"
 
-*Defined in [src/types/index.ts:463](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L463)*
+_Defined in_ [_src/types/index.ts:463_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L463)
 
 translates to TransferStatus.InvalidReceiverIdentity
 
 occurs if the origin and destination Identities are the same
 
-___
-
-###  TransfersFrozen
+### TransfersFrozen
 
 • **TransfersFrozen**: = "TransfersFrozen"
 
-*Defined in [src/types/index.ts:494](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L494)*
+_Defined in_ [_src/types/index.ts:494_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L494)
 
 translates to TransferStatus.TransfersHalted
 
 occurs if the Security Token's transfers are frozen
+

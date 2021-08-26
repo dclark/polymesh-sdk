@@ -1,10 +1,10 @@
-# Class: Context
+# Context
 
 Context in which the SDK is being used
 
-- Holds the current low level API
-- Holds the current keyring pair
-- Holds the current Identity
+* Holds the current low level API
+* Holds the current keyring pair
+* Holds the current Identity
 
 ## Hierarchy
 
@@ -49,73 +49,51 @@ Context in which the SDK is being used
 
 ### `Optional` currentPair
 
-• **currentPair**? : *[KeyringPair](../interfaces/keyringpair.md)*
+• **currentPair**? : [_KeyringPair_](../interfaces/keyringpair.md)
 
-*Defined in [src/base/Context.ts:114](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L114)*
+_Defined in_ [_src/base/Context.ts:114_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L114)
 
-___
+### isArchiveNode
 
-###  isArchiveNode
+• **isArchiveNode**: _boolean_ = false
 
-• **isArchiveNode**: *boolean* = false
+_Defined in_ [_src/base/Context.ts:119_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L119)
 
-*Defined in [src/base/Context.ts:119](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L119)*
+Whether the current node is an archive node \(contains a full history from genesis onward\) or not
 
-Whether the current node is an archive node (contains a full history from genesis onward) or not
+### polymeshApi
 
-___
+• **polymeshApi**: _ApiPromise_
 
-###  polymeshApi
+_Defined in_ [_src/base/Context.ts:112_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L112)
 
-• **polymeshApi**: *ApiPromise*
+### ss58Format
 
-*Defined in [src/base/Context.ts:112](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L112)*
+• **ss58Format**: _number_
 
-___
-
-###  ss58Format
-
-• **ss58Format**: *number*
-
-*Defined in [src/base/Context.ts:121](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L121)*
+_Defined in_ [_src/base/Context.ts:121_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L121)
 
 ## Accessors
 
-###  middlewareApi
+### middlewareApi
 
-• **get middlewareApi**(): *ApolloClient‹NormalizedCacheObject›*
+• **get middlewareApi**\(\): _ApolloClient‹NormalizedCacheObject›_
 
-*Defined in [src/base/Context.ts:953](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L953)*
+_Defined in_ [_src/base/Context.ts:953_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L953)
 
 Retrieve the middleware client
 
 **`throws`** if the middleware is not enabled
 
-**Returns:** *ApolloClient‹NormalizedCacheObject›*
+**Returns:** _ApolloClient‹NormalizedCacheObject›_
 
 ## Methods
 
-###  accountBalance
+### accountBalance
 
-▸ **accountBalance**(`account?`: string | [Account](account.md)): *Promise‹[AccountBalance](../globals.md#accountbalance)›*
+▸ **accountBalance**\(`account?`: string \| [Account](account.md)\): _Promise‹_[_AccountBalance_](../globals.md#accountbalance)_›_
 
-*Defined in [src/base/Context.ts:344](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L344)*
-
-Retrieve the account level POLYX balance
-
-**`note`** can be subscribed to
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`account?` | string &#124; [Account](account.md) |
-
-**Returns:** *Promise‹[AccountBalance](../globals.md#accountbalance)›*
-
-▸ **accountBalance**(`account`: string | [Account](account.md) | undefined, `callback`: [SubCallback](../globals.md#subcallback)‹[AccountBalance](../globals.md#accountbalance)›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
-
-*Defined in [src/base/Context.ts:345](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L345)*
+_Defined in_ [_src/base/Context.ts:344_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L344)
 
 Retrieve the account level POLYX balance
 
@@ -123,305 +101,284 @@ Retrieve the account level POLYX balance
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`account` | string &#124; [Account](account.md) &#124; undefined |
-`callback` | [SubCallback](../globals.md#subcallback)‹[AccountBalance](../globals.md#accountbalance)› |
+| Name | Type |
+| :--- | :--- |
+| `account?` | string \| [Account](account.md) |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_AccountBalance_](../globals.md#accountbalance)_›_
 
-___
+▸ **accountBalance**\(`account`: string \| [Account](account.md) \| undefined, `callback`: [SubCallback](../globals.md#subcallback)‹[AccountBalance](../globals.md#accountbalance)›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-###  addPair
+_Defined in_ [_src/base/Context.ts:345_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L345)
 
-▸ **addPair**(`params`: [AddPairParams](../globals.md#addpairparams)): *[KeyringPair](../interfaces/keyringpair.md)*
+Retrieve the account level POLYX balance
 
-*Defined in [src/base/Context.ts:284](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L284)*
+**`note`** can be subscribed to
+
+**Parameters:**
+
+| Name | Type |
+| :--- | :--- |
+| `account` | string \| [Account](account.md) \| undefined |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[AccountBalance](../globals.md#accountbalance)› |
+
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
+
+### addPair
+
+▸ **addPair**\(`params`: [AddPairParams](../globals.md#addpairparams)\): [_KeyringPair_](../interfaces/keyringpair.md)
+
+_Defined in_ [_src/base/Context.ts:284_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L284)
 
 Add a signing pair to the Keyring
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`params` | [AddPairParams](../globals.md#addpairparams) |
+| Name | Type |
+| :--- | :--- |
+| `params` | [AddPairParams](../globals.md#addpairparams) |
 
-**Returns:** *[KeyringPair](../interfaces/keyringpair.md)*
+**Returns:** [_KeyringPair_](../interfaces/keyringpair.md)
 
-___
+### clone
 
-###  clone
+▸ **clone**\(\): [_Context_](context.md)
 
-▸ **clone**(): *[Context](context.md)*
+_Defined in_ [_src/base/Context.ts:1041_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L1041)
 
-*Defined in [src/base/Context.ts:1041](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L1041)*
+Returns a \(shallow\) clone of this instance. Useful for providing a separate Context to Procedures with different signers
 
-Returns a (shallow) clone of this instance. Useful for providing a separate
-  Context to Procedures with different signers
+**Returns:** [_Context_](context.md)
 
-**Returns:** *[Context](context.md)*
+### disconnect
 
-___
+▸ **disconnect**\(\): _Promise‹void›_
 
-###  disconnect
-
-▸ **disconnect**(): *Promise‹void›*
-
-*Defined in [src/base/Context.ts:1023](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L1023)*
+_Defined in_ [_src/base/Context.ts:1023_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L1023)
 
 Disconnect the Polkadot API, middleware, and render this instance unusable
 
-**`note`** after disconnecting, trying to access any property in this objecct will result
-  in an error
+**`note`** after disconnecting, trying to access any property in this objecct will result in an error
 
-**Returns:** *Promise‹void›*
+**Returns:** _Promise‹void›_
 
-___
+### getAccounts
 
-###  getAccounts
+▸ **getAccounts**\(\): _\[\]_
 
-▸ **getAccounts**(): *[]*
-
-*Defined in [src/base/Context.ts:261](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L261)*
+_Defined in_ [_src/base/Context.ts:261_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L261)
 
 Retrieve a list of Accounts that can act as signers
 
-**Returns:** *[]*
+**Returns:** _\[\]_
 
-___
+### getCurrentAccount
 
-###  getCurrentAccount
+▸ **getCurrentAccount**\(\): [_CurrentAccount_](currentaccount.md)
 
-▸ **getCurrentAccount**(): *[CurrentAccount](currentaccount.md)*
-
-*Defined in [src/base/Context.ts:406](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L406)*
+_Defined in_ [_src/base/Context.ts:406_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L406)
 
 Retrieve current Account
 
 **`throws`** if there is no current account associated to the SDK instance
 
-**Returns:** *[CurrentAccount](currentaccount.md)*
+**Returns:** [_CurrentAccount_](currentaccount.md)
 
-___
+### getCurrentIdentity
 
-###  getCurrentIdentity
+▸ **getCurrentIdentity**\(\): _Promise‹_[_CurrentIdentity_](currentidentity.md)_›_
 
-▸ **getCurrentIdentity**(): *Promise‹[CurrentIdentity](currentidentity.md)›*
-
-*Defined in [src/base/Context.ts:426](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L426)*
+_Defined in_ [_src/base/Context.ts:426_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L426)
 
 Retrieve current Identity
 
-**`throws`** if there is no Identity associated to the current Account (or there is no current Account associated to the SDK instance)
+**`throws`** if there is no Identity associated to the current Account \(or there is no current Account associated to the SDK instance\)
 
-**Returns:** *Promise‹[CurrentIdentity](currentidentity.md)›*
+**Returns:** _Promise‹_[_CurrentIdentity_](currentidentity.md)_›_
 
-___
+### getCurrentPair
 
-###  getCurrentPair
+▸ **getCurrentPair**\(\): [_KeyringPair_](../interfaces/keyringpair.md)
 
-▸ **getCurrentPair**(): *[KeyringPair](../interfaces/keyringpair.md)*
-
-*Defined in [src/base/Context.ts:446](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L446)*
+_Defined in_ [_src/base/Context.ts:446_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L446)
 
 Retrieve current Keyring Pair
 
 **`throws`** if there is no Account associated to the SDK instance
 
-**Returns:** *[KeyringPair](../interfaces/keyringpair.md)*
+**Returns:** [_KeyringPair_](../interfaces/keyringpair.md)
 
-___
+### getInvalidDids
 
-###  getInvalidDids
+▸ **getInvalidDids**\(`identities`: \(string \| [Identity](identity.md)‹›\)\[\]\): _Promise‹string\[\]›_
 
-▸ **getInvalidDids**(`identities`: (string | [Identity](identity.md)‹›)[]): *Promise‹string[]›*
-
-*Defined in [src/base/Context.ts:475](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L475)*
+_Defined in_ [_src/base/Context.ts:475_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L475)
 
 Check whether Identities exist
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`identities` | (string &#124; [Identity](identity.md)‹›)[] |
+| Name | Type |
+| :--- | :--- |
+| `identities` | \(string \| [Identity](identity.md)‹›\)\[\] |
 
-**Returns:** *Promise‹string[]›*
+**Returns:** _Promise‹string\[\]›_
 
-___
+### getLatestBlock
 
-###  getLatestBlock
+▸ **getLatestBlock**\(\): _Promise‹BigNumber›_
 
-▸ **getLatestBlock**(): *Promise‹BigNumber›*
-
-*Defined in [src/base/Context.ts:1011](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L1011)*
+_Defined in_ [_src/base/Context.ts:1011_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L1011)
 
 Retrieve the latest block number
 
-**Returns:** *Promise‹BigNumber›*
+**Returns:** _Promise‹BigNumber›_
 
-___
+### getSigner
 
-###  getSigner
+▸ **getSigner**\(\): _AddressOrPair_
 
-▸ **getSigner**(): *AddressOrPair*
+_Defined in_ [_src/base/Context.ts:462_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L462)
 
-*Defined in [src/base/Context.ts:462](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L462)*
+Retrieve the signer address \(or keyring pair\)
 
-Retrieve the signer address (or keyring pair)
+**Returns:** _AddressOrPair_
 
-**Returns:** *AddressOrPair*
+### getTransactionArguments
 
-___
+▸ **getTransactionArguments**\(`args`: object\): [_TransactionArgument_](../globals.md#transactionargument)_\[\]_
 
-###  getTransactionArguments
-
-▸ **getTransactionArguments**(`args`: object): *[TransactionArgument](../globals.md#transactionargument)[]*
-
-*Defined in [src/base/Context.ts:525](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L525)*
+_Defined in_ [_src/base/Context.ts:525_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L525)
 
 Retrieve the types of arguments that a certain transaction requires to be run
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`tag` | TxTag | tag associated with the transaction that will be executed if the proposal passes  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `tag` | TxTag | tag associated with the transaction that will be executed if the proposal passes |
 
-**Returns:** *[TransactionArgument](../globals.md#transactionargument)[]*
+**Returns:** [_TransactionArgument_](../globals.md#transactionargument)_\[\]_
 
-___
+### getTransactionFees
 
-###  getTransactionFees
+▸ **getTransactionFees**\(`tag`: TxTag\): _Promise‹BigNumber›_
 
-▸ **getTransactionFees**(`tag`: TxTag): *Promise‹BigNumber›*
-
-*Defined in [src/base/Context.ts:498](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L498)*
+_Defined in_ [_src/base/Context.ts:498_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L498)
 
 Retrieve the protocol fees associated with running a specific transaction
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`tag` | TxTag | transaction tag (i.e. TxTags.asset.CreateAsset or "asset.createAsset")  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `tag` | TxTag | transaction tag \(i.e. TxTags.asset.CreateAsset or "asset.createAsset"\) |
 
-**Returns:** *Promise‹BigNumber›*
+**Returns:** _Promise‹BigNumber›_
 
-___
+### isMiddlewareAvailable
 
-###  isMiddlewareAvailable
+▸ **isMiddlewareAvailable**\(\): _Promise‹boolean›_
 
-▸ **isMiddlewareAvailable**(): *Promise‹boolean›*
-
-*Defined in [src/base/Context.ts:998](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L998)*
+_Defined in_ [_src/base/Context.ts:998_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L998)
 
 Return whether the middleware is enabled and online
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### isMiddlewareEnabled
 
-###  isMiddlewareEnabled
+▸ **isMiddlewareEnabled**\(\): _boolean_
 
-▸ **isMiddlewareEnabled**(): *boolean*
-
-*Defined in [src/base/Context.ts:991](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L991)*
+_Defined in_ [_src/base/Context.ts:991_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L991)
 
 Return whether the middleware was enabled at startup
 
-**Returns:** *boolean*
+**Returns:** _boolean_
 
-___
+### issuedClaims
 
-###  issuedClaims
+▸ **issuedClaims**\(`opts`: object\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_ClaimData_](../interfaces/claimdata.md)_››_
 
-▸ **issuedClaims**(`opts`: object): *Promise‹[ResultSet](../interfaces/resultset.md)‹[ClaimData](../interfaces/claimdata.md)››*
-
-*Defined in [src/base/Context.ts:902](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L902)*
+_Defined in_ [_src/base/Context.ts:902_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L902)
 
 Retrieve a list of claims. Can be filtered using parameters
 
-**`note`** uses the middleware (optional)
+**`note`** uses the middleware \(optional\)
 
 **Parameters:**
 
-▪`Default value`  **opts**: *object*= {}
+▪`Default value` **opts**: _object_= {}
 
-Name | Type | Description |
------- | ------ | ------ |
-`claimTypes?` | [Exclude](../enums/targettreatment.md#exclude)‹[ClaimType](../enums/claimtype.md), [InvestorUniquenessV2](../enums/claimtype.md#investoruniquenessv2)›[] | types of the claims to fetch. Defaults to any type |
-`includeExpired?` | undefined &#124; false &#124; true | whether to include expired claims. Defaults to true |
-`size?` | undefined &#124; number | page size |
-`start?` | undefined &#124; number | page offset  |
-`targets?` | (string &#124; [Identity](identity.md)‹›)[] | identities (or Identity IDs) for which to fetch claims (targets). Defaults to all targets |
-`trustedClaimIssuers?` | (string &#124; [Identity](identity.md)‹›)[] | identity IDs of claim issuers. Defaults to all claim issuers |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `claimTypes?` | [Exclude](../enums/targettreatment.md#exclude)‹[ClaimType](../enums/claimtype.md), [InvestorUniquenessV2](../enums/claimtype.md#investoruniquenessv2)›\[\] | types of the claims to fetch. Defaults to any type |
+| `includeExpired?` | undefined \| false \| true | whether to include expired claims. Defaults to true |
+| `size?` | undefined \| number | page size |
+| `start?` | undefined \| number | page offset |
+| `targets?` | \(string \| [Identity](identity.md)‹›\)\[\] | identities \(or Identity IDs\) for which to fetch claims \(targets\). Defaults to all targets |
+| `trustedClaimIssuers?` | \(string \| [Identity](identity.md)‹›\)\[\] | identity IDs of claim issuers. Defaults to all claim issuers |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[ClaimData](../interfaces/claimdata.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_ClaimData_](../interfaces/claimdata.md)_››_
 
-___
+### queryMiddleware
 
-###  queryMiddleware
+▸ **queryMiddleware**‹**Result**›\(`query`: GraphqlQuery‹unknown›\): _Promise‹ApolloQueryResult‹Result››_
 
-▸ **queryMiddleware**‹**Result**›(`query`: GraphqlQuery‹unknown›): *Promise‹ApolloQueryResult‹Result››*
-
-*Defined in [src/base/Context.ts:969](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L969)*
+_Defined in_ [_src/base/Context.ts:969_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L969)
 
 Make a query to the middleware server using the apollo client
 
 **Type parameters:**
 
-▪ **Result**: *Partial‹Query›*
+▪ **Result**: _Partial‹Query›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`query` | GraphqlQuery‹unknown› |
+| Name | Type |
+| :--- | :--- |
+| `query` | GraphqlQuery‹unknown› |
 
-**Returns:** *Promise‹ApolloQueryResult‹Result››*
+**Returns:** _Promise‹ApolloQueryResult‹Result››_
 
-___
+### setPair
 
-###  setPair
+▸ **setPair**\(`address`: string\): _void_
 
-▸ **setPair**(`address`: string): *void*
-
-*Defined in [src/base/Context.ts:326](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L326)*
+_Defined in_ [_src/base/Context.ts:326_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L326)
 
 Set a pair as the current Account keyring pair
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`address` | string |
+| Name | Type |
+| :--- | :--- |
+| `address` | string |
 
-**Returns:** *void*
-
-___
+**Returns:** _void_
 
 ### `Static` create
 
-▸ **create**(`params`: object): *Promise‹[Context](context.md)›*
+▸ **create**\(`params`: object\): _Promise‹_[_Context_](context.md)_›_
 
-*Defined in [src/base/Context.ts:182](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L182)*
+_Defined in_ [_src/base/Context.ts:182_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L182)
 
 Create the Context instance
 
 **Parameters:**
 
-▪ **params**: *object*
+▪ **params**: _object_
 
-Name | Type |
------- | ------ |
-`accountMnemonic?` | undefined &#124; string |
-`accountSeed?` | undefined &#124; string |
-`accountUri?` | undefined &#124; string |
-`keyring?` | [CommonKeyring](../globals.md#commonkeyring) &#124; [UiKeyring](../interfaces/uikeyring.md) |
-`middlewareApi` | ApolloClient‹NormalizedCacheObject› &#124; null |
-`polymeshApi` | ApiPromise |
+| Name | Type |
+| :--- | :--- |
+| `accountMnemonic?` | undefined \| string |
+| `accountSeed?` | undefined \| string |
+| `accountUri?` | undefined \| string |
+| `keyring?` | [CommonKeyring](../globals.md#commonkeyring) \| [UiKeyring](../interfaces/uikeyring.md) |
+| `middlewareApi` | ApolloClient‹NormalizedCacheObject› \| null |
+| `polymeshApi` | ApiPromise |
 
-**Returns:** *Promise‹[Context](context.md)›*
+**Returns:** _Promise‹_[_Context_](context.md)_›_
+

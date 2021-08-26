@@ -1,4 +1,4 @@
-# Interface: Scope
+# Scope
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  type
+### type
 
-• **type**: *[ScopeType](../enums/scopetype.md)*
+• **type**: [_ScopeType_](../enums/scopetype.md)
 
-*Defined in [src/types/index.ts:222](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L222)*
+_Defined in_ [_src/types/index.ts:222_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L222)
 
-___
+### value
 
-###  value
+• **value**: _string_
 
-• **value**: *string*
+_Defined in_ [_src/types/index.ts:223_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L223)
 
-*Defined in [src/types/index.ts:223](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L223)*

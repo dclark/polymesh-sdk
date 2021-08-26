@@ -1,4 +1,4 @@
-# Enumeration: ClaimType
+# ClaimType
 
 ## Index
 
@@ -19,96 +19,75 @@
 
 ## Enumeration members
 
-###  Accredited
+### Accredited
 
 • **Accredited**: = "Accredited"
 
-*Defined in [src/types/index.ts:227](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L227)*
+_Defined in_ [_src/types/index.ts:227_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L227)
 
-___
-
-###  Affiliate
+### Affiliate
 
 • **Affiliate**: = "Affiliate"
 
-*Defined in [src/types/index.ts:228](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L228)*
+_Defined in_ [_src/types/index.ts:228_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L228)
 
-___
-
-###  Blocked
+### Blocked
 
 • **Blocked**: = "Blocked"
 
-*Defined in [src/types/index.ts:235](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L235)*
+_Defined in_ [_src/types/index.ts:235_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L235)
 
-___
-
-###  BuyLockup
+### BuyLockup
 
 • **BuyLockup**: = "BuyLockup"
 
-*Defined in [src/types/index.ts:229](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L229)*
+_Defined in_ [_src/types/index.ts:229_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L229)
 
-___
-
-###  CustomerDueDiligence
+### CustomerDueDiligence
 
 • **CustomerDueDiligence**: = "CustomerDueDiligence"
 
-*Defined in [src/types/index.ts:231](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L231)*
+_Defined in_ [_src/types/index.ts:231_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L231)
 
-___
-
-###  Exempted
+### Exempted
 
 • **Exempted**: = "Exempted"
 
-*Defined in [src/types/index.ts:234](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L234)*
+_Defined in_ [_src/types/index.ts:234_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L234)
 
-___
-
-###  InvestorUniqueness
+### InvestorUniqueness
 
 • **InvestorUniqueness**: = "InvestorUniqueness"
 
-*Defined in [src/types/index.ts:236](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L236)*
+_Defined in_ [_src/types/index.ts:236_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L236)
 
-___
-
-###  InvestorUniquenessV2
+### InvestorUniquenessV2
 
 • **InvestorUniquenessV2**: = "InvestorUniquenessV2"
 
-*Defined in [src/types/index.ts:238](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L238)*
+_Defined in_ [_src/types/index.ts:238_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L238)
 
-___
-
-###  Jurisdiction
+### Jurisdiction
 
 • **Jurisdiction**: = "Jurisdiction"
 
-*Defined in [src/types/index.ts:233](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L233)*
+_Defined in_ [_src/types/index.ts:233_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L233)
 
-___
-
-###  KnowYourCustomer
+### KnowYourCustomer
 
 • **KnowYourCustomer**: = "KnowYourCustomer"
 
-*Defined in [src/types/index.ts:232](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L232)*
+_Defined in_ [_src/types/index.ts:232_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L232)
 
-___
-
-###  NoData
+### NoData
 
 • **NoData**: = "NoData"
 
-*Defined in [src/types/index.ts:237](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L237)*
+_Defined in_ [_src/types/index.ts:237_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L237)
 
-___
-
-###  SellLockup
+### SellLockup
 
 • **SellLockup**: = "SellLockup"
 
-*Defined in [src/types/index.ts:230](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L230)*
+_Defined in_ [_src/types/index.ts:230_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L230)
+

@@ -1,4 +1,4 @@
-# Interface: HumanReadable
+# HumanReadable
 
 ## Hierarchy
 
@@ -35,214 +35,173 @@
 
 ## Properties
 
-###  complexity
+### complexity
 
-• **complexity**: *number*
+• **complexity**: _number_
 
-*Defined in [src/api/entities/CheckpointSchedule/index.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CheckpointSchedule/index.ts#L26)*
+_Defined in_ [_src/api/entities/CheckpointSchedule/index.ts:26_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CheckpointSchedule/index.ts#L26)
 
-___
+### currency
 
-###  currency
+• **currency**: _string_
 
-• **currency**: *string*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:63_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/DividendDistribution/index.ts#L63)
 
-*Defined in [src/api/entities/DividendDistribution/index.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/DividendDistribution/index.ts#L63)*
+### data
 
-___
+• **data**: [_HumanReadableType_](../globals.md#humanreadabletype)_‹_[_Authorization_](../globals.md#authorization)_›_
 
-###  data
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:27_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/AuthorizationRequest.ts#L27)
 
-• **data**: *[HumanReadableType](../globals.md#humanreadabletype)‹[Authorization](../globals.md#authorization)›*
+### declarationDate
 
-*Defined in [src/api/entities/AuthorizationRequest.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/AuthorizationRequest.ts#L27)*
+• **declarationDate**: _string_
 
-___
+_Overrides_ [_HumanReadable_](humanreadable.md)_._[_declarationDate_](humanreadable.md#declarationdate)
 
-###  declarationDate
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:38_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CorporateAction/index.ts#L38)
 
-• **declarationDate**: *string*
+### defaultTaxWithholding
 
-*Overrides [HumanReadable](humanreadable.md).[declarationDate](humanreadable.md#declarationdate)*
+• **defaultTaxWithholding**: _string_
 
-*Defined in [src/api/entities/CorporateAction/index.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CorporateAction/index.ts#L38)*
+_Overrides_ [_HumanReadable_](humanreadable.md)_._[_defaultTaxWithholding_](humanreadable.md#defaulttaxwithholding)
 
-___
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:41_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CorporateAction/index.ts#L41)
 
-###  defaultTaxWithholding
+### description
 
-• **defaultTaxWithholding**: *string*
+• **description**: _string_
 
-*Overrides [HumanReadable](humanreadable.md).[defaultTaxWithholding](humanreadable.md#defaulttaxwithholding)*
+_Overrides_ [_HumanReadable_](humanreadable.md)_._[_description_](humanreadable.md#description)
 
-*Defined in [src/api/entities/CorporateAction/index.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CorporateAction/index.ts#L41)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:39_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CorporateAction/index.ts#L39)
 
-___
+### did
 
-###  description
+• **did**: _string_
 
-• **description**: *string*
+_Defined in_ [_src/api/entities/Portfolio/index.ts:40_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Portfolio/index.ts#L40)
 
-*Overrides [HumanReadable](humanreadable.md).[description](humanreadable.md#description)*
+### expiry
 
-*Defined in [src/api/entities/CorporateAction/index.ts:39](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CorporateAction/index.ts#L39)*
+• **expiry**: _string \| null_
 
-___
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:25_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/AuthorizationRequest.ts#L25)
 
-###  did
+### expiryDate
 
-• **did**: *string*
+• **expiryDate**: _string \| null_
 
-*Defined in [src/api/entities/Portfolio/index.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Portfolio/index.ts#L40)*
+_Defined in_ [_src/api/entities/CheckpointSchedule/index.ts:25_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CheckpointSchedule/index.ts#L25)
 
-___
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:66_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/DividendDistribution/index.ts#L66)
 
-###  expiry
+### id
 
-• **expiry**: *string | null*
+• **id**: _BigNumber_
 
-*Defined in [src/api/entities/AuthorizationRequest.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/AuthorizationRequest.ts#L25)*
+_Overrides void_
 
-___
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:28_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/AuthorizationRequest.ts#L28)
 
-###  expiryDate
+_Defined in_ [_src/api/entities/Sto/index.ts:40_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/index.ts#L40)
 
-• **expiryDate**: *string | null*
+_Defined in_ [_src/api/entities/Portfolio/index.ts:41_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Portfolio/index.ts#L41)
 
-*Defined in [src/api/entities/CheckpointSchedule/index.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CheckpointSchedule/index.ts#L25)*
+_Defined in_ [_src/api/entities/Checkpoint.ts:26_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L26)
 
-*Defined in [src/api/entities/DividendDistribution/index.ts:66](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/DividendDistribution/index.ts#L66)*
+_Defined in_ [_src/api/entities/CheckpointSchedule/index.ts:21_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CheckpointSchedule/index.ts#L21)
 
-___
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:36_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CorporateAction/index.ts#L36)
 
-###  id
+_Defined in_ [_src/api/entities/CustomPermissionGroup.ts:13_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CustomPermissionGroup.ts#L13)
 
-• **id**: *BigNumber*
+### issuer
 
-*Overrides void*
+• **issuer**: [_HumanReadableType_](../globals.md#humanreadabletype)_‹_[_Identity_](../classes/identity.md)_›_
 
-*Defined in [src/api/entities/AuthorizationRequest.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/AuthorizationRequest.ts#L28)*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:24_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/AuthorizationRequest.ts#L24)
 
-*Defined in [src/api/entities/Sto/index.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/index.ts#L40)*
+### maxAmount
 
-*Defined in [src/api/entities/Portfolio/index.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Portfolio/index.ts#L41)*
+• **maxAmount**: _string_
 
-*Defined in [src/api/entities/Checkpoint.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L26)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:65_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/DividendDistribution/index.ts#L65)
 
-*Defined in [src/api/entities/CheckpointSchedule/index.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CheckpointSchedule/index.ts#L21)*
+### origin
 
-*Defined in [src/api/entities/CorporateAction/index.ts:36](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CorporateAction/index.ts#L36)*
+• **origin**: [_HumanReadableType_](../globals.md#humanreadabletype)_‹_[_DefaultPortfolio_](../classes/defaultportfolio.md) _\|_ [_NumberedPortfolio_](../classes/numberedportfolio.md)_›_
 
-*Defined in [src/api/entities/CustomPermissionGroup.ts:13](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CustomPermissionGroup.ts#L13)*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:62_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/DividendDistribution/index.ts#L62)
 
-___
+### paymentDate
 
-###  issuer
+• **paymentDate**: _string_
 
-• **issuer**: *[HumanReadableType](../globals.md#humanreadabletype)‹[Identity](../classes/identity.md)›*
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:67_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/DividendDistribution/index.ts#L67)
 
-*Defined in [src/api/entities/AuthorizationRequest.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/AuthorizationRequest.ts#L24)*
+### perShare
 
-___
+• **perShare**: _string_
 
-###  maxAmount
+_Defined in_ [_src/api/entities/DividendDistribution/index.ts:64_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/DividendDistribution/index.ts#L64)
 
-• **maxAmount**: *string*
+### period
 
-*Defined in [src/api/entities/DividendDistribution/index.ts:65](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/DividendDistribution/index.ts#L65)*
+• **period**: [_CalendarPeriod_](calendarperiod.md) _\| null_
 
-___
+_Defined in_ [_src/api/entities/CheckpointSchedule/index.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CheckpointSchedule/index.ts#L23)
 
-###  origin
+### start
 
-• **origin**: *[HumanReadableType](../globals.md#humanreadabletype)‹[DefaultPortfolio](../classes/defaultportfolio.md) | [NumberedPortfolio](../classes/numberedportfolio.md)›*
+• **start**: _string_
 
-*Defined in [src/api/entities/DividendDistribution/index.ts:62](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/DividendDistribution/index.ts#L62)*
+_Defined in_ [_src/api/entities/CheckpointSchedule/index.ts:24_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CheckpointSchedule/index.ts#L24)
 
-___
+### target
 
-###  paymentDate
+• **target**: [_SignerValue_](signervalue.md)
 
-• **paymentDate**: *string*
+_Defined in_ [_src/api/entities/AuthorizationRequest.ts:26_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/AuthorizationRequest.ts#L26)
 
-*Defined in [src/api/entities/DividendDistribution/index.ts:67](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/DividendDistribution/index.ts#L67)*
+### targets
 
-___
+• **targets**: [_HumanReadableType_](../globals.md#humanreadabletype)_‹_[_CorporateActionTargets_](corporateactiontargets.md)_›_
 
-###  perShare
+_Overrides_ [_HumanReadable_](humanreadable.md)_._[_targets_](humanreadable.md#targets)
 
-• **perShare**: *string*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:40_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CorporateAction/index.ts#L40)
 
-*Defined in [src/api/entities/DividendDistribution/index.ts:64](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/DividendDistribution/index.ts#L64)*
+### taxWithholdings
 
-___
+• **taxWithholdings**: [_HumanReadableType_](../globals.md#humanreadabletype)_‹_[_TaxWithholding_](taxwithholding.md)_\[\]›_
 
-###  period
+_Overrides_ [_HumanReadable_](humanreadable.md)_._[_taxWithholdings_](humanreadable.md#taxwithholdings)
 
-• **period**: *[CalendarPeriod](calendarperiod.md) | null*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:42_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CorporateAction/index.ts#L42)
 
-*Defined in [src/api/entities/CheckpointSchedule/index.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CheckpointSchedule/index.ts#L23)*
+### ticker
 
-___
+• **ticker**: _string_
 
-###  start
+_Overrides void_
 
-• **start**: *string*
+_Defined in_ [_src/api/entities/Sto/index.ts:41_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/index.ts#L41)
 
-*Defined in [src/api/entities/CheckpointSchedule/index.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CheckpointSchedule/index.ts#L24)*
+_Defined in_ [_src/api/entities/Checkpoint.ts:27_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L27)
 
-___
+_Defined in_ [_src/api/entities/CheckpointSchedule/index.ts:22_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CheckpointSchedule/index.ts#L22)
 
-###  target
+_Defined in_ [_src/api/entities/KnownPermissionGroup.ts:8_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/KnownPermissionGroup.ts#L8)
 
-• **target**: *[SignerValue](signervalue.md)*
+_Defined in_ [_src/api/entities/CorporateAction/index.ts:37_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CorporateAction/index.ts#L37)
 
-*Defined in [src/api/entities/AuthorizationRequest.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/AuthorizationRequest.ts#L26)*
+_Defined in_ [_src/api/entities/CustomPermissionGroup.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CustomPermissionGroup.ts#L14)
 
-___
+### type
 
-###  targets
+• **type**: [_PermissionGroupType_](../enums/permissiongrouptype.md)
 
-• **targets**: *[HumanReadableType](../globals.md#humanreadabletype)‹[CorporateActionTargets](corporateactiontargets.md)›*
+_Defined in_ [_src/api/entities/KnownPermissionGroup.ts:7_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/KnownPermissionGroup.ts#L7)
 
-*Overrides [HumanReadable](humanreadable.md).[targets](humanreadable.md#targets)*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CorporateAction/index.ts#L40)*
-
-___
-
-###  taxWithholdings
-
-• **taxWithholdings**: *[HumanReadableType](../globals.md#humanreadabletype)‹[TaxWithholding](taxwithholding.md)[]›*
-
-*Overrides [HumanReadable](humanreadable.md).[taxWithholdings](humanreadable.md#taxwithholdings)*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:42](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CorporateAction/index.ts#L42)*
-
-___
-
-###  ticker
-
-• **ticker**: *string*
-
-*Overrides void*
-
-*Defined in [src/api/entities/Sto/index.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/index.ts#L41)*
-
-*Defined in [src/api/entities/Checkpoint.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Checkpoint.ts#L27)*
-
-*Defined in [src/api/entities/CheckpointSchedule/index.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CheckpointSchedule/index.ts#L22)*
-
-*Defined in [src/api/entities/KnownPermissionGroup.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/KnownPermissionGroup.ts#L8)*
-
-*Defined in [src/api/entities/CorporateAction/index.ts:37](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CorporateAction/index.ts#L37)*
-
-*Defined in [src/api/entities/CustomPermissionGroup.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/CustomPermissionGroup.ts#L14)*
-
-___
-
-###  type
-
-• **type**: *[PermissionGroupType](../enums/permissiongrouptype.md)*
-
-*Defined in [src/api/entities/KnownPermissionGroup.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/KnownPermissionGroup.ts#L7)*

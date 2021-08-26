@@ -1,4 +1,4 @@
-# Interface: DividendDistributionDetails
+# DividendDistributionDetails
 
 ## Hierarchy
 
@@ -13,18 +13,17 @@
 
 ## Properties
 
-###  fundsReclaimed
+### fundsReclaimed
 
-• **fundsReclaimed**: *boolean*
+• **fundsReclaimed**: _boolean_
 
-*Defined in [src/api/entities/DividendDistribution/types.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/DividendDistribution/types.ts#L10)*
+_Defined in_ [_src/api/entities/DividendDistribution/types.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/DividendDistribution/types.ts#L10)
 
 whether the unclaimed funds have been reclaimed
 
-___
+### remainingFunds
 
-###  remainingFunds
+• **remainingFunds**: _BigNumber_
 
-• **remainingFunds**: *BigNumber*
+_Defined in_ [_src/api/entities/DividendDistribution/types.ts:6_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/DividendDistribution/types.ts#L6)
 
-*Defined in [src/api/entities/DividendDistribution/types.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/DividendDistribution/types.ts#L6)*

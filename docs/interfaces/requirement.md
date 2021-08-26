@@ -1,4 +1,4 @@
-# Interface: Requirement
+# Requirement
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  conditions
+### conditions
 
-• **conditions**: *[Condition](../globals.md#condition)[]*
+• **conditions**: [_Condition_](../globals.md#condition)_\[\]_
 
-*Defined in [src/types/index.ts:384](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L384)*
+_Defined in_ [_src/types/index.ts:384_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L384)
 
-___
+### id
 
-###  id
+• **id**: _number_
 
-• **id**: *number*
+_Defined in_ [_src/types/index.ts:383_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L383)
 
-*Defined in [src/types/index.ts:383](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L383)*

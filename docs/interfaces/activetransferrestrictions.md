@@ -1,8 +1,8 @@
-# Interface: ActiveTransferRestrictions ‹**Restriction**›
+# ActiveTransferRestrictions
 
 ## Type parameters
 
-▪ **Restriction**: *[CountTransferRestriction](counttransferrestriction.md) | [PercentageTransferRestriction](percentagetransferrestriction.md)*
+▪ **Restriction**: [_CountTransferRestriction_](counttransferrestriction.md) _\|_ [_PercentageTransferRestriction_](percentagetransferrestriction.md)
 
 ## Hierarchy
 
@@ -17,18 +17,17 @@
 
 ## Properties
 
-###  availableSlots
+### availableSlots
 
-• **availableSlots**: *number*
+• **availableSlots**: _number_
 
-*Defined in [src/types/index.ts:980](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L980)*
+_Defined in_ [_src/types/index.ts:980_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L980)
 
 amount of restrictions that can be added before reaching the shared limit
 
-___
+### restrictions
 
-###  restrictions
+• **restrictions**: _Restriction\[\]_
 
-• **restrictions**: *Restriction[]*
+_Defined in_ [_src/types/index.ts:976_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L976)
 
-*Defined in [src/types/index.ts:976](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L976)*

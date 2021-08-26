@@ -1,4 +1,4 @@
-# Interface: SettlementLeg
+# SettlementLeg
 
 ## Hierarchy
 
@@ -18,48 +18,41 @@
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *BigNumber*
+• **amount**: _BigNumber_
 
-*Inherited from [Leg](leg.md).[amount](leg.md#amount)*
+_Inherited from_ [_Leg_](leg.md)_._[_amount_](leg.md#amount)
 
-*Defined in [src/api/entities/Instruction/types.ts:42](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L42)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:42_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L42)
 
-___
+### direction
 
-###  direction
+• **direction**: _SettlementDirection_
 
-• **direction**: *SettlementDirection*
+_Defined in_ [_src/api/entities/Portfolio/types.ts:15_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Portfolio/types.ts#L15)
 
-*Defined in [src/api/entities/Portfolio/types.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Portfolio/types.ts#L15)*
+### from
 
-___
+• **from**: [_DefaultPortfolio_](../classes/defaultportfolio.md) _\|_ [_NumberedPortfolio_](../classes/numberedportfolio.md)
 
-###  from
+_Inherited from_ [_Leg_](leg.md)_._[_from_](leg.md#from)
 
-• **from**: *[DefaultPortfolio](../classes/defaultportfolio.md) | [NumberedPortfolio](../classes/numberedportfolio.md)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:40_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L40)
 
-*Inherited from [Leg](leg.md).[from](leg.md#from)*
+### to
 
-*Defined in [src/api/entities/Instruction/types.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L40)*
+• **to**: [_DefaultPortfolio_](../classes/defaultportfolio.md) _\|_ [_NumberedPortfolio_](../classes/numberedportfolio.md)
 
-___
+_Inherited from_ [_Leg_](leg.md)_._[_to_](leg.md#to)
 
-###  to
+_Defined in_ [_src/api/entities/Instruction/types.ts:41_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L41)
 
-• **to**: *[DefaultPortfolio](../classes/defaultportfolio.md) | [NumberedPortfolio](../classes/numberedportfolio.md)*
+### token
 
-*Inherited from [Leg](leg.md).[to](leg.md#to)*
+• **token**: [_SecurityToken_](../classes/securitytoken.md)
 
-*Defined in [src/api/entities/Instruction/types.ts:41](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L41)*
+_Inherited from_ [_Leg_](leg.md)_._[_token_](leg.md#token)
 
-___
+_Defined in_ [_src/api/entities/Instruction/types.ts:43_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L43)
 
-###  token
-
-• **token**: *[SecurityToken](../classes/securitytoken.md)*
-
-*Inherited from [Leg](leg.md).[token](leg.md#token)*
-
-*Defined in [src/api/entities/Instruction/types.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L43)*

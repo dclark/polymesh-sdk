@@ -1,4 +1,4 @@
-# Enumeration: TransferStatus
+# TransferStatus
 
 ERC1400 compliant transfer status
 
@@ -30,168 +30,129 @@ ERC1400 compliant transfer status
 
 ## Enumeration members
 
-###  BlockedTransaction
+### BlockedTransaction
 
 • **BlockedTransaction**: = "BlockedTransaction"
 
-*Defined in [src/types/index.ts:438](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L438)*
+_Defined in_ [_src/types/index.ts:438_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L438)
 
-___
-
-###  ComplianceFailure
+### ComplianceFailure
 
 • **ComplianceFailure**: = "ComplianceFailure"
 
-*Defined in [src/types/index.ts:434](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L434)*
+_Defined in_ [_src/types/index.ts:434_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L434)
 
-___
-
-###  CustodianError
+### CustodianError
 
 • **CustodianError**: = "CustodianError"
 
-*Defined in [src/types/index.ts:441](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L441)*
+_Defined in_ [_src/types/index.ts:441_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L441)
 
-___
-
-###  Failure
+### Failure
 
 • **Failure**: = "Failure"
 
-*Defined in [src/types/index.ts:423](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L423)*
+_Defined in_ [_src/types/index.ts:423_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L423)
 
-___
-
-###  FundsLimitReached
+### FundsLimitReached
 
 • **FundsLimitReached**: = "FundsLimitReached"
 
-*Defined in [src/types/index.ts:439](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L439)*
+_Defined in_ [_src/types/index.ts:439_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L439)
 
-___
-
-###  FundsLocked
+### FundsLocked
 
 • **FundsLocked**: = "FundsLocked"
 
-*Defined in [src/types/index.ts:428](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L428)*
+_Defined in_ [_src/types/index.ts:428_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L428)
 
-___
-
-###  InsufficientAllowance
+### InsufficientAllowance
 
 • **InsufficientAllowance**: = "InsufficientAllowance"
 
-*Defined in [src/types/index.ts:426](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L426)*
+_Defined in_ [_src/types/index.ts:426_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L426)
 
-___
-
-###  InsufficientBalance
+### InsufficientBalance
 
 • **InsufficientBalance**: = "InsufficientBalance"
 
-*Defined in [src/types/index.ts:425](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L425)*
+_Defined in_ [_src/types/index.ts:425_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L425)
 
-___
-
-###  InvalidGranularity
+### InvalidGranularity
 
 • **InvalidGranularity**: = "InvalidGranularity"
 
-*Defined in [src/types/index.ts:436](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L436)*
+_Defined in_ [_src/types/index.ts:436_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L436)
 
-___
-
-###  InvalidOperator
+### InvalidOperator
 
 • **InvalidOperator**: = "InvalidOperator"
 
-*Defined in [src/types/index.ts:431](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L431)*
+_Defined in_ [_src/types/index.ts:431_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L431)
 
-___
-
-###  InvalidReceiverAddress
+### InvalidReceiverAddress
 
 • **InvalidReceiverAddress**: = "InvalidReceiverAddress"
 
-*Defined in [src/types/index.ts:430](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L430)*
+_Defined in_ [_src/types/index.ts:430_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L430)
 
-___
-
-###  InvalidReceiverIdentity
+### InvalidReceiverIdentity
 
 • **InvalidReceiverIdentity**: = "InvalidReceiverIdentity"
 
-*Defined in [src/types/index.ts:433](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L433)*
+_Defined in_ [_src/types/index.ts:433_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L433)
 
-___
-
-###  InvalidSenderAddress
+### InvalidSenderAddress
 
 • **InvalidSenderAddress**: = "InvalidSenderAddress"
 
-*Defined in [src/types/index.ts:429](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L429)*
+_Defined in_ [_src/types/index.ts:429_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L429)
 
-___
-
-###  InvalidSenderIdentity
+### InvalidSenderIdentity
 
 • **InvalidSenderIdentity**: = "InvalidSenderIdentity"
 
-*Defined in [src/types/index.ts:432](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L432)*
+_Defined in_ [_src/types/index.ts:432_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L432)
 
-___
-
-###  PortfolioFailure
+### PortfolioFailure
 
 • **PortfolioFailure**: = "PortfolioFailure"
 
-*Defined in [src/types/index.ts:440](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L440)*
+_Defined in_ [_src/types/index.ts:440_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L440)
 
-___
-
-###  ScopeClaimMissing
+### ScopeClaimMissing
 
 • **ScopeClaimMissing**: = "ScopeClaimMissing"
 
-*Defined in [src/types/index.ts:442](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L442)*
+_Defined in_ [_src/types/index.ts:442_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L442)
 
-___
-
-###  SmartExtensionFailure
+### SmartExtensionFailure
 
 • **SmartExtensionFailure**: = "SmartExtensionFailure"
 
-*Defined in [src/types/index.ts:435](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L435)*
+_Defined in_ [_src/types/index.ts:435_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L435)
 
-___
-
-###  Success
+### Success
 
 • **Success**: = "Success"
 
-*Defined in [src/types/index.ts:424](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L424)*
+_Defined in_ [_src/types/index.ts:424_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L424)
 
-___
-
-###  TransferRestrictionFailure
+### TransferRestrictionFailure
 
 • **TransferRestrictionFailure**: = "TransferRestrictionFailure"
 
-*Defined in [src/types/index.ts:443](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L443)*
+_Defined in_ [_src/types/index.ts:443_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L443)
 
-___
-
-###  TransfersHalted
+### TransfersHalted
 
 • **TransfersHalted**: = "TransfersHalted"
 
-*Defined in [src/types/index.ts:427](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L427)*
+_Defined in_ [_src/types/index.ts:427_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L427)
 
-___
-
-###  VolumeLimitReached
+### VolumeLimitReached
 
 • **VolumeLimitReached**: = "VolumeLimitReached"
 
-*Defined in [src/types/index.ts:437](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L437)*
+_Defined in_ [_src/types/index.ts:437_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L437)
+

@@ -1,4 +1,4 @@
-# Interface: AddPairBaseParams
+# AddPairBaseParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  keyring
+### keyring
 
-• **keyring**: *[CommonKeyring](../globals.md#commonkeyring)*
+• **keyring**: [_CommonKeyring_](../globals.md#commonkeyring)
 
-*Defined in [src/base/Context.ts:91](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L91)*
+_Defined in_ [_src/base/Context.ts:91_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/base/Context.ts#L91)
+

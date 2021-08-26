@@ -1,4 +1,4 @@
-# Interface: Tier
+# Tier
 
 ## Hierarchy
 
@@ -16,28 +16,25 @@
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *BigNumber*
+• **amount**: _BigNumber_
 
-*Inherited from [StoTier](stotier.md).[amount](stotier.md#amount)*
+_Inherited from_ [_StoTier_](stotier.md)_._[_amount_](stotier.md#amount)
 
-*Defined in [src/api/entities/Sto/types.ts:63](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/types.ts#L63)*
+_Defined in_ [_src/api/entities/Sto/types.ts:63_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/types.ts#L63)
 
-___
+### price
 
-###  price
+• **price**: _BigNumber_
 
-• **price**: *BigNumber*
+_Inherited from_ [_StoTier_](stotier.md)_._[_price_](stotier.md#price)
 
-*Inherited from [StoTier](stotier.md).[price](stotier.md#price)*
+_Defined in_ [_src/api/entities/Sto/types.ts:64_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/types.ts#L64)
 
-*Defined in [src/api/entities/Sto/types.ts:64](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/types.ts#L64)*
+### remaining
 
-___
+• **remaining**: _BigNumber_
 
-###  remaining
+_Defined in_ [_src/api/entities/Sto/types.ts:68_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/types.ts#L68)
 
-• **remaining**: *BigNumber*
-
-*Defined in [src/api/entities/Sto/types.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Sto/types.ts#L68)*

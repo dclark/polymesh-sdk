@@ -1,4 +1,4 @@
-# Interface: PercentageTransferRestriction
+# PercentageTransferRestriction
 
 ## Hierarchy
 
@@ -17,18 +17,17 @@
 
 ### `Optional` exemptedScopeIds
 
-• **exemptedScopeIds**? : *string[]*
+• **exemptedScopeIds**? : _string\[\]_
 
-*Inherited from [TransferRestrictionBase](../classes/transferrestrictionbase.md).[exemptedScopeIds](../classes/transferrestrictionbase.md#optional-exemptedscopeids)*
+_Inherited from_ [_TransferRestrictionBase_](../classes/transferrestrictionbase.md)_._[_exemptedScopeIds_](../classes/transferrestrictionbase.md#optional-exemptedscopeids)
 
-*Defined in [src/types/index.ts:937](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L937)*
+_Defined in_ [_src/types/index.ts:937_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L937)
 
 array of Scope IDs that are exempted from the Restriction
 
-___
+### percentage
 
-###  percentage
+• **percentage**: _BigNumber_
 
-• **percentage**: *BigNumber*
+_Defined in_ [_src/types/index.ts:956_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L956)
 
-*Defined in [src/types/index.ts:956](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L956)*

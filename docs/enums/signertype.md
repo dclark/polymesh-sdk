@@ -1,4 +1,4 @@
-# Enumeration: SignerType
+# SignerType
 
 ## Index
 
@@ -9,16 +9,15 @@
 
 ## Enumeration members
 
-###  Account
+### Account
 
 • **Account**: = "Account"
 
-*Defined in [src/types/index.ts:1053](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L1053)*
+_Defined in_ [_src/types/index.ts:1053_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L1053)
 
-___
-
-###  Identity
+### Identity
 
 • **Identity**: = "Identity"
 
-*Defined in [src/types/index.ts:1052](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L1052)*
+_Defined in_ [_src/types/index.ts:1052_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L1052)
+

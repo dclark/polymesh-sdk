@@ -1,4 +1,4 @@
-# Enumeration: CalendarUnit
+# CalendarUnit
 
 ## Index
 
@@ -14,56 +14,45 @@
 
 ## Enumeration members
 
-###  Day
+### Day
 
 • **Day**: = "day"
 
-*Defined in [src/types/index.ts:997](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L997)*
+_Defined in_ [_src/types/index.ts:997_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L997)
 
-___
-
-###  Hour
+### Hour
 
 • **Hour**: = "hour"
 
-*Defined in [src/types/index.ts:996](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L996)*
+_Defined in_ [_src/types/index.ts:996_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L996)
 
-___
-
-###  Minute
+### Minute
 
 • **Minute**: = "minute"
 
-*Defined in [src/types/index.ts:995](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L995)*
+_Defined in_ [_src/types/index.ts:995_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L995)
 
-___
-
-###  Month
+### Month
 
 • **Month**: = "month"
 
-*Defined in [src/types/index.ts:999](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L999)*
+_Defined in_ [_src/types/index.ts:999_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L999)
 
-___
-
-###  Second
+### Second
 
 • **Second**: = "second"
 
-*Defined in [src/types/index.ts:994](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L994)*
+_Defined in_ [_src/types/index.ts:994_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L994)
 
-___
-
-###  Week
+### Week
 
 • **Week**: = "week"
 
-*Defined in [src/types/index.ts:998](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L998)*
+_Defined in_ [_src/types/index.ts:998_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L998)
 
-___
-
-###  Year
+### Year
 
 • **Year**: = "year"
 
-*Defined in [src/types/index.ts:1000](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L1000)*
+_Defined in_ [_src/types/index.ts:1000_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/types/index.ts#L1000)
+

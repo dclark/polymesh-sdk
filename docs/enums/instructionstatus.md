@@ -1,4 +1,4 @@
-# Enumeration: InstructionStatus
+# InstructionStatus
 
 ## Index
 
@@ -10,24 +10,21 @@
 
 ## Enumeration members
 
-###  Executed
+### Executed
 
 • **Executed**: = "Executed"
 
-*Defined in [src/api/entities/Instruction/types.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L8)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:8_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L8)
 
-___
-
-###  Failed
+### Failed
 
 • **Failed**: = "Failed"
 
-*Defined in [src/api/entities/Instruction/types.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L9)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L9)
 
-___
-
-###  Pending
+### Pending
 
 • **Pending**: = "Pending"
 
-*Defined in [src/api/entities/Instruction/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L7)*
+_Defined in_ [_src/api/entities/Instruction/types.ts:7_](https://github.com/PolymathNetwork/polymesh-sdk/blob/7362b318/src/api/entities/Instruction/types.ts#L7)
+
