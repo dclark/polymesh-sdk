@@ -1,6 +1,6 @@
-# Class: Account
+# Account
 
-Represents an account in the Polymesh blockchain. Accounts can hold POLYX, control Identities and vote on proposals (among other things)
+Represents an account in the Polymesh blockchain. Accounts can hold POLYX, control Identities and vote on proposals \(among other things\)
 
 ## Hierarchy
 
@@ -36,150 +36,131 @@ Represents an account in the Polymesh blockchain. Accounts can hold POLYX, contr
 
 ## Properties
 
-###  address
+### address
 
-• **address**: *string*
+• **address**: _string_
 
-*Defined in [src/api/entities/Account.ts:64](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L64)*
+_Defined in_ [_src/api/entities/Account.ts:64_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L64)
 
 Polymesh-specific address of the account. Serves as an identifier
 
-___
+### authorizations
 
-###  authorizations
+• **authorizations**: [_Authorizations_](authorizations.md)_‹_[_Account_](account.md)_›_
 
-• **authorizations**: *[Authorizations](authorizations.md)‹[Account](account.md)›*
-
-*Defined in [src/api/entities/Account.ts:72](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L72)*
-
-___
+_Defined in_ [_src/api/entities/Account.ts:72_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L72)
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [Entity](entity.md).[context](entity.md#protected-context)*
+_Inherited from_ [_Entity_](entity.md)_._[_context_](entity.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L48)
 
-___
+### key
 
-###  key
+• **key**: _string_
 
-• **key**: *string*
-
-*Defined in [src/api/entities/Account.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L69)*
+_Defined in_ [_src/api/entities/Account.ts:69_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L69)
 
 public key of the account. This is a hex representation of the address that is transversal to any Substrate chain
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
+_Inherited from_ [_Entity_](entity.md)_._[_uuid_](entity.md#uuid)
 
-*Inherited from [Entity](entity.md).[uuid](entity.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  exists
+### exists
 
-▸ **exists**(): *Promise‹boolean›*
+▸ **exists**\(\): _Promise‹boolean›_
 
-*Overrides [Entity](entity.md).[exists](entity.md#abstract-exists)*
+_Overrides_ [_Entity_](entity.md)_._[_exists_](entity.md#abstract-exists)
 
-*Defined in [src/api/entities/Account.ts:444](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L444)*
+_Defined in_ [_src/api/entities/Account.ts:444_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L444)
 
 Determine whether this Account exists on chain
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### getBalance
 
-###  getBalance
+▸ **getBalance**\(\): _Promise‹_[_AccountBalance_](../globals.md#accountbalance)_›_
 
-▸ **getBalance**(): *Promise‹[AccountBalance](../globals.md#accountbalance)›*
-
-*Defined in [src/api/entities/Account.ts:109](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L109)*
+_Defined in_ [_src/api/entities/Account.ts:109_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L109)
 
 Get the free/locked POLYX balance of the account
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[AccountBalance](../globals.md#accountbalance)›*
+**Returns:** _Promise‹_[_AccountBalance_](../globals.md#accountbalance)_›_
 
-▸ **getBalance**(`callback`: [SubCallback](../globals.md#subcallback)‹[AccountBalance](../globals.md#accountbalance)›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **getBalance**\(`callback`: [SubCallback](../globals.md#subcallback)‹[AccountBalance](../globals.md#accountbalance)›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/Account.ts:110](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L110)*
+_Defined in_ [_src/api/entities/Account.ts:110_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L110)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹[AccountBalance](../globals.md#accountbalance)› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[AccountBalance](../globals.md#accountbalance)› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### getIdentity
 
-###  getIdentity
+▸ **getIdentity**\(\): _Promise‹_[_Identity_](identity.md) _\| null›_
 
-▸ **getIdentity**(): *Promise‹[Identity](identity.md) | null›*
+_Defined in_ [_src/api/entities/Account.ts:152_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L152)
 
-*Defined in [src/api/entities/Account.ts:152](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L152)*
+Retrieve the Identity associated to this Account \(null if there is none\)
 
-Retrieve the Identity associated to this Account (null if there is none)
+**Returns:** _Promise‹_[_Identity_](identity.md) _\| null›_
 
-**Returns:** *Promise‹[Identity](identity.md) | null›*
+### getPermissions
 
-___
+▸ **getPermissions**\(\): _Promise‹Permissions›_
 
-###  getPermissions
-
-▸ **getPermissions**(): *Promise‹Permissions›*
-
-*Defined in [src/api/entities/Account.ts:290](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L290)*
+_Defined in_ [_src/api/entities/Account.ts:290_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L290)
 
 Retrieve the Permissions this Signer has as a Signing Key for its corresponding Identity
 
-**Returns:** *Promise‹Permissions›*
+**Returns:** _Promise‹Permissions›_
 
-___
+### getSubsidy
 
-###  getSubsidy
+▸ **getSubsidy**\(\): _Promise‹Omit‹_[_Subsidy_](../interfaces/subsidy.md)_, "beneficiary"› \| null›_
 
-▸ **getSubsidy**(): *Promise‹Omit‹[Subsidy](../interfaces/subsidy.md), "beneficiary"› | null›*
+_Defined in_ [_src/api/entities/Account.ts:131_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L131)
 
-*Defined in [src/api/entities/Account.ts:131](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L131)*
-
-Get the subsidized balance of this Account and the subsidizer Account. If
-  this Account isn't being subsidized, return null
+Get the subsidized balance of this Account and the subsidizer Account. If this Account isn't being subsidized, return null
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹Omit‹[Subsidy](../interfaces/subsidy.md), "beneficiary"› | null›*
+**Returns:** _Promise‹Omit‹_[_Subsidy_](../interfaces/subsidy.md)_, "beneficiary"› \| null›_
 
-▸ **getSubsidy**(`callback`: [SubCallback](../globals.md#subcallback)‹Omit‹[Subsidy](../interfaces/subsidy.md), "beneficiary"› | null›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **getSubsidy**\(`callback`: [SubCallback](../globals.md#subcallback)‹Omit‹[Subsidy](../interfaces/subsidy.md), "beneficiary"› \| null›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/Account.ts:132](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L132)*
+_Defined in_ [_src/api/entities/Account.ts:132_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L132)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹Omit‹[Subsidy](../interfaces/subsidy.md), "beneficiary"› &#124; null› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹Omit‹[Subsidy](../interfaces/subsidy.md), "beneficiary"› \| null› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### getTransactionHistory
 
-###  getTransactionHistory
+▸ **getTransactionHistory**\(`filters`: object\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_ExtrinsicData_](../interfaces/extrinsicdata.md)_››_
 
-▸ **getTransactionHistory**(`filters`: object): *Promise‹[ResultSet](../interfaces/resultset.md)‹[ExtrinsicData](../interfaces/extrinsicdata.md)››*
-
-*Defined in [src/api/entities/Account.ts:184](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L184)*
+_Defined in_ [_src/api/entities/Account.ts:184_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L184)
 
 Retrieve a list of transactions signed by this account. Can be filtered using parameters
 
@@ -187,114 +168,101 @@ Retrieve a list of transactions signed by this account. Can be filtered using pa
 
 **Parameters:**
 
-▪`Default value`  **filters**: *object*= {}
+▪`Default value` **filters**: _object_= {}
 
-Name | Type | Description |
------- | ------ | ------ |
-`blockNumber?` | BigNumber | - |
-`orderBy?` | TransactionOrderByInput | - |
-`size?` | undefined &#124; number | page size |
-`start?` | undefined &#124; number | page offset  |
-`success?` | undefined &#124; false &#124; true | whether the transaction was successful or not |
-`tag?` | TxTag | tag associated with the transaction |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `blockNumber?` | BigNumber | - |
+| `orderBy?` | TransactionOrderByInput | - |
+| `size?` | undefined \| number | page size |
+| `start?` | undefined \| number | page offset |
+| `success?` | undefined \| false \| true | whether the transaction was successful or not |
+| `tag?` | TxTag | tag associated with the transaction |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[ExtrinsicData](../interfaces/extrinsicdata.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_ExtrinsicData_](../interfaces/extrinsicdata.md)_››_
 
-___
+### hasPermissions
 
-###  hasPermissions
+▸ **hasPermissions**\(`permissions`: [SimplePermissions](../interfaces/simplepermissions.md)\): _Promise‹boolean›_
 
-▸ **hasPermissions**(`permissions`: [SimplePermissions](../interfaces/simplepermissions.md)): *Promise‹boolean›*
-
-*Defined in [src/api/entities/Account.ts:318](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L318)*
+_Defined in_ [_src/api/entities/Account.ts:318_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L318)
 
 Check if this Account possesses certain Permissions for its corresponding Identity
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`permissions` | [SimplePermissions](../interfaces/simplepermissions.md) |
+| Name | Type |
+| :--- | :--- |
+| `permissions` | [SimplePermissions](../interfaces/simplepermissions.md) |
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### isEqual
 
-###  isEqual
+▸ **isEqual**\(`entity`: [Entity](entity.md)‹unknown, unknown›\): _boolean_
 
-▸ **isEqual**(`entity`: [Entity](entity.md)‹unknown, unknown›): *boolean*
+_Inherited from_ [_Entity_](entity.md)_._[_isEqual_](entity.md#isequal)
 
-*Inherited from [Entity](entity.md).[isEqual](entity.md#isequal)*
-
-*Defined in [src/api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L61)*
+_Defined in_ [_src/api/entities/Entity.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L61)
 
 Determine whether this Entity is the same as another one
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`entity` | [Entity](entity.md)‹unknown, unknown› |
+| Name | Type |
+| :--- | :--- |
+| `entity` | [Entity](entity.md)‹unknown, unknown› |
 
-**Returns:** *boolean*
+**Returns:** _boolean_
 
-___
+### isFrozen
 
-###  isFrozen
+▸ **isFrozen**\(\): _Promise‹boolean›_
 
-▸ **isFrozen**(): *Promise‹boolean›*
-
-*Defined in [src/api/entities/Account.ts:269](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L269)*
+_Defined in_ [_src/api/entities/Account.ts:269_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L269)
 
 Check whether this Account is frozen. If frozen, it cannot perform any action until the primary key of the Identity unfreezes all secondary keys
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### leaveIdentity
 
-###  leaveIdentity
+▸ **leaveIdentity**\(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **leaveIdentity**(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/Account.ts:100](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L100)*
+_Defined in_ [_src/api/entities/Account.ts:100_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L100)
 
 Leave the Account's Identity. This operation can only be done if the Account is a secondary key for the Identity
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `leaveIdentity.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `leaveIdentity.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### toJson
 
-###  toJson
+▸ **toJson**\(\): _string_
 
-▸ **toJson**(): *string*
+_Overrides_ [_Entity_](entity.md)_._[_toJson_](entity.md#abstract-tojson)
 
-*Overrides [Entity](entity.md).[toJson](entity.md#abstract-tojson)*
-
-*Defined in [src/api/entities/Account.ts:451](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L451)*
+_Defined in_ [_src/api/entities/Account.ts:451_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Account.ts#L451)
 
 Return the Account's address
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [Entity](entity.md).[generateUuid](entity.md#static-generateuuid)*
+_Inherited from_ [_Entity_](entity.md)_._[_generateUuid_](entity.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
@@ -304,21 +272,19 @@ Generate the Entity's UUID from its identifying properties
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [Entity](entity.md).[unserialize](entity.md#static-unserialize)*
+_Inherited from_ [_Entity_](entity.md)_._[_unserialize_](entity.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
@@ -328,8 +294,9 @@ Unserialize a UUID into its Unique Identifiers
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

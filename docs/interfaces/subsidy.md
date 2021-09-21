@@ -1,4 +1,4 @@
-# Interface: Subsidy
+# Subsidy
 
 ## Hierarchy
 
@@ -14,30 +14,27 @@
 
 ## Properties
 
-###  allowance
+### allowance
 
-• **allowance**: *BigNumber*
+• **allowance**: _BigNumber_
 
-*Defined in [src/types/index.ts:874](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L874)*
+_Defined in_ [_src/types/index.ts:874_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L874)
 
 amount of POLYX to be subsidized. This can be increased/decreased later on
 
-___
+### beneficiary
 
-###  beneficiary
+• **beneficiary**: [_Account_](../classes/account.md)
 
-• **beneficiary**: *[Account](../classes/account.md)*
-
-*Defined in [src/types/index.ts:866](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L866)*
+_Defined in_ [_src/types/index.ts:866_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L866)
 
 Account whose transactions are being paid for
 
-___
+### subsidizer
 
-###  subsidizer
+• **subsidizer**: [_Account_](../classes/account.md)
 
-• **subsidizer**: *[Account](../classes/account.md)*
-
-*Defined in [src/types/index.ts:870](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L870)*
+_Defined in_ [_src/types/index.ts:870_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L870)
 
 Account that is paying for the transactions
+

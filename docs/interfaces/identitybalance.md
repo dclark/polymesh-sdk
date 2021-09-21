@@ -1,4 +1,4 @@
-# Interface: IdentityBalance
+# IdentityBalance
 
 Represents the balance of a token holder
 
@@ -15,16 +15,15 @@ Represents the balance of a token holder
 
 ## Properties
 
-###  balance
+### balance
 
-• **balance**: *BigNumber*
+• **balance**: _BigNumber_
 
-*Defined in [src/api/entities/SecurityToken/types.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/types.ts#L25)*
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:25_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/types.ts#L25)
 
-___
+### identity
 
-###  identity
+• **identity**: [_Identity_](../classes/identity.md)
 
-• **identity**: *[Identity](../classes/identity.md)*
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:24_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/types.ts#L24)
 
-*Defined in [src/api/entities/SecurityToken/types.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/types.ts#L24)*

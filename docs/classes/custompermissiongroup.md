@@ -1,12 +1,12 @@
-# Class: CustomPermissionGroup
+# CustomPermissionGroup
 
 Represents a group of custom permissions for a Security Token
 
 ## Hierarchy
 
-  ↳ [PermissionGroup](permissiongroup.md)
+↳ [PermissionGroup](permissiongroup.md)
 
-  ↳ **CustomPermissionGroup**
+↳ **CustomPermissionGroup**
 
 ## Index
 
@@ -31,133 +31,116 @@ Represents a group of custom permissions for a Security Token
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from [Entity](entity.md).[context](entity.md#protected-context)*
+_Inherited from_ [_Entity_](entity.md)_._[_context_](entity.md#protected-context)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L48)
 
-___
+### id
 
-###  id
+• **id**: _BigNumber_
 
-• **id**: *BigNumber*
+_Defined in_ [_src/api/entities/CustomPermissionGroup.ts:45_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/CustomPermissionGroup.ts#L45)
 
-*Defined in [src/api/entities/CustomPermissionGroup.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/CustomPermissionGroup.ts#L45)*
+### ticker
 
-___
+• **ticker**: _string_
 
-###  ticker
+_Inherited from_ [_PermissionGroup_](permissiongroup.md)_._[_ticker_](permissiongroup.md#ticker)
 
-• **ticker**: *string*
+_Defined in_ [_src/api/entities/PermissionGroup.ts:27_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/PermissionGroup.ts#L27)
 
-*Inherited from [PermissionGroup](permissiongroup.md).[ticker](permissiongroup.md#ticker)*
+### uuid
 
-*Defined in [src/api/entities/PermissionGroup.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/PermissionGroup.ts#L27)*
+• **uuid**: _string_
 
-___
+_Inherited from_ [_Entity_](entity.md)_._[_uuid_](entity.md#uuid)
 
-###  uuid
-
-• **uuid**: *string*
-
-*Inherited from [Entity](entity.md).[uuid](entity.md#uuid)*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  exists
+### exists
 
-▸ **exists**(): *Promise‹boolean›*
+▸ **exists**\(\): _Promise‹boolean›_
 
-*Overrides [Entity](entity.md).[exists](entity.md#abstract-exists)*
+_Overrides_ [_Entity_](entity.md)_._[_exists_](entity.md#abstract-exists)
 
-*Defined in [src/api/entities/CustomPermissionGroup.ts:117](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/CustomPermissionGroup.ts#L117)*
+_Defined in_ [_src/api/entities/CustomPermissionGroup.ts:117_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/CustomPermissionGroup.ts#L117)
 
 Determine whether this Custom Permission Group exists on chain
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### getPermissions
 
-###  getPermissions
+▸ **getPermissions**\(\): _Promise‹_[_GroupPermissions_](../globals.md#grouppermissions)_›_
 
-▸ **getPermissions**(): *Promise‹[GroupPermissions](../globals.md#grouppermissions)›*
+_Overrides_ [_PermissionGroup_](permissiongroup.md)_._[_getPermissions_](permissiongroup.md#abstract-getpermissions)
 
-*Overrides [PermissionGroup](permissiongroup.md).[getPermissions](permissiongroup.md#abstract-getpermissions)*
-
-*Defined in [src/api/entities/CustomPermissionGroup.ts:87](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/CustomPermissionGroup.ts#L87)*
+_Defined in_ [_src/api/entities/CustomPermissionGroup.ts:87_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/CustomPermissionGroup.ts#L87)
 
 Retrieve the list of permissions and transaction groups associated with this Permission Group
 
-**Returns:** *Promise‹[GroupPermissions](../globals.md#grouppermissions)›*
+**Returns:** _Promise‹_[_GroupPermissions_](../globals.md#grouppermissions)_›_
 
-___
+### isEqual
 
-###  isEqual
+▸ **isEqual**\(`entity`: [Entity](entity.md)‹unknown, unknown›\): _boolean_
 
-▸ **isEqual**(`entity`: [Entity](entity.md)‹unknown, unknown›): *boolean*
+_Inherited from_ [_Entity_](entity.md)_._[_isEqual_](entity.md#isequal)
 
-*Inherited from [Entity](entity.md).[isEqual](entity.md#isequal)*
-
-*Defined in [src/api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L61)*
+_Defined in_ [_src/api/entities/Entity.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L61)
 
 Determine whether this Entity is the same as another one
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`entity` | [Entity](entity.md)‹unknown, unknown› |
+| Name | Type |
+| :--- | :--- |
+| `entity` | [Entity](entity.md)‹unknown, unknown› |
 
-**Returns:** *boolean*
+**Returns:** _boolean_
 
-___
+### setPermissions
 
-###  setPermissions
+▸ **setPermissions**\(`args`: [SetGroupPermissionsParams](../interfaces/setgrouppermissionsparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **setPermissions**(`args`: [SetGroupPermissionsParams](../interfaces/setgrouppermissionsparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/CustomPermissionGroup.ts:80](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/CustomPermissionGroup.ts#L80)*
+_Defined in_ [_src/api/entities/CustomPermissionGroup.ts:80_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/CustomPermissionGroup.ts#L80)
 
 Modify the group's permissions
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `setPermissions.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `setPermissions.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [SetGroupPermissionsParams](../interfaces/setgrouppermissionsparams.md) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [SetGroupPermissionsParams](../interfaces/setgrouppermissionsparams.md) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### toJson
 
-###  toJson
+▸ **toJson**\(\): _HumanReadable_
 
-▸ **toJson**(): *HumanReadable*
+_Overrides_ [_Entity_](entity.md)_._[_toJson_](entity.md#abstract-tojson)
 
-*Overrides [Entity](entity.md).[toJson](entity.md#abstract-tojson)*
-
-*Defined in [src/api/entities/CustomPermissionGroup.ts:66](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/CustomPermissionGroup.ts#L66)*
+_Defined in_ [_src/api/entities/CustomPermissionGroup.ts:66_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/CustomPermissionGroup.ts#L66)
 
 Return the Group's ID
 
-**Returns:** *HumanReadable*
-
-___
+**Returns:** _HumanReadable_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Inherited from [Entity](entity.md).[generateUuid](entity.md#static-generateuuid)*
+_Inherited from_ [_Entity_](entity.md)_._[_generateUuid_](entity.md#static-generateuuid)
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
@@ -167,21 +150,19 @@ Generate the Entity's UUID from its identifying properties
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Inherited from [Entity](entity.md).[unserialize](entity.md#static-unserialize)*
+_Inherited from_ [_Entity_](entity.md)_._[_unserialize_](entity.md#static-unserialize)
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
@@ -191,8 +172,9 @@ Unserialize a UUID into its Unique Identifiers
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

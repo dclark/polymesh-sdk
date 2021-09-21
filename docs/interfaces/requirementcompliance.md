@@ -1,4 +1,4 @@
-# Interface: RequirementCompliance
+# RequirementCompliance
 
 ## Hierarchy
 
@@ -14,24 +14,21 @@
 
 ## Properties
 
-###  complies
+### complies
 
-• **complies**: *boolean*
+• **complies**: _boolean_
 
-*Defined in [src/types/index.ts:425](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L425)*
+_Defined in_ [_src/types/index.ts:425_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L425)
 
-___
+### conditions
 
-###  conditions
+• **conditions**: [_ConditionCompliance_](conditioncompliance.md)_\[\]_
 
-• **conditions**: *[ConditionCompliance](conditioncompliance.md)[]*
+_Defined in_ [_src/types/index.ts:424_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L424)
 
-*Defined in [src/types/index.ts:424](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L424)*
+### id
 
-___
+• **id**: _number_
 
-###  id
+_Defined in_ [_src/types/index.ts:423_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L423)
 
-• **id**: *number*
-
-*Defined in [src/types/index.ts:423](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L423)*

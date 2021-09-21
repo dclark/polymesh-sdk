@@ -1,4 +1,4 @@
-# Interface: Balance
+# Balance
 
 ## Hierarchy
 
@@ -16,24 +16,21 @@
 
 ## Properties
 
-###  free
+### free
 
-• **free**: *BigNumber*
+• **free**: _BigNumber_
 
-*Defined in [src/types/index.ts:588](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L588)*
+_Defined in_ [_src/types/index.ts:588_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L588)
 
-___
+### locked
 
-###  locked
+• **locked**: _BigNumber_
 
-• **locked**: *BigNumber*
+_Defined in_ [_src/types/index.ts:589_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L589)
 
-*Defined in [src/types/index.ts:589](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L589)*
+### total
 
-___
+• **total**: _BigNumber_
 
-###  total
+_Defined in_ [_src/types/index.ts:590_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L590)
 
-• **total**: *BigNumber*
-
-*Defined in [src/types/index.ts:590](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L590)*

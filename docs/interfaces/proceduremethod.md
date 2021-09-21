@@ -1,4 +1,4 @@
-# Interface: ProcedureMethod ‹**MethodArgs, ProcedureReturnValue, ReturnValue**›
+# ProcedureMethod
 
 ## Type parameters
 
@@ -14,18 +14,18 @@
 
 ## Callable
 
-▸ (`args`: MethodArgs, `opts?`: [ProcedureOpts](procedureopts.md)): *Promise‹[TransactionQueue](../classes/transactionqueue.md)‹ProcedureReturnValue, ReturnValue››*
+▸ \(`args`: MethodArgs, `opts?`: [ProcedureOpts](procedureopts.md)\): _Promise‹_[_TransactionQueue_](../classes/transactionqueue.md)_‹ProcedureReturnValue, ReturnValue››_
 
-*Defined in [src/types/index.ts:1156](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1156)*
+_Defined in_ [_src/types/index.ts:1156_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1156)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | MethodArgs |
-`opts?` | [ProcedureOpts](procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | MethodArgs |
+| `opts?` | [ProcedureOpts](procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](../classes/transactionqueue.md)‹ProcedureReturnValue, ReturnValue››*
+**Returns:** _Promise‹_[_TransactionQueue_](../classes/transactionqueue.md)_‹ProcedureReturnValue, ReturnValue››_
 
 ## Index
 
@@ -35,19 +35,20 @@ Name | Type |
 
 ## Properties
 
-###  checkAuthorization
+### checkAuthorization
 
-• **checkAuthorization**: *function*
+• **checkAuthorization**: _function_
 
-*Defined in [src/types/index.ts:1160](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1160)*
+_Defined in_ [_src/types/index.ts:1160_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1160)
 
 #### Type declaration:
 
-▸ (`args`: MethodArgs, `opts?`: [ProcedureOpts](procedureopts.md)): *Promise‹[ProcedureAuthorizationStatus](procedureauthorizationstatus.md)›*
+▸ \(`args`: MethodArgs, `opts?`: [ProcedureOpts](procedureopts.md)\): _Promise‹_[_ProcedureAuthorizationStatus_](procedureauthorizationstatus.md)_›_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | MethodArgs |
-`opts?` | [ProcedureOpts](procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | MethodArgs |
+| `opts?` | [ProcedureOpts](procedureopts.md) |
+

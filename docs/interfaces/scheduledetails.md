@@ -1,4 +1,4 @@
-# Interface: ScheduleDetails
+# ScheduleDetails
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  nextCheckpointDate
+### nextCheckpointDate
 
-• **nextCheckpointDate**: *Date*
+• **nextCheckpointDate**: _Date_
 
-*Defined in [src/api/entities/CheckpointSchedule/types.ts:5](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/CheckpointSchedule/types.ts#L5)*
+_Defined in_ [_src/api/entities/CheckpointSchedule/types.ts:5_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/CheckpointSchedule/types.ts#L5)
 
-___
+### remainingCheckpoints
 
-###  remainingCheckpoints
+• **remainingCheckpoints**: _number_
 
-• **remainingCheckpoints**: *number*
+_Defined in_ [_src/api/entities/CheckpointSchedule/types.ts:4_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/CheckpointSchedule/types.ts#L4)
 
-*Defined in [src/api/entities/CheckpointSchedule/types.ts:4](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/CheckpointSchedule/types.ts#L4)*

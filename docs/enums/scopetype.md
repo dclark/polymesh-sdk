@@ -1,4 +1,4 @@
-# Enumeration: ScopeType
+# ScopeType
 
 ## Index
 
@@ -10,24 +10,21 @@
 
 ## Enumeration members
 
-###  Custom
+### Custom
 
 • **Custom**: = "Custom"
 
-*Defined in [src/types/index.ts:248](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L248)*
+_Defined in_ [_src/types/index.ts:248_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L248)
 
-___
-
-###  Identity
+### Identity
 
 • **Identity**: = "Identity"
 
-*Defined in [src/types/index.ts:246](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L246)*
+_Defined in_ [_src/types/index.ts:246_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L246)
 
-___
-
-###  Ticker
+### Ticker
 
 • **Ticker**: = "Ticker"
 
-*Defined in [src/types/index.ts:247](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L247)*
+_Defined in_ [_src/types/index.ts:247_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L247)
+

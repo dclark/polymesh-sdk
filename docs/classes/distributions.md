@@ -1,4 +1,4 @@
-# Class: Distributions
+# Distributions
 
 Handles all Security Token Distributions related functionality
 
@@ -25,66 +25,60 @@ Handles all Security Token Distributions related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Namespace.ts#L11)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Namespace.ts#L9)
 
 ## Methods
 
-###  configureDividendDistribution
+### configureDividendDistribution
 
-▸ **configureDividendDistribution**(`args`: [ConfigureDividendDistributionParams](../globals.md#configuredividenddistributionparams), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[DividendDistribution](dividenddistribution.md)››*
+▸ **configureDividendDistribution**\(`args`: [ConfigureDividendDistributionParams](../globals.md#configuredividenddistributionparams), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_DividendDistribution_](dividenddistribution.md)_››_
 
-*Defined in [src/api/entities/SecurityToken/CorporateActions/Distributions.ts:39](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/CorporateActions/Distributions.ts#L39)*
+_Defined in_ [_src/api/entities/SecurityToken/CorporateActions/Distributions.ts:39_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/CorporateActions/Distributions.ts#L39)
 
-Create a Dividend Distribution for a subset of the Tokenholders at a certain (existing or future) Checkpoint
+Create a Dividend Distribution for a subset of the Tokenholders at a certain \(existing or future\) Checkpoint
 
 **`note`** required role:
-  - Origin Portfolio Custodian
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `configureDividendDistribution.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Origin Portfolio Custodian
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `configureDividendDistribution.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [ConfigureDividendDistributionParams](../globals.md#configuredividenddistributionparams) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [ConfigureDividendDistributionParams](../globals.md#configuredividenddistributionparams) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[DividendDistribution](dividenddistribution.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_DividendDistribution_](dividenddistribution.md)_››_
 
-___
+### get
 
-###  get
+▸ **get**\(\): _Promise‹_[_DistributionWithDetails_](../interfaces/distributionwithdetails.md)_\[\]›_
 
-▸ **get**(): *Promise‹[DistributionWithDetails](../interfaces/distributionwithdetails.md)[]›*
-
-*Defined in [src/api/entities/SecurityToken/CorporateActions/Distributions.ts:114](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/CorporateActions/Distributions.ts#L114)*
+_Defined in_ [_src/api/entities/SecurityToken/CorporateActions/Distributions.ts:114_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/CorporateActions/Distributions.ts#L114)
 
 Retrieve all Dividend Distributions associated to this Security Token, along with their details
 
-**Returns:** *Promise‹[DistributionWithDetails](../interfaces/distributionwithdetails.md)[]›*
+**Returns:** _Promise‹_[_DistributionWithDetails_](../interfaces/distributionwithdetails.md)_\[\]›_
 
-___
+### getOne
 
-###  getOne
+▸ **getOne**\(`args`: object\): _Promise‹_[_DistributionWithDetails_](../interfaces/distributionwithdetails.md)_›_
 
-▸ **getOne**(`args`: object): *Promise‹[DistributionWithDetails](../interfaces/distributionwithdetails.md)›*
-
-*Defined in [src/api/entities/SecurityToken/CorporateActions/Distributions.ts:62](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/CorporateActions/Distributions.ts#L62)*
+_Defined in_ [_src/api/entities/SecurityToken/CorporateActions/Distributions.ts:62_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/CorporateActions/Distributions.ts#L62)
 
 Retrieve a single Dividend Distribution associated to this Security Token by its ID
 
@@ -92,10 +86,11 @@ Retrieve a single Dividend Distribution associated to this Security Token by its
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`id` | BigNumber |
+| Name | Type |
+| :--- | :--- |
+| `id` | BigNumber |
 
-**Returns:** *Promise‹[DistributionWithDetails](../interfaces/distributionwithdetails.md)›*
+**Returns:** _Promise‹_[_DistributionWithDetails_](../interfaces/distributionwithdetails.md)_›_
+

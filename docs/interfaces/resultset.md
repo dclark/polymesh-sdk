@@ -1,4 +1,4 @@
-# Interface: ResultSet ‹**T**›
+# ResultSet
 
 ## Type parameters
 
@@ -20,22 +20,19 @@
 
 ### `Optional` count
 
-• **count**? : *undefined | number*
+• **count**? : _undefined \| number_
 
-*Defined in [src/types/index.ts:605](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L605)*
+_Defined in_ [_src/types/index.ts:605_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L605)
 
-___
+### data
 
-###  data
+• **data**: _T\[\]_
 
-• **data**: *T[]*
+_Defined in_ [_src/types/index.ts:603_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L603)
 
-*Defined in [src/types/index.ts:603](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L603)*
+### next
 
-___
+• **next**: [_NextKey_](../globals.md#nextkey)
 
-###  next
+_Defined in_ [_src/types/index.ts:604_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L604)
 
-• **next**: *[NextKey](../globals.md#nextkey)*
-
-*Defined in [src/types/index.ts:604](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L604)*

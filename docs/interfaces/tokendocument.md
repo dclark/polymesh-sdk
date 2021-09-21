@@ -1,4 +1,4 @@
-# Interface: TokenDocument
+# TokenDocument
 
 Document attached to a token
 
@@ -20,40 +20,33 @@ Document attached to a token
 
 ### `Optional` contentHash
 
-• **contentHash**? : *undefined | string*
+• **contentHash**? : _undefined \| string_
 
-*Defined in [src/types/index.ts:202](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L202)*
+_Defined in_ [_src/types/index.ts:202_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L202)
 
-hex representation of the document (must be prefixed by "0x")
-
-___
+hex representation of the document \(must be prefixed by "0x"\)
 
 ### `Optional` filedAt
 
-• **filedAt**? : *[Date](../enums/transactionargumenttype.md#date)*
+• **filedAt**? : [_Date_](../enums/transactionargumenttype.md#date)
 
-*Defined in [src/types/index.ts:204](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L204)*
+_Defined in_ [_src/types/index.ts:204_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L204)
 
-___
+### name
 
-###  name
+• **name**: _string_
 
-• **name**: *string*
-
-*Defined in [src/types/index.ts:197](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L197)*
-
-___
+_Defined in_ [_src/types/index.ts:197_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L197)
 
 ### `Optional` type
 
-• **type**? : *undefined | string*
+• **type**? : _undefined \| string_
 
-*Defined in [src/types/index.ts:203](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L203)*
+_Defined in_ [_src/types/index.ts:203_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L203)
 
-___
+### uri
 
-###  uri
+• **uri**: _string_
 
-• **uri**: *string*
+_Defined in_ [_src/types/index.ts:198_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L198)
 
-*Defined in [src/types/index.ts:198](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L198)*

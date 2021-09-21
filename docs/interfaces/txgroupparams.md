@@ -1,4 +1,4 @@
-# Interface: TxGroupParams
+# TxGroupParams
 
 ## Hierarchy
 
@@ -15,20 +15,19 @@
 
 ## Properties
 
-###  token
+### token
 
-• **token**: *string | [SecurityToken](../classes/securitytoken.md)*
+• **token**: _string \|_ [_SecurityToken_](../classes/securitytoken.md)
 
-*Inherited from [TokenBase](tokenbase.md).[token](tokenbase.md#token)*
+_Inherited from_ [_TokenBase_](tokenbase.md)_._[_token_](tokenbase.md#token)
 
-*Defined in [src/api/procedures/setPermissionGroup.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/setPermissionGroup.ts#L27)*
+_Defined in_ [_src/api/procedures/setPermissionGroup.ts:27_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/setPermissionGroup.ts#L27)
 
 Security Token over which the Identity will be granted permissions
 
-___
+### transactionGroups
 
-###  transactionGroups
+• **transactionGroups**: [_TxGroup_](../enums/txgroup.md)_\[\]_
 
-• **transactionGroups**: *[TxGroup](../enums/txgroup.md)[]*
+_Defined in_ [_src/api/procedures/setPermissionGroup.ts:35_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/setPermissionGroup.ts#L35)
 
-*Defined in [src/api/procedures/setPermissionGroup.ts:35](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/setPermissionGroup.ts#L35)*

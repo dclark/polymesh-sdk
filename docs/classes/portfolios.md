@@ -1,4 +1,4 @@
-# Class: Portfolios
+# Portfolios
 
 Handles all Portfolio related functionality on the Identity side
 
@@ -27,131 +27,119 @@ Handles all Portfolio related functionality on the Identity side
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Namespace.ts#L11)
 
 ### `Protected` parent
 
-• **parent**: *[Identity](identity.md)*
+• **parent**: [_Identity_](identity.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Namespace.ts#L9)
 
 ## Methods
 
-###  create
+### create
 
-▸ **create**(`args`: object, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[NumberedPortfolio](numberedportfolio.md)››*
+▸ **create**\(`args`: object, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_NumberedPortfolio_](numberedportfolio.md)_››_
 
-*Defined in [src/api/entities/Identity/Portfolios.ts:166](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Identity/Portfolios.ts#L166)*
+_Defined in_ [_src/api/entities/Identity/Portfolios.ts:166_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Identity/Portfolios.ts#L166)
 
 Create a new Portfolio for the Identity
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `create.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `create.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`name` | string |
+| Name | Type |
+| :--- | :--- |
+| `name` | string |
 
-▪`Optional`  **opts**: *[ProcedureOpts](../interfaces/procedureopts.md)*
+▪`Optional` **opts**: [_ProcedureOpts_](../interfaces/procedureopts.md)
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[NumberedPortfolio](numberedportfolio.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_NumberedPortfolio_](numberedportfolio.md)_››_
 
-___
+### delete
 
-###  delete
+▸ **delete**\(`args`: object, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **delete**(`args`: object, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/Identity/Portfolios.ts:179](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Identity/Portfolios.ts#L179)*
+_Defined in_ [_src/api/entities/Identity/Portfolios.ts:179_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Identity/Portfolios.ts#L179)
 
 Delete a Portfolio by ID
 
 **`note`** required role:
-  - Portfolio Custodian
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `delete.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Portfolio Custodian
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `delete.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`portfolio` | BigNumber &#124; [NumberedPortfolio](numberedportfolio.md) |
+| Name | Type |
+| :--- | :--- |
+| `portfolio` | BigNumber \| [NumberedPortfolio](numberedportfolio.md) |
 
-▪`Optional`  **opts**: *[ProcedureOpts](../interfaces/procedureopts.md)*
+▪`Optional` **opts**: [_ProcedureOpts_](../interfaces/procedureopts.md)
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### getCustodiedPortfolios
 
-###  getCustodiedPortfolios
+▸ **getCustodiedPortfolios**\(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_DefaultPortfolio_](defaultportfolio.md) _\|_ [_NumberedPortfolio_](numberedportfolio.md)_››_
 
-▸ **getCustodiedPortfolios**(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)): *Promise‹[ResultSet](../interfaces/resultset.md)‹[DefaultPortfolio](defaultportfolio.md) | [NumberedPortfolio](numberedportfolio.md)››*
+_Defined in_ [_src/api/entities/Identity/Portfolios.ts:82_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Identity/Portfolios.ts#L82)
 
-*Defined in [src/api/entities/Identity/Portfolios.ts:82](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Identity/Portfolios.ts#L82)*
-
-Retrieve all Portfolios custodied by this Identity.
-  This only includes portfolios owned by a different Identity but custodied by this one.
-  To fetch Portfolios owned by this Identity, use [getPortfolios](portfolios.md#getportfolios)
+Retrieve all Portfolios custodied by this Identity. This only includes portfolios owned by a different Identity but custodied by this one. To fetch Portfolios owned by this Identity, use [getPortfolios](portfolios.md#getportfolios)
 
 **`note`** supports pagination
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
+| Name | Type |
+| :--- | :--- |
+| `paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[DefaultPortfolio](defaultportfolio.md) | [NumberedPortfolio](numberedportfolio.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_DefaultPortfolio_](defaultportfolio.md) _\|_ [_NumberedPortfolio_](numberedportfolio.md)_››_
 
-___
+### getPortfolio
 
-###  getPortfolio
+▸ **getPortfolio**\(\): _Promise‹_[_DefaultPortfolio_](defaultportfolio.md)_›_
 
-▸ **getPortfolio**(): *Promise‹[DefaultPortfolio](defaultportfolio.md)›*
-
-*Defined in [src/api/entities/Identity/Portfolios.ts:129](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Identity/Portfolios.ts#L129)*
+_Defined in_ [_src/api/entities/Identity/Portfolios.ts:129_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Identity/Portfolios.ts#L129)
 
 Retrieve a Numbered Portfolio or the Default Portfolio if Portfolio ID is not passed
 
-**Returns:** *Promise‹[DefaultPortfolio](defaultportfolio.md)›*
+**Returns:** _Promise‹_[_DefaultPortfolio_](defaultportfolio.md)_›_
 
-▸ **getPortfolio**(`args`: object): *Promise‹[NumberedPortfolio](numberedportfolio.md)›*
+▸ **getPortfolio**\(`args`: object\): _Promise‹_[_NumberedPortfolio_](numberedportfolio.md)_›_
 
-*Defined in [src/api/entities/Identity/Portfolios.ts:130](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Identity/Portfolios.ts#L130)*
+_Defined in_ [_src/api/entities/Identity/Portfolios.ts:130_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Identity/Portfolios.ts#L130)
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`portfolioId` | BigNumber |
+| Name | Type |
+| :--- | :--- |
+| `portfolioId` | BigNumber |
 
-**Returns:** *Promise‹[NumberedPortfolio](numberedportfolio.md)›*
+**Returns:** _Promise‹_[_NumberedPortfolio_](numberedportfolio.md)_›_
 
-___
+### getPortfolios
 
-###  getPortfolios
+▸ **getPortfolios**\(\): _Promise‹\[\]›_
 
-▸ **getPortfolios**(): *Promise‹[]›*
-
-*Defined in [src/api/entities/Identity/Portfolios.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Identity/Portfolios.ts#L51)*
+_Defined in_ [_src/api/entities/Identity/Portfolios.ts:51_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Identity/Portfolios.ts#L51)
 
 Retrieve all the Portfolios owned by this Identity
 
-**Returns:** *Promise‹[]›*
+**Returns:** _Promise‹\[\]›_
+

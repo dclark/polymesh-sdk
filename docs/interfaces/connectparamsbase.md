@@ -1,4 +1,4 @@
-# Interface: ConnectParamsBase
+# ConnectParamsBase
 
 ## Hierarchy
 
@@ -16,22 +16,19 @@
 
 ### `Optional` middleware
 
-• **middleware**? : *[MiddlewareConfig](middlewareconfig.md)*
+• **middleware**? : [_MiddlewareConfig_](middlewareconfig.md)
 
-*Defined in [src/Polymesh.ts:71](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/Polymesh.ts#L71)*
+_Defined in_ [_src/Polymesh.ts:71_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/Polymesh.ts#L71)
 
-___
+### nodeUrl
 
-###  nodeUrl
+• **nodeUrl**: _string_
 
-• **nodeUrl**: *string*
-
-*Defined in [src/Polymesh.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/Polymesh.ts#L69)*
-
-___
+_Defined in_ [_src/Polymesh.ts:69_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/Polymesh.ts#L69)
 
 ### `Optional` signer
 
-• **signer**? : *PolkadotSigner*
+• **signer**? : _PolkadotSigner_
 
-*Defined in [src/Polymesh.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/Polymesh.ts#L70)*
+_Defined in_ [_src/Polymesh.ts:70_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/Polymesh.ts#L70)
+

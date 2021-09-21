@@ -1,4 +1,4 @@
-# Interface: RemoveCheckpointScheduleParams
+# RemoveCheckpointScheduleParams
 
 ## Hierarchy
 
@@ -12,10 +12,11 @@
 
 ## Properties
 
-###  schedule
+### schedule
 
-• **schedule**: *[CheckpointSchedule](../classes/checkpointschedule.md) | BigNumber*
+• **schedule**: [_CheckpointSchedule_](../classes/checkpointschedule.md) _\| BigNumber_
 
-*Defined in [src/api/procedures/removeCheckpointSchedule.ts:12](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/removeCheckpointSchedule.ts#L12)*
+_Defined in_ [_src/api/procedures/removeCheckpointSchedule.ts:12_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/removeCheckpointSchedule.ts#L12)
 
-schedule (or ID) of the schedule to be removed
+schedule \(or ID\) of the schedule to be removed
+

@@ -1,4 +1,4 @@
-# Interface: SetGroupPermissionsParams
+# SetGroupPermissionsParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  permissions
+### permissions
 
-• **permissions**: *object | object*
+• **permissions**: _object \| object_
 
-*Defined in [src/api/procedures/setGroupPermissions.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/setGroupPermissions.ts#L14)*
+_Defined in_ [_src/api/procedures/setGroupPermissions.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/setGroupPermissions.ts#L14)
+

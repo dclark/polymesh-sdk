@@ -1,4 +1,4 @@
-# Interface: ControllerTransferParams
+# ControllerTransferParams
 
 ## Hierarchy
 
@@ -13,20 +13,19 @@
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *BigNumber*
+• **amount**: _BigNumber_
 
-*Defined in [src/api/procedures/controllerTransfer.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/controllerTransfer.ts#L22)*
+_Defined in_ [_src/api/procedures/controllerTransfer.ts:22_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/controllerTransfer.ts#L22)
 
 amount of tokens to transfer
 
-___
+### originPortfolio
 
-###  originPortfolio
+• **originPortfolio**: [_PortfolioLike_](../globals.md#portfoliolike)
 
-• **originPortfolio**: *[PortfolioLike](../globals.md#portfoliolike)*
+_Defined in_ [_src/api/procedures/controllerTransfer.ts:18_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/controllerTransfer.ts#L18)
 
-*Defined in [src/api/procedures/controllerTransfer.ts:18](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/controllerTransfer.ts#L18)*
+portfolio \(or portfolio ID\) from which tokens will be transferred
 
-portfolio (or portfolio ID) from which tokens will be transferred

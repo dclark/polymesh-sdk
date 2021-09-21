@@ -1,4 +1,4 @@
-# Interface: SetCountTransferRestrictionsParams
+# SetCountTransferRestrictionsParams
 
 ## Hierarchy
 
@@ -13,18 +13,17 @@
 
 ## Properties
 
-###  restrictions
+### restrictions
 
-• **restrictions**: *[CountTransferRestrictionInput](counttransferrestrictioninput.md)[]*
+• **restrictions**: [_CountTransferRestrictionInput_](counttransferrestrictioninput.md)_\[\]_
 
-*Defined in [src/api/procedures/setTransferRestrictions.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/setTransferRestrictions.ts#L27)*
+_Defined in_ [_src/api/procedures/setTransferRestrictions.ts:27_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/setTransferRestrictions.ts#L27)
 
-array of Count Transfer Restrictions with their corresponding exemptions (if applicable)
+array of Count Transfer Restrictions with their corresponding exemptions \(if applicable\)
 
-___
+### type
 
-###  type
+• **type**: [_Count_](../enums/transferrestrictiontype.md#count)
 
-• **type**: *[Count](../enums/transferrestrictiontype.md#count)*
+_Defined in_ [_src/api/procedures/setTransferRestrictions.ts:28_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/setTransferRestrictions.ts#L28)
 
-*Defined in [src/api/procedures/setTransferRestrictions.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/setTransferRestrictions.ts#L28)*

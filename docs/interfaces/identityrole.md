@@ -1,4 +1,4 @@
-# Interface: IdentityRole
+# IdentityRole
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  did
+### did
 
-• **did**: *string*
+• **did**: _string_
 
-*Defined in [src/types/index.ts:117](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L117)*
+_Defined in_ [_src/types/index.ts:117_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L117)
 
-___
+### type
 
-###  type
+• **type**: [_Identity_](../enums/roletype.md#identity)
 
-• **type**: *[Identity](../enums/roletype.md#identity)*
+_Defined in_ [_src/types/index.ts:116_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L116)
 
-*Defined in [src/types/index.ts:116](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L116)*

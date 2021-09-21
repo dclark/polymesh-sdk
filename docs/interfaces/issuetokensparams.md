@@ -1,4 +1,4 @@
-# Interface: IssueTokensParams
+# IssueTokensParams
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *BigNumber*
+• **amount**: _BigNumber_
 
-*Defined in [src/api/procedures/issueTokens.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/issueTokens.ts#L10)*
+_Defined in_ [_src/api/procedures/issueTokens.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/issueTokens.ts#L10)
 
-___
+### ticker
 
-###  ticker
+• **ticker**: _string_
 
-• **ticker**: *string*
+_Defined in_ [_src/api/procedures/issueTokens.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/issueTokens.ts#L11)
 
-*Defined in [src/api/procedures/issueTokens.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/issueTokens.ts#L11)*

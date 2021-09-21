@@ -1,4 +1,4 @@
-# Interface: RemoveExternalAgentParams
+# RemoveExternalAgentParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  target
+### target
 
-• **target**: *string | [Identity](../classes/identity.md)*
+• **target**: _string \|_ [_Identity_](../classes/identity.md)
 
-*Defined in [src/api/procedures/removeExternalAgent.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/removeExternalAgent.ts#L11)*
+_Defined in_ [_src/api/procedures/removeExternalAgent.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/removeExternalAgent.ts#L11)
+

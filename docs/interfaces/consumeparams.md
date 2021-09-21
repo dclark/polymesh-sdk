@@ -1,4 +1,4 @@
-# Interface: ConsumeParams
+# ConsumeParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  accept
+### accept
 
-• **accept**: *boolean*
+• **accept**: _boolean_
 
-*Defined in [src/api/procedures/consumeAuthorizationRequests.ts:20](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/consumeAuthorizationRequests.ts#L20)*
+_Defined in_ [_src/api/procedures/consumeAuthorizationRequests.ts:20_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/consumeAuthorizationRequests.ts#L20)
+

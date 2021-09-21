@@ -1,4 +1,4 @@
-# Interface: InviteExternalAgentParams
+# InviteExternalAgentParams
 
 ## Hierarchy
 
@@ -16,26 +16,23 @@
 
 ### `Optional` expiry
 
-• **expiry**? : *[Date](../enums/transactionargumenttype.md#date)*
+• **expiry**? : [_Date_](../enums/transactionargumenttype.md#date)
 
-*Defined in [src/api/procedures/inviteExternalAgent.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/inviteExternalAgent.ts#L40)*
+_Defined in_ [_src/api/procedures/inviteExternalAgent.ts:40_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/inviteExternalAgent.ts#L40)
 
-date at which the authorization request for invitation expires (optional)
+date at which the authorization request for invitation expires \(optional\)
 
 **`note`** if expiry date is not set, the invitation will never expire
 
-___
+### permissions
 
-###  permissions
+• **permissions**: [_KnownPermissionGroup_](../classes/knownpermissiongroup.md) _\|_ [_CustomPermissionGroup_](../classes/custompermissiongroup.md) _\| object \| object_
 
-• **permissions**: *[KnownPermissionGroup](../classes/knownpermissiongroup.md) | [CustomPermissionGroup](../classes/custompermissiongroup.md) | object | object*
+_Defined in_ [_src/api/procedures/inviteExternalAgent.ts:26_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/inviteExternalAgent.ts#L26)
 
-*Defined in [src/api/procedures/inviteExternalAgent.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/inviteExternalAgent.ts#L26)*
+### target
 
-___
+• **target**: _string \|_ [_Identity_](../classes/identity.md)
 
-###  target
+_Defined in_ [_src/api/procedures/inviteExternalAgent.ts:25_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/inviteExternalAgent.ts#L25)
 
-• **target**: *string | [Identity](../classes/identity.md)*
-
-*Defined in [src/api/procedures/inviteExternalAgent.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/inviteExternalAgent.ts#L25)*

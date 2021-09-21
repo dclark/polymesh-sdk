@@ -1,4 +1,4 @@
-# Interface: TransferRestrictionInputBase
+# TransferRestrictionInputBase
 
 ## Hierarchy
 
@@ -19,18 +19,17 @@
 
 ### `Optional` exemptedIdentities
 
-• **exemptedIdentities**? : *(string | [Identity](../classes/identity.md)‹›)[]*
+• **exemptedIdentities**? : _\(string \|_ [_Identity_](../classes/identity.md)_‹›\)\[\]_
 
-*Defined in [src/types/index.ts:1064](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1064)*
+_Defined in_ [_src/types/index.ts:1064_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1064)
 
-array of Identities (or DIDs) that are exempted from the Restriction
-
-___
+array of Identities \(or DIDs\) that are exempted from the Restriction
 
 ### `Optional` exemptedScopeIds
 
-• **exemptedScopeIds**? : *string[]*
+• **exemptedScopeIds**? : _string\[\]_
 
-*Defined in [src/types/index.ts:1060](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1060)*
+_Defined in_ [_src/types/index.ts:1060_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1060)
 
 array of Scope IDs that are exempted from the Restriction
+

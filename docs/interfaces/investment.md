@@ -1,4 +1,4 @@
-# Interface: Investment
+# Investment
 
 ## Hierarchy
 
@@ -14,24 +14,21 @@
 
 ## Properties
 
-###  investedAmount
+### investedAmount
 
-• **investedAmount**: *BigNumber*
+• **investedAmount**: _BigNumber_
 
-*Defined in [src/api/entities/Sto/types.ts:90](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Sto/types.ts#L90)*
+_Defined in_ [_src/api/entities/Sto/types.ts:90_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Sto/types.ts#L90)
 
-___
+### investor
 
-###  investor
+• **investor**: [_Identity_](../classes/identity.md)
 
-• **investor**: *[Identity](../classes/identity.md)*
+_Defined in_ [_src/api/entities/Sto/types.ts:88_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Sto/types.ts#L88)
 
-*Defined in [src/api/entities/Sto/types.ts:88](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Sto/types.ts#L88)*
+### soldAmount
 
-___
+• **soldAmount**: _BigNumber_
 
-###  soldAmount
+_Defined in_ [_src/api/entities/Sto/types.ts:89_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Sto/types.ts#L89)
 
-• **soldAmount**: *BigNumber*
-
-*Defined in [src/api/entities/Sto/types.ts:89](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Sto/types.ts#L89)*

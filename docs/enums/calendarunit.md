@@ -1,4 +1,4 @@
-# Enumeration: CalendarUnit
+# CalendarUnit
 
 ## Index
 
@@ -14,56 +14,45 @@
 
 ## Enumeration members
 
-###  Day
+### Day
 
 • **Day**: = "day"
 
-*Defined in [src/types/index.ts:1113](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1113)*
+_Defined in_ [_src/types/index.ts:1113_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1113)
 
-___
-
-###  Hour
+### Hour
 
 • **Hour**: = "hour"
 
-*Defined in [src/types/index.ts:1112](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1112)*
+_Defined in_ [_src/types/index.ts:1112_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1112)
 
-___
-
-###  Minute
+### Minute
 
 • **Minute**: = "minute"
 
-*Defined in [src/types/index.ts:1111](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1111)*
+_Defined in_ [_src/types/index.ts:1111_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1111)
 
-___
-
-###  Month
+### Month
 
 • **Month**: = "month"
 
-*Defined in [src/types/index.ts:1115](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1115)*
+_Defined in_ [_src/types/index.ts:1115_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1115)
 
-___
-
-###  Second
+### Second
 
 • **Second**: = "second"
 
-*Defined in [src/types/index.ts:1110](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1110)*
+_Defined in_ [_src/types/index.ts:1110_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1110)
 
-___
-
-###  Week
+### Week
 
 • **Week**: = "week"
 
-*Defined in [src/types/index.ts:1114](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1114)*
+_Defined in_ [_src/types/index.ts:1114_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1114)
 
-___
-
-###  Year
+### Year
 
 • **Year**: = "year"
 
-*Defined in [src/types/index.ts:1116](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1116)*
+_Defined in_ [_src/types/index.ts:1116_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1116)
+

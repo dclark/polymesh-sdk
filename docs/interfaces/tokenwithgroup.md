@@ -1,4 +1,4 @@
-# Interface: TokenWithGroup
+# TokenWithGroup
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  group
+### group
 
-• **group**: *[KnownPermissionGroup](../classes/knownpermissiongroup.md) | [CustomPermissionGroup](../classes/custompermissiongroup.md)*
+• **group**: [_KnownPermissionGroup_](../classes/knownpermissiongroup.md) _\|_ [_CustomPermissionGroup_](../classes/custompermissiongroup.md)
 
-*Defined in [src/types/index.ts:1207](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1207)*
+_Defined in_ [_src/types/index.ts:1207_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1207)
 
-___
+### token
 
-###  token
+• **token**: [_SecurityToken_](../classes/securitytoken.md)
 
-• **token**: *[SecurityToken](../classes/securitytoken.md)*
+_Defined in_ [_src/types/index.ts:1206_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1206)
 
-*Defined in [src/types/index.ts:1206](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1206)*

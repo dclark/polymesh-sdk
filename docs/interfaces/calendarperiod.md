@@ -1,6 +1,6 @@
-# Interface: CalendarPeriod
+# CalendarPeriod
 
-Represents a period of time measured in a specific unit (i.e. 20 days)
+Represents a period of time measured in a specific unit \(i.e. 20 days\)
 
 ## Hierarchy
 
@@ -15,16 +15,15 @@ Represents a period of time measured in a specific unit (i.e. 20 days)
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *number*
+• **amount**: _number_
 
-*Defined in [src/types/index.ts:1124](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1124)*
+_Defined in_ [_src/types/index.ts:1124_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1124)
 
-___
+### unit
 
-###  unit
+• **unit**: [_CalendarUnit_](../enums/calendarunit.md)
 
-• **unit**: *[CalendarUnit](../enums/calendarunit.md)*
+_Defined in_ [_src/types/index.ts:1123_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1123)
 
-*Defined in [src/types/index.ts:1123](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1123)*

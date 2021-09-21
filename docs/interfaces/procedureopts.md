@@ -1,4 +1,4 @@
-# Interface: ProcedureOpts
+# ProcedureOpts
 
 ## Hierarchy
 
@@ -14,8 +14,9 @@
 
 ### `Optional` signer
 
-• **signer**? : *string | [Account](../classes/account.md)*
+• **signer**? : _string \|_ [_Account_](../classes/account.md)
 
-*Defined in [src/types/index.ts:1149](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1149)*
+_Defined in_ [_src/types/index.ts:1149_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1149)
 
-Account or address of a signing key to replace the current one (for this procedure only)
+Account or address of a signing key to replace the current one \(for this procedure only\)
+

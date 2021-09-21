@@ -1,8 +1,6 @@
-# Interface: SimplePermissions
+# SimplePermissions
 
-This represents positive permissions (i.e. only "includes"). It is used
-  for specifying procedure requirements and querying if an account has certain
-  permissions
+This represents positive permissions \(i.e. only "includes"\). It is used for specifying procedure requirements and querying if an account has certain permissions
 
 ## Hierarchy
 
@@ -20,26 +18,23 @@ This represents positive permissions (i.e. only "includes"). It is used
 
 ### `Optional` portfolios
 
-• **portfolios**? : *([DefaultPortfolio](../classes/defaultportfolio.md)‹› | [NumberedPortfolio](../classes/numberedportfolio.md)‹›)[] | null*
+• **portfolios**? : _\(_[_DefaultPortfolio_](../classes/defaultportfolio.md)_‹› \|_ [_NumberedPortfolio_](../classes/numberedportfolio.md)_‹›\)\[\] \| null_
 
-*Defined in [src/types/index.ts:832](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L832)*
-
-___
+_Defined in_ [_src/types/index.ts:832_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L832)
 
 ### `Optional` tokens
 
-• **tokens**? : *[SecurityToken](../classes/securitytoken.md)[] | null*
+• **tokens**? : [_SecurityToken_](../classes/securitytoken.md)_\[\] \| null_
 
-*Defined in [src/types/index.ts:826](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L826)*
+_Defined in_ [_src/types/index.ts:826_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L826)
 
 list of required Security Tokens permissions
 
-___
-
 ### `Optional` transactions
 
-• **transactions**? : *TxTag[] | null*
+• **transactions**? : _TxTag\[\] \| null_
 
-*Defined in [src/types/index.ts:830](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L830)*
+_Defined in_ [_src/types/index.ts:830_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L830)
 
 list of required Transaction permissions
+

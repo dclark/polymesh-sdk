@@ -1,4 +1,4 @@
-# Interface: ThirdPartyFees
+# ThirdPartyFees
 
 Breakdown of the fees that will be paid by a specific third party in a Transaction Queue
 
@@ -17,41 +17,35 @@ Breakdown of the fees that will be paid by a specific third party in a Transacti
 
 ## Properties
 
-###  account
+### account
 
-• **account**: *[Account](../classes/account.md)*
+• **account**: [_Account_](../classes/account.md)
 
-*Defined in [src/types/index.ts:631](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L631)*
+_Defined in_ [_src/types/index.ts:631_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L631)
 
 third party Account that will pay for the fees
 
-___
+### allowance
 
-###  allowance
+• **allowance**: _BigNumber \| null_
 
-• **allowance**: *BigNumber | null*
+_Defined in_ [_src/types/index.ts:640_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L640)
 
-*Defined in [src/types/index.ts:640](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L640)*
+maximum amount that the third party Account can pay on behalf of the current Account. A null value signifies no limit
 
-maximum amount that the third party Account can pay on behalf of the current Account. A null
-  value signifies no limit
+### balance
 
-___
+• **balance**: _BigNumber_
 
-###  balance
-
-• **balance**: *BigNumber*
-
-*Defined in [src/types/index.ts:644](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L644)*
+_Defined in_ [_src/types/index.ts:644_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L644)
 
 free balance of the third party Account
 
-___
+### fees
 
-###  fees
+• **fees**: [_Fees_](fees.md)
 
-• **fees**: *[Fees](fees.md)*
-
-*Defined in [src/types/index.ts:635](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L635)*
+_Defined in_ [_src/types/index.ts:635_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L635)
 
 fees that will be paid by the third party Account
+

@@ -1,4 +1,4 @@
-# Class: Checkpoints
+# Checkpoints
 
 Handles all Security Token Checkpoints related functionality
 
@@ -26,59 +26,52 @@ Handles all Security Token Checkpoints related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Namespace.ts#L11)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Namespace.ts#L9)
 
-___
+### schedules
 
-###  schedules
+• **schedules**: [_Schedules_](schedules.md)
 
-• **schedules**: *[Schedules](schedules.md)*
-
-*Defined in [src/api/entities/SecurityToken/Checkpoints/index.ts:36](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/Checkpoints/index.ts#L36)*
+_Defined in_ [_src/api/entities/SecurityToken/Checkpoints/index.ts:36_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/Checkpoints/index.ts#L36)
 
 ## Methods
 
-###  create
+### create
 
-▸ **create**(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[Checkpoint](checkpoint.md)››*
+▸ **create**\(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Checkpoint_](checkpoint.md)_››_
 
-*Defined in [src/api/entities/SecurityToken/Checkpoints/index.ts:60](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/Checkpoints/index.ts#L60)*
+_Defined in_ [_src/api/entities/SecurityToken/Checkpoints/index.ts:60_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/Checkpoints/index.ts#L60)
 
 Create a snapshot of Security Token holders and their respective balances at this moment
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `create.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `create.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[Checkpoint](checkpoint.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Checkpoint_](checkpoint.md)_››_
 
-___
+### get
 
-###  get
+▸ **get**\(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_CheckpointWithData_](../interfaces/checkpointwithdata.md)_››_
 
-▸ **get**(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)): *Promise‹[ResultSet](../interfaces/resultset.md)‹[CheckpointWithData](../interfaces/checkpointwithdata.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Checkpoints/index.ts:94](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/Checkpoints/index.ts#L94)*
+_Defined in_ [_src/api/entities/SecurityToken/Checkpoints/index.ts:94_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/Checkpoints/index.ts#L94)
 
 Retrieve all Checkpoints created on this Security Token, together with their corresponding creation Date and Total Supply
 
@@ -86,19 +79,17 @@ Retrieve all Checkpoints created on this Security Token, together with their cor
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
+| Name | Type |
+| :--- | :--- |
+| `paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[CheckpointWithData](../interfaces/checkpointwithdata.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_CheckpointWithData_](../interfaces/checkpointwithdata.md)_››_
 
-___
+### getOne
 
-###  getOne
+▸ **getOne**\(`args`: object\): _Promise‹_[_Checkpoint_](checkpoint.md)_›_
 
-▸ **getOne**(`args`: object): *Promise‹[Checkpoint](checkpoint.md)›*
-
-*Defined in [src/api/entities/SecurityToken/Checkpoints/index.ts:69](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/Checkpoints/index.ts#L69)*
+_Defined in_ [_src/api/entities/SecurityToken/Checkpoints/index.ts:69_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/Checkpoints/index.ts#L69)
 
 Retrieve a single Checkpoint for this Security Token by its ID
 
@@ -106,10 +97,11 @@ Retrieve a single Checkpoint for this Security Token by its ID
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`id` | BigNumber |
+| Name | Type |
+| :--- | :--- |
+| `id` | BigNumber |
 
-**Returns:** *Promise‹[Checkpoint](checkpoint.md)›*
+**Returns:** _Promise‹_[_Checkpoint_](checkpoint.md)_›_
+

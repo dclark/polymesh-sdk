@@ -1,4 +1,4 @@
-# Interface: Fees
+# Fees
 
 ## Hierarchy
 
@@ -13,20 +13,19 @@
 
 ## Properties
 
-###  gas
+### gas
 
-• **gas**: *BigNumber*
+• **gas**: _BigNumber_
 
-*Defined in [src/types/index.ts:621](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L621)*
+_Defined in_ [_src/types/index.ts:621_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L621)
 
 regular network fee
 
-___
+### protocol
 
-###  protocol
+• **protocol**: _BigNumber_
 
-• **protocol**: *BigNumber*
-
-*Defined in [src/types/index.ts:617](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L617)*
+_Defined in_ [_src/types/index.ts:617_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L617)
 
 bonus fee charged by certain transactions
+

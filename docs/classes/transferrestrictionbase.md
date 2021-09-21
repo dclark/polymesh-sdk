@@ -1,10 +1,10 @@
-# Class: TransferRestrictionBase ‹**T**›
+# TransferRestrictionBase
 
 Base class for managing Transfer Restrictions
 
 ## Type parameters
 
-▪ **T**: *[TransferRestrictionType](../enums/transferrestrictiontype.md)*
+▪ **T**: [_TransferRestrictionType_](../enums/transferrestrictiontype.md)
 
 ## Hierarchy
 
@@ -36,124 +36,108 @@ Base class for managing Transfer Restrictions
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Namespace.ts#L11)
 
 ### `Optional` exemptedScopeIds
 
-• **exemptedScopeIds**? : *string[]*
+• **exemptedScopeIds**? : _string\[\]_
 
-*Defined in [src/types/index.ts:1053](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1053)*
+_Defined in_ [_src/types/index.ts:1053_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L1053)
 
 array of Scope IDs that are exempted from the Restriction
 
-___
-
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Namespace.ts#L9)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/Namespace.ts#L9)
 
 ### `Protected` `Abstract` type
 
-• **type**: *T*
+• **type**: _T_
 
-*Defined in [src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:56](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L56)*
+_Defined in_ [_src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:56_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L56)
 
 ## Methods
 
-###  addRestriction
+### addRestriction
 
-▸ **addRestriction**(`args`: [AddRestrictionParams](../globals.md#addrestrictionparams)‹T›, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹number››*
+▸ **addRestriction**\(`args`: [AddRestrictionParams](../globals.md#addrestrictionparams)‹T›, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹number››_
 
-*Defined in [src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:123](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L123)*
+_Defined in_ [_src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:123_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L123)
 
 Add a Transfer Restriction of the corresponding type to this Security Token
 
 **`note`** the result is the total amount of restrictions after the procedure has run
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `addRestriction.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `addRestriction.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [AddRestrictionParams](../globals.md#addrestrictionparams)‹T› |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [AddRestrictionParams](../globals.md#addrestrictionparams)‹T› |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹number››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹number››_
 
-___
+### get
 
-###  get
+▸ **get**\(\): _Promise‹_[_GetReturnType_](../globals.md#getreturntype)_‹T››_
 
-▸ **get**(): *Promise‹[GetReturnType](../globals.md#getreturntype)‹T››*
-
-*Defined in [src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:158](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L158)*
+_Defined in_ [_src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:158_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L158)
 
 Retrieve all active Transfer Restrictions of the corresponding type
 
-**`note`** there is a maximum number of restrictions allowed accross all types.
-  The `availableSlots` property of the result represents how many more restrictions can be added
-  before reaching that limit
+**`note`** there is a maximum number of restrictions allowed accross all types. The `availableSlots` property of the result represents how many more restrictions can be added before reaching that limit
 
-**Returns:** *Promise‹[GetReturnType](../globals.md#getreturntype)‹T››*
+**Returns:** _Promise‹_[_GetReturnType_](../globals.md#getreturntype)_‹T››_
 
-___
+### removeRestrictions
 
-###  removeRestrictions
+▸ **removeRestrictions**\(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹number››_
 
-▸ **removeRestrictions**(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹number››*
-
-*Defined in [src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:147](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L147)*
+_Defined in_ [_src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:147_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L147)
 
 Removes all Transfer Restrictions of the corresponding type from this Security Token
 
 **`note`** the result is the total amount of restrictions after the procedure has run
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `removeRestrictions.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `removeRestrictions.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹number››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹number››_
 
-___
+### setRestrictions
 
-###  setRestrictions
+▸ **setRestrictions**\(`args`: [SetRestrictionsParams](../globals.md#setrestrictionsparams)‹T›, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹number››_
 
-▸ **setRestrictions**(`args`: [SetRestrictionsParams](../globals.md#setrestrictionsparams)‹T›, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹number››*
-
-*Defined in [src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:135](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L135)*
+_Defined in_ [_src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts:135_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/entities/SecurityToken/TransferRestrictions/TransferRestrictionBase.ts#L135)
 
 Sets all Transfer Restrictions of the corresponding type on this Security Token
 
 **`note`** the result is the total amount of restrictions after the procedure has run
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `setRestrictions.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `setRestrictions.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [SetRestrictionsParams](../globals.md#setrestrictionsparams)‹T› |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [SetRestrictionsParams](../globals.md#setrestrictionsparams)‹T› |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹number››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹number››_
+

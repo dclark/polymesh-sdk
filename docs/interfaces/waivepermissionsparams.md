@@ -1,4 +1,4 @@
-# Interface: WaivePermissionsParams
+# WaivePermissionsParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  token
+### token
 
-• **token**: *string | [SecurityToken](../classes/securitytoken.md)*
+• **token**: _string \|_ [_SecurityToken_](../classes/securitytoken.md)
 
-*Defined in [src/api/procedures/waivePermissions.ts:8](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/waivePermissions.ts#L8)*
+_Defined in_ [_src/api/procedures/waivePermissions.ts:8_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/waivePermissions.ts#L8)
+

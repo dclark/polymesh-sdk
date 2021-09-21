@@ -1,4 +1,4 @@
-# Interface: SectionPermissions ‹**T**›
+# SectionPermissions
 
 Signer/agent permissions for a specific type
 
@@ -6,7 +6,7 @@ Signer/agent permissions for a specific type
 
 ▪ **T**
 
-type of Permissions (Security Token, Transaction, Portfolio, etc)
+type of Permissions \(Security Token, Transaction, Portfolio, etc\)
 
 ## Hierarchy
 
@@ -23,20 +23,19 @@ type of Permissions (Security Token, Transaction, Portfolio, etc)
 
 ## Properties
 
-###  type
+### type
 
-• **type**: *[PermissionType](../enums/permissiontype.md)*
+• **type**: [_PermissionType_](../enums/permissiontype.md)
 
-*Defined in [src/types/index.ts:770](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L770)*
+_Defined in_ [_src/types/index.ts:770_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L770)
 
 Whether the permissions are inclusive or exclusive
 
-___
+### values
 
-###  values
+• **values**: _T\[\]_
 
-• **values**: *T[]*
-
-*Defined in [src/types/index.ts:766](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L766)*
+_Defined in_ [_src/types/index.ts:766_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/types/index.ts#L766)
 
 Values to be included/excluded
+

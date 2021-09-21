@@ -1,4 +1,4 @@
-# Interface: InviteAccountParams
+# InviteAccountParams
 
 ## Hierarchy
 
@@ -16,22 +16,19 @@
 
 ### `Optional` expiry
 
-• **expiry**? : *[Date](../enums/transactionargumenttype.md#date)*
+• **expiry**? : [_Date_](../enums/transactionargumenttype.md#date)
 
-*Defined in [src/api/procedures/inviteAccount.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/inviteAccount.ts#L25)*
-
-___
+_Defined in_ [_src/api/procedures/inviteAccount.ts:25_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/inviteAccount.ts#L25)
 
 ### `Optional` permissions
 
-• **permissions**? : *[PermissionsLike](../globals.md#permissionslike)*
+• **permissions**? : [_PermissionsLike_](../globals.md#permissionslike)
 
-*Defined in [src/api/procedures/inviteAccount.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/inviteAccount.ts#L24)*
+_Defined in_ [_src/api/procedures/inviteAccount.ts:24_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/inviteAccount.ts#L24)
 
-___
+### targetAccount
 
-###  targetAccount
+• **targetAccount**: _string \|_ [_Account_](../classes/account.md)
 
-• **targetAccount**: *string | [Account](../classes/account.md)*
+_Defined in_ [_src/api/procedures/inviteAccount.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/inviteAccount.ts#L23)
 
-*Defined in [src/api/procedures/inviteAccount.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/inviteAccount.ts#L23)*

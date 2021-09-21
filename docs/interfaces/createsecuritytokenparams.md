@@ -1,4 +1,4 @@
-# Interface: CreateSecurityTokenParams
+# CreateSecurityTokenParams
 
 ## Hierarchy
 
@@ -21,77 +21,61 @@
 
 ### `Optional` documents
 
-• **documents**? : *[TokenDocument](tokendocument.md)[]*
+• **documents**? : [_TokenDocument_](tokendocument.md)_\[\]_
 
-*Defined in [src/api/procedures/createSecurityToken.ts:66](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/createSecurityToken.ts#L66)*
-
-___
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:66_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/createSecurityToken.ts#L66)
 
 ### `Optional` fundingRound
 
-• **fundingRound**? : *undefined | string*
+• **fundingRound**? : _undefined \| string_
 
-*Defined in [src/api/procedures/createSecurityToken.ts:65](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/createSecurityToken.ts#L65)*
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:65_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/createSecurityToken.ts#L65)
 
-(optional) funding round in which the token currently is (Series A, Series B, etc)
+\(optional\) funding round in which the token currently is \(Series A, Series B, etc\)
 
-___
+### isDivisible
 
-###  isDivisible
+• **isDivisible**: _boolean_
 
-• **isDivisible**: *boolean*
-
-*Defined in [src/api/procedures/createSecurityToken.ts:51](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/createSecurityToken.ts#L51)*
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:51_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/createSecurityToken.ts#L51)
 
 whether a single token can be divided into decimal parts
 
-___
+### name
 
-###  name
+• **name**: _string_
 
-• **name**: *string*
-
-*Defined in [src/api/procedures/createSecurityToken.ts:43](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/createSecurityToken.ts#L43)*
-
-___
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:43_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/createSecurityToken.ts#L43)
 
 ### `Optional` requireInvestorUniqueness
 
-• **requireInvestorUniqueness**? : *undefined | false | true*
+• **requireInvestorUniqueness**? : _undefined \| false \| true_
 
-*Defined in [src/api/procedures/createSecurityToken.ts:71](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/createSecurityToken.ts#L71)*
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:71_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/createSecurityToken.ts#L71)
 
-whether this asset requires investors to have a Investor Uniqueness Claim in order
-  to hold it. Optional, defaults to true. More information about Investor Uniqueness and PUIS [here](https://developers.polymesh.live/introduction/identity#polymesh-unique-identity-system-puis)
-
-___
+whether this asset requires investors to have a Investor Uniqueness Claim in order to hold it. Optional, defaults to true. More information about Investor Uniqueness and PUIS [here](https://developers.polymesh.live/introduction/identity#polymesh-unique-identity-system-puis)
 
 ### `Optional` tokenIdentifiers
 
-• **tokenIdentifiers**? : *[TokenIdentifier](tokenidentifier.md)[]*
+• **tokenIdentifiers**? : [_TokenIdentifier_](tokenidentifier.md)_\[\]_
 
-*Defined in [src/api/procedures/createSecurityToken.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/createSecurityToken.ts#L61)*
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/createSecurityToken.ts#L61)
 
-array of domestic or international alphanumeric security identifiers for the token (ISIN, CUSIP, etc)
+array of domestic or international alphanumeric security identifiers for the token \(ISIN, CUSIP, etc\)
 
-___
+### tokenType
 
-###  tokenType
+• **tokenType**: _string_
 
-• **tokenType**: *string*
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:57_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/createSecurityToken.ts#L57)
 
-*Defined in [src/api/procedures/createSecurityToken.ts:57](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/createSecurityToken.ts#L57)*
-
-type of security that the token represents (i.e. Equity, Debt, Commodity, etc). Common values are included in the
-  [KnownTokenType](../enums/knowntokentype.md) enum, but custom values can be used as well. Custom values must be registered on-chain the first time
-  they're used, requiring an additional transaction. They aren't tied to a specific Security Token
-
-___
+type of security that the token represents \(i.e. Equity, Debt, Commodity, etc\). Common values are included in the [KnownTokenType](../enums/knowntokentype.md) enum, but custom values can be used as well. Custom values must be registered on-chain the first time they're used, requiring an additional transaction. They aren't tied to a specific Security Token
 
 ### `Optional` totalSupply
 
-• **totalSupply**? : *BigNumber*
+• **totalSupply**? : _BigNumber_
 
-*Defined in [src/api/procedures/createSecurityToken.ts:47](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/createSecurityToken.ts#L47)*
+_Defined in_ [_src/api/procedures/createSecurityToken.ts:47_](https://github.com/PolymathNetwork/polymesh-sdk/blob/959efb76/src/api/procedures/createSecurityToken.ts#L47)
 
-amount of tokens that will be minted on creation (optional, default doesn't mint)
+amount of tokens that will be minted on creation \(optional, default doesn't mint\)
+
