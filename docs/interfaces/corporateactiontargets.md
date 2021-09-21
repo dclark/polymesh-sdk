@@ -1,4 +1,4 @@
-# Interface: CorporateActionTargets
+# CorporateActionTargets
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  identities
+### identities
 
-• **identities**: *[Identity](../classes/identity.md)[]*
+• **identities**: [_Identity_](../classes/identity.md)_\[\]_
 
-*Defined in [src/api/entities/CorporateAction/types.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/CorporateAction/types.ts#L11)*
+_Defined in_ [_src/api/entities/CorporateAction/types.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/CorporateAction/types.ts#L11)
 
-___
+### treatment
 
-###  treatment
+• **treatment**: [_TargetTreatment_](../enums/targettreatment.md)
 
-• **treatment**: *[TargetTreatment](../enums/targettreatment.md)*
+_Defined in_ [_src/api/entities/CorporateAction/types.ts:12_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/CorporateAction/types.ts#L12)
 
-*Defined in [src/api/entities/CorporateAction/types.ts:12](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/CorporateAction/types.ts#L12)*

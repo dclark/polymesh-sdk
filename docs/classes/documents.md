@@ -1,4 +1,4 @@
-# Class: Documents
+# Documents
 
 Handles all Security Token Document related functionality
 
@@ -24,29 +24,27 @@ Handles all Security Token Document related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L11)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L9)
 
 ## Methods
 
-###  get
+### get
 
-▸ **get**(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)): *Promise‹[ResultSet](../interfaces/resultset.md)‹[TokenDocument](../interfaces/tokendocument.md)››*
+▸ **get**\(`paginationOpts?`: [PaginationOptions](../interfaces/paginationoptions.md)\): _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_TokenDocument_](../interfaces/tokendocument.md)_››_
 
-*Defined in [src/api/entities/SecurityToken/Documents.ts:49](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Documents.ts#L49)*
+_Defined in_ [_src/api/entities/SecurityToken/Documents.ts:49_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Documents.ts#L49)
 
 Retrieve all documents linked to the Security Token
 
@@ -54,32 +52,30 @@ Retrieve all documents linked to the Security Token
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
+| Name | Type |
+| :--- | :--- |
+| `paginationOpts?` | [PaginationOptions](../interfaces/paginationoptions.md) |
 
-**Returns:** *Promise‹[ResultSet](../interfaces/resultset.md)‹[TokenDocument](../interfaces/tokendocument.md)››*
+**Returns:** _Promise‹_[_ResultSet_](../interfaces/resultset.md)_‹_[_TokenDocument_](../interfaces/tokendocument.md)_››_
 
-___
+### set
 
-###  set
+▸ **set**\(`args`: [SetTokenDocumentsParams](../interfaces/settokendocumentsparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **set**(`args`: [SetTokenDocumentsParams](../interfaces/settokendocumentsparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Documents.ts:40](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Documents.ts#L40)*
+_Defined in_ [_src/api/entities/SecurityToken/Documents.ts:40_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Documents.ts#L40)
 
 Assign a new list of documents to the Security Token by replacing the existing list of documents with the one passed in the parameters
 
 This requires two transactions
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `set.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `set.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [SetTokenDocumentsParams](../interfaces/settokendocumentsparams.md) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [SetTokenDocumentsParams](../interfaces/settokendocumentsparams.md) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
+

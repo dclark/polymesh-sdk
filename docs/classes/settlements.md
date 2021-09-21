@@ -1,7 +1,6 @@
-# Class: Settlements
+# Settlements
 
-Handles all Security Token Settlements related functionality
-Handles all Settlement related functionality
+Handles all Security Token Settlements related functionality Handles all Settlement related functionality
 
 ## Hierarchy
 
@@ -27,118 +26,103 @@ Handles all Settlement related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L11)*
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L11)
 
-*Defined in [src/Settlements.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Settlements.ts#L10)*
-
-___
+_Defined in_ [_src/Settlements.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Settlements.ts#L10)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L9)
 
 ## Methods
 
-###  canSettle
+### canSettle
 
-▸ **canSettle**(`args`: object): *Promise‹[TransferStatus](../enums/transferstatus.md)›*
+▸ **canSettle**\(`args`: object\): _Promise‹_[_TransferStatus_](../enums/transferstatus.md)_›_
 
-*Defined in [src/api/entities/SecurityToken/Settlements.ts:38](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Settlements.ts#L38)*
+_Defined in_ [_src/api/entities/SecurityToken/Settlements.ts:38_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Settlements.ts#L38)
 
 Check whether it is possible to create a settlement instruction to transfer a certain amount of this asset between two Portfolios.
 
-**`note`** this takes locked tokens into account. For example, if portfolio A has 1000 tokens and this function is called to check if 700 of them can be
-  transferred to portfolio B (assuming everything else checks out) the result will be success. If an instruction is created and authorized to transfer those 700 tokens,
-  they would become locked. From that point, further calls to this function would yield failed results because of the funds being locked, even though they haven't been
-  transferred yet
+**`note`** this takes locked tokens into account. For example, if portfolio A has 1000 tokens and this function is called to check if 700 of them can be transferred to portfolio B \(assuming everything else checks out\) the result will be success. If an instruction is created and authorized to transfer those 700 tokens, they would become locked. From that point, further calls to this function would yield failed results because of the funds being locked, even though they haven't been transferred yet
 
 **`deprecated`** in favor of [canTransfer](settlements.md#cantransfer)
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`amount` | BigNumber | amount of tokens to transfer  |
-`from?` | [PortfolioLike](../globals.md#portfoliolike) | sender Portfolio (optional, defaults to the current Identity's Default Portfolio) |
-`to` | [PortfolioLike](../globals.md#portfoliolike) | receiver Portfolio |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `amount` | BigNumber | amount of tokens to transfer |
+| `from?` | [PortfolioLike](../globals.md#portfoliolike) | sender Portfolio \(optional, defaults to the current Identity's Default Portfolio\) |
+| `to` | [PortfolioLike](../globals.md#portfoliolike) | receiver Portfolio |
 
-**Returns:** *Promise‹[TransferStatus](../enums/transferstatus.md)›*
+**Returns:** _Promise‹_[_TransferStatus_](../enums/transferstatus.md)_›_
 
-___
+### canTransfer
 
-###  canTransfer
+▸ **canTransfer**\(`args`: object\): _Promise‹_[_TransferBreakdown_](../interfaces/transferbreakdown.md)_›_
 
-▸ **canTransfer**(`args`: object): *Promise‹[TransferBreakdown](../interfaces/transferbreakdown.md)›*
+_Defined in_ [_src/api/entities/SecurityToken/Settlements.ts:108_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Settlements.ts#L108)
 
-*Defined in [src/api/entities/SecurityToken/Settlements.ts:108](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Settlements.ts#L108)*
+Check whether it is possible to create a settlement instruction to transfer a certain amount of this asset between two Portfolios. Returns a breakdown of the transaction containing general errors \(such as insufficient balance or invalid receiver\), any broken transfer restrictions, and any compliance failures
 
-Check whether it is possible to create a settlement instruction to transfer a certain amount of this asset between two Portfolios. Returns a breakdown of
-  the transaction containing general errors (such as insufficient balance or invalid receiver), any broken transfer restrictions, and any compliance
-  failures
-
-**`note`** this takes locked tokens into account. For example, if portfolio A has 1000 tokens and this function is called to check if 700 of them can be
-  transferred to portfolio B (assuming everything else checks out) the result will be success. If an instruction is created and authorized to transfer those 700 tokens,
-  they would become locked. From that point, further calls to this function would yield failed results because of the funds being locked, even though they haven't been
-  transferred yet
+**`note`** this takes locked tokens into account. For example, if portfolio A has 1000 tokens and this function is called to check if 700 of them can be transferred to portfolio B \(assuming everything else checks out\) the result will be success. If an instruction is created and authorized to transfer those 700 tokens, they would become locked. From that point, further calls to this function would yield failed results because of the funds being locked, even though they haven't been transferred yet
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`amount` | BigNumber | amount of tokens to transfer   |
-`from?` | [PortfolioLike](../globals.md#portfoliolike) | sender Portfolio (optional, defaults to the current Identity's Default Portfolio) |
-`to` | [PortfolioLike](../globals.md#portfoliolike) | receiver Portfolio |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `amount` | BigNumber | amount of tokens to transfer |
+| `from?` | [PortfolioLike](../globals.md#portfoliolike) | sender Portfolio \(optional, defaults to the current Identity's Default Portfolio\) |
+| `to` | [PortfolioLike](../globals.md#portfoliolike) | receiver Portfolio |
 
-**Returns:** *Promise‹[TransferBreakdown](../interfaces/transferbreakdown.md)›*
+**Returns:** _Promise‹_[_TransferBreakdown_](../interfaces/transferbreakdown.md)_›_
 
-___
+### getInstruction
 
-###  getInstruction
+▸ **getInstruction**\(`args`: object\): _Promise‹_[_Instruction_](instruction.md)_›_
 
-▸ **getInstruction**(`args`: object): *Promise‹[Instruction](instruction.md)›*
-
-*Defined in [src/Settlements.ts:45](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Settlements.ts#L45)*
+_Defined in_ [_src/Settlements.ts:45_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Settlements.ts#L45)
 
 Retrieve an Instruction by its id
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`id` | BigNumber |
+| Name | Type |
+| :--- | :--- |
+| `id` | BigNumber |
 
-**Returns:** *Promise‹[Instruction](instruction.md)›*
+**Returns:** _Promise‹_[_Instruction_](instruction.md)_›_
 
-___
+### getVenue
 
-###  getVenue
+▸ **getVenue**\(`args`: object\): _Promise‹_[_Venue_](venue.md)_›_
 
-▸ **getVenue**(`args`: object): *Promise‹[Venue](venue.md)›*
-
-*Defined in [src/Settlements.ts:24](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Settlements.ts#L24)*
+_Defined in_ [_src/Settlements.ts:24_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Settlements.ts#L24)
 
 Retrieve a Venue by its id
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`id` | BigNumber |
+| Name | Type |
+| :--- | :--- |
+| `id` | BigNumber |
 
-**Returns:** *Promise‹[Venue](venue.md)›*
+**Returns:** _Promise‹_[_Venue_](venue.md)_›_
+

@@ -1,4 +1,4 @@
-# Interface: SignerValue
+# SignerValue
 
 ## Hierarchy
 
@@ -13,20 +13,19 @@
 
 ## Properties
 
-###  type
+### type
 
-• **type**: *[SignerType](../enums/signertype.md)*
+• **type**: [_SignerType_](../enums/signertype.md)
 
-*Defined in [src/types/index.ts:1083](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L1083)*
+_Defined in_ [_src/types/index.ts:1083_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L1083)
 
 whether the signer is an Account or Identity
 
-___
+### value
 
-###  value
+• **value**: _string_
 
-• **value**: *string*
+_Defined in_ [_src/types/index.ts:1087_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L1087)
 
-*Defined in [src/types/index.ts:1087](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L1087)*
+address or DID \(depending on whether the signer is an Account or Identity\)
 
-address or DID (depending on whether the signer is an Account or Identity)

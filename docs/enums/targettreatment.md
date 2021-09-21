@@ -1,4 +1,4 @@
-# Enumeration: TargetTreatment
+# TargetTreatment
 
 ## Index
 
@@ -9,16 +9,15 @@
 
 ## Enumeration members
 
-###  Exclude
+### Exclude
 
 • **Exclude**: = "Exclude"
 
-*Defined in [src/api/entities/CorporateAction/types.ts:7](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/CorporateAction/types.ts#L7)*
+_Defined in_ [_src/api/entities/CorporateAction/types.ts:7_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/CorporateAction/types.ts#L7)
 
-___
-
-###  Include
+### Include
 
 • **Include**: = "Include"
 
-*Defined in [src/api/entities/CorporateAction/types.ts:6](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/CorporateAction/types.ts#L6)*
+_Defined in_ [_src/api/entities/CorporateAction/types.ts:6_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/CorporateAction/types.ts#L6)
+

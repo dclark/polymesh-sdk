@@ -1,4 +1,4 @@
-# Interface: AgentWithGroup
+# AgentWithGroup
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  agent
+### agent
 
-• **agent**: *[Identity](../classes/identity.md)*
+• **agent**: [_Identity_](../classes/identity.md)
 
-*Defined in [src/api/entities/SecurityToken/types.ts:52](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/types.ts#L52)*
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:52_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/types.ts#L52)
 
-___
+### group
 
-###  group
+• **group**: [_KnownPermissionGroup_](../classes/knownpermissiongroup.md) _\|_ [_CustomPermissionGroup_](../classes/custompermissiongroup.md)
 
-• **group**: *[KnownPermissionGroup](../classes/knownpermissiongroup.md) | [CustomPermissionGroup](../classes/custompermissiongroup.md)*
+_Defined in_ [_src/api/entities/SecurityToken/types.ts:53_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/types.ts#L53)
 
-*Defined in [src/api/entities/SecurityToken/types.ts:53](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/types.ts#L53)*

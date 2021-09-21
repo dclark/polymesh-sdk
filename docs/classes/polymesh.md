@@ -1,4 +1,4 @@
-# Class: Polymesh
+# Polymesh
 
 Main entry point of the Polymesh SDK
 
@@ -16,8 +16,8 @@ Main entry point of the Polymesh SDK
 
 ### Accessors
 
-* [_middlewareApi](polymesh.md#_middlewareapi)
-* [_polkadotApi](polymesh.md#_polkadotapi)
+* [\_middlewareApi](polymesh.md#_middlewareapi)
+* [\_polkadotApi](polymesh.md#_polkadotapi)
 
 ### Methods
 
@@ -50,180 +50,158 @@ Main entry point of the Polymesh SDK
 
 ## Properties
 
-###  claims
+### claims
 
-• **claims**: *[Claims](claims.md)*
+• **claims**: [_Claims_](claims.md)
 
-*Defined in [src/Polymesh.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L77)*
+_Defined in_ [_src/Polymesh.ts:77_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L77)
 
-___
+### middleware
 
-###  middleware
+• **middleware**: [_Middleware_](middleware.md)
 
-• **middleware**: *[Middleware](middleware.md)*
+_Defined in_ [_src/Polymesh.ts:78_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L78)
 
-*Defined in [src/Polymesh.ts:78](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L78)*
+### settlements
 
-___
+• **settlements**: _Settlements_
 
-###  settlements
-
-• **settlements**: *Settlements*
-
-*Defined in [src/Polymesh.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L79)*
+_Defined in_ [_src/Polymesh.ts:79_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L79)
 
 ## Accessors
 
-###  _middlewareApi
+### \_middlewareApi
 
-• **get _middlewareApi**(): *ApolloClient‹NormalizedCacheObject›*
+• **get \_middlewareApi**\(\): _ApolloClient‹NormalizedCacheObject›_
 
-*Defined in [src/Polymesh.ts:762](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L762)*
+_Defined in_ [_src/Polymesh.ts:762_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L762)
 
 Middleware client
 
-**Returns:** *ApolloClient‹NormalizedCacheObject›*
+**Returns:** _ApolloClient‹NormalizedCacheObject›_
 
-___
+### \_polkadotApi
 
-###  _polkadotApi
+• **get \_polkadotApi**\(\): _ApiPromise_
 
-• **get _polkadotApi**(): *ApiPromise*
-
-*Defined in [src/Polymesh.ts:754](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L754)*
+_Defined in_ [_src/Polymesh.ts:754_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L754)
 
 Polkadot client
 
-**Returns:** *ApiPromise*
+**Returns:** _ApiPromise_
 
 ## Methods
 
-###  addSigner
+### addSigner
 
-▸ **addSigner**(`params`: object): *[Account](account.md)*
+▸ **addSigner**\(`params`: object\): [_Account_](account.md)
 
-*Defined in [src/Polymesh.ts:709](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L709)*
+_Defined in_ [_src/Polymesh.ts:709_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L709)
 
-Adds a new signing key to the SDK instance. This will not change the current signer. For that,
-  you must explicitly call `setSigner`
-
-**Parameters:**
-
-▪ **params**: *object*
-
-Name | Type | Description |
------- | ------ | ------ |
-`accountSeed` | string | hex seed of the account  |
-
-**Returns:** *[Account](account.md)*
-
-▸ **addSigner**(`params`: object): *[Account](account.md)*
-
-*Defined in [src/Polymesh.ts:717](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L717)*
-
-Adds a new signing key to the SDK instance. This will not change the current signer. For that,
-  you must explicitly call `setSigner`
+Adds a new signing key to the SDK instance. This will not change the current signer. For that, you must explicitly call `setSigner`
 
 **Parameters:**
 
-▪ **params**: *object*
+▪ **params**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`accountMnemonic` | string | account mnemonic  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `accountSeed` | string | hex seed of the account |
 
-**Returns:** *[Account](account.md)*
+**Returns:** [_Account_](account.md)
 
-▸ **addSigner**(`params`: object): *[Account](account.md)*
+▸ **addSigner**\(`params`: object\): [_Account_](account.md)
 
-*Defined in [src/Polymesh.ts:725](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L725)*
+_Defined in_ [_src/Polymesh.ts:717_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L717)
 
-Adds a new signing key to the SDK instance. This will not change the current signer. For that,
-  you must explicitly call [setSigner](polymesh.md#setsigner)
-
-**Parameters:**
-
-▪ **params**: *object*
-
-Name | Type | Description |
------- | ------ | ------ |
-`accountUri` | string | account URI  |
-
-**Returns:** *[Account](account.md)*
-
-___
-
-###  claimClassicTicker
-
-▸ **claimClassicTicker**(`args`: [ClaimClassicTickerParams](../interfaces/claimclassictickerparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[TickerReservation](tickerreservation.md)››*
-
-*Defined in [src/Polymesh.ts:351](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L351)*
-
-Claim a ticker symbol that was reserved in Polymath Classic (Ethereum). The Ethereum account
-  that owns the ticker must sign a special message that contains the DID of the Identity that will own the ticker
-  in Polymesh, and provide the signed data to this call
-
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `claimClassicTicker.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+Adds a new signing key to the SDK instance. This will not change the current signer. For that, you must explicitly call `setSigner`
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [ClaimClassicTickerParams](../interfaces/claimclassictickerparams.md) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+▪ **params**: _object_
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[TickerReservation](tickerreservation.md)››*
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `accountMnemonic` | string | account mnemonic |
 
-___
+**Returns:** [_Account_](account.md)
 
-###  disconnect
+▸ **addSigner**\(`params`: object\): [_Account_](account.md)
 
-▸ **disconnect**(): *Promise‹void›*
+_Defined in_ [_src/Polymesh.ts:725_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L725)
 
-*Defined in [src/Polymesh.ts:699](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L699)*
+Adds a new signing key to the SDK instance. This will not change the current signer. For that, you must explicitly call [setSigner](polymesh.md#setsigner)
+
+**Parameters:**
+
+▪ **params**: _object_
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `accountUri` | string | account URI |
+
+**Returns:** [_Account_](account.md)
+
+### claimClassicTicker
+
+▸ **claimClassicTicker**\(`args`: [ClaimClassicTickerParams](../interfaces/claimclassictickerparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_TickerReservation_](tickerreservation.md)_››_
+
+_Defined in_ [_src/Polymesh.ts:351_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L351)
+
+Claim a ticker symbol that was reserved in Polymath Classic \(Ethereum\). The Ethereum account that owns the ticker must sign a special message that contains the DID of the Identity that will own the ticker in Polymesh, and provide the signed data to this call
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `claimClassicTicker.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
+
+**Parameters:**
+
+| Name | Type |
+| :--- | :--- |
+| `args` | [ClaimClassicTickerParams](../interfaces/claimclassictickerparams.md) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_TickerReservation_](tickerreservation.md)_››_
+
+### disconnect
+
+▸ **disconnect**\(\): _Promise‹void›_
+
+_Defined in_ [_src/Polymesh.ts:699_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L699)
 
 Disconnect the client and close all open connections and subscriptions
 
-**`note`** the SDK will become unusable after this operation. It will throw an error when attempting to
-  access any chain or middleware data. If you wish to continue using the SDK, you must
-  create a new instance by calling [connect](polymesh.md#static-connect)
+**`note`** the SDK will become unusable after this operation. It will throw an error when attempting to access any chain or middleware data. If you wish to continue using the SDK, you must create a new instance by calling [connect](polymesh.md#static-connect)
 
-**Returns:** *Promise‹void›*
+**Returns:** _Promise‹void›_
 
-___
+### getAccount
 
-###  getAccount
+▸ **getAccount**\(\): [_Account_](account.md)
 
-▸ **getAccount**(): *[Account](account.md)*
-
-*Defined in [src/Polymesh.ts:473](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L473)*
+_Defined in_ [_src/Polymesh.ts:473_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L473)
 
 Create an Account instance from an address. If no address is passed, the current Account is returned
 
-**Returns:** *[Account](account.md)*
+**Returns:** [_Account_](account.md)
 
-▸ **getAccount**(`args`: object): *[Account](account.md)*
+▸ **getAccount**\(`args`: object\): [_Account_](account.md)
 
-*Defined in [src/Polymesh.ts:474](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L474)*
+_Defined in_ [_src/Polymesh.ts:474_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L474)
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`address` | string |
+| Name | Type |
+| :--- | :--- |
+| `address` | string |
 
-**Returns:** *[Account](account.md)*
+**Returns:** [_Account_](account.md)
 
-___
+### getAccountBalance
 
-###  getAccountBalance
+▸ **getAccountBalance**\(`args?`: undefined \| object\): _Promise‹_[_AccountBalance_](../globals.md#accountbalance)_›_
 
-▸ **getAccountBalance**(`args?`: undefined | object): *Promise‹[AccountBalance](../globals.md#accountbalance)›*
-
-*Defined in [src/Polymesh.ts:289](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L289)*
+_Defined in_ [_src/Polymesh.ts:289_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L289)
 
 Get the free/locked POLYX balance of an Account
 
@@ -231,137 +209,123 @@ Get the free/locked POLYX balance of an Account
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args?` | undefined &#124; object |
+| Name | Type |
+| :--- | :--- |
+| `args?` | undefined \| object |
 
-**Returns:** *Promise‹[AccountBalance](../globals.md#accountbalance)›*
+**Returns:** _Promise‹_[_AccountBalance_](../globals.md#accountbalance)_›_
 
-▸ **getAccountBalance**(`callback`: [SubCallback](../globals.md#subcallback)‹[AccountBalance](../globals.md#accountbalance)›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **getAccountBalance**\(`callback`: [SubCallback](../globals.md#subcallback)‹[AccountBalance](../globals.md#accountbalance)›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/Polymesh.ts:290](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L290)*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹[AccountBalance](../globals.md#accountbalance)› |
-
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
-
-▸ **getAccountBalance**(`args`: object, `callback`: [SubCallback](../globals.md#subcallback)‹[AccountBalance](../globals.md#accountbalance)›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
-
-*Defined in [src/Polymesh.ts:291](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L291)*
+_Defined in_ [_src/Polymesh.ts:290_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L290)
 
 **Parameters:**
 
-▪ **args**: *object*
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[AccountBalance](../globals.md#accountbalance)› |
 
-Name | Type |
------- | ------ |
-`account` | string &#124; [Account](account.md) |
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-▪ **callback**: *[SubCallback](../globals.md#subcallback)‹[AccountBalance](../globals.md#accountbalance)›*
+▸ **getAccountBalance**\(`args`: object, `callback`: [SubCallback](../globals.md#subcallback)‹[AccountBalance](../globals.md#accountbalance)›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+_Defined in_ [_src/Polymesh.ts:291_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L291)
 
-___
+**Parameters:**
 
-###  getAccounts
+▪ **args**: _object_
 
-▸ **getAccounts**(): *[Account](account.md)[]*
+| Name | Type |
+| :--- | :--- |
+| `account` | string \| [Account](account.md) |
 
-*Defined in [src/Polymesh.ts:492](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L492)*
+▪ **callback**: [_SubCallback_](../globals.md#subcallback)_‹_[_AccountBalance_](../globals.md#accountbalance)_›_
+
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
+
+### getAccounts
+
+▸ **getAccounts**\(\): [_Account_](account.md)_\[\]_
+
+_Defined in_ [_src/Polymesh.ts:492_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L492)
 
 Return a list that contains all the signing Accounts associated to the SDK instance
 
 **`throws`** — if there is no current Account associated to the SDK instance
 
-**Returns:** *[Account](account.md)[]*
+**Returns:** [_Account_](account.md)_\[\]_
 
-___
+### getCurrentIdentity
 
-###  getCurrentIdentity
+▸ **getCurrentIdentity**\(\): _Promise‹_[_Identity_](identity.md) _\| null›_
 
-▸ **getCurrentIdentity**(): *Promise‹[Identity](identity.md) | null›*
+_Defined in_ [_src/Polymesh.ts:466_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L466)
 
-*Defined in [src/Polymesh.ts:466](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L466)*
+Retrieve the Identity associated to the current Account \(null if there is none\)
 
-Retrieve the Identity associated to the current Account (null if there is none)
+**Returns:** _Promise‹_[_Identity_](identity.md) _\| null›_
 
-**Returns:** *Promise‹[Identity](identity.md) | null›*
+### getIdentity
 
-___
+▸ **getIdentity**\(`args`: object\): [_Identity_](identity.md)
 
-###  getIdentity
-
-▸ **getIdentity**(`args`: object): *[Identity](identity.md)*
-
-*Defined in [src/Polymesh.ts:459](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L459)*
+_Defined in_ [_src/Polymesh.ts:459_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L459)
 
 Create an Identity instance from a DID
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`did` | string |
+| Name | Type |
+| :--- | :--- |
+| `did` | string |
 
-**Returns:** *[Identity](identity.md)*
+**Returns:** [_Identity_](identity.md)
 
-___
+### getLatestBlock
 
-###  getLatestBlock
+▸ **getLatestBlock**\(\): _Promise‹BigNumber›_
 
-▸ **getLatestBlock**(): *Promise‹BigNumber›*
-
-*Defined in [src/Polymesh.ts:688](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L688)*
+_Defined in_ [_src/Polymesh.ts:688_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L688)
 
 Retrieve the number of the latest block in the chain
 
-**Returns:** *Promise‹BigNumber›*
+**Returns:** _Promise‹BigNumber›_
 
-___
+### getNetworkProperties
 
-###  getNetworkProperties
+▸ **getNetworkProperties**\(\): _Promise‹_[_NetworkProperties_](../interfaces/networkproperties.md)_›_
 
-▸ **getNetworkProperties**(): *Promise‹[NetworkProperties](../interfaces/networkproperties.md)›*
-
-*Defined in [src/Polymesh.ts:624](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L624)*
+_Defined in_ [_src/Polymesh.ts:624_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L624)
 
 Retrieve information for the current network
 
-**Returns:** *Promise‹[NetworkProperties](../interfaces/networkproperties.md)›*
+**Returns:** _Promise‹_[_NetworkProperties_](../interfaces/networkproperties.md)_›_
 
-___
+### getSecurityToken
 
-###  getSecurityToken
+▸ **getSecurityToken**\(`args`: object\): _Promise‹_[_SecurityToken_](securitytoken.md)_›_
 
-▸ **getSecurityToken**(`args`: object): *Promise‹[SecurityToken](securitytoken.md)›*
-
-*Defined in [src/Polymesh.ts:598](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L598)*
+_Defined in_ [_src/Polymesh.ts:598_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L598)
 
 Retrieve a Security Token
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`ticker` | string | Security Token ticker  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `ticker` | string | Security Token ticker |
 
-**Returns:** *Promise‹[SecurityToken](securitytoken.md)›*
+**Returns:** _Promise‹_[_SecurityToken_](securitytoken.md)_›_
 
-___
+### getSecurityTokens
 
-###  getSecurityTokens
+▸ **getSecurityTokens**\(`args?`: undefined \| object\): _Promise‹_[_SecurityToken_](securitytoken.md)_\[\]›_
 
-▸ **getSecurityTokens**(`args?`: undefined | object): *Promise‹[SecurityToken](securitytoken.md)[]›*
-
-*Defined in [src/Polymesh.ts:566](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L566)*
+_Defined in_ [_src/Polymesh.ts:566_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L566)
 
 Retrieve all the Security Tokens owned by an Identity
 
@@ -369,138 +333,123 @@ Retrieve all the Security Tokens owned by an Identity
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args?` | undefined &#124; object |
+| Name | Type |
+| :--- | :--- |
+| `args?` | undefined \| object |
 
-**Returns:** *Promise‹[SecurityToken](securitytoken.md)[]›*
+**Returns:** _Promise‹_[_SecurityToken_](securitytoken.md)_\[\]›_
 
-___
+### getTickerReservation
 
-###  getTickerReservation
+▸ **getTickerReservation**\(`args`: object\): _Promise‹_[_TickerReservation_](tickerreservation.md)_›_
 
-▸ **getTickerReservation**(`args`: object): *Promise‹[TickerReservation](tickerreservation.md)›*
-
-*Defined in [src/Polymesh.ts:426](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L426)*
+_Defined in_ [_src/Polymesh.ts:426_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L426)
 
 Retrieve a Ticker Reservation
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`ticker` | string | Security Token ticker  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `ticker` | string | Security Token ticker |
 
-**Returns:** *Promise‹[TickerReservation](tickerreservation.md)›*
+**Returns:** _Promise‹_[_TickerReservation_](tickerreservation.md)_›_
 
-___
+### getTickerReservations
 
-###  getTickerReservations
+▸ **getTickerReservations**\(`args?`: undefined \| object\): _Promise‹_[_TickerReservation_](tickerreservation.md)_\[\]›_
 
-▸ **getTickerReservations**(`args?`: undefined | object): *Promise‹[TickerReservation](tickerreservation.md)[]›*
+_Defined in_ [_src/Polymesh.ts:392_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L392)
 
-*Defined in [src/Polymesh.ts:392](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L392)*
-
-Retrieve all the ticker reservations currently owned by an Identity. This doesn't include tokens that
-  have already been launched
+Retrieve all the ticker reservations currently owned by an Identity. This doesn't include tokens that have already been launched
 
 **`note`** reservations with unreadable characters in their tickers will be left out
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args?` | undefined &#124; object |
+| Name | Type |
+| :--- | :--- |
+| `args?` | undefined \| object |
 
-**Returns:** *Promise‹[TickerReservation](tickerreservation.md)[]›*
+**Returns:** _Promise‹_[_TickerReservation_](tickerreservation.md)_\[\]›_
 
-___
+### getTransactionFees
 
-###  getTransactionFees
+▸ **getTransactionFees**\(`args`: object\): _Promise‹BigNumber›_
 
-▸ **getTransactionFees**(`args`: object): *Promise‹BigNumber›*
-
-*Defined in [src/Polymesh.ts:510](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L510)*
+_Defined in_ [_src/Polymesh.ts:510_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L510)
 
 Retrieve the protocol fees associated with running a specific transaction
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`tag` | TxTag | transaction tag (i.e. TxTags.asset.CreateAsset or "asset.createAsset")  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `tag` | TxTag | transaction tag \(i.e. TxTags.asset.CreateAsset or "asset.createAsset"\) |
 
-**Returns:** *Promise‹BigNumber›*
+**Returns:** _Promise‹BigNumber›_
 
-___
+### getTreasuryAccount
 
-###  getTreasuryAccount
+▸ **getTreasuryAccount**\(\): [_Account_](account.md)
 
-▸ **getTreasuryAccount**(): *[Account](account.md)*
-
-*Defined in [src/Polymesh.ts:517](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L517)*
+_Defined in_ [_src/Polymesh.ts:517_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L517)
 
 Get the treasury wallet address
 
-**Returns:** *[Account](account.md)*
+**Returns:** [_Account_](account.md)
 
-___
+### getTreasuryBalance
 
-###  getTreasuryBalance
+▸ **getTreasuryBalance**\(\): _Promise‹BigNumber›_
 
-▸ **getTreasuryBalance**(): *Promise‹BigNumber›*
-
-*Defined in [src/Polymesh.ts:648](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L648)*
+_Defined in_ [_src/Polymesh.ts:648_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L648)
 
 Get the Treasury POLYX balance
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹BigNumber›*
+**Returns:** _Promise‹BigNumber›_
 
-▸ **getTreasuryBalance**(`callback`: [SubCallback](../globals.md#subcallback)‹BigNumber›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **getTreasuryBalance**\(`callback`: [SubCallback](../globals.md#subcallback)‹BigNumber›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/Polymesh.ts:649](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L649)*
+_Defined in_ [_src/Polymesh.ts:649_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L649)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹BigNumber› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹BigNumber› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### isIdentityValid
 
-###  isIdentityValid
+▸ **isIdentityValid**\(`args`: object\): _Promise‹boolean›_
 
-▸ **isIdentityValid**(`args`: object): *Promise‹boolean›*
-
-*Defined in [src/Polymesh.ts:499](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L499)*
+_Defined in_ [_src/Polymesh.ts:499_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L499)
 
 Return whether the supplied Identity/DID exists
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`identity` | [Identity](identity.md) &#124; string |
+| Name | Type |
+| :--- | :--- |
+| `identity` | [Identity](identity.md) \| string |
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### isTickerAvailable
 
-###  isTickerAvailable
+▸ **isTickerAvailable**\(`args`: object\): _Promise‹boolean›_
 
-▸ **isTickerAvailable**(`args`: object): *Promise‹boolean›*
-
-*Defined in [src/Polymesh.ts:360](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L360)*
+_Defined in_ [_src/Polymesh.ts:360_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L360)
 
 Check if a ticker hasn't been reserved
 
@@ -508,147 +457,133 @@ Check if a ticker hasn't been reserved
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`ticker` | string |
+| Name | Type |
+| :--- | :--- |
+| `ticker` | string |
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-▸ **isTickerAvailable**(`args`: object, `callback`: [SubCallback](../globals.md#subcallback)‹boolean›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **isTickerAvailable**\(`args`: object, `callback`: [SubCallback](../globals.md#subcallback)‹boolean›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/Polymesh.ts:361](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L361)*
+_Defined in_ [_src/Polymesh.ts:361_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L361)
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`ticker` | string |
+| Name | Type |
+| :--- | :--- |
+| `ticker` | string |
 
-▪ **callback**: *[SubCallback](../globals.md#subcallback)‹boolean›*
+▪ **callback**: [_SubCallback_](../globals.md#subcallback)_‹boolean›_
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### onConnectionError
 
-###  onConnectionError
+▸ **onConnectionError**\(`callback`: function\): _function_
 
-▸ **onConnectionError**(`callback`: function): *function*
-
-*Defined in [src/Polymesh.ts:530](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L530)*
+_Defined in_ [_src/Polymesh.ts:530_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L530)
 
 Handle connection errors
 
 **Parameters:**
 
-▪ **callback**: *function*
+▪ **callback**: _function_
 
-▸ (...`args`: unknown[]): *unknown*
+▸ \(...`args`: unknown\[\]\): _unknown_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`...args` | unknown[] |
+| Name | Type |
+| :--- | :--- |
+| `...args` | unknown\[\] |
 
-**Returns:** *function*
+**Returns:** _function_
 
 an unsubscribe callback
 
-▸ (): *void*
+▸ \(\): _void_
 
-___
+### onDisconnect
 
-###  onDisconnect
+▸ **onDisconnect**\(`callback`: function\): _function_
 
-▸ **onDisconnect**(`callback`: function): *function*
-
-*Defined in [src/Polymesh.ts:547](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L547)*
+_Defined in_ [_src/Polymesh.ts:547_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L547)
 
 Handle disconnection
 
 **Parameters:**
 
-▪ **callback**: *function*
+▪ **callback**: _function_
 
-▸ (...`args`: unknown[]): *unknown*
+▸ \(...`args`: unknown\[\]\): _unknown_
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`...args` | unknown[] |
+| Name | Type |
+| :--- | :--- |
+| `...args` | unknown\[\] |
 
-**Returns:** *function*
+**Returns:** _function_
 
 an unsubscribe callback
 
-▸ (): *void*
+▸ \(\): _void_
 
-___
+### registerIdentity
 
-###  registerIdentity
+▸ **registerIdentity**\(`args`: [RegisterIdentityParams](../interfaces/registeridentityparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Identity_](identity.md)_››_
 
-▸ **registerIdentity**(`args`: [RegisterIdentityParams](../interfaces/registeridentityparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[Identity](identity.md)››*
-
-*Defined in [src/Polymesh.ts:681](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L681)*
+_Defined in_ [_src/Polymesh.ts:681_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L681)
 
 Register an Identity
 
 **`note`** must be a CDD provider
 
-**`note`** this may create [Authorization Requests](authorizationrequest.md) which have to be accepted by
-  the corresponding [Accounts](account.md) and/or [Identities](identity.md). An Account or Identity can
-  fetch its pending Authorization Requests by calling `authorizations.getReceived`
+**`note`** this may create [Authorization Requests](authorizationrequest.md) which have to be accepted by the corresponding [Accounts](account.md) and/or [Identities](identity.md). An Account or Identity can fetch its pending Authorization Requests by calling `authorizations.getReceived`
 
 **`note`** required role:
-  - Customer Due Diligence Provider
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `registerIdentity.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+* Customer Due Diligence Provider
 
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`args` | [RegisterIdentityParams](../interfaces/registeridentityparams.md) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
-
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[Identity](identity.md)››*
-
-___
-
-###  reserveTicker
-
-▸ **reserveTicker**(`args`: [ReserveTickerParams](../interfaces/reservetickerparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[TickerReservation](tickerreservation.md)››*
-
-*Defined in [src/Polymesh.ts:339](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L339)*
-
-Reserve a ticker symbol to later use in the creation of a Security Token.
-  The ticker will expire after a set amount of time, after which other users can reserve it
-
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `reserveTicker.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `registerIdentity.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [ReserveTickerParams](../interfaces/reservetickerparams.md) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [RegisterIdentityParams](../interfaces/registeridentityparams.md) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[TickerReservation](tickerreservation.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_Identity_](identity.md)_››_
 
-___
+### reserveTicker
 
-###  setSigner
+▸ **reserveTicker**\(`args`: [ReserveTickerParams](../interfaces/reservetickerparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_TickerReservation_](tickerreservation.md)_››_
 
-▸ **setSigner**(`signer`: string | [Account](account.md)): *void*
+_Defined in_ [_src/Polymesh.ts:339_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L339)
 
-*Defined in [src/Polymesh.ts:744](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L744)*
+Reserve a ticker symbol to later use in the creation of a Security Token. The ticker will expire after a set amount of time, after which other users can reserve it
+
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `reserveTicker.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
+
+**Parameters:**
+
+| Name | Type |
+| :--- | :--- |
+| `args` | [ReserveTickerParams](../interfaces/reservetickerparams.md) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_TickerReservation_](tickerreservation.md)_››_
+
+### setSigner
+
+▸ **setSigner**\(`signer`: string \| [Account](account.md)\): _void_
+
+_Defined in_ [_src/Polymesh.ts:744_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L744)
 
 Set the SDK's current signing key to the provided address
 
@@ -656,104 +591,100 @@ Set the SDK's current signing key to the provided address
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`signer` | string &#124; [Account](account.md) |
+| Name | Type |
+| :--- | :--- |
+| `signer` | string \| [Account](account.md) |
 
-**Returns:** *void*
+**Returns:** _void_
 
-___
+### transferPolyx
 
-###  transferPolyx
+▸ **transferPolyx**\(`args`: [TransferPolyxParams](../interfaces/transferpolyxparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **transferPolyx**(`args`: [TransferPolyxParams](../interfaces/transferpolyxparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/Polymesh.ts:278](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L278)*
+_Defined in_ [_src/Polymesh.ts:278_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L278)
 
 Transfer an amount of POLYX to a specified Account
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `transferPolyx.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `transferPolyx.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [TransferPolyxParams](../interfaces/transferpolyxparams.md) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [TransferPolyxParams](../interfaces/transferpolyxparams.md) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-___
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
 ### `Static` connect
 
-▸ **connect**(`params`: [ConnectParamsBase](../interfaces/connectparamsbase.md) & object): *Promise‹[Polymesh](polymesh.md)›*
+▸ **connect**\(`params`: [ConnectParamsBase](../interfaces/connectparamsbase.md) & object\): _Promise‹_[_Polymesh_](polymesh.md)_›_
 
-*Defined in [src/Polymesh.ts:126](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L126)*
+_Defined in_ [_src/Polymesh.ts:126_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L126)
 
 Create the instance and connect to the Polymesh node using an account seed
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`params` | [ConnectParamsBase](../interfaces/connectparamsbase.md) & object |
+| Name | Type |
+| :--- | :--- |
+| `params` | [ConnectParamsBase](../interfaces/connectparamsbase.md) & object |
 
-**Returns:** *Promise‹[Polymesh](polymesh.md)›*
+**Returns:** _Promise‹_[_Polymesh_](polymesh.md)_›_
 
-▸ **connect**(`params`: [ConnectParamsBase](../interfaces/connectparamsbase.md) & object): *Promise‹[Polymesh](polymesh.md)›*
+▸ **connect**\(`params`: [ConnectParamsBase](../interfaces/connectparamsbase.md) & object\): _Promise‹_[_Polymesh_](polymesh.md)_›_
 
-*Defined in [src/Polymesh.ts:136](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L136)*
+_Defined in_ [_src/Polymesh.ts:136_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L136)
 
 Create the instance and connect to the Polymesh node using a keyring
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`params` | [ConnectParamsBase](../interfaces/connectparamsbase.md) & object |
+| Name | Type |
+| :--- | :--- |
+| `params` | [ConnectParamsBase](../interfaces/connectparamsbase.md) & object |
 
-**Returns:** *Promise‹[Polymesh](polymesh.md)›*
+**Returns:** _Promise‹_[_Polymesh_](polymesh.md)_›_
 
-▸ **connect**(`params`: [ConnectParamsBase](../interfaces/connectparamsbase.md) & object): *Promise‹[Polymesh](polymesh.md)›*
+▸ **connect**\(`params`: [ConnectParamsBase](../interfaces/connectparamsbase.md) & object\): _Promise‹_[_Polymesh_](polymesh.md)_›_
 
-*Defined in [src/Polymesh.ts:149](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L149)*
+_Defined in_ [_src/Polymesh.ts:149_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L149)
 
 Create the instance and connect to the Polymesh node using an account URI
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`params` | [ConnectParamsBase](../interfaces/connectparamsbase.md) & object |
+| Name | Type |
+| :--- | :--- |
+| `params` | [ConnectParamsBase](../interfaces/connectparamsbase.md) & object |
 
-**Returns:** *Promise‹[Polymesh](polymesh.md)›*
+**Returns:** _Promise‹_[_Polymesh_](polymesh.md)_›_
 
-▸ **connect**(`params`: [ConnectParamsBase](../interfaces/connectparamsbase.md) & object): *Promise‹[Polymesh](polymesh.md)›*
+▸ **connect**\(`params`: [ConnectParamsBase](../interfaces/connectparamsbase.md) & object\): _Promise‹_[_Polymesh_](polymesh.md)_›_
 
-*Defined in [src/Polymesh.ts:159](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L159)*
+_Defined in_ [_src/Polymesh.ts:159_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L159)
 
 Create the instance and connect to the Polymesh node using an account mnemonic
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`params` | [ConnectParamsBase](../interfaces/connectparamsbase.md) & object |
+| Name | Type |
+| :--- | :--- |
+| `params` | [ConnectParamsBase](../interfaces/connectparamsbase.md) & object |
 
-**Returns:** *Promise‹[Polymesh](polymesh.md)›*
+**Returns:** _Promise‹_[_Polymesh_](polymesh.md)_›_
 
-▸ **connect**(`params`: [ConnectParamsBase](../interfaces/connectparamsbase.md)): *Promise‹[Polymesh](polymesh.md)›*
+▸ **connect**\(`params`: [ConnectParamsBase](../interfaces/connectparamsbase.md)\): _Promise‹_[_Polymesh_](polymesh.md)_›_
 
-*Defined in [src/Polymesh.ts:168](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L168)*
+_Defined in_ [_src/Polymesh.ts:168_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/Polymesh.ts#L168)
 
 Create the instance and connect to the Polymesh node without an account
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`params` | [ConnectParamsBase](../interfaces/connectparamsbase.md) |
+| Name | Type |
+| :--- | :--- |
+| `params` | [ConnectParamsBase](../interfaces/connectparamsbase.md) |
 
-**Returns:** *Promise‹[Polymesh](polymesh.md)›*
+**Returns:** _Promise‹_[_Polymesh_](polymesh.md)_›_
+

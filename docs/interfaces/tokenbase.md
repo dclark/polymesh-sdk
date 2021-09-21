@@ -1,4 +1,4 @@
-# Interface: TokenBase
+# TokenBase
 
 ## Hierarchy
 
@@ -16,10 +16,11 @@
 
 ## Properties
 
-###  token
+### token
 
-• **token**: *string | [SecurityToken](../classes/securitytoken.md)*
+• **token**: _string \|_ [_SecurityToken_](../classes/securitytoken.md)
 
-*Defined in [src/api/procedures/setPermissionGroup.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/setPermissionGroup.ts#L27)*
+_Defined in_ [_src/api/procedures/setPermissionGroup.ts:27_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/setPermissionGroup.ts#L27)
 
 Security Token over which the Identity will be granted permissions
+

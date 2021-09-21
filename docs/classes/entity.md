@@ -1,4 +1,4 @@
-# Class: Entity ‹**UniqueIdentifiers, HumanReadable**›
+# Entity
 
 Represents an object or resource in the Polymesh Ecosystem with its own set of properties and functionality
 
@@ -57,55 +57,49 @@ Represents an object or resource in the Polymesh Ecosystem with its own set of p
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Defined in [src/api/entities/Entity.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Entity.ts#L48)*
+_Defined in_ [_src/api/entities/Entity.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Entity.ts#L48)
 
-___
+### uuid
 
-###  uuid
+• **uuid**: _string_
 
-• **uuid**: *string*
-
-*Defined in [src/api/entities/Entity.ts:46](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Entity.ts#L46)*
+_Defined in_ [_src/api/entities/Entity.ts:46_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Entity.ts#L46)
 
 ## Methods
 
-###  isEqual
+### isEqual
 
-▸ **isEqual**(`entity`: [Entity](entity.md)‹unknown, unknown›): *boolean*
+▸ **isEqual**\(`entity`: [Entity](entity.md)‹unknown, unknown›\): _boolean_
 
-*Defined in [src/api/entities/Entity.ts:61](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Entity.ts#L61)*
+_Defined in_ [_src/api/entities/Entity.ts:61_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Entity.ts#L61)
 
 Whether this Entity is the same as another one
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`entity` | [Entity](entity.md)‹unknown, unknown› |
+| Name | Type |
+| :--- | :--- |
+| `entity` | [Entity](entity.md)‹unknown, unknown› |
 
-**Returns:** *boolean*
-
-___
+**Returns:** _boolean_
 
 ### `Abstract` toJson
 
-▸ **toJson**(): *HumanReadable*
+▸ **toJson**\(\): _HumanReadable_
 
-*Defined in [src/api/entities/Entity.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Entity.ts#L68)*
+_Defined in_ [_src/api/entities/Entity.ts:68_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Entity.ts#L68)
 
-Returns Entity data in a human readable (JSON) format
+Returns Entity data in a human readable \(JSON\) format
 
-**Returns:** *HumanReadable*
-
-___
+**Returns:** _HumanReadable_
 
 ### `Static` generateUuid
 
-▸ **generateUuid**‹**Identifiers**›(`identifiers`: Identifiers): *string*
+▸ **generateUuid**‹**Identifiers**›\(`identifiers`: Identifiers\): _string_
 
-*Defined in [src/api/entities/Entity.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Entity.ts#L14)*
+_Defined in_ [_src/api/entities/Entity.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Entity.ts#L14)
 
 Generate the Entity's UUID from its identifying properties
 
@@ -115,37 +109,33 @@ Generate the Entity's UUID from its identifying properties
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | Identifiers |   |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | Identifiers |  |
 
-**Returns:** *string*
-
-___
+**Returns:** _string_
 
 ### `Static` isUniqueIdentifiers
 
-▸ **isUniqueIdentifiers**(`identifiers`: unknown): *boolean*
+▸ **isUniqueIdentifiers**\(`identifiers`: unknown\): _boolean_
 
-*Defined in [src/api/entities/Entity.ts:42](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Entity.ts#L42)*
+_Defined in_ [_src/api/entities/Entity.ts:42_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Entity.ts#L42)
 
 Typeguard that checks whether the object passed corresponds to the unique identifiers of the class. Must be overridden
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`identifiers` | unknown | object to type check  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `identifiers` | unknown | object to type check |
 
-**Returns:** *boolean*
-
-___
+**Returns:** _boolean_
 
 ### `Static` unserialize
 
-▸ **unserialize**‹**Identifiers**›(`serialized`: string): *Identifiers*
+▸ **unserialize**‹**Identifiers**›\(`serialized`: string\): _Identifiers_
 
-*Defined in [src/api/entities/Entity.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Entity.ts#L23)*
+_Defined in_ [_src/api/entities/Entity.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Entity.ts#L23)
 
 Unserialize a UUID into its Unique Identifiers
 
@@ -155,8 +145,9 @@ Unserialize a UUID into its Unique Identifiers
 
 **Parameters:**
 
-Name | Type | Description |
------- | ------ | ------ |
-`serialized` | string | UUID to unserialize  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `serialized` | string | UUID to unserialize |
 
-**Returns:** *Identifiers*
+**Returns:** _Identifiers_
+

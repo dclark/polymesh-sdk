@@ -1,4 +1,4 @@
-# Interface: LinkCaDocsParams
+# LinkCaDocsParams
 
 ## Hierarchy
 
@@ -12,10 +12,11 @@
 
 ## Properties
 
-###  documents
+### documents
 
-• **documents**: *[TokenDocument](tokendocument.md)[]*
+• **documents**: [_TokenDocument_](tokendocument.md)_\[\]_
 
-*Defined in [src/api/procedures/linkCaDocs.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/linkCaDocs.ts#L14)*
+_Defined in_ [_src/api/procedures/linkCaDocs.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/linkCaDocs.ts#L14)
 
 list of documents
+

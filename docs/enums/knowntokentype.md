@@ -1,4 +1,4 @@
-# Enumeration: KnownTokenType
+# KnownTokenType
 
 ## Index
 
@@ -17,80 +17,63 @@
 
 ## Enumeration members
 
-###  Commodity
+### Commodity
 
 • **Commodity**: = "Commodity"
 
-*Defined in [src/types/index.ts:165](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L165)*
+_Defined in_ [_src/types/index.ts:165_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L165)
 
-___
-
-###  Derivative
+### Derivative
 
 • **Derivative**: = "Derivative"
 
-*Defined in [src/types/index.ts:171](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L171)*
+_Defined in_ [_src/types/index.ts:171_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L171)
 
-___
-
-###  EquityCommon
+### EquityCommon
 
 • **EquityCommon**: = "EquityCommon"
 
-*Defined in [src/types/index.ts:163](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L163)*
+_Defined in_ [_src/types/index.ts:163_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L163)
 
-___
-
-###  EquityPreferred
+### EquityPreferred
 
 • **EquityPreferred**: = "EquityPreferred"
 
-*Defined in [src/types/index.ts:164](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L164)*
+_Defined in_ [_src/types/index.ts:164_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L164)
 
-___
-
-###  FixedIncome
+### FixedIncome
 
 • **FixedIncome**: = "FixedIncome"
 
-*Defined in [src/types/index.ts:166](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L166)*
+_Defined in_ [_src/types/index.ts:166_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L166)
 
-___
-
-###  Fund
+### Fund
 
 • **Fund**: = "Fund"
 
-*Defined in [src/types/index.ts:168](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L168)*
+_Defined in_ [_src/types/index.ts:168_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L168)
 
-___
-
-###  Reit
+### Reit
 
 • **Reit**: = "Reit"
 
-*Defined in [src/types/index.ts:167](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L167)*
+_Defined in_ [_src/types/index.ts:167_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L167)
 
-___
-
-###  RevenueShareAgreement
+### RevenueShareAgreement
 
 • **RevenueShareAgreement**: = "RevenueShareAgreement"
 
-*Defined in [src/types/index.ts:169](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L169)*
+_Defined in_ [_src/types/index.ts:169_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L169)
 
-___
-
-###  StableCoin
+### StableCoin
 
 • **StableCoin**: = "StableCoin"
 
-*Defined in [src/types/index.ts:172](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L172)*
+_Defined in_ [_src/types/index.ts:172_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L172)
 
-___
-
-###  StructuredProduct
+### StructuredProduct
 
 • **StructuredProduct**: = "StructuredProduct"
 
-*Defined in [src/types/index.ts:170](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L170)*
+_Defined in_ [_src/types/index.ts:170_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L170)
+

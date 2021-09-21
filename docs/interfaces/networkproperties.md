@@ -1,4 +1,4 @@
-# Interface: NetworkProperties
+# NetworkProperties
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  name
+### name
 
-• **name**: *string*
+• **name**: _string_
 
-*Defined in [src/types/index.ts:601](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L601)*
+_Defined in_ [_src/types/index.ts:601_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L601)
 
-___
+### version
 
-###  version
+• **version**: _number_
 
-• **version**: *number*
+_Defined in_ [_src/types/index.ts:602_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L602)
 
-*Defined in [src/types/index.ts:602](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L602)*

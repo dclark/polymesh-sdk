@@ -1,4 +1,4 @@
-# Class: Requirements
+# Requirements
 
 Handles all Security Token Compliance Requirements related functionality
 
@@ -29,41 +29,37 @@ Handles all Security Token Compliance Requirements related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L11)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L9)
 
 ## Methods
 
-###  arePaused
+### arePaused
 
-▸ **arePaused**(): *Promise‹boolean›*
+▸ **arePaused**\(\): _Promise‹boolean›_
 
-*Defined in [src/api/entities/SecurityToken/Compliance/Requirements.ts:217](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Compliance/Requirements.ts#L217)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Requirements.ts:217_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Compliance/Requirements.ts#L217)
 
 Check whether asset compliance requirements are paused or not
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### checkSettle
 
-###  checkSettle
+▸ **checkSettle**\(`args`: object\): _Promise‹Compliance›_
 
-▸ **checkSettle**(`args`: object): *Promise‹Compliance›*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Requirements.ts:188](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Compliance/Requirements.ts#L188)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Requirements.ts:188_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Compliance/Requirements.ts#L188)
 
 Check whether the sender and receiver Identities in a transfer comply with all the requirements of this asset
 
@@ -73,130 +69,116 @@ Check whether the sender and receiver Identities in a transfer comply with all t
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type | Description |
------- | ------ | ------ |
-`from?` | string &#124; [Identity](identity.md) | sender Identity (optional, defaults to the current Identity) |
-`to` | string &#124; [Identity](identity.md) | receiver Identity  |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `from?` | string \| [Identity](identity.md) | sender Identity \(optional, defaults to the current Identity\) |
+| `to` | string \| [Identity](identity.md) | receiver Identity |
 
-**Returns:** *Promise‹Compliance›*
+**Returns:** _Promise‹Compliance›_
 
-___
+### get
 
-###  get
+▸ **get**\(\): _Promise‹_[_Requirement_](../interfaces/requirement.md)_\[\]›_
 
-▸ **get**(): *Promise‹[Requirement](../interfaces/requirement.md)[]›*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Requirements.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Compliance/Requirements.ts#L77)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Requirements.ts:77_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Compliance/Requirements.ts#L77)
 
 Retrieve all of the Security Token's requirements
 
 **`note`** can be subscribed to
 
-**Returns:** *Promise‹[Requirement](../interfaces/requirement.md)[]›*
+**Returns:** _Promise‹_[_Requirement_](../interfaces/requirement.md)_\[\]›_
 
-▸ **get**(`callback`: [SubCallback](../globals.md#subcallback)‹[Requirement](../interfaces/requirement.md)[]›): *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+▸ **get**\(`callback`: [SubCallback](../globals.md#subcallback)‹[Requirement](../interfaces/requirement.md)\[\]›\): _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-*Defined in [src/api/entities/SecurityToken/Compliance/Requirements.ts:78](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Compliance/Requirements.ts#L78)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Requirements.ts:78_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Compliance/Requirements.ts#L78)
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`callback` | [SubCallback](../globals.md#subcallback)‹[Requirement](../interfaces/requirement.md)[]› |
+| Name | Type |
+| :--- | :--- |
+| `callback` | [SubCallback](../globals.md#subcallback)‹[Requirement](../interfaces/requirement.md)\[\]› |
 
-**Returns:** *Promise‹[UnsubCallback](../globals.md#unsubcallback)›*
+**Returns:** _Promise‹_[_UnsubCallback_](../globals.md#unsubcallback)_›_
 
-___
+### pause
 
-###  pause
+▸ **pause**\(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **pause**(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Requirements.ts:164](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Compliance/Requirements.ts#L164)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Requirements.ts:164_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Compliance/Requirements.ts#L164)
 
 Pause all the Security Token's requirements. This means that all transfers will be allowed until requirements are unpaused
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `pause.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `pause.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### reset
 
-###  reset
+▸ **reset**\(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **reset**(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Requirements.ts:154](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Compliance/Requirements.ts#L154)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Requirements.ts:154_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Compliance/Requirements.ts#L154)
 
 Detele all the current requirements for the Security Token.
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `reset.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `reset.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### set
 
-###  set
+▸ **set**\(`args`: [SetAssetRequirementsParams](../interfaces/setassetrequirementsparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **set**(`args`: [SetAssetRequirementsParams](../interfaces/setassetrequirementsparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Requirements.ts:68](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Compliance/Requirements.ts#L68)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Requirements.ts:68_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Compliance/Requirements.ts#L68)
 
 Configure asset compliance requirements for the Security Token. This operation will replace all existing requirements with a new requirement set
 
 This requires two transactions
 
-**`example`** Say A, B, C, D and E are requirements and we arrange them as `[[A, B], [C, D], [E]]`.
-For a transfer to succeed, it must either comply with A AND B, C AND D, OR E.
+**`example`** Say A, B, C, D and E are requirements and we arrange them as `[[A, B], [C, D], [E]]`. For a transfer to succeed, it must either comply with A AND B, C AND D, OR E.
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `set.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `set.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [SetAssetRequirementsParams](../interfaces/setassetrequirementsparams.md) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [SetAssetRequirementsParams](../interfaces/setassetrequirementsparams.md) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-___
+### unpause
 
-###  unpause
+▸ **unpause**\(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
 
-▸ **unpause**(`args`: void, `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
-
-*Defined in [src/api/entities/SecurityToken/Compliance/Requirements.ts:174](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Compliance/Requirements.ts#L174)*
+_Defined in_ [_src/api/entities/SecurityToken/Compliance/Requirements.ts:174_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Compliance/Requirements.ts#L174)
 
 Un-pause all the Security Token's current requirements
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `unpause.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `unpause.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | void |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | void |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[SecurityToken](securitytoken.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_SecurityToken_](securitytoken.md)_››_
+

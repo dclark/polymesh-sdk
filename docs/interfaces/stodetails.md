@@ -1,4 +1,4 @@
-# Interface: StoDetails
+# StoDetails
 
 ## Hierarchy
 
@@ -24,104 +24,81 @@
 
 ## Properties
 
-###  creator
+### creator
 
-• **creator**: *[Identity](../classes/identity.md)*
+• **creator**: [_Identity_](../classes/identity.md)
 
-*Defined in [src/api/entities/Sto/types.ts:72](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L72)*
+_Defined in_ [_src/api/entities/Sto/types.ts:72_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L72)
 
-___
+### end
 
-###  end
+• **end**: _Date \| null_
 
-• **end**: *Date | null*
+_Defined in_ [_src/api/entities/Sto/types.ts:80_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L80)
 
-*Defined in [src/api/entities/Sto/types.ts:80](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L80)*
+### minInvestment
 
-___
+• **minInvestment**: _BigNumber_
 
-###  minInvestment
+_Defined in_ [_src/api/entities/Sto/types.ts:82_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L82)
 
-• **minInvestment**: *BigNumber*
+### name
 
-*Defined in [src/api/entities/Sto/types.ts:82](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L82)*
+• **name**: _string_
 
-___
+_Defined in_ [_src/api/entities/Sto/types.ts:73_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L73)
 
-###  name
+### offeringPortfolio
 
-• **name**: *string*
+• **offeringPortfolio**: [_NumberedPortfolio_](../classes/numberedportfolio.md) _\|_ [_DefaultPortfolio_](../classes/defaultportfolio.md)
 
-*Defined in [src/api/entities/Sto/types.ts:73](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L73)*
+_Defined in_ [_src/api/entities/Sto/types.ts:74_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L74)
 
-___
+### raisingCurrency
 
-###  offeringPortfolio
+• **raisingCurrency**: _string_
 
-• **offeringPortfolio**: *[NumberedPortfolio](../classes/numberedportfolio.md) | [DefaultPortfolio](../classes/defaultportfolio.md)*
+_Defined in_ [_src/api/entities/Sto/types.ts:76_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L76)
 
-*Defined in [src/api/entities/Sto/types.ts:74](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L74)*
+### raisingPortfolio
 
-___
+• **raisingPortfolio**: [_NumberedPortfolio_](../classes/numberedportfolio.md) _\|_ [_DefaultPortfolio_](../classes/defaultportfolio.md)
 
-###  raisingCurrency
+_Defined in_ [_src/api/entities/Sto/types.ts:75_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L75)
 
-• **raisingCurrency**: *string*
+### start
 
-*Defined in [src/api/entities/Sto/types.ts:76](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L76)*
+• **start**: _Date_
 
-___
+_Defined in_ [_src/api/entities/Sto/types.ts:79_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L79)
 
-###  raisingPortfolio
+### status
 
-• **raisingPortfolio**: *[NumberedPortfolio](../classes/numberedportfolio.md) | [DefaultPortfolio](../classes/defaultportfolio.md)*
+• **status**: [_StoStatus_](stostatus.md)
 
-*Defined in [src/api/entities/Sto/types.ts:75](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L75)*
+_Defined in_ [_src/api/entities/Sto/types.ts:81_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L81)
 
-___
+### tiers
 
-###  start
+• **tiers**: [_Tier_](tier.md)_\[\]_
 
-• **start**: *Date*
+_Defined in_ [_src/api/entities/Sto/types.ts:77_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L77)
 
-*Defined in [src/api/entities/Sto/types.ts:79](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L79)*
+### totalAmount
 
-___
+• **totalAmount**: _BigNumber_
 
-###  status
+_Defined in_ [_src/api/entities/Sto/types.ts:83_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L83)
 
-• **status**: *[StoStatus](stostatus.md)*
+### totalRemaining
 
-*Defined in [src/api/entities/Sto/types.ts:81](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L81)*
+• **totalRemaining**: _BigNumber_
 
-___
+_Defined in_ [_src/api/entities/Sto/types.ts:84_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L84)
 
-###  tiers
+### venue
 
-• **tiers**: *[Tier](tier.md)[]*
+• **venue**: [_Venue_](../classes/venue.md)
 
-*Defined in [src/api/entities/Sto/types.ts:77](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L77)*
+_Defined in_ [_src/api/entities/Sto/types.ts:78_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L78)
 
-___
-
-###  totalAmount
-
-• **totalAmount**: *BigNumber*
-
-*Defined in [src/api/entities/Sto/types.ts:83](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L83)*
-
-___
-
-###  totalRemaining
-
-• **totalRemaining**: *BigNumber*
-
-*Defined in [src/api/entities/Sto/types.ts:84](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L84)*
-
-___
-
-###  venue
-
-• **venue**: *[Venue](../classes/venue.md)*
-
-*Defined in [src/api/entities/Sto/types.ts:78](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Sto/types.ts#L78)*

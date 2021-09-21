@@ -1,4 +1,4 @@
-# Interface: DistributionParticipant
+# DistributionParticipant
 
 ## Hierarchy
 
@@ -14,24 +14,21 @@
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *BigNumber*
+• **amount**: _BigNumber_
 
-*Defined in [src/api/entities/DividendDistribution/types.ts:15](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/DividendDistribution/types.ts#L15)*
+_Defined in_ [_src/api/entities/DividendDistribution/types.ts:15_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/DividendDistribution/types.ts#L15)
 
-___
+### identity
 
-###  identity
+• **identity**: [_Identity_](../classes/identity.md)
 
-• **identity**: *[Identity](../classes/identity.md)*
+_Defined in_ [_src/api/entities/DividendDistribution/types.ts:14_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/DividendDistribution/types.ts#L14)
 
-*Defined in [src/api/entities/DividendDistribution/types.ts:14](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/DividendDistribution/types.ts#L14)*
+### paid
 
-___
+• **paid**: _boolean_
 
-###  paid
+_Defined in_ [_src/api/entities/DividendDistribution/types.ts:16_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/DividendDistribution/types.ts#L16)
 
-• **paid**: *boolean*
-
-*Defined in [src/api/entities/DividendDistribution/types.ts:16](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/DividendDistribution/types.ts#L16)*

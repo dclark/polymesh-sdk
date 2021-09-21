@@ -1,4 +1,4 @@
-# Interface: CreateGroupParams
+# CreateGroupParams
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  permissions
+### permissions
 
-• **permissions**: *object | object*
+• **permissions**: _object \| object_
 
-*Defined in [src/api/procedures/createGroup.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/createGroup.ts#L25)*
+_Defined in_ [_src/api/procedures/createGroup.ts:25_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/createGroup.ts#L25)
+

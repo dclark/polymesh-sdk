@@ -1,9 +1,6 @@
-# Class: Permissions
+# Permissions
 
-Handles all Security Token Permissions related functionality
-Permissions a Secondary Key has over the Identity. A null value means the key has
-  all permissions of that type (i.e. if `tokens` is null, the key has permissions over all
-  of the Identity's Security Tokens)
+Handles all Security Token Permissions related functionality Permissions a Secondary Key has over the Identity. A null value means the key has all permissions of that type \(i.e. if `tokens` is null, the key has permissions over all of the Identity's Security Tokens\)
 
 ## Hierarchy
 
@@ -34,151 +31,128 @@ Permissions a Secondary Key has over the Identity. A null value means the key ha
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L11)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L9)
 
-___
+### portfolios
 
-###  portfolios
+• **portfolios**: [_SectionPermissions_](../interfaces/sectionpermissions.md)_‹_[_DefaultPortfolio_](defaultportfolio.md) _\|_ [_NumberedPortfolio_](numberedportfolio.md)_› \| null_
 
-• **portfolios**: *[SectionPermissions](../interfaces/sectionpermissions.md)‹[DefaultPortfolio](defaultportfolio.md) | [NumberedPortfolio](numberedportfolio.md)› | null*
+_Defined in_ [_src/types/index.ts:749_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L749)
 
-*Defined in [src/types/index.ts:749](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L749)*
+### tokens
 
-___
+• **tokens**: [_SectionPermissions_](../interfaces/sectionpermissions.md)_‹_[_SecurityToken_](securitytoken.md)_› \| null_
 
-###  tokens
-
-• **tokens**: *[SectionPermissions](../interfaces/sectionpermissions.md)‹[SecurityToken](securitytoken.md)› | null*
-
-*Defined in [src/types/index.ts:735](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L735)*
+_Defined in_ [_src/types/index.ts:735_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L735)
 
 Security Tokens over which this key has permissions
 
-___
+### transactionGroups
 
-###  transactionGroups
+• **transactionGroups**: [_TxGroup_](../enums/txgroup.md)_\[\]_
 
-• **transactionGroups**: *[TxGroup](../enums/txgroup.md)[]*
+_Defined in_ [_src/types/index.ts:747_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L747)
 
-*Defined in [src/types/index.ts:747](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L747)*
-
-list of Transaction Groups this key can execute. Having permissions over a TxGroup
-  means having permissions over every TxTag in said group. Partial group permissions are not
-  covered by this value. For a full picture of transaction permissions, see the `transactions` property
+list of Transaction Groups this key can execute. Having permissions over a TxGroup means having permissions over every TxTag in said group. Partial group permissions are not covered by this value. For a full picture of transaction permissions, see the `transactions` property
 
 NOTE: If transactions is null, ignore this value
 
-___
+### transactions
 
-###  transactions
+• **transactions**: [_TransactionPermissions_](../interfaces/transactionpermissions.md) _\| null_
 
-• **transactions**: *[TransactionPermissions](../interfaces/transactionpermissions.md) | null*
-
-*Defined in [src/types/index.ts:739](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L739)*
+_Defined in_ [_src/types/index.ts:739_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L739)
 
 Transactions this key can execute
 
 ## Methods
 
-###  createGroup
+### createGroup
 
-▸ **createGroup**(`args`: [CreateGroupParams](../interfaces/creategroupparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[CustomPermissionGroup](custompermissiongroup.md)››*
+▸ **createGroup**\(`args`: [CreateGroupParams](../interfaces/creategroupparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_CustomPermissionGroup_](custompermissiongroup.md)_››_
 
-*Defined in [src/api/entities/SecurityToken/Permissions.ts:60](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Permissions.ts#L60)*
+_Defined in_ [_src/api/entities/SecurityToken/Permissions.ts:60_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Permissions.ts#L60)
 
 Create a Permission group for this Security Token. Identities can then be assigned to said group as Agents. Agents assigned to a group have said group's permissions over this Security Token
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `createGroup.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `createGroup.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [CreateGroupParams](../interfaces/creategroupparams.md) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [CreateGroupParams](../interfaces/creategroupparams.md) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[CustomPermissionGroup](custompermissiongroup.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_CustomPermissionGroup_](custompermissiongroup.md)_››_
 
-___
+### getAgents
 
-###  getAgents
+▸ **getAgents**\(\): _Promise‹_[_AgentWithGroup_](../interfaces/agentwithgroup.md)_\[\]›_
 
-▸ **getAgents**(): *Promise‹[AgentWithGroup](../interfaces/agentwithgroup.md)[]›*
+_Defined in_ [_src/api/entities/SecurityToken/Permissions.ts:124_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Permissions.ts#L124)
 
-*Defined in [src/api/entities/SecurityToken/Permissions.ts:124](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Permissions.ts#L124)*
+Retrieve a list of Agents \(Identities which have permissions over the Security Token\) and their respective Permission Groups
 
-Retrieve a list of Agents (Identities which have permissions over the Security Token) and
-  their respective Permission Groups
+**Returns:** _Promise‹_[_AgentWithGroup_](../interfaces/agentwithgroup.md)_\[\]›_
 
-**Returns:** *Promise‹[AgentWithGroup](../interfaces/agentwithgroup.md)[]›*
+### getGroups
 
-___
+▸ **getGroups**\(\): _Promise‹object›_
 
-###  getGroups
-
-▸ **getGroups**(): *Promise‹object›*
-
-*Defined in [src/api/entities/SecurityToken/Permissions.ts:87](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Permissions.ts#L87)*
+_Defined in_ [_src/api/entities/SecurityToken/Permissions.ts:87_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Permissions.ts#L87)
 
 Retrieve all group permissions of the Security Token
 
-**Returns:** *Promise‹object›*
+**Returns:** _Promise‹object›_
 
-___
+### inviteAgent
 
-###  inviteAgent
+▸ **inviteAgent**\(`args`: [InviteExternalAgentParams](../interfaces/inviteexternalagentparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **inviteAgent**(`args`: [InviteExternalAgentParams](../interfaces/inviteexternalagentparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/SecurityToken/Permissions.ts:70](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Permissions.ts#L70)*
+_Defined in_ [_src/api/entities/SecurityToken/Permissions.ts:70_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Permissions.ts#L70)
 
 Invite an Identity to be an Agent with permissions over this Security Token
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `inviteAgent.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `inviteAgent.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [InviteExternalAgentParams](../interfaces/inviteexternalagentparams.md) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [InviteExternalAgentParams](../interfaces/inviteexternalagentparams.md) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-___
+### removeAgent
 
-###  removeAgent
+▸ **removeAgent**\(`args`: [RemoveExternalAgentParams](../interfaces/removeexternalagentparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **removeAgent**(`args`: [RemoveExternalAgentParams](../interfaces/removeexternalagentparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/SecurityToken/Permissions.ts:80](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Permissions.ts#L80)*
+_Defined in_ [_src/api/entities/SecurityToken/Permissions.ts:80_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/Permissions.ts#L80)
 
 Revoke an Agent's permissions for this Security Token
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `removeAgent.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `removeAgent.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [RemoveExternalAgentParams](../interfaces/removeexternalagentparams.md) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [RemoveExternalAgentParams](../interfaces/removeexternalagentparams.md) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
+

@@ -1,4 +1,4 @@
-# Interface: ModifyCorporateActionsAgentParams
+# ModifyCorporateActionsAgentParams
 
 ## Hierarchy
 
@@ -15,18 +15,17 @@
 
 ### `Optional` requestExpiry
 
-• **requestExpiry**? : *[Date](../enums/transactionargumenttype.md#date)*
+• **requestExpiry**? : [_Date_](../enums/transactionargumenttype.md#date)
 
-*Defined in [src/api/procedures/modifyCorporateActionsAgent.ts:25](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/modifyCorporateActionsAgent.ts#L25)*
+_Defined in_ [_src/api/procedures/modifyCorporateActionsAgent.ts:25_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/modifyCorporateActionsAgent.ts#L25)
 
-date at which the authorization request to modify the Corporate Actions Agent expires (optional, never expires if a date is not provided)
+date at which the authorization request to modify the Corporate Actions Agent expires \(optional, never expires if a date is not provided\)
 
-___
+### target
 
-###  target
+• **target**: _string \|_ [_Identity_](../classes/identity.md)
 
-• **target**: *string | [Identity](../classes/identity.md)*
-
-*Defined in [src/api/procedures/modifyCorporateActionsAgent.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/modifyCorporateActionsAgent.ts#L21)*
+_Defined in_ [_src/api/procedures/modifyCorporateActionsAgent.ts:21_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/modifyCorporateActionsAgent.ts#L21)
 
 identity to be set as Corporate Actions Agent
+

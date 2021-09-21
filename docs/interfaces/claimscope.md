@@ -1,4 +1,4 @@
-# Interface: ClaimScope
+# ClaimScope
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  scope
+### scope
 
-• **scope**: *[Scope](scope.md) | null*
+• **scope**: [_Scope_](scope.md) _\| null_
 
-*Defined in [src/types/index.ts:342](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L342)*
-
-___
+_Defined in_ [_src/types/index.ts:342_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L342)
 
 ### `Optional` ticker
 
-• **ticker**? : *undefined | string*
+• **ticker**? : _undefined \| string_
 
-*Defined in [src/types/index.ts:343](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L343)*
+_Defined in_ [_src/types/index.ts:343_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L343)
+

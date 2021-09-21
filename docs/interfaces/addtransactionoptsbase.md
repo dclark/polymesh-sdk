@@ -1,8 +1,8 @@
-# Interface: AddTransactionOptsBase ‹**Values**›
+# AddTransactionOptsBase
 
 ## Type parameters
 
-▪ **Values**: *unknown[]*
+▪ **Values**: _unknown\[\]_
 
 ## Hierarchy
 
@@ -25,30 +25,25 @@
 
 ### `Optional` fee
 
-• **fee**? : *BigNumber*
+• **fee**? : _BigNumber_
 
-*Defined in [src/base/Procedure.ts:26](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/base/Procedure.ts#L26)*
-
-___
+_Defined in_ [_src/base/Procedure.ts:26_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/base/Procedure.ts#L26)
 
 ### `Optional` isCritical
 
-• **isCritical**? : *undefined | false | true*
+• **isCritical**? : _undefined \| false \| true_
 
-*Defined in [src/base/Procedure.ts:28](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/base/Procedure.ts#L28)*
-
-___
+_Defined in_ [_src/base/Procedure.ts:28_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/base/Procedure.ts#L28)
 
 ### `Optional` paidByThirdParty
 
-• **paidByThirdParty**? : *undefined | false | true*
+• **paidByThirdParty**? : _undefined \| false \| true_
 
-*Defined in [src/base/Procedure.ts:29](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/base/Procedure.ts#L29)*
-
-___
+_Defined in_ [_src/base/Procedure.ts:29_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/base/Procedure.ts#L29)
 
 ### `Optional` resolvers
 
-• **resolvers**? : *ResolverFunctionArray‹Values›*
+• **resolvers**? : _ResolverFunctionArray‹Values›_
 
-*Defined in [src/base/Procedure.ts:27](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/base/Procedure.ts#L27)*
+_Defined in_ [_src/base/Procedure.ts:27_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/base/Procedure.ts#L27)
+

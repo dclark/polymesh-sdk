@@ -1,4 +1,4 @@
-# Interface: PortfolioBalance
+# PortfolioBalance
 
 ## Hierarchy
 
@@ -17,38 +17,33 @@
 
 ## Properties
 
-###  free
+### free
 
-• **free**: *BigNumber*
+• **free**: _BigNumber_
 
-*Inherited from [PortfolioBalance](portfoliobalance.md).[free](portfoliobalance.md#free)*
+_Inherited from_ [_PortfolioBalance_](portfoliobalance.md)_._[_free_](portfoliobalance.md#free)
 
-*Defined in [src/types/index.ts:580](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L580)*
+_Defined in_ [_src/types/index.ts:580_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L580)
 
-___
+### locked
 
-###  locked
+• **locked**: _BigNumber_
 
-• **locked**: *BigNumber*
+_Inherited from_ [_PortfolioBalance_](portfoliobalance.md)_._[_locked_](portfoliobalance.md#locked)
 
-*Inherited from [PortfolioBalance](portfoliobalance.md).[locked](portfoliobalance.md#locked)*
+_Defined in_ [_src/types/index.ts:581_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L581)
 
-*Defined in [src/types/index.ts:581](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L581)*
+### token
 
-___
+• **token**: [_SecurityToken_](../classes/securitytoken.md)
 
-###  token
+_Defined in_ [_src/api/entities/Portfolio/types.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Portfolio/types.ts#L11)
 
-• **token**: *[SecurityToken](../classes/securitytoken.md)*
+### total
 
-*Defined in [src/api/entities/Portfolio/types.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Portfolio/types.ts#L11)*
+• **total**: _BigNumber_
 
-___
+_Inherited from_ [_PortfolioBalance_](portfoliobalance.md)_._[_total_](portfoliobalance.md#total)
 
-###  total
+_Defined in_ [_src/types/index.ts:582_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L582)
 
-• **total**: *BigNumber*
-
-*Inherited from [PortfolioBalance](portfoliobalance.md).[total](portfoliobalance.md#total)*
-
-*Defined in [src/types/index.ts:582](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L582)*

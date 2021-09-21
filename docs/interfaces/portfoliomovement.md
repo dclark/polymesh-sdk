@@ -1,4 +1,4 @@
-# Interface: PortfolioMovement
+# PortfolioMovement
 
 ## Hierarchy
 
@@ -14,26 +14,23 @@
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *BigNumber*
+• **amount**: _BigNumber_
 
-*Defined in [src/types/index.ts:941](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L941)*
-
-___
+_Defined in_ [_src/types/index.ts:941_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L941)
 
 ### `Optional` memo
 
-• **memo**? : *undefined | string*
+• **memo**? : _undefined \| string_
 
-*Defined in [src/types/index.ts:945](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L945)*
+_Defined in_ [_src/types/index.ts:945_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L945)
 
 identifier string to help differentiate transfers
 
-___
+### token
 
-###  token
+• **token**: _string \|_ [_SecurityToken_](../classes/securitytoken.md)
 
-• **token**: *string | [SecurityToken](../classes/securitytoken.md)*
+_Defined in_ [_src/types/index.ts:940_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L940)
 
-*Defined in [src/types/index.ts:940](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L940)*

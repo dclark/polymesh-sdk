@@ -1,6 +1,6 @@
-# Enumeration: TxGroup
+# TxGroup
 
-Transaction Groups (for permissions purposes)
+Transaction Groups \(for permissions purposes\)
 
 ## Index
 
@@ -19,136 +19,119 @@ Transaction Groups (for permissions purposes)
 
 ## Enumeration members
 
-###  AdvancedTokenManagement
+### AdvancedTokenManagement
 
 • **AdvancedTokenManagement**: = "AdvancedTokenManagement"
 
-*Defined in [src/types/index.ts:638](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L638)*
+_Defined in_ [_src/types/index.ts:638_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L638)
 
-- TxTags.asset.Freeze
-- TxTags.asset.Unfreeze
-- TxTags.identity.AddAuthorization
-- TxTags.identity.RemoveAuthorization
+* TxTags.asset.Freeze
+* TxTags.asset.Unfreeze
+* TxTags.identity.AddAuthorization
+* TxTags.identity.RemoveAuthorization
 
-___
-
-###  ClaimsManagement
+### ClaimsManagement
 
 • **ClaimsManagement**: = "ClaimsManagement"
 
-*Defined in [src/types/index.ts:659](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L659)*
+_Defined in_ [_src/types/index.ts:659_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L659)
 
-- TxTags.identity.AddClaim
-- TxTags.identity.RevokeClaim
+* TxTags.identity.AddClaim
+* TxTags.identity.RevokeClaim
 
-___
-
-###  ComplianceRequirementsManagement
+### ComplianceRequirementsManagement
 
 • **ComplianceRequirementsManagement**: = "ComplianceRequirementsManagement"
 
-*Defined in [src/types/index.ts:667](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L667)*
+_Defined in_ [_src/types/index.ts:667_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L667)
 
-- TxTags.complianceManager.AddComplianceRequirement
-- TxTags.complianceManager.RemoveComplianceRequirement
-- TxTags.complianceManager.PauseAssetCompliance
-- TxTags.complianceManager.ResumeAssetCompliance
-- TxTags.complianceManager.ResetAssetCompliance
+* TxTags.complianceManager.AddComplianceRequirement
+* TxTags.complianceManager.RemoveComplianceRequirement
+* TxTags.complianceManager.PauseAssetCompliance
+* TxTags.complianceManager.ResumeAssetCompliance
+* TxTags.complianceManager.ResetAssetCompliance
 
-___
-
-###  CorporateActionsManagement
+### CorporateActionsManagement
 
 • **CorporateActionsManagement**: = "CorporateActionsManagement"
 
-*Defined in [src/types/index.ts:677](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L677)*
+_Defined in_ [_src/types/index.ts:677_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L677)
 
-- TxTags.checkpoint.CreateSchedule,
-- TxTags.checkpoint.RemoveSchedule,
-- TxTags.checkpoint.CreateCheckpoint,
-- TxTags.corporateAction.InitiateCorporateAction,
-- TxTags.capitalDistribution.Distribute,
-- TxTags.capitalDistribution.Claim,
-- TxTags.identity.AddInvestorUniquenessClaim,
+* TxTags.checkpoint.CreateSchedule,
+* TxTags.checkpoint.RemoveSchedule,
+* TxTags.checkpoint.CreateCheckpoint,
+* TxTags.corporateAction.InitiateCorporateAction,
+* TxTags.capitalDistribution.Distribute,
+* TxTags.capitalDistribution.Claim,
+* TxTags.identity.AddInvestorUniquenessClaim,
 
-___
-
-###  Distribution
+### Distribution
 
 • **Distribution**: = "Distribution"
 
-*Defined in [src/types/index.ts:645](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L645)*
+_Defined in_ [_src/types/index.ts:645_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L645)
 
-- TxTags.identity.AddInvestorUniquenessClaim
-- TxTags.settlement.CreateVenue
-- TxTags.settlement.AddInstruction
-- TxTags.settlement.AddAndAffirmInstruction
+* TxTags.identity.AddInvestorUniquenessClaim
+* TxTags.settlement.CreateVenue
+* TxTags.settlement.AddInstruction
+* TxTags.settlement.AddAndAffirmInstruction
 
-___
-
-###  Issuance
+### Issuance
 
 • **Issuance**: = "Issuance"
 
-*Defined in [src/types/index.ts:649](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L649)*
+_Defined in_ [_src/types/index.ts:649_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L649)
 
-- TxTags.asset.Issue
+* TxTags.asset.Issue
 
-___
-
-###  PortfolioManagement
+### PortfolioManagement
 
 • **PortfolioManagement**: = "PortfolioManagement"
 
-*Defined in [src/types/index.ts:623](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L623)*
+_Defined in_ [_src/types/index.ts:623_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L623)
 
-- TxTags.identity.AddInvestorUniquenessClaim
-- TxTags.portfolio.MovePortfolioFunds
-- TxTags.settlement.AddInstruction
-- TxTags.settlement.AddAndAffirmInstruction
-- TxTags.settlement.AffirmInstruction
-- TxTags.settlement.RejectInstruction
-- TxTags.settlement.CreateVenue
+* TxTags.identity.AddInvestorUniquenessClaim
+* TxTags.portfolio.MovePortfolioFunds
+* TxTags.settlement.AddInstruction
+* TxTags.settlement.AddAndAffirmInstruction
+* TxTags.settlement.AffirmInstruction
+* TxTags.settlement.RejectInstruction
+* TxTags.settlement.CreateVenue
 
-___
-
-###  StoManagement
+### StoManagement
 
 • **StoManagement**: = "StoManagement"
 
-*Defined in [src/types/index.ts:689](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L689)*
+_Defined in_ [_src/types/index.ts:689_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L689)
 
-- TxTags.sto.CreateFundraiser,
-- TxTags.sto.FreezeFundraiser,
-- TxTags.sto.Invest,
-- TxTags.sto.ModifyFundraiserWindow,
-- TxTags.sto.Stop,
-- TxTags.sto.UnfreezeFundraiser,
-- TxTags.identity.AddInvestorUniquenessClaim,
-- TxTags.asset.Issue,
-- TxTags.settlement.CreateVenue
+* TxTags.sto.CreateFundraiser,
+* TxTags.sto.FreezeFundraiser,
+* TxTags.sto.Invest,
+* TxTags.sto.ModifyFundraiserWindow,
+* TxTags.sto.Stop,
+* TxTags.sto.UnfreezeFundraiser,
+* TxTags.identity.AddInvestorUniquenessClaim,
+* TxTags.asset.Issue,
+* TxTags.settlement.CreateVenue
 
-___
-
-###  TokenManagement
+### TokenManagement
 
 • **TokenManagement**: = "TokenManagement"
 
-*Defined in [src/types/index.ts:631](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L631)*
+_Defined in_ [_src/types/index.ts:631_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L631)
 
-- TxTags.asset.MakeDivisible
-- TxTags.asset.RenameAsset
-- TxTags.asset.SetFundingRound
-- TxTags.asset.AddDocuments
-- TxTags.asset.RemoveDocuments
+* TxTags.asset.MakeDivisible
+* TxTags.asset.RenameAsset
+* TxTags.asset.SetFundingRound
+* TxTags.asset.AddDocuments
+* TxTags.asset.RemoveDocuments
 
-___
-
-###  TrustedClaimIssuersManagement
+### TrustedClaimIssuersManagement
 
 • **TrustedClaimIssuersManagement**: = "TrustedClaimIssuersManagement"
 
-*Defined in [src/types/index.ts:654](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L654)*
+_Defined in_ [_src/types/index.ts:654_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L654)
 
-- TxTags.complianceManager.AddDefaultTrustedClaimIssuer
-- TxTags.complianceManager.RemoveDefaultTrustedClaimIssuer
+* TxTags.complianceManager.AddDefaultTrustedClaimIssuer
+* TxTags.complianceManager.RemoveDefaultTrustedClaimIssuer
+

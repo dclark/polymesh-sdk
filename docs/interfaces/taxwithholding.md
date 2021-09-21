@@ -1,4 +1,4 @@
-# Interface: TaxWithholding
+# TaxWithholding
 
 ## Hierarchy
 
@@ -13,16 +13,15 @@
 
 ## Properties
 
-###  identity
+### identity
 
-• **identity**: *[Identity](../classes/identity.md)*
+• **identity**: [_Identity_](../classes/identity.md)
 
-*Defined in [src/api/entities/CorporateAction/types.ts:16](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/CorporateAction/types.ts#L16)*
+_Defined in_ [_src/api/entities/CorporateAction/types.ts:16_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/CorporateAction/types.ts#L16)
 
-___
+### percentage
 
-###  percentage
+• **percentage**: _BigNumber_
 
-• **percentage**: *BigNumber*
+_Defined in_ [_src/api/entities/CorporateAction/types.ts:17_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/CorporateAction/types.ts#L17)
 
-*Defined in [src/api/entities/CorporateAction/types.ts:17](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/CorporateAction/types.ts#L17)*

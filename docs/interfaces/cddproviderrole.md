@@ -1,4 +1,4 @@
-# Interface: CddProviderRole
+# CddProviderRole
 
 ## Hierarchy
 
@@ -12,8 +12,9 @@
 
 ## Properties
 
-###  type
+### type
 
-• **type**: *[CddProvider](../enums/roletype.md#cddprovider)*
+• **type**: [_CddProvider_](../enums/roletype.md#cddprovider)
 
-*Defined in [src/types/index.ts:102](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L102)*
+_Defined in_ [_src/types/index.ts:102_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L102)
+

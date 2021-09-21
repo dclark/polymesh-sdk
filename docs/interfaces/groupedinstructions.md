@@ -1,4 +1,4 @@
-# Interface: GroupedInstructions
+# GroupedInstructions
 
 ## Hierarchy
 
@@ -15,42 +15,35 @@
 
 ## Properties
 
-###  affirmed
+### affirmed
 
-• **affirmed**: *[Instruction](../classes/instruction.md)[]*
+• **affirmed**: [_Instruction_](../classes/instruction.md)_\[\]_
 
-*Defined in [src/types/index.ts:1094](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L1094)*
+_Defined in_ [_src/types/index.ts:1094_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L1094)
 
 Instructions that have already been affirmed by the Identity
 
-___
+### failed
 
-###  failed
+• **failed**: [_Instruction_](../classes/instruction.md)_\[\]_
 
-• **failed**: *[Instruction](../classes/instruction.md)[]*
+_Defined in_ [_src/types/index.ts:1108_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L1108)
 
-*Defined in [src/types/index.ts:1108](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L1108)*
+Instructions that failed in their execution \(can be rescheduled\). This group supercedes the other three, so for example, a failed Instruction might also belong in the `affirmed` group, but it will only be included in this one
 
-Instructions that failed in their execution (can be rescheduled).
-  This group supercedes the other three, so for example, a failed Instruction
-  might also belong in the `affirmed` group, but it will only be included in this one
+### pending
 
-___
+• **pending**: [_Instruction_](../classes/instruction.md)_\[\]_
 
-###  pending
-
-• **pending**: *[Instruction](../classes/instruction.md)[]*
-
-*Defined in [src/types/index.ts:1102](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L1102)*
+_Defined in_ [_src/types/index.ts:1102_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L1102)
 
 Instructions that still need to be affirmed/rejected by the Identity
 
-___
+### rejected
 
-###  rejected
+• **rejected**: [_Instruction_](../classes/instruction.md)_\[\]_
 
-• **rejected**: *[Instruction](../classes/instruction.md)[]*
-
-*Defined in [src/types/index.ts:1098](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L1098)*
+_Defined in_ [_src/types/index.ts:1098_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L1098)
 
 Instructions that have already been rejected by the Identity
+

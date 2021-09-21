@@ -1,4 +1,4 @@
-# Interface: EventIdentifier
+# EventIdentifier
 
 ## Hierarchy
 
@@ -14,24 +14,21 @@
 
 ## Properties
 
-###  blockDate
+### blockDate
 
-• **blockDate**: *Date*
+• **blockDate**: _Date_
 
-*Defined in [src/types/index.ts:571](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L571)*
+_Defined in_ [_src/types/index.ts:571_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L571)
 
-___
+### blockNumber
 
-###  blockNumber
+• **blockNumber**: _BigNumber_
 
-• **blockNumber**: *BigNumber*
+_Defined in_ [_src/types/index.ts:570_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L570)
 
-*Defined in [src/types/index.ts:570](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L570)*
+### eventIndex
 
-___
+• **eventIndex**: _number_
 
-###  eventIndex
+_Defined in_ [_src/types/index.ts:572_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L572)
 
-• **eventIndex**: *number*
-
-*Defined in [src/types/index.ts:572](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L572)*

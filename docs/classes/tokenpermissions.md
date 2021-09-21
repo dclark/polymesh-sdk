@@ -1,6 +1,6 @@
-# Class: TokenPermissions
+# TokenPermissions
 
-Handles all Token Permissions (External Agents) related functionality on the Identity side
+Handles all Token Permissions \(External Agents\) related functionality on the Identity side
 
 ## Hierarchy
 
@@ -28,32 +28,29 @@ Handles all Token Permissions (External Agents) related functionality on the Ide
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L11)*
-
-___
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L11)
 
 ### `Protected` parent
 
-• **parent**: *[Identity](identity.md)*
+• **parent**: [_Identity_](identity.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L9)
 
 ## Methods
 
-###  enabledAt
+### enabledAt
 
-▸ **enabledAt**(`__namedParameters`: object): *Promise‹[EventIdentifier](../interfaces/eventidentifier.md) | null›*
+▸ **enabledAt**\(`__namedParameters`: object\): _Promise‹_[_EventIdentifier_](../interfaces/eventidentifier.md) _\| null›_
 
-*Defined in [src/api/entities/Identity/TokenPermissions.ts:264](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Identity/TokenPermissions.ts#L264)*
+_Defined in_ [_src/api/entities/Identity/TokenPermissions.ts:264_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Identity/TokenPermissions.ts#L264)
 
-Retrieve the identifier data (block number, date and event index) of the event that was emitted when this Identity was enabled/added as
-  an Agent with permissions over a specific Security Token
+Retrieve the identifier data \(block number, date and event index\) of the event that was emitted when this Identity was enabled/added as an Agent with permissions over a specific Security Token
 
 **`note`** uses the middleware
 
@@ -61,107 +58,96 @@ Retrieve the identifier data (block number, date and event index) of the event t
 
 **Parameters:**
 
-▪ **__namedParameters**: *object*
+▪ **\_\_namedParameters**: _object_
 
-Name | Type |
------- | ------ |
-`token` | string &#124; [SecurityToken](securitytoken.md)‹› |
+| Name | Type |
+| :--- | :--- |
+| `token` | string \| [SecurityToken](securitytoken.md)‹› |
 
-**Returns:** *Promise‹[EventIdentifier](../interfaces/eventidentifier.md) | null›*
+**Returns:** _Promise‹_[_EventIdentifier_](../interfaces/eventidentifier.md) _\| null›_
 
-___
+### get
 
-###  get
+▸ **get**\(\): _Promise‹_[_TokenWithGroup_](../interfaces/tokenwithgroup.md)_\[\]›_
 
-▸ **get**(): *Promise‹[TokenWithGroup](../interfaces/tokenwithgroup.md)[]›*
-
-*Defined in [src/api/entities/Identity/TokenPermissions.ts:72](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Identity/TokenPermissions.ts#L72)*
+_Defined in_ [_src/api/entities/Identity/TokenPermissions.ts:72_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Identity/TokenPermissions.ts#L72)
 
 Retrieve all the Security Tokens over which this Identity has permissions, with the corresponding Permission Group
 
-**Returns:** *Promise‹[TokenWithGroup](../interfaces/tokenwithgroup.md)[]›*
+**Returns:** _Promise‹_[_TokenWithGroup_](../interfaces/tokenwithgroup.md)_\[\]›_
 
-___
+### getGroup
 
-###  getGroup
+▸ **getGroup**\(`__namedParameters`: object\): _Promise‹_[_CustomPermissionGroup_](custompermissiongroup.md) _\|_ [_KnownPermissionGroup_](knownpermissiongroup.md)_›_
 
-▸ **getGroup**(`__namedParameters`: object): *Promise‹[CustomPermissionGroup](custompermissiongroup.md) | [KnownPermissionGroup](knownpermissiongroup.md)›*
-
-*Defined in [src/api/entities/Identity/TokenPermissions.ts:224](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Identity/TokenPermissions.ts#L224)*
+_Defined in_ [_src/api/entities/Identity/TokenPermissions.ts:224_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Identity/TokenPermissions.ts#L224)
 
 Retrieve this Identity's Permission Group for a specific Security Token
 
 **Parameters:**
 
-▪ **__namedParameters**: *object*
+▪ **\_\_namedParameters**: _object_
 
-Name | Type |
------- | ------ |
-`token` | string &#124; [SecurityToken](securitytoken.md)‹› |
+| Name | Type |
+| :--- | :--- |
+| `token` | string \| [SecurityToken](securitytoken.md)‹› |
 
-**Returns:** *Promise‹[CustomPermissionGroup](custompermissiongroup.md) | [KnownPermissionGroup](knownpermissiongroup.md)›*
+**Returns:** _Promise‹_[_CustomPermissionGroup_](custompermissiongroup.md) _\|_ [_KnownPermissionGroup_](knownpermissiongroup.md)_›_
 
-___
+### hasPermissions
 
-###  hasPermissions
+▸ **hasPermissions**\(`args`: object\): _Promise‹boolean›_
 
-▸ **hasPermissions**(`args`: object): *Promise‹boolean›*
-
-*Defined in [src/api/entities/Identity/TokenPermissions.ts:101](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Identity/TokenPermissions.ts#L101)*
+_Defined in_ [_src/api/entities/Identity/TokenPermissions.ts:101_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Identity/TokenPermissions.ts#L101)
 
 Check whether this Identity has specific transaction Permissions over a Security Token
 
 **Parameters:**
 
-▪ **args**: *object*
+▪ **args**: _object_
 
-Name | Type |
------- | ------ |
-`token` | [SecurityToken](securitytoken.md) &#124; string |
-`transactions` | TxTag[] &#124; null |
+| Name | Type |
+| :--- | :--- |
+| `token` | [SecurityToken](securitytoken.md) \| string |
+| `transactions` | TxTag\[\] \| null |
 
-**Returns:** *Promise‹boolean›*
+**Returns:** _Promise‹boolean›_
 
-___
+### setGroup
 
-###  setGroup
+▸ **setGroup**\(`args`: [SetPermissionGroupParams](../interfaces/setpermissiongroupparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_CustomPermissionGroup_](custompermissiongroup.md) _\|_ [_KnownPermissionGroup_](knownpermissiongroup.md)_››_
 
-▸ **setGroup**(`args`: [SetPermissionGroupParams](../interfaces/setpermissiongroupparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹[CustomPermissionGroup](custompermissiongroup.md) | [KnownPermissionGroup](knownpermissiongroup.md)››*
-
-*Defined in [src/api/entities/Identity/TokenPermissions.ts:301](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Identity/TokenPermissions.ts#L301)*
+_Defined in_ [_src/api/entities/Identity/TokenPermissions.ts:301_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Identity/TokenPermissions.ts#L301)
 
 Assign this Identity to a different Permission Group for a given Security Token
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `setGroup.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `setGroup.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [SetPermissionGroupParams](../interfaces/setpermissiongroupparams.md) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [SetPermissionGroupParams](../interfaces/setpermissiongroupparams.md) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹[CustomPermissionGroup](custompermissiongroup.md) | [KnownPermissionGroup](knownpermissiongroup.md)››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹_[_CustomPermissionGroup_](custompermissiongroup.md) _\|_ [_KnownPermissionGroup_](knownpermissiongroup.md)_››_
 
-___
+### waive
 
-###  waive
+▸ **waive**\(`args`: [WaivePermissionsParams](../interfaces/waivepermissionsparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)\): _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
 
-▸ **waive**(`args`: [WaivePermissionsParams](../interfaces/waivepermissionsparams.md), `opts?`: [ProcedureOpts](../interfaces/procedureopts.md)): *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
-
-*Defined in [src/api/entities/Identity/TokenPermissions.ts:291](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Identity/TokenPermissions.ts#L291)*
+_Defined in_ [_src/api/entities/Identity/TokenPermissions.ts:291_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Identity/TokenPermissions.ts#L291)
 
 Abdicate from the current Permissions Group for a given Security Token. This means that this Identity will no longer have any permissions over said Token
 
-**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `waive.checkAuthorization`
-  on it to see whether the Current Account has the required permissions to run it
+**`note`** this method is of type [ProcedureMethod](../interfaces/proceduremethod.md), which means you can call `waive.checkAuthorization` on it to see whether the Current Account has the required permissions to run it
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`args` | [WaivePermissionsParams](../interfaces/waivepermissionsparams.md) |
-`opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
+| Name | Type |
+| :--- | :--- |
+| `args` | [WaivePermissionsParams](../interfaces/waivepermissionsparams.md) |
+| `opts?` | [ProcedureOpts](../interfaces/procedureopts.md) |
 
-**Returns:** *Promise‹[TransactionQueue](transactionqueue.md)‹void››*
+**Returns:** _Promise‹_[_TransactionQueue_](transactionqueue.md)_‹void››_
+

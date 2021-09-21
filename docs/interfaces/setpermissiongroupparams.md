@@ -1,12 +1,16 @@
-# Interface: SetPermissionGroupParams
+# SetPermissionGroupParams
 
 This procedure can be called with:
-  - A Security Token's existing Custom Permission Group. The Identity will be assigned as an Agent of that Group for that Token
-  - A Known Permission Group and a Security Token. The Identity will be assigned as an Agent of that Group for that Token
-  - A set of Transaction Permissions and a Security Token. A Custom Permission Group will be created for that Token with those permissions, and
-    the Identity will be assigned as an Agent of that Group for that Token
-  - An array of [TxGroup](../enums/txgroup.md)s that represent a set of permissions. A Custom Permission Group will be created with those permissions, and
-    the Identity will be assigned as an Agent of that Group for that Token
+
+* A Security Token's existing Custom Permission Group. The Identity will be assigned as an Agent of that Group for that Token
+* A Known Permission Group and a Security Token. The Identity will be assigned as an Agent of that Group for that Token
+* A set of Transaction Permissions and a Security Token. A Custom Permission Group will be created for that Token with those permissions, and
+
+  the Identity will be assigned as an Agent of that Group for that Token
+
+* An array of [TxGroup](../enums/txgroup.md)s that represent a set of permissions. A Custom Permission Group will be created with those permissions, and
+
+  the Identity will be assigned as an Agent of that Group for that Token
 
 ## Hierarchy
 
@@ -20,8 +24,9 @@ This procedure can be called with:
 
 ## Properties
 
-###  group
+### group
 
-• **group**: *[KnownPermissionGroup](../classes/knownpermissiongroup.md) | [CustomPermissionGroup](../classes/custompermissiongroup.md) | [TransactionsParams](transactionsparams.md) | [TxGroupParams](txgroupparams.md)*
+• **group**: [_KnownPermissionGroup_](../classes/knownpermissiongroup.md) _\|_ [_CustomPermissionGroup_](../classes/custompermissiongroup.md) _\|_ [_TransactionsParams_](transactionsparams.md) _\|_ [_TxGroupParams_](txgroupparams.md)
 
-*Defined in [src/api/procedures/setPermissionGroup.ts:48](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/setPermissionGroup.ts#L48)*
+_Defined in_ [_src/api/procedures/setPermissionGroup.ts:48_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/setPermissionGroup.ts#L48)
+

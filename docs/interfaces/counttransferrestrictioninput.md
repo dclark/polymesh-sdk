@@ -1,4 +1,4 @@
-# Interface: CountTransferRestrictionInput
+# CountTransferRestrictionInput
 
 ## Hierarchy
 
@@ -16,34 +16,31 @@
 
 ## Properties
 
-###  count
+### count
 
-• **count**: *BigNumber*
+• **count**: _BigNumber_
 
-*Defined in [src/types/index.ts:985](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L985)*
+_Defined in_ [_src/types/index.ts:985_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L985)
 
-limit on the amount of different (unique) investors that can hold the Security Token at once
-
-___
+limit on the amount of different \(unique\) investors that can hold the Security Token at once
 
 ### `Optional` exemptedIdentities
 
-• **exemptedIdentities**? : *(string | [Identity](../classes/identity.md)‹›)[]*
+• **exemptedIdentities**? : _\(string \|_ [_Identity_](../classes/identity.md)_‹›\)\[\]_
 
-*Inherited from [TransferRestrictionInputBase](transferrestrictioninputbase.md).[exemptedIdentities](transferrestrictioninputbase.md#optional-exemptedidentities)*
+_Inherited from_ [_TransferRestrictionInputBase_](transferrestrictioninputbase.md)_._[_exemptedIdentities_](transferrestrictioninputbase.md#optional-exemptedidentities)
 
-*Defined in [src/types/index.ts:970](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L970)*
+_Defined in_ [_src/types/index.ts:970_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L970)
 
-array of Identities (or DIDs) that are exempted from the Restriction
-
-___
+array of Identities \(or DIDs\) that are exempted from the Restriction
 
 ### `Optional` exemptedScopeIds
 
-• **exemptedScopeIds**? : *string[]*
+• **exemptedScopeIds**? : _string\[\]_
 
-*Inherited from [TransferRestrictionInputBase](transferrestrictioninputbase.md).[exemptedScopeIds](transferrestrictioninputbase.md#optional-exemptedscopeids)*
+_Inherited from_ [_TransferRestrictionInputBase_](transferrestrictioninputbase.md)_._[_exemptedScopeIds_](transferrestrictioninputbase.md#optional-exemptedscopeids)
 
-*Defined in [src/types/index.ts:966](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L966)*
+_Defined in_ [_src/types/index.ts:966_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L966)
 
 array of Scope IDs that are exempted from the Restriction
+

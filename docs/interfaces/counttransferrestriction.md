@@ -1,4 +1,4 @@
-# Interface: CountTransferRestriction
+# CountTransferRestriction
 
 ## Hierarchy
 
@@ -15,20 +15,19 @@
 
 ## Properties
 
-###  count
+### count
 
-• **count**: *BigNumber*
+• **count**: _BigNumber_
 
-*Defined in [src/types/index.ts:974](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L974)*
-
-___
+_Defined in_ [_src/types/index.ts:974_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L974)
 
 ### `Optional` exemptedScopeIds
 
-• **exemptedScopeIds**? : *string[]*
+• **exemptedScopeIds**? : _string\[\]_
 
-*Inherited from [TransferRestrictionBase](../classes/transferrestrictionbase.md).[exemptedScopeIds](../classes/transferrestrictionbase.md#optional-exemptedscopeids)*
+_Inherited from_ [_TransferRestrictionBase_](../classes/transferrestrictionbase.md)_._[_exemptedScopeIds_](../classes/transferrestrictionbase.md#optional-exemptedscopeids)
 
-*Defined in [src/types/index.ts:959](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L959)*
+_Defined in_ [_src/types/index.ts:959_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L959)
 
 array of Scope IDs that are exempted from the Restriction
+

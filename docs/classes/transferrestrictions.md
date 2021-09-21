@@ -1,4 +1,4 @@
-# Class: TransferRestrictions
+# TransferRestrictions
 
 Handles all Security Token Transfer Restrictions related functionality
 
@@ -21,34 +21,29 @@ Handles all Security Token Transfer Restrictions related functionality
 
 ### `Protected` context
 
-• **context**: *[Context](context.md)*
+• **context**: [_Context_](context.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L11)*
+_Defined in_ [_src/api/entities/Namespace.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L11)
 
-___
+### count
 
-###  count
+• **count**: [_Count_](count.md)
 
-• **count**: *[Count](count.md)*
-
-*Defined in [src/api/entities/SecurityToken/TransferRestrictions/index.ts:10](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/TransferRestrictions/index.ts#L10)*
-
-___
+_Defined in_ [_src/api/entities/SecurityToken/TransferRestrictions/index.ts:10_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/TransferRestrictions/index.ts#L10)
 
 ### `Protected` parent
 
-• **parent**: *[SecurityToken](securitytoken.md)*
+• **parent**: [_SecurityToken_](securitytoken.md)
 
-*Inherited from void*
+_Inherited from void_
 
-*Defined in [src/api/entities/Namespace.ts:9](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L9)*
+_Defined in_ [_src/api/entities/Namespace.ts:9_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/Namespace.ts#L9)
 
-___
+### percentage
 
-###  percentage
+• **percentage**: [_Percentage_](percentage.md)
 
-• **percentage**: *[Percentage](percentage.md)*
+_Defined in_ [_src/api/entities/SecurityToken/TransferRestrictions/index.ts:11_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/TransferRestrictions/index.ts#L11)
 
-*Defined in [src/api/entities/SecurityToken/TransferRestrictions/index.ts:11](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/entities/SecurityToken/TransferRestrictions/index.ts#L11)*

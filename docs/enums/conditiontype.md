@@ -1,4 +1,4 @@
-# Enumeration: ConditionType
+# ConditionType
 
 ## Index
 
@@ -13,48 +13,39 @@
 
 ## Enumeration members
 
-###  IsAbsent
+### IsAbsent
 
 • **IsAbsent**: = "IsAbsent"
 
-*Defined in [src/types/index.ts:356](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L356)*
+_Defined in_ [_src/types/index.ts:356_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L356)
 
-___
-
-###  IsAnyOf
+### IsAnyOf
 
 • **IsAnyOf**: = "IsAnyOf"
 
-*Defined in [src/types/index.ts:357](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L357)*
+_Defined in_ [_src/types/index.ts:357_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L357)
 
-___
-
-###  IsExternalAgent
+### IsExternalAgent
 
 • **IsExternalAgent**: = "IsExternalAgent"
 
-*Defined in [src/types/index.ts:359](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L359)*
+_Defined in_ [_src/types/index.ts:359_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L359)
 
-___
-
-###  IsIdentity
+### IsIdentity
 
 • **IsIdentity**: = "IsIdentity"
 
-*Defined in [src/types/index.ts:360](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L360)*
+_Defined in_ [_src/types/index.ts:360_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L360)
 
-___
-
-###  IsNoneOf
+### IsNoneOf
 
 • **IsNoneOf**: = "IsNoneOf"
 
-*Defined in [src/types/index.ts:358](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L358)*
+_Defined in_ [_src/types/index.ts:358_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L358)
 
-___
-
-###  IsPresent
+### IsPresent
 
 • **IsPresent**: = "IsPresent"
 
-*Defined in [src/types/index.ts:355](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L355)*
+_Defined in_ [_src/types/index.ts:355_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L355)
+

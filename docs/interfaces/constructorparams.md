@@ -1,4 +1,4 @@
-# Interface: ConstructorParams
+# ConstructorParams
 
 ## Hierarchy
 
@@ -15,32 +15,27 @@
 
 ## Properties
 
-###  keyring
+### keyring
 
-• **keyring**: *[CommonKeyring](../globals.md#commonkeyring)*
+• **keyring**: [_CommonKeyring_](../globals.md#commonkeyring)
 
-*Defined in [src/base/Context.ts:73](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/base/Context.ts#L73)*
+_Defined in_ [_src/base/Context.ts:73_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/base/Context.ts#L73)
 
-___
+### middlewareApi
 
-###  middlewareApi
+• **middlewareApi**: _ApolloClient‹NormalizedCacheObject› \| null_
 
-• **middlewareApi**: *ApolloClient‹NormalizedCacheObject› | null*
+_Defined in_ [_src/base/Context.ts:72_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/base/Context.ts#L72)
 
-*Defined in [src/base/Context.ts:72](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/base/Context.ts#L72)*
+### polymeshApi
 
-___
+• **polymeshApi**: _ApiPromise_
 
-###  polymeshApi
+_Defined in_ [_src/base/Context.ts:71_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/base/Context.ts#L71)
 
-• **polymeshApi**: *ApiPromise*
+### ss58Format
 
-*Defined in [src/base/Context.ts:71](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/base/Context.ts#L71)*
+• **ss58Format**: _number_
 
-___
+_Defined in_ [_src/base/Context.ts:74_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/base/Context.ts#L74)
 
-###  ss58Format
-
-• **ss58Format**: *number*
-
-*Defined in [src/base/Context.ts:74](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/base/Context.ts#L74)*

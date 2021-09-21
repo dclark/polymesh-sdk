@@ -1,4 +1,4 @@
-# Interface: ProcedureAuthorizationStatus
+# ProcedureAuthorizationStatus
 
 ## Hierarchy
 
@@ -15,32 +15,27 @@
 
 ## Properties
 
-###  accountFrozen
+### accountFrozen
 
-• **accountFrozen**: *boolean*
+• **accountFrozen**: _boolean_
 
-*Defined in [src/types/index.ts:952](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L952)*
+_Defined in_ [_src/types/index.ts:952_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L952)
 
-___
+### agentPermissions
 
-###  agentPermissions
+• **agentPermissions**: _boolean_
 
-• **agentPermissions**: *boolean*
+_Defined in_ [_src/types/index.ts:949_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L949)
 
-*Defined in [src/types/index.ts:949](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L949)*
+### roles
 
-___
+• **roles**: _boolean_
 
-###  roles
+_Defined in_ [_src/types/index.ts:951_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L951)
 
-• **roles**: *boolean*
+### signerPermissions
 
-*Defined in [src/types/index.ts:951](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L951)*
+• **signerPermissions**: _boolean_
 
-___
+_Defined in_ [_src/types/index.ts:950_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L950)
 
-###  signerPermissions
-
-• **signerPermissions**: *boolean*
-
-*Defined in [src/types/index.ts:950](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/types/index.ts#L950)*

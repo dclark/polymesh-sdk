@@ -1,4 +1,4 @@
-# Interface: CreateCheckpointScheduleParams
+# CreateCheckpointScheduleParams
 
 ## Hierarchy
 
@@ -14,24 +14,21 @@
 
 ## Properties
 
-###  period
+### period
 
-• **period**: *[CalendarPeriod](calendarperiod.md) | null*
+• **period**: [_CalendarPeriod_](calendarperiod.md) _\| null_
 
-*Defined in [src/api/procedures/createCheckpointSchedule.ts:22](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/createCheckpointSchedule.ts#L22)*
+_Defined in_ [_src/api/procedures/createCheckpointSchedule.ts:22_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/createCheckpointSchedule.ts#L22)
 
-___
+### repetitions
 
-###  repetitions
+• **repetitions**: _number \| null_
 
-• **repetitions**: *number | null*
+_Defined in_ [_src/api/procedures/createCheckpointSchedule.ts:23_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/createCheckpointSchedule.ts#L23)
 
-*Defined in [src/api/procedures/createCheckpointSchedule.ts:23](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/createCheckpointSchedule.ts#L23)*
+### start
 
-___
+• **start**: _Date \| null_
 
-###  start
+_Defined in_ [_src/api/procedures/createCheckpointSchedule.ts:21_](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/createCheckpointSchedule.ts#L21)
 
-• **start**: *Date | null*
-
-*Defined in [src/api/procedures/createCheckpointSchedule.ts:21](https://github.com/PolymathNetwork/polymesh-sdk/blob/56921667/src/api/procedures/createCheckpointSchedule.ts#L21)*
