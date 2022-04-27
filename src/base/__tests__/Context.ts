@@ -1775,7 +1775,7 @@ describe('Context class', () => {
     });
   });
 
-  describe('setNonce', () => {
+  describe('method: setNonce', () => {
     beforeAll(() => {
       sinon.stub(utilsInternalModule, 'assertAddressValid');
     });
@@ -1795,11 +1795,11 @@ describe('Context class', () => {
 
       context.setNonce(new BigNumber(10));
 
-      expect(context.getNonce()).toBe(new BigNumber(10));
+      expect(context.getNonce()).toEqual(new BigNumber(10));
     });
   });
 
-  describe('getNonce', () => {
+  describe('method: getNonce', () => {
     let context: Context;
 
     beforeAll(() => {
