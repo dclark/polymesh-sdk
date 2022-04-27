@@ -323,7 +323,10 @@ describe('Procedure class', () => {
 
       const proc1 = new Procedure(func1);
 
-      let queue = await proc1.prepare({ args: procArgs }, context, { signingAccount: 'something' });
+      let queue = await proc1.prepare({ args: procArgs }, context, {
+        signingAccount: 'something',
+        nonce: new BigNumber(15),
+      });
 
       expect(queue).toMatchObject({
         transactions: [
@@ -331,6 +334,7 @@ describe('Procedure class', () => {
           { transaction: tx2, args: [secondaryAccounts] },
         ],
       });
+
       sinon.assert.calledWith(
         constructorStub,
         sinon.match({
@@ -339,9 +343,10 @@ describe('Procedure class', () => {
             sinon.match({ transaction: tx2, args: [secondaryAccounts] }),
           ]),
         }),
-        { ...context, signingAddress: 'something' }
+        { ...context, signingAddress: 'something', nonce: new BigNumber(15) }
       );
       sinon.assert.calledWith(context.setSigningAddress, 'something');
+      sinon.assert.calledWith(context.setNonce, new BigNumber(15));
 
       const func2 = async function (
         this: Procedure<typeof procArgs, string>,
@@ -373,7 +378,7 @@ describe('Procedure class', () => {
           ]),
           procedureResult: returnValue,
         }),
-        context
+        { ...context, nonce: new BigNumber(-1) }
       );
     });
 

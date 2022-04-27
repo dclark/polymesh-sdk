@@ -184,6 +184,11 @@ export interface BaseTransactionSpec<Values extends unknown[] = unknown[]> {
    *   they try to execute a transaction with `paidForBy` set, the fees will be paid for by the `paidForBy` Identity
    */
   paidForBy?: Identity;
+
+  /**
+   * nonce value for the transaction
+   */
+  nonce: BigNumber;
 }
 
 /**

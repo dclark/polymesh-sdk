@@ -360,6 +360,7 @@ interface ContextOptions {
   invalidDids?: string[];
   transactionFee?: BigNumber;
   signingAddress?: string;
+  nonce?: BigNumber;
   issuedClaims?: ResultSet<ClaimData>;
   getIdentity?: Identity;
   getIdentityClaimsFromChain?: ClaimData[];
@@ -713,6 +714,7 @@ function configureContext(opts: ContextOptions): void {
 
   const contextInstance = {
     signingAddress,
+    nonce: opts.nonce,
     getSigningIdentity,
     getSigningAccount,
     getSigningAddress,
@@ -721,6 +723,12 @@ function configureContext(opts: ContextOptions): void {
     getSigningAccounts: sinon.stub().resolves(opts.getSigningAccounts),
     setSigningAddress: sinon.stub().callsFake(address => {
       (contextInstance as any).signingAddress = address;
+    }),
+    setNonce: sinon.stub().callsFake(txNonce => {
+      (contextInstance as any).nonce = new BigNumber(txNonce || -1);
+    }),
+    getNonce: sinon.stub().callsFake(() => {
+      return (contextInstance as any).nonce;
     }),
     setSigningManager: sinon.stub(),
     getExternalSigner: sinon.stub().returns(opts.getExternalSigner),

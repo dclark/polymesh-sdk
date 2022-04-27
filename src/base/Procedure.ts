@@ -127,8 +127,9 @@ export class Procedure<Args = void, ReturnValue = void, Storage = Record<string,
   private async setup(args: Args, context: Context, opts: ProcedureOpts = {}): Promise<Context> {
     if (!this._context) {
       const ctx = context.clone();
-      const { signingAccount } = opts;
+      const { signingAccount, nonce } = opts;
 
+      ctx.setNonce(nonce);
       if (signingAccount) {
         await ctx.setSigningAddress(signerToString(signingAccount));
       }
@@ -372,6 +373,7 @@ export class Procedure<Args = void, ReturnValue = void, Storage = Record<string,
 
     const signingAddress = context.getSigningAddress();
     const signer = context.getExternalSigner();
+    const nonce = context.getNonce();
 
     this.transactions.push(
       new PolymeshTransaction<unknown[] | []>(
@@ -385,6 +387,7 @@ export class Procedure<Args = void, ReturnValue = void, Storage = Record<string,
           fee,
           feeMultiplier,
           paidForBy,
+          nonce,
         },
         context
       )
@@ -471,6 +474,7 @@ export class Procedure<Args = void, ReturnValue = void, Storage = Record<string,
 
     const signingAddress = context.getSigningAddress();
     const signer = context.getExternalSigner();
+    const nonce = context.getNonce();
 
     this.transactions.push(
       new PolymeshTransactionBatch<(unknown[] | [])[]>(
@@ -486,6 +490,7 @@ export class Procedure<Args = void, ReturnValue = void, Storage = Record<string,
           signer,
           fee,
           paidForBy,
+          nonce,
         },
         context
       )
